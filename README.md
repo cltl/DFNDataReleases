@@ -95,7 +95,7 @@ Please describe the license of the data in **release_notes/YOUR_RELEASE/release_
 
 ### Step 5: TODO: Descriptive statistics
 
-### Step 6: TODO: commit, push, and create a GitHub release
+### Step 6: commit, push, and create a GitHub release
 
 #### Scenario 1: create new data release
 * step 1: use **git rm** to remove files that are no longer part of the new data release
@@ -112,7 +112,9 @@ Please describe the license of the data in **release_notes/YOUR_RELEASE/release_
 * TODO: SEM
 * TODO: descriptive statistics
  
-### Step 7: TODO: Annotation tool
+### Step 7: Annotation tool
+In order to make sure you can annotate the files using the annotation tool (https://github.com/cltl/frame-annotation-tool):
+* please clone this repository in the **data** folder of the annotation tool
 
 ## Authors
 * **Marten Postma** (m.c.postma@vu.nl)
