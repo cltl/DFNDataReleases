@@ -21,7 +21,7 @@ For example, a folder could have the following structure:
 
 Python 3.6 was used to create this project. It might work with other versions of Python.
 
-###Installing
+### Installing
 
 ### Resources
 A number of GitHub repositories need to be cloned. This can be done calling:
@@ -29,6 +29,12 @@ A number of GitHub repositories need to be cloned. This can be done calling:
 bash install.sh
 ```
 
+### Python modules
+A number of external modules need to be installed, which are listed in **requirements.txt**.
+Depending on how you installed Python, you can probably install the requirements using one of following commands:
+```bash
+pip install -r requirements.txt
+```
 ## How to create a data release
 
 ### Step 1: obtain event type
