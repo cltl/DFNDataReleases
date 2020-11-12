@@ -93,7 +93,20 @@ Please describe the license of the data in **release_notes/YOUR_RELEASE/release_
  
 ### Step 4: TODO: SEM
 
-### Step 5: TODO: Descriptive statistics
+### Step 5: Descriptive statistics
+
+We expose one function to compute descriptive statistics:
+
+```python
+import DFNDataReleases
+
+DFNDataReleases.get_stats(repo_dir=DFNDataReleases.dir_path,
+                          project='HistoricalDistanceData',
+                          verbose=2)
+```
+Please note that "project" needs to be an existing project (see **structured/proj2inc_index.json**).
+In **statistics/PROJECT**, the descriptive statistics can be found.
+The general one is found in **statistics/PROJECT/descriptive_statistics.html**.
 
 ### Step 6: commit, push, and create a GitHub release
 
@@ -106,7 +119,7 @@ Please describe the license of the data in **release_notes/YOUR_RELEASE/release_
 * TODO: SEM
 * TODO: descriptive statistics 
 
-### Scenario 2: you have annotated the data
+#### Scenario 2: you have annotated the data
 * step 1: use **git add** to add the annotated files to the commit and push 
 * step 2: please create a GitHub release of this commit on GitHub. This facilitates going back to it.
 * TODO: SEM
