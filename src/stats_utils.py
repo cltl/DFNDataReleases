@@ -311,7 +311,7 @@ def get_inc_to_lang_df(incid_to_lang_to_naf_paths,
             one_row.append(len(naf_paths))
             total += len(naf_paths)
 
-        one_row.append(total)
+        one_row.insert(1, total)
         list_of_lists.append(one_row)
 
     df = pandas.DataFrame(list_of_lists, columns=headers)
