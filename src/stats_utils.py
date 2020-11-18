@@ -72,6 +72,7 @@ def get_stats(repo_dir,
     """
     relevant_info = get_relevant_info(repo_dir=repo_dir,
                                       project=project,
+                                      start_from_scratch=True, # we remove the folder if it exsits
                                       verbose=verbose)
 
     # instance-level
@@ -82,8 +83,8 @@ def get_stats(repo_dir,
 
     incid_to_lang_to_naf_paths,\
     languages = get_lang_to_naf_paths(relevant_info=relevant_info,
-                                                   project_incs=project_incs,
-                                                   verbose=verbose)
+                                      project_incs=project_incs,
+                                      verbose=verbose)
 
 
     event_type_to_inc_df = get_event_type_to_inc_df(relevant_info=relevant_info,

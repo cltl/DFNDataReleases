@@ -91,7 +91,16 @@ Your structured and unstructured data may rely on different licenses.
 Please add the LICENSE files to the same directory as this README.
 Please describe the license of the data in **release_notes/YOUR_RELEASE/release_notes.md
  
-### Step 4: TODO: SEM
+### Step 4: SEM
+It is also possible to convert the data release to SEM (http://semanticweb.cs.vu.nl/2009/11/sem/)
+```python
+
+import DFNDataReleases
+
+DFNDataReleases.convert_to_sem(repo_dir=DFNDataReleases.dir_path,
+                               project='HistoricalDistanceData',
+                               verbose=2)
+```
 
 ### Step 5: Descriptive statistics
 
@@ -116,14 +125,14 @@ The general one is found in **statistics/PROJECT/descriptive_statistics.html**.
 * step 2: use the **integreate_data** to recreate or update the **structured** and **unstructured** folder
 * step 3: use **git add** to add the new files to the commit. Commit the files in **structured** and **unstructured**
 * step 4: please create a GitHub release of this commit on GitHub. This facilitates going back to it.
-* TODO: SEM
-* TODO: descriptive statistics 
+* step 5: convert to SEM
+* step 6: compute descriptive statistics 
 
 #### Scenario 2: you have annotated the data
 * step 1: use **git add** to add the annotated files to the commit and push 
 * step 2: please create a GitHub release of this commit on GitHub. This facilitates going back to it.
-* TODO: SEM
-* TODO: descriptive statistics
+* step 3: convert to SEM
+* step 4: compute descriptive statistics
  
 ### Step 7: Annotation tool
 In order to make sure you can annotate the files using the annotation tool (https://github.com/cltl/frame-annotation-tool):
