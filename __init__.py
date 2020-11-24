@@ -3,6 +3,7 @@ import os
 from .src import integrate_data
 from .src import get_stats
 from .src import convert_to_sem
+from .src import edit_structured_data
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 mwep_repo_dir = os.path.join(dir_path, 'src/res/multilingual-wiki-event-pipeline')
