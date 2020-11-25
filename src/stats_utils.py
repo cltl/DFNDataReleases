@@ -40,18 +40,17 @@ def get_lang_to_naf_paths(relevant_info,
     languages = set()
 
     for inc_id in project_incs:
-        rel_naf_paths = relevant_info['inc2doc'][inc_id]
         incid_to_lang_to_naf_paths[inc_id] = defaultdict(set)
+        for lang, basenames in relevant_info['inc2lang2doc'][inc_id].items():
 
-        for rel_naf_path in rel_naf_paths:
-            lang, basename = rel_naf_path.split('/', 1)
-            absolute_path = os.path.join(relevant_info['unstructured'],
-                                         lang,
-                                         f'{basename}.naf')
-            assert os.path.exists(absolute_path), f'{absolute_path} does not exist.'
+            for basename in basenames:
+                absolute_path = os.path.join(relevant_info['unstructured'],
+                                             lang,
+                                             f'{basename}.naf')
+                assert os.path.exists(absolute_path), f'{absolute_path} does not exist.'
 
-            incid_to_lang_to_naf_paths[inc_id][lang].add(absolute_path)
-            languages.add(lang)
+                incid_to_lang_to_naf_paths[inc_id][lang].add(absolute_path)
+                languages.add(lang)
 
     return incid_to_lang_to_naf_paths, sorted(languages)
 

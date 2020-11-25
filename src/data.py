@@ -33,8 +33,6 @@ def integrate_data(json_dir,
     :param bool start_from_scratch: if True, start with empty json files for structured data
     :return:
     """
-    # TODO: structured data (validate in MWEP_on_one_incident)
-
     if verbose >=  3:
         print('############ BEFORE')
 
@@ -73,8 +71,8 @@ def integrate_data(json_dir,
 
 
     dictname_to_info = {
-        'inc2doc' : {
-            'path' : '%s/inc2doc_index.json' % json_dir,
+        'inc2lang2doc' : {
+            'path' : '%s/inc2lang2doc_index.json' % json_dir,
             'key_label' : 'number of incidents',
             'value_label' : 'distribution of # of docs per incident',
             'metric' : 'length_distribution'
@@ -99,7 +97,7 @@ def integrate_data(json_dir,
         }
     }
 
-    inc2doc_stats = defaultdict(int)
+    inc2lang2doc_stats = defaultdict(int)
     inc2str_stats = defaultdict(int)
     proj2inc_stats = defaultdict(int)
     type2inc_stats = defaultdict(int)
@@ -111,7 +109,7 @@ def integrate_data(json_dir,
                 not os.path.exists(path)]):
 
             if variable in {'proj2inc', 'type2inc',
-                            'inc2doc', 'inc2str'}:
+                            'inc2lang2doc', 'inc2str'}:
                 the_dict = defaultdict(list)
             else:
                 raise Exception(f'Please inspect.')
@@ -144,8 +142,8 @@ def integrate_data(json_dir,
 
         if rts:
 
-            #update_inc2doc
-            result = update_inc2doc(inc2doc,
+            #update_inc2lang2doc
+            result = update_inc2lang2doc(inc2lang2doc,
                                     inc_id,
                                     rts,
                                     release_inc_coll_obj,
@@ -153,7 +151,7 @@ def integrate_data(json_dir,
                                     source_naf_dir,
                                     target_naf_dir,
                                     overwrite)
-            inc2doc_stats[result] += 1
+            inc2lang2doc_stats[result] += 1
 
             #update_inc2str
             result = update_inc2str(inc2str,
@@ -195,26 +193,33 @@ def integrate_data(json_dir,
 
     if verbose >= 1:
         print()
-        print(f'inc2doc stats: {inc2doc_stats}')
+        print(f'inc2lang2doc stats: {inc2lang2doc_stats}')
         print(f'inc2str stats: {inc2str_stats}')
         print(f'proj2inc stats: {proj2inc_stats}')
         print(f'type2inc stats: {type2inc_stats}')
 
 
-def update_inc2doc(inc2doc,
-                   inc_id,
-                   rts,
-                   release_inc_coll_obj,
-                   inc_obj,
-                   source_naf_dir,
-                   target_naf_dir,
-                   overwrite):
+def update_inc2lang2doc(inc2lang2doc,
+                        inc_id,
+                        rts,
+                        release_inc_coll_obj,
+                        inc_obj,
+                        source_naf_dir,
+                        target_naf_dir,
+                        overwrite):
 
     write_docs = False
 
-    if inc_id in inc2doc:
+    # create lang to rts
+    lang_to_rts = defaultdict(list)
+    for lang_rt in rts:
+        lang, rt = lang_rt.split('/', 1)
+        lang_to_rts[lang].append(rt)
+
+
+    if inc_id in inc2lang2doc:
         if overwrite:
-            inc2doc[inc_id] = rts
+            inc2lang2doc[inc_id] = lang_to_rts
             write_docs = True
             result = 'replaced docs for existing incident'
 
@@ -236,7 +241,7 @@ def update_inc2doc(inc2doc,
         else:
             result = 'incident existed and did not insert new documents'
     else:
-        inc2doc[inc_id] = rts
+        inc2lang2doc[inc_id] = lang_to_rts
         write_docs = True
         result = 'added new documents to not existing incident.'
 

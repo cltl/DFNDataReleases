@@ -15,7 +15,7 @@ def get_relevant_info(repo_dir,
     """
 
     paths = {
-        'inc2doc': os.path.join(repo_dir, 'structured', 'inc2doc_index.json'),
+        'inc2lang2doc': os.path.join(repo_dir, 'structured', 'inc2lang2doc_index.json'),
         'inc2str': os.path.join(repo_dir, 'structured', 'inc2str_index.json'),
         'proj2inc': os.path.join(repo_dir, 'structured', 'proj2inc_index.json'),
         'type2inc': os.path.join(repo_dir, 'structured', 'type2inc_index.json'),

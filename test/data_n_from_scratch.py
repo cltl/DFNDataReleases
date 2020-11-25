@@ -5,12 +5,11 @@ sys.path.insert(0, '../../')
 from DFNDataReleases import integrate_data
 import DFNDataReleases
 
-
 package_dir = DFNDataReleases.dir_path
-json_dir = os.path.join(package_dir, 'structured')
-target_naf_output = os.path.join(package_dir, 'unstructured')
-
 dir_path = os.path.dirname(os.path.realpath(__file__))
+json_dir = os.path.join(dir_path, 'structured')
+target_naf_output = os.path.join(dir_path, 'unstructured')
+
 
 print()
 print(sys.modules[__name__])
