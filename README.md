@@ -44,6 +44,9 @@ This repository builds upon the output of obtaining event type using either:
 
 ### Step 2: incorporate the event data into this repository
 
+You can choose to integrate data for one incident or for a whole data collection.
+
+One incident:
 Load the Python package from the parent directory of this folder.
 
 ```python
@@ -82,6 +85,36 @@ The function has the following parameters:
 After running the example, you observe two folders in this directory:
 * **unstructured**
 * **structured**
+
+For a whole data collection.
+Given a structure such as
+```xml
+data_collection_dir
+        WIKIDATA_ID
+            bin
+                WIKIDATA_ID.bin
+            wiki_output
+                LANGUAGE_1
+                    *.naf
+                LANGUAGE_N
+                    *.naf
+```
+
+You can integrate the whole data collection using:
+```python 
+from DFNDataReleases import intergrate_data_collection
+import DFNDataReleases
+
+intergrate_data_collection(data_collection_dir=PATH_TO_DATA_COLLECTION,
+                           repo_dir=DFNDataReleases.dir_path,
+                           mwep_repo_dir=DFNDataReleases.mwep_repo_dir,
+                           project='HistoricalDistanceData',
+                           overwrite=True,
+                           start_from_scratch=True,
+                           verbose=3)
+```
+This will integrate data from all of the incidents in the data collection.
+
 
 ### Step 2: create a folder in release_notes
 Create a subfolder in the folder **release_notes**, e.g, **release_notes/test**

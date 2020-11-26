@@ -3,9 +3,67 @@ import pickle
 import sys
 import json
 import shutil
+from glob import glob
 from collections import defaultdict
 
+from .path_utils import get_relevant_info
 from .stats_utils import  print_dict_stats
+
+
+def intergrate_data_collection(data_collection_dir,
+                               repo_dir,
+                               mwep_repo_dir,
+                               project,
+                               overwrite=False,
+                               start_from_scratch=False,
+                               verbose=0):
+    """
+    integrate data collection into the data release
+
+    :param str data_collection_dir:
+    folder of the following structure:
+    data_collection_dir
+        WIKIDATA_ID
+            bin
+                WIKIDATA_ID.bin
+            wiki_output
+                LANGUAGE_1
+                    *.naf
+                LANGUAGE_N
+                    *.naf
+    :param str mwep_repo_dir: use DFNDataReleases.mwep_repo_dir
+    :param str project: the project to which the IncidentCollection belongs,
+    e.g., "HistoricalDistanceData"
+    :param bool overwrite: overwrite if it exists
+    :param bool start_from_scratch: if True, start with empty json files for structured data
+    :return:
+    """
+    relevant_info = get_relevant_info(repo_dir=repo_dir,
+                                      project=project,
+                                      load_jsons=False)
+
+    for incident_dir in glob(f'{data_collection_dir}/*/'):
+        incident = os.path.basename(os.path.dirname(incident_dir))
+
+        if verbose >= 1:
+            print(f'adding data for incident {incident} from {incident_dir}')
+
+        path_inc_coll_obj = os.path.join(incident_dir,
+                                         f'bin/{incident}.bin')
+        source_naf_dir = os.path.join(incident_dir,
+                                      f'wiki_output')
+
+        integrate_data(json_dir=relevant_info['structured'],
+                       source_naf_dir=source_naf_dir,
+                       target_naf_dir=relevant_info['unstructured'],
+                       path_inc_coll_obj=path_inc_coll_obj,
+                       mwep_repo_dir=mwep_repo_dir,
+                       project=project,
+                       start_from_scratch=start_from_scratch,
+                       overwrite=overwrite,
+                       verbose=verbose)
+
+        start_from_scratch = False
 
 
 def integrate_data(json_dir,

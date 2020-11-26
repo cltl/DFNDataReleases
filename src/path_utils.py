@@ -5,6 +5,7 @@ import shutil
 def get_relevant_info(repo_dir,
                       project,
                       start_from_scratch=False,
+                      load_jsons=True,
                       verbose=0):
     """
 
@@ -21,18 +22,21 @@ def get_relevant_info(repo_dir,
         'type2inc': os.path.join(repo_dir, 'structured', 'type2inc_index.json'),
     }
 
-    for name, path in paths.items():
-        paths[name] = json.load(open(path))
 
-    inc2type = {}
-    for type_, incs in paths['type2inc'].items():
-        for inc in incs:
-            assert inc not in inc2type, f'{inc} has been assigned to 2> event types. Please inspect.'
-            inc2type[inc] = type_
-    paths['inc2type'] = inc2type
+    if load_jsons:
+        for name, path in paths.items():
+            paths[name] = json.load(open(path))
+
+        inc2type = {}
+        for type_, incs in paths['type2inc'].items():
+            for inc in incs:
+                assert inc not in inc2type, f'{inc} has been assigned to 2> event types. Please inspect.'
+                inc2type[inc] = type_
+        paths['inc2type'] = inc2type
 
     paths['inc_coll_obj'] = os.path.join(repo_dir, 'structured', 'data_release_inc_coll_obj.p')
     paths['unstructured'] = os.path.join(repo_dir, 'unstructured')
+    paths['structured'] = os.path.join(repo_dir, 'structured')
     paths['main_statistics_folder'] = os.path.join(repo_dir, 'statistics')
     paths['project_statistics'] = os.path.join(paths['main_statistics_folder'], project)
     paths['path_inc2str'] = os.path.join(repo_dir, 'structured', 'inc2str_index.json')

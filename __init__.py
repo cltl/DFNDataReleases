@@ -1,6 +1,7 @@
 import os
 
 from .src import integrate_data
+from .src import intergrate_data_collection
 from .src import get_stats
 from .src import convert_to_sem
 from .src import edit_structured_data
