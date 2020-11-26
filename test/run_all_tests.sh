@@ -1,9 +1,10 @@
-python import_it.py
-python data_from_scratch.py
-python data_n_from_scratch.py
-python update_and_overwrite_data.py
-python update_not_overwrite_data.py
-python data_collection_from_scratch.py
-pytest update_structured_data.py
-python get_stats.py
-python convert_to_sem.py
+python import_it.py || exit
+python data_from_scratch.py || exit
+python data_n_from_scratch.py || exit
+python update_and_overwrite_data.py || exit
+python update_not_overwrite_data.py || exit
+python data_collection_from_scratch.py || exit
+pytest update_structured_data.py || exit
+python add_lexical_data.py || exit
+python get_stats.py || exit
+python convert_to_sem.py || exit

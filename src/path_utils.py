@@ -37,9 +37,14 @@ def get_relevant_info(repo_dir,
     paths['inc_coll_obj'] = os.path.join(repo_dir, 'structured', 'data_release_inc_coll_obj.p')
     paths['unstructured'] = os.path.join(repo_dir, 'unstructured')
     paths['structured'] = os.path.join(repo_dir, 'structured')
+    paths['lexical_data'] = os.path.join(repo_dir, 'lexical_data')
     paths['main_statistics_folder'] = os.path.join(repo_dir, 'statistics')
     paths['project_statistics'] = os.path.join(paths['main_statistics_folder'], project)
     paths['path_inc2str'] = os.path.join(repo_dir, 'structured', 'inc2str_index.json')
+
+    paths['dfn'] = {
+        0.1 : os.path.join(repo_dir, 'res/dfn/DutchFrameNet-0.1')
+    }
 
     if not os.path.exists(paths['main_statistics_folder']):
         os.mkdir(paths['main_statistics_folder'])

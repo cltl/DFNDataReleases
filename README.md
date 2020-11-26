@@ -123,8 +123,24 @@ Create a subfolder in the folder **release_notes**, e.g, **release_notes/test**
 Your structured and unstructured data may rely on different licenses.
 Please add the LICENSE files to the same directory as this README.
 Please describe the license of the data in **release_notes/YOUR_RELEASE/release_notes.md
- 
-### Step 4: SEM
+
+### Step 4: lexical data
+You can add the lexical data used in the annotation tool using:
+
+```python
+import DFNDataReleases
+
+DFNDataReleases.add_lexical_data(repo_dir=DFNDataReleases.repo_dir,
+                                 dfn_major_version=0,
+                                 dfn_minor_version=1,
+                                 project='HistoricalDistanceData',
+                                 verbose=2)
+```
+This assumes that you are creating the lexical data for Dutch FrameNet version 0.1
+and English FrameNet 1.7 and for the project 'HistoricalDistanceData'.
+The lexical data will be found in the folder **lexical_data**. 
+
+### Step 5: SEM
 It is also possible to convert the data release to SEM (http://semanticweb.cs.vu.nl/2009/11/sem/)
 ```python
 
@@ -135,7 +151,7 @@ DFNDataReleases.convert_to_sem(repo_dir=DFNDataReleases.dir_path,
                                verbose=2)
 ```
 
-### Step 5: Descriptive statistics
+### Step 6: Descriptive statistics
 
 We expose one function to compute descriptive statistics:
 
@@ -150,24 +166,25 @@ Please note that "project" needs to be an existing project (see **structured/pro
 In **statistics/PROJECT**, the descriptive statistics can be found.
 The general one is found in **statistics/PROJECT/descriptive_statistics.html**.
 
-### Step 6: commit, push, and create a GitHub release
+### Step 7: commit, push, and create a GitHub release
 
 #### Scenario 1: create new data release
 * step 1: use **git rm** to remove files that are no longer part of the new data release
     * please note that the files are still part of older commits, which is exactly what we want!
-* step 2: use the **integreate_data** to recreate or update the **structured** and **unstructured** folder
-* step 3: use **git add** to add the new files to the commit. Commit the files in **structured** and **unstructured**
-* step 4: please create a GitHub release of this commit on GitHub. This facilitates going back to it.
-* step 5: convert to SEM
-* step 6: compute descriptive statistics 
+* step 2: integrate the data to update or create the **structured** and **unstructured** folder
+* step 3: add lexical data
+* step 4: convert to SEM
+* step 5: compute descriptive statistics 
+* step 6: use **git add** to add the new files to the commit. Commit the files in **structured** and **unstructured**
+* step 7: please create a GitHub release of this commit on GitHub. This facilitates going back to it.
 
 #### Scenario 2: you have annotated the data
-* step 1: use **git add** to add the annotated files to the commit and push 
-* step 2: please create a GitHub release of this commit on GitHub. This facilitates going back to it.
-* step 3: convert to SEM
-* step 4: compute descriptive statistics
- 
-### Step 7: Annotation tool
+* step 1: convert to SEM
+* step 2: compute descriptive statistics
+* step 3: use **git add** to add the annotated files to the commit and push (**structured** and **unstructured**)
+* step 4: please create a GitHub release of this commit on GitHub. This facilitates going back to it.
+
+### Step 8: Annotation tool
 In order to make sure you can annotate the files using the annotation tool (https://github.com/cltl/frame-annotation-tool):
 * please clone this repository in the **data** folder of the annotation tool
 
