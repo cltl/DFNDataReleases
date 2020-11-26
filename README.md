@@ -130,7 +130,7 @@ You can add the lexical data used in the annotation tool using:
 ```python
 import DFNDataReleases
 
-DFNDataReleases.add_lexical_data(repo_dir=DFNDataReleases.repo_dir,
+DFNDataReleases.add_lexical_data(repo_dir=DFNDataReleases.dir_path,
                                  dfn_major_version=0,
                                  dfn_minor_version=1,
                                  project='HistoricalDistanceData',
