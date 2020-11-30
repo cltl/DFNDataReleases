@@ -10,13 +10,13 @@ from .path_utils import get_relevant_info
 from .stats_utils import  print_dict_stats
 
 
-def intergrate_data_collection(data_collection_dir,
-                               repo_dir,
-                               mwep_repo_dir,
-                               project,
-                               overwrite=False,
-                               start_from_scratch=False,
-                               verbose=0):
+def integrate_data_collection(data_collection_dir,
+                              repo_dir,
+                              mwep_repo_dir,
+                              project,
+                              overwrite=False,
+                              start_from_scratch=False,
+                              verbose=0):
     """
     integrate data collection into the data release
 

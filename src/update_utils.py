@@ -1,6 +1,8 @@
 import json
+from datetime import datetime
 
 from .path_utils import get_relevant_info
+from .time_utils import time_in_correct_format
 
 def edit_structured_data(repo_dir,
                          project,
@@ -31,6 +33,14 @@ def edit_structured_data(repo_dir,
     if sem_rel in {'sem:hasPlace', 'sem:hasActor'}:
         error_message = f'identifiers of locations and actors have to start with: http://www.wikidata.org/entity/'
         assert identifier.startswith('http://www.wikidata.org/entity/'), error_message
+
+    if sem_rel == 'sem:hasTimeStamp':
+        assert type(identifier) == datetime, f'please provide a datetime object as identifier for sem:hasTimeStamp'
+        assert type(label) == datetime, f'please provide a datetime object as identifier for sem:hasTimeStamp'
+        assert identifier == label, f'for sem:hasTimeStamp, identifier and label should be the same.'
+
+        identifier = time_in_correct_format(datetime_obj=identifier)
+        label = time_in_correct_format(datetime_obj=label)
 
     relevant_info = get_relevant_info(repo_dir=repo_dir,
                                       project=project,

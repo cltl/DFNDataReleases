@@ -102,29 +102,53 @@ data_collection_dir
 
 You can integrate the whole data collection using:
 ```python 
-from DFNDataReleases import intergrate_data_collection
+from DFNDataReleases import integrate_data_collection
 import DFNDataReleases
 
-intergrate_data_collection(data_collection_dir=PATH_TO_DATA_COLLECTION,
-                           repo_dir=DFNDataReleases.dir_path,
-                           mwep_repo_dir=DFNDataReleases.mwep_repo_dir,
-                           project='HistoricalDistanceData',
-                           overwrite=True,
-                           start_from_scratch=True,
-                           verbose=3)
+integrate_data_collection(data_collection_dir=PATH_TO_DATA_COLLECTION,
+                          repo_dir=DFNDataReleases.dir_path,
+                          mwep_repo_dir=DFNDataReleases.mwep_repo_dir,
+                          project='HistoricalDistanceData',
+                          overwrite=True,
+                          start_from_scratch=True,
+                          verbose=3)
 ```
 This will integrate data from all of the incidents in the data collection.
 
+### Step 3: add structured data 
+You can add structured data about incidents using:
 
-### Step 2: create a folder in release_notes
+```python 
+import DFNDataReleases
+DFNDataReleases.edit_structured_data(repo_dir=test_repo_dir,
+                                     project='HistoricalDistanceData',
+                                     inc_id='Q17374096',
+                                     sem_rel='sem:hasPlace',
+                                     identifier='http://www.wikidata.org/entity/Q212',
+                                     label='Ukraine',
+                                     action='add',
+                                     verbose=2)
+
+Please note that for time, you need to provide a datetime object
+
+DFNDataReleases.edit_structured_data(repo_dir=test_repo_dir,
+                                     project='HistoricalDistanceData',
+                                     inc_id='Q17374096',
+                                     sem_rel='sem:hasTimeStamp',
+                                     identifier=datetime(2014,7,17),
+                                     label=datetime(2014,7,17),
+                                     action='add',
+                                     verbose=2)
+```
+### Step 3: create a folder in release_notes
 Create a subfolder in the folder **release_notes**, e.g, **release_notes/test**
 
-### Step 3: Licenses
+### Step 4: Licenses
 Your structured and unstructured data may rely on different licenses.
 Please add the LICENSE files to the same directory as this README.
 Please describe the license of the data in **release_notes/YOUR_RELEASE/release_notes.md
 
-### Step 4: lexical data
+### Step 5: lexical data
 You can add the lexical data used in the annotation tool using:
 
 ```python
@@ -140,7 +164,7 @@ This assumes that you are creating the lexical data for Dutch FrameNet version 0
 and English FrameNet 1.7 and for the project 'HistoricalDistanceData'.
 The lexical data will be found in the folder **lexical_data**. 
 
-### Step 5: SEM
+### Step 6: SEM
 It is also possible to convert the data release to SEM (http://semanticweb.cs.vu.nl/2009/11/sem/)
 ```python
 
@@ -151,7 +175,7 @@ DFNDataReleases.convert_to_sem(repo_dir=DFNDataReleases.dir_path,
                                verbose=2)
 ```
 
-### Step 6: Descriptive statistics
+### Step 7: Descriptive statistics
 
 We expose one function to compute descriptive statistics:
 
@@ -166,7 +190,7 @@ Please note that "project" needs to be an existing project (see **structured/pro
 In **statistics/PROJECT**, the descriptive statistics can be found.
 The general one is found in **statistics/PROJECT/descriptive_statistics.html**.
 
-### Step 7: commit, push, and create a GitHub release
+### Step 8: commit, push, and create a GitHub release
 
 #### Scenario 1: create new data release
 * step 1: use **git rm** to remove files that are no longer part of the new data release
