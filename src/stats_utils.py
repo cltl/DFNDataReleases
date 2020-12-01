@@ -1,9 +1,13 @@
 import os
+import shutil
 from collections import Counter
 from collections import defaultdict
 import statistics
+from datetime import datetime
 
 from .path_utils import get_relevant_info
+
+from .historical_distance import calculate_historical_distance
 
 import pandas
 from lxml import etree
@@ -55,10 +59,66 @@ def get_lang_to_naf_paths(relevant_info,
     return incid_to_lang_to_naf_paths, sorted(languages)
 
 
+def get_historical_distance_df(historical_distance_folder,
+                               incid_to_lang_to_naf_paths,
+                               time_buckets,
+                               relevant_info):
+    """
+
+    :param historical_distance_folder:
+    :param incid_to_lang_to_naf_paths:
+    :return:
+    """
+    if os.path.isdir(historical_distance_folder):
+        shutil.rmtree(historical_distance_folder)
+    os.mkdir(historical_distance_folder)
+
+    time_bucket_labels = list(time_buckets.keys()) + ['unknown']
+
+    list_of_lists = []
+    headers = ['Inc ID', 'Lang', '# of Ref texts'] + time_bucket_labels
+
+    for incid, lang_to_naf_paths in incid_to_lang_to_naf_paths.items():
+
+        # get incident date
+        str_of_inc = relevant_info['inc2str'][incid]
+        time_values = str_of_inc.get('sem:hasTimeStamp', [])
+        assert len(time_values) == 1, f'no timestamp found for incident {incid}'
+
+        identifier, label = time_values[0].split(' | ')
+        inc_date_obj = datetime.strptime(identifier, "%Y-%m-%dT%H:%M:%SUTC")
+
+
+        for lang, naf_paths in lang_to_naf_paths.items():
+
+            xlsx_path = os.path.join(historical_distance_folder,
+                                     f'{incid}-{lang}.xlsx')
+
+            hd_df_for_inc = calculate_historical_distance(iterable_of_nafs=naf_paths,
+                                                          event_date=inc_date_obj,
+                                                          time_buckets=time_buckets,
+                                                          xlsx_path=xlsx_path,
+                                                          output_folder=historical_distance_folder)
+
+
+            one_row = [f'{WD_PREFIX}{incid}',
+                       lang,
+                       len(naf_paths)]
+
+            distribution = Counter(hd_df_for_inc['time bucket'])
+            for time_bucket_label in time_bucket_labels:
+                num_items = distribution.get(time_bucket_label, 0)
+                one_row.append(num_items)
+            list_of_lists.append(one_row)
+
+    df = pandas.DataFrame(list_of_lists, columns=headers)
+    return df
+
 
 
 def get_stats(repo_dir,
               project,
+              time_buckets={},
               verbose=0):
     """
     compute statistics based on the specified functions
@@ -66,6 +126,8 @@ def get_stats(repo_dir,
 
     :param str repo_dir: use DFNDataReleases.dir_path
     :param str project: name of project for which you want to compute statistics
+    :param dict time_buckets: see https://github.com/cltl/historical_distance
+    for information on the time_buckets
     :param list functions: the name of the functions to call
     :param int verbose: different levels of debugging information
     """
@@ -114,6 +176,14 @@ def get_stats(repo_dir,
     totals_conceptual_df = get_totals_conceptual_df(ref_text_to_pred_df)
 
 
+    # TODO: historical distance
+    if time_buckets:
+        historical_distance_df = get_historical_distance_df(historical_distance_folder=relevant_info['historical_distance_folder'],
+                                                            incid_to_lang_to_naf_paths=incid_to_lang_to_naf_paths,
+                                                            time_buckets=time_buckets,
+                                                            relevant_info=relevant_info)
+
+
     # write to disk
     name_to_df = {
         'Totals' : (totals_df, True),
@@ -124,6 +194,10 @@ def get_stats(repo_dir,
         'Incidents -> Structured Data' : (inc_to_str_df, True),
         'Predicates and Frame Elements' : (ref_text_to_pred_df, False)
     }
+
+    if time_buckets:
+        name_to_df['Incidents & Lang -> Time buckets'] = (historical_distance_df, True)
+
     write_to_disk(relevant_info=relevant_info,
                   name_to_df=name_to_df,
                   verbose=verbose)

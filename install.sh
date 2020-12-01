@@ -20,9 +20,14 @@ cd ../..
 
 cd src || exit
 git clone https://github.com/cltl/FrameNetNLTK
-cd FrameNetNLTK
+cd FrameNetNLTK || exit
 pip install -r requirements.txt
 bash install.sh
+cd ..
+
+git clone https://github.com/cltl/historical_distance
+
+
 
 
 

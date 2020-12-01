@@ -42,6 +42,9 @@ def get_relevant_info(repo_dir,
     paths['project_statistics'] = os.path.join(paths['main_statistics_folder'], project)
     paths['path_inc2str'] = os.path.join(repo_dir, 'structured', 'inc2str_index.json')
 
+    paths['historical_distance_folder'] = os.path.join(paths['project_statistics'], 'historical_distance')
+
+
     paths['dfn'] = {
         0.1 : os.path.join(repo_dir, 'res/dfn/DutchFrameNet-0.1')
     }

@@ -86,6 +86,26 @@ def test_add_timestamp():
                                          action='add',
                                          verbose=2)
 
+    DFNDataReleases.edit_structured_data(repo_dir=test_repo_dir,
+                                         project='HistoricalDistanceData',
+                                         inc_id='Q2399631',
+                                         sem_rel='sem:hasTimeStamp',
+                                         identifier=datetime(2012,9,21),
+                                         label=datetime(2012,9,21),
+                                         action='add',
+                                         verbose=2)
+
+    DFNDataReleases.edit_structured_data(repo_dir=test_repo_dir,
+                                         project='HistoricalDistanceData',
+                                         inc_id='Q62090804',
+                                         sem_rel='sem:hasTimeStamp',
+                                         identifier=datetime(2019,3,18),
+                                         label=datetime(2019,3,18),
+                                         action='add',
+                                         verbose=2)
+
+
+
 
 def test_assert_timestamp():
     with pytest.raises(AssertionError):
