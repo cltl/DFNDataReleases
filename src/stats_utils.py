@@ -98,7 +98,8 @@ def get_historical_distance_df(historical_distance_folder,
                                                           event_date=inc_date_obj,
                                                           time_buckets=time_buckets,
                                                           xlsx_path=xlsx_path,
-                                                          output_folder=historical_distance_folder)
+                                                          output_folder=historical_distance_folder,
+                                                          start_from_scratch=False)
 
 
             one_row = [f'{WD_PREFIX}{incid}',
