@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <NAF xml:lang="en" version="v3.1">
   <nafHeader>
-    <fileDesc creationtime="2011-09-20T00:00:00UTC" title="Raw: Crews begin moving bodies at jet crash site"/>
-    <public uri="http://web.archive.org/web/20200803200911/https://www.usatoday.com/videos/news/nation/2014/07/19/12883715/"/>
+    <fileDesc creationtime="2014-07-29T00:00:00UTC" title="Raw: Crews begin moving bodies at jet crash site"/>
+    <public uri="http://web.archive.org/web/20201101184253/https://www.usatoday.com/videos/news/nation/2014/07/19/12883715/"/>
     <linguisticProcessors layer="raw">
-      <lp beginTimestamp="2020-10-11T23:10:54UTC" endTimestamp="2020-10-11T23:10:54UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2020-11-18T14:49:24UTC" endTimestamp="2020-11-18T14:49:24UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="text">
-      <lp beginTimestamp="2020-10-11T23:10:54UTC" endTimestamp="2020-10-11T23:10:54UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2020-11-18T14:49:24UTC" endTimestamp="2020-11-18T14:49:24UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="terms">
-      <lp beginTimestamp="2020-10-11T23:10:54UTC" endTimestamp="2020-10-11T23:10:54UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2020-11-18T14:49:24UTC" endTimestamp="2020-11-18T14:49:24UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="deps">
-      <lp beginTimestamp="2020-10-11T23:10:54UTC" endTimestamp="2020-10-11T23:10:54UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2020-11-18T14:49:24UTC" endTimestamp="2020-11-18T14:49:24UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="multiwords">
-      <lp beginTimestamp="2020-10-11T23:10:54UTC" endTimestamp="2020-10-11T23:10:54UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2020-11-18T14:49:24UTC" endTimestamp="2020-11-18T14:49:24UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
   </nafHeader>
-  <raw><![CDATA[Raw: Crews begin moving bodies at jet crash site OSCE representatives arrive at the site of the Malaysian airlines plane that was shot down on the Ukraine and Russia border. Rescuers begin moving bodies at the scene. (July 19) AP]]></raw>
+  <raw><![CDATA[Raw: Crews begin moving bodies at jet crash site OSCE representatives arrive at the site of the Malaysian airlines plane that was shot down on the Ukraine and Russia border. Rescuers begin moving bodies at the scene. (July 19)]]></raw>
   <text>
     <wf sent="1" id="w1" length="3" offset="0"><![CDATA[Raw]]></wf>
     <wf sent="1" id="w2" length="1" offset="3"><![CDATA[:]]></wf>
@@ -65,7 +65,6 @@
     <wf sent="3" id="w42" length="4" offset="218"><![CDATA[July]]></wf>
     <wf sent="3" id="w43" length="2" offset="223"><![CDATA[19]]></wf>
     <wf sent="3" id="w44" length="1" offset="225"><![CDATA[)]]></wf>
-    <wf sent="3" id="w45" length="2" offset="227"><![CDATA[AP]]></wf>
   </text>
   <terms>
     <term id="t1" lemma="raw" pos="ADJ" type="open" morphofeat="JJ">
@@ -288,11 +287,6 @@
         <target id="w44"/>
       </span>
     </term>
-    <term id="t45" lemma="AP" pos="PROPN" type="open" morphofeat="NNP">
-      <span>
-        <target id="w45"/>
-      </span>
-    </term>
   </terms>
   <deps>
     <dep from="t4" to="t1" rfunc="advmod"/>
@@ -333,8 +327,7 @@
     <dep from="t39" to="t38" rfunc="det"/>
     <dep from="t37" to="t39" rfunc="pobj"/>
     <dep from="t34" to="t40" rfunc="punct"/>
-    <dep from="t45" to="t41" rfunc="punct"/>
-    <dep from="t45" to="t42" rfunc="nmod"/>
+    <dep from="t42" to="t41" rfunc="punct"/>
     <dep from="t42" to="t43" rfunc="nummod"/>
     <dep from="t42" to="t44" rfunc="punct"/>
   </deps>

@@ -10,15 +10,15 @@
   <tbody>
     <tr>
       <td>Event types</td>
-      <td>3</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>Incidents</td>
-      <td>3</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>Reference Texts</td>
-      <td>270</td>
+      <td>327</td>
     </tr>
   </tbody>
 </table><h2>Conceptual totals</h2><table border="0" class="dataframe">
@@ -55,14 +55,14 @@
     <tr>
       <td>Event type -&gt; Incidents</td>
       <td>1</td>
-      <td>1</td>
+      <td>1.0</td>
       <td>1</td>
     </tr>
     <tr>
       <td>Incidents -&gt; Reference Texts</td>
-      <td>18</td>
-      <td>90</td>
-      <td>208</td>
+      <td>5</td>
+      <td>65.4</td>
+      <td>217</td>
     </tr>
   </tbody>
 </table><h2>Event type -> Incidents</h2><table border="0" class="dataframe">
@@ -78,7 +78,15 @@
       <td>1</td>
     </tr>
     <tr>
-      <td>http://www.wikidata.org/entity/None</td>
+      <td>http://www.wikidata.org/entity/Q3839081</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q744913</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q217327</td>
       <td>1</td>
     </tr>
     <tr>
@@ -98,21 +106,33 @@
   <tbody>
     <tr>
       <td>http://www.wikidata.org/entity/Q17374096</td>
-      <td>208</td>
-      <td>119</td>
-      <td>89</td>
+      <td>217</td>
+      <td>112</td>
+      <td>105</td>
     </tr>
     <tr>
-      <td>http://www.wikidata.org/entity/Q2399631</td>
-      <td>18</td>
-      <td>0</td>
-      <td>18</td>
+      <td>http://www.wikidata.org/entity/Q1384586</td>
+      <td>30</td>
+      <td>3</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q2009193</td>
+      <td>27</td>
+      <td>7</td>
+      <td>20</td>
     </tr>
     <tr>
       <td>http://www.wikidata.org/entity/Q62090804</td>
-      <td>44</td>
-      <td>12</td>
-      <td>32</td>
+      <td>48</td>
+      <td>8</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q1323799</td>
+      <td>5</td>
+      <td>2</td>
+      <td>3</td>
     </tr>
   </tbody>
 </table><h2>Incidents -> Structured Data</h2><table border="0" class="dataframe">
@@ -128,18 +148,145 @@
     <tr>
       <td>http://www.wikidata.org/entity/Q17374096</td>
       <td>0</td>
-      <td>0</td>
+      <td>1</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>http://www.wikidata.org/entity/Q2399631</td>
+      <td>http://www.wikidata.org/entity/Q1384586</td>
       <td>0</td>
+      <td>1</td>
       <td>0</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q2009193</td>
+      <td>0</td>
+      <td>1</td>
       <td>0</td>
     </tr>
     <tr>
       <td>http://www.wikidata.org/entity/Q62090804</td>
       <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q1323799</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table><h2>Incidents & Lang -> Time buckets</h2><table border="0" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Inc ID</th>
+      <th>Lang</th>
+      <th># of Ref texts</th>
+      <th>day_0</th>
+      <th>day_1</th>
+      <th>day_2_to_30</th>
+      <th>day_31_beyond</th>
+      <th>unknown</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q17374096</td>
+      <td>en</td>
+      <td>112</td>
+      <td>10</td>
+      <td>14</td>
+      <td>32</td>
+      <td>47</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q17374096</td>
+      <td>nl</td>
+      <td>105</td>
+      <td>4</td>
+      <td>8</td>
+      <td>22</td>
+      <td>38</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q1384586</td>
+      <td>nl</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q1384586</td>
+      <td>en</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q2009193</td>
+      <td>en</td>
+      <td>7</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q2009193</td>
+      <td>nl</td>
+      <td>20</td>
+      <td>4</td>
+      <td>0</td>
+      <td>3</td>
+      <td>5</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q62090804</td>
+      <td>nl</td>
+      <td>40</td>
+      <td>14</td>
+      <td>7</td>
+      <td>5</td>
+      <td>7</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q62090804</td>
+      <td>en</td>
+      <td>8</td>
+      <td>7</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q1323799</td>
+      <td>nl</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>http://www.wikidata.org/entity/Q1323799</td>
+      <td>en</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
       <td>0</td>
       <td>0</td>
     </tr>

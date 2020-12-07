@@ -2,24 +2,24 @@
 <NAF xml:lang="en" version="v3.1">
   <nafHeader>
     <fileDesc creationtime="2015-08-27T11:38:00UTC" title="Final Report on Downing of Malaysia Airlines Flight MH17 Due October"/>
-    <public uri="http://web.archive.org/web/20200803145752/https://www.wsj.com/articles/final-report-on-downing-of-malaysia-airlines-flight-mh17-due-october-1440675525"/>
+    <public uri="http://web.archive.org/web/20201103222416/https://www.wsj.com/articles/final-report-on-downing-of-malaysia-airlines-flight-mh17-due-october-1440675525"/>
     <linguisticProcessors layer="raw">
-      <lp beginTimestamp="2020-10-11T23:08:37UTC" endTimestamp="2020-10-11T23:08:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2020-11-18T14:49:38UTC" endTimestamp="2020-11-18T14:49:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="text">
-      <lp beginTimestamp="2020-10-11T23:08:37UTC" endTimestamp="2020-10-11T23:08:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2020-11-18T14:49:38UTC" endTimestamp="2020-11-18T14:49:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="terms">
-      <lp beginTimestamp="2020-10-11T23:08:37UTC" endTimestamp="2020-10-11T23:08:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2020-11-18T14:49:38UTC" endTimestamp="2020-11-18T14:49:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="deps">
-      <lp beginTimestamp="2020-10-11T23:08:37UTC" endTimestamp="2020-10-11T23:08:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2020-11-18T14:49:38UTC" endTimestamp="2020-11-18T14:49:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="multiwords">
-      <lp beginTimestamp="2020-10-11T23:08:37UTC" endTimestamp="2020-10-11T23:08:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2020-11-18T14:49:38UTC" endTimestamp="2020-11-18T14:49:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
   </nafHeader>
-  <raw><![CDATA[Dutch officials investigating the downing of Malaysia Airlines Flight MH17 said on Thursday they would release the final report into last year’s crash over eastern Ukraine that killed 298 people onboard the Boeing 777 jetliner on October 13. The Dutch Safety Board, which leads the air accident probe into what brought down Flight MH17 on July 17, 2014, while it was cruising at 33,000 feet, said the families of victims will be briefed on the report’s findings in a closed meeting ahead of the public release. ...]]></raw>
+  <raw><![CDATA[Dutch officials investigating the downing of Malaysia Airlines Flight MH17 said on Thursday they would release the final report into last year’s crash over eastern Ukraine that killed 298 people onboard the Boeing 777 jetliner on October 13. The Dutch Safety Board, which leads the air accident probe into what brought down Flight MH17 on July 17, 2014, while it was cruising at 33,000 feet, said the families of victims will be briefed on the report’s findings in a closed meeting ahead of the public release. In...]]></raw>
   <text>
     <wf sent="1" id="w1" length="5" offset="0"><![CDATA[Dutch]]></wf>
     <wf sent="1" id="w2" length="9" offset="6"><![CDATA[officials]]></wf>
@@ -115,7 +115,8 @@
     <wf sent="3" id="w92" length="6" offset="495"><![CDATA[public]]></wf>
     <wf sent="3" id="w93" length="7" offset="502"><![CDATA[release]]></wf>
     <wf sent="3" id="w94" length="1" offset="509"><![CDATA[.]]></wf>
-    <wf sent="4" id="w95" length="3" offset="511"><![CDATA[...]]></wf>
+    <wf sent="4" id="w95" length="2" offset="511"><![CDATA[In]]></wf>
+    <wf sent="4" id="w96" length="3" offset="513"><![CDATA[...]]></wf>
   </text>
   <terms>
     <term id="t1" lemma="dutch" pos="ADJ" type="open" morphofeat="JJ">
@@ -588,9 +589,14 @@
         <target id="w94"/>
       </span>
     </term>
-    <term id="t95" lemma="..." pos="PUNCT" type="open" morphofeat=".">
+    <term id="t95" lemma="in" pos="ADP" type="open" morphofeat="IN">
       <span>
         <target id="w95"/>
+      </span>
+    </term>
+    <term id="t96" lemma="..." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w96"/>
       </span>
     </term>
   </terms>
@@ -686,5 +692,6 @@
     <dep from="t90" to="t93" rfunc="pobj"/>
     <dep from="t93" to="t92" rfunc="amod"/>
     <dep from="t84" to="t94" rfunc="punct"/>
+    <dep from="t95" to="t96" rfunc="punct"/>
   </deps>
 </NAF>
