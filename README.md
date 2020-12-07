@@ -120,7 +120,7 @@ You can add structured data about incidents using:
 
 ```python 
 import DFNDataReleases
-DFNDataReleases.edit_structured_data(repo_dir=test_repo_dir,
+DFNDataReleases.edit_structured_data(repo_dir=DFNDataReleases.dir_path,
                                      project='HistoricalDistanceData',
                                      inc_id='Q17374096',
                                      sem_rel='sem:hasPlace',
@@ -131,7 +131,7 @@ DFNDataReleases.edit_structured_data(repo_dir=test_repo_dir,
 
 Please note that for time, you need to provide a datetime object
 
-DFNDataReleases.edit_structured_data(repo_dir=test_repo_dir,
+DFNDataReleases.edit_structured_data(repo_dir=DFNDataReleases.dir_path,
                                      project='HistoricalDistanceData',
                                      inc_id='Q17374096',
                                      sem_rel='sem:hasTimeStamp',
