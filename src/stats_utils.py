@@ -62,6 +62,7 @@ def get_lang_to_naf_paths(relevant_info,
 def get_historical_distance_df(historical_distance_folder,
                                incid_to_lang_to_naf_paths,
                                time_buckets,
+                               time_bucket_labels,
                                relevant_info):
     """
 
@@ -73,10 +74,8 @@ def get_historical_distance_df(historical_distance_folder,
         shutil.rmtree(historical_distance_folder)
     os.mkdir(historical_distance_folder)
 
-    time_bucket_labels = list(time_buckets.keys()) + ['unknown']
-
     list_of_lists = []
-    headers = ['Inc ID', 'Lang', '# of Ref texts'] + time_bucket_labels
+    headers = ['Inc ID', 'Event type ID', 'Lang', '# of Ref texts'] + time_bucket_labels
 
     for incid, lang_to_naf_paths in incid_to_lang_to_naf_paths.items():
 
@@ -85,9 +84,10 @@ def get_historical_distance_df(historical_distance_folder,
         time_values = str_of_inc.get('sem:hasTimeStamp', [])
         assert len(time_values) == 1, f'no timestamp found for incident {incid}'
 
-        identifier, label = time_values[0].split(' | ')
-        inc_date_obj = datetime.strptime(identifier, "%Y-%m-%dT%H:%M:%SUTC")
+        event_type_id = relevant_info['inc2type'][incid]
 
+        identifier, label = time_values[0].split(' | ')
+        inc_date_obj = datetime.strptime(identifier, "%Y-%m-%dT%H:%M:%SZ")
 
         for lang, naf_paths in lang_to_naf_paths.items():
 
@@ -103,6 +103,7 @@ def get_historical_distance_df(historical_distance_folder,
 
 
             one_row = [f'{WD_PREFIX}{incid}',
+                       f'{WD_PREFIX}{event_type_id}',
                        lang,
                        len(naf_paths)]
 
@@ -115,6 +116,42 @@ def get_historical_distance_df(historical_distance_folder,
     df = pandas.DataFrame(list_of_lists, columns=headers)
     return df
 
+
+def get_evtype_and_lang_to_time_buckets_df(historical_distance_df,
+                                           time_bucket_labels):
+    """
+
+    :param historical_distance_df:
+    :return:
+    """
+    evtype_and_lang_to_timebucket_to_freq = {}
+    for index, row in historical_distance_df.iterrows():
+
+        evtype = row['Event type ID']
+        lang = row['Lang']
+
+        key = (evtype, lang)
+        if key not in evtype_and_lang_to_timebucket_to_freq:
+            evtype_and_lang_to_timebucket_to_freq[key] = defaultdict(int)
+
+        for time_bucket_label in time_bucket_labels:
+            num_docs_in_time_bucket = row[time_bucket_label]
+            evtype_and_lang_to_timebucket_to_freq[key][time_bucket_label] += num_docs_in_time_bucket
+
+    list_of_lists = []
+    headers = ['Event type', 'Language'] + time_bucket_labels
+
+    for (evtype, lang), timebucket_to_freq in evtype_and_lang_to_timebucket_to_freq.items():
+        one_row = [evtype, lang]
+        for time_bucket_label in time_bucket_labels:
+            num_docs_in_time_bucket = timebucket_to_freq[time_bucket_label]
+            one_row.append(num_docs_in_time_bucket)
+
+        list_of_lists.append(one_row)
+
+    df = pandas.DataFrame(list_of_lists, columns=headers)
+
+    return df
 
 
 def get_stats(repo_dir,
@@ -177,12 +214,18 @@ def get_stats(repo_dir,
     totals_conceptual_df = get_totals_conceptual_df(ref_text_to_pred_df)
 
 
-    # TODO: historical distance
+    # historical distance
     if time_buckets:
+        time_bucket_labels = list(time_buckets.keys()) + ['unknown']
+
         historical_distance_df = get_historical_distance_df(historical_distance_folder=relevant_info['historical_distance_folder'],
                                                             incid_to_lang_to_naf_paths=incid_to_lang_to_naf_paths,
                                                             time_buckets=time_buckets,
+                                                            time_bucket_labels=time_bucket_labels,
                                                             relevant_info=relevant_info)
+
+        evtype_and_lang_to_time_buckets_df = get_evtype_and_lang_to_time_buckets_df(historical_distance_df=historical_distance_df,
+                                                                                    time_bucket_labels=time_bucket_labels)
 
 
     # write to disk
@@ -197,7 +240,8 @@ def get_stats(repo_dir,
     }
 
     if time_buckets:
-        name_to_df['Incidents & Lang -> Time buckets'] = (historical_distance_df, True)
+        name_to_df['Incidents & Lang -> Time buckets'] = (historical_distance_df, False)
+        name_to_df["Event type & Lang -> Time Buckets"] = (evtype_and_lang_to_time_buckets_df, True)
 
     write_to_disk(relevant_info=relevant_info,
                   name_to_df=name_to_df,

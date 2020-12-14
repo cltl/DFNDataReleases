@@ -336,6 +336,17 @@ def update_inc2str(inc2str, inc_id, str_data, overwrite):
         inc2str[inc_id] = str_data
         result = 'added new structured data to not existing incident'
 
+    for sem_rel, values in str_data.items():
+        if sem_rel in {'sem:hasTimeStamp', 'sem:hasPlace'}:
+            if len(values) >= 1:
+                str_data[sem_rel] = [values[0]]
+                print(f'{inc_id} had more than 2 values for {sem_rel}, only using first one.')
+
+    for sem_rel, values in str_data.items():
+        if all([sem_rel in {'sem:hasTimeStamp', 'sem:hasPlace'},
+                values]):
+            assert len(values) == 1, f'{type(values)}, {len(values)}, {values}'
+
     return result
 
 
