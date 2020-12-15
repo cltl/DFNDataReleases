@@ -8,13 +8,14 @@ from collections import defaultdict
 
 from .path_utils import get_relevant_info
 from .stats_utils import  print_dict_stats
+from .time_utils import convert_time_values_to_utc
 
 
 def integrate_data_collection(data_collection_dir,
                               repo_dir,
                               mwep_repo_dir,
                               project,
-                              overwrite=False,
+                              overwrite=True,
                               start_from_scratch=False,
                               verbose=0):
     """
@@ -72,7 +73,7 @@ def integrate_data(json_dir,
                    path_inc_coll_obj,
                    mwep_repo_dir,
                    project,
-                   overwrite=False,
+                   overwrite=True,
                    start_from_scratch=False,
                    verbose=0):
     """
@@ -235,7 +236,9 @@ def integrate_data(json_dir,
         the_dict = globals()[variable]
         with open(path, 'w') as outfile:
             json.dump(the_dict,
-                      outfile)
+                      outfile,
+                      indent=4,
+                      sort_keys=True)
             if verbose >= 2:
                 print(f'written {path} to disk.')
                 print_dict_stats(a_dict=the_dict,
@@ -323,6 +326,14 @@ def update_inc2lang2doc(inc2lang2doc,
     return result
 
 def update_inc2str(inc2str, inc_id, str_data, overwrite):
+
+    # MWEP returns times ending with Z -> we move it to UTC
+    time_values = str_data.get('sem:hasTimeStamp', [])
+    if time_values:
+        new_time_values = convert_time_values_to_utc(time_values=time_values)
+        str_data['sem:hasTimeStamp'] = new_time_values
+        for identifier_label in str_data['sem:hasTimeStamp']:
+            assert identifier_label.endswith('UTC')
 
     if inc_id in inc2str:
 
