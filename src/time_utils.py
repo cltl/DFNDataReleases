@@ -28,6 +28,7 @@ def convert_z_to_utc(timestamp_z):
     "2019-03-18T00:00:00Z"
     :return:
     """
+    timestamp_z = timestamp_z.strip('-') # wikidata sometimes returns timestamp starting with '-'
     datetime_obj = datetime.strptime(timestamp_z,
                                      "%Y-%m-%dT%H:%M:%SZ")
 

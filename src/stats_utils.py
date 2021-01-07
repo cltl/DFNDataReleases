@@ -87,7 +87,7 @@ def get_historical_distance_df(historical_distance_folder,
         event_type_id = relevant_info['inc2type'][incid]
 
         identifier, label = time_values[0].split(' | ')
-        inc_date_obj = datetime.strptime(identifier, "%Y-%m-%dT%H:%M:%SZ")
+        inc_date_obj = datetime.strptime(identifier, "%Y-%m-%dT%H:%M:%SUTC")
 
         for lang, naf_paths in lang_to_naf_paths.items():
 
