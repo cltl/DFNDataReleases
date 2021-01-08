@@ -82,7 +82,10 @@ def get_historical_distance_df(historical_distance_folder,
         # get incident date
         str_of_inc = relevant_info['inc2str'][incid]
         time_values = str_of_inc.get('sem:hasTimeStamp', [])
-        assert len(time_values) == 1, f'no timestamp found for incident {incid}'
+
+        if not time_values:
+            print(f'no time values for incident id: {incid}')
+            continue
 
         event_type_id = relevant_info['inc2type'][incid]
 

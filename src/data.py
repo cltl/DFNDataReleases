@@ -333,7 +333,7 @@ def update_inc2str(inc2str, inc_id, str_data, overwrite):
         new_time_values = convert_time_values_to_utc(time_values=time_values)
         str_data['sem:hasTimeStamp'] = new_time_values
         for identifier_label in str_data['sem:hasTimeStamp']:
-            assert identifier_label.endswith('UTC')
+            assert identifier_label.endswith('UTC'), f'{identifier_label}'
 
     if inc_id in inc2str:
 

@@ -14,6 +14,8 @@ def convert_time_values_to_utc(time_values):
         identifier, label = identifier_label.split(" | ")
         if identifier.endswith('Z'):
             timestamp_utc = convert_z_to_utc(timestamp_z=identifier)
+        elif identifier.startswith('t'): # there are cases of t1889405293
+            continue
         else:
             timestamp_utc = identifier
 
