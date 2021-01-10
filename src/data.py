@@ -9,6 +9,7 @@ from collections import defaultdict
 from .path_utils import get_relevant_info
 from .stats_utils import  print_dict_stats
 from .time_utils import convert_time_values_to_utc
+from .rdf_utils import get_labels
 
 
 def integrate_data_collection(data_collection_dir,
@@ -153,7 +154,7 @@ def integrate_data(json_dir,
             'key_label' : 'number of event types',
             'value_label' : 'number of incidents per event type',
             'metric' : 'length_distribution'
-        }
+        },
     }
 
     inc2lang2doc_stats = defaultdict(int)
@@ -251,6 +252,20 @@ def integrate_data(json_dir,
         pickle.dump(release_inc_coll_obj, outfile)
         if verbose >= 2:
             print(f'pickled IncidentCollection of data release to {release_inc_coll_obj_path}')
+
+
+    # update labels.json
+    path_labels_json = os.path.join(json_dir, 'labels.json')
+    q_ids = set()
+    for category in ['inc2str', 'type2inc']:
+        path = dictname_to_info[category]['path']
+        with open(path) as infile:
+            the_dict = json.load(infile)
+        q_ids.update(the_dict)
+
+    qid_to_dropdownlabel = get_labels(set_of_q_ids=q_ids,
+                                      output_path=path_labels_json,
+                                      verbose=verbose)
 
     if verbose >= 1:
         print()
