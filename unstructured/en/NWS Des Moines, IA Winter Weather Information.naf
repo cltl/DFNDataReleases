@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.1">
+  <nafHeader>
+    <fileDesc creationtime="1-01-01T00:00:00UTC" title="NWS Des Moines, IA Winter Weather Information"/>
+    <public uri="http://www.crh.noaa.gov/dmx/winterwx-post.php"/>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-01-08T00:32:30UTC" endTimestamp="2021-01-08T00:32:30UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-01-08T00:32:30UTC" endTimestamp="2021-01-08T00:32:30UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-01-08T00:32:30UTC" endTimestamp="2021-01-08T00:32:30UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-01-08T00:32:30UTC" endTimestamp="2021-01-08T00:32:30UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-01-08T00:32:30UTC" endTimestamp="2021-01-08T00:32:30UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp beginTimestamp="1-01-01T00:00:00UTC" endTimestamp="1-01-01T00:00:00UTC" name="Wikipedia hyperlinks" version="Wikipedia dump from 2019-07-20"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-01-08T14:47:40CET" beginTimestamp="2021-01-08T13:37:49UTC" endTimestamp="2021-01-08T13:47:36UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>Preliminary Observed Snowfall Totals
+(Always check the date near the bottom of the image)
+(Click image above to open in a new window or tab)</raw>
+  <text>
+    <wf sent="1" id="w1" length="11" offset="0">Preliminary</wf>
+    <wf sent="1" id="w2" length="8" offset="12">Observed</wf>
+    <wf sent="1" id="w3" length="8" offset="21">Snowfall</wf>
+    <wf sent="1" id="w4" length="6" offset="30">Totals</wf>
+    <wf sent="1" id="w5" length="1" offset="36">
+</wf>
+    <wf sent="1" id="w6" length="1" offset="37">(</wf>
+    <wf sent="1" id="w7" length="6" offset="38">Always</wf>
+    <wf sent="1" id="w8" length="5" offset="45">check</wf>
+    <wf sent="1" id="w9" length="3" offset="51">the</wf>
+    <wf sent="1" id="w10" length="4" offset="55">date</wf>
+    <wf sent="1" id="w11" length="4" offset="60">near</wf>
+    <wf sent="1" id="w12" length="3" offset="65">the</wf>
+    <wf sent="1" id="w13" length="6" offset="69">bottom</wf>
+    <wf sent="1" id="w14" length="2" offset="76">of</wf>
+    <wf sent="1" id="w15" length="3" offset="79">the</wf>
+    <wf sent="1" id="w16" length="5" offset="83">image</wf>
+    <wf sent="1" id="w17" length="1" offset="88">)</wf>
+    <wf sent="1" id="w18" length="1" offset="89">
+</wf>
+    <wf sent="1" id="w19" length="1" offset="90">(</wf>
+    <wf sent="1" id="w20" length="5" offset="91">Click</wf>
+    <wf sent="1" id="w21" length="5" offset="97">image</wf>
+    <wf sent="1" id="w22" length="5" offset="103">above</wf>
+    <wf sent="1" id="w23" length="2" offset="109">to</wf>
+    <wf sent="1" id="w24" length="4" offset="112">open</wf>
+    <wf sent="1" id="w25" length="2" offset="117">in</wf>
+    <wf sent="1" id="w26" length="1" offset="120">a</wf>
+    <wf sent="1" id="w27" length="3" offset="122">new</wf>
+    <wf sent="1" id="w28" length="6" offset="126">window</wf>
+    <wf sent="1" id="w29" length="2" offset="133">or</wf>
+    <wf sent="1" id="w30" length="3" offset="136">tab</wf>
+    <wf sent="1" id="w31" length="1" offset="139">)</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="Preliminary" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="Observed" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="Snowfall" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="Totals" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="&#10;" pos="SPACE" type="open" morphofeat="_SP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="(" pos="PUNCT" type="open" morphofeat="-LRB-">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="always" pos="ADV" type="open" morphofeat="RB">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="check" pos="VERB" type="open" morphofeat="VB">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="date" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="near" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="bottom" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="image" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma=")" pos="PUNCT" type="open" morphofeat="-RRB-">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="&#10;" pos="SPACE" type="open" morphofeat="_SP">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="(" pos="PUNCT" type="open" morphofeat="-LRB-">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="click" pos="VERB" type="open" morphofeat="VB">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="image" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="above" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="to" pos="PART" type="open" morphofeat="TO">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="open" pos="VERB" type="open" morphofeat="VB">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" lemma="a" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term id="t27" lemma="new" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term id="t28" lemma="window" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term id="t29" lemma="or" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term id="t30" lemma="tab" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term id="t31" lemma=")" pos="PUNCT" type="open" morphofeat="-RRB-">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t4" to="t1" rfunc="amod"/>
+    <dep from="t3" to="t2" rfunc="compound"/>
+    <dep from="t4" to="t3" rfunc="compound"/>
+    <dep from="t4" to="t5" rfunc=""/>
+    <dep from="t8" to="t6" rfunc="punct"/>
+    <dep from="t4" to="t8" rfunc="parataxis"/>
+    <dep from="t8" to="t7" rfunc="advmod"/>
+    <dep from="t10" to="t9" rfunc="det"/>
+    <dep from="t8" to="t10" rfunc="dobj"/>
+    <dep from="t10" to="t11" rfunc="prep"/>
+    <dep from="t13" to="t12" rfunc="det"/>
+    <dep from="t11" to="t13" rfunc="pobj"/>
+    <dep from="t13" to="t14" rfunc="prep"/>
+    <dep from="t16" to="t15" rfunc="det"/>
+    <dep from="t14" to="t16" rfunc="pobj"/>
+    <dep from="t8" to="t17" rfunc="punct"/>
+    <dep from="t17" to="t18" rfunc=""/>
+    <dep from="t22" to="t19" rfunc="punct"/>
+    <dep from="t8" to="t22" rfunc="advmod"/>
+    <dep from="t21" to="t20" rfunc="compound"/>
+    <dep from="t22" to="t21" rfunc="npadvmod"/>
+    <dep from="t24" to="t23" rfunc="aux"/>
+    <dep from="t8" to="t24" rfunc="advcl"/>
+    <dep from="t24" to="t25" rfunc="prep"/>
+    <dep from="t28" to="t26" rfunc="det"/>
+    <dep from="t25" to="t28" rfunc="pobj"/>
+    <dep from="t28" to="t27" rfunc="amod"/>
+    <dep from="t28" to="t29" rfunc="cc"/>
+    <dep from="t28" to="t30" rfunc="conj"/>
+    <dep from="t8" to="t31" rfunc="punct"/>
+  </deps>
+  <entities/>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-frequency" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T13:47:36UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t7"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-inspecting" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T13:47:36UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t8"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-social_event_collective" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T13:47:36UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t10"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locative_relation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T13:47:36UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t11"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-part_orientational" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T13:47:36UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t13"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-impression" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T13:47:36UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t16"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-impression" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T13:47:36UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t21"/>
+      </span>
+    </predicate>
+    <predicate id="pr8" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-secrecy_status" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T13:47:36UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t24"/>
+      </span>
+    </predicate>
+    <predicate id="pr9" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-age" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T13:47:36UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t27"/>
+      </span>
+    </predicate>
+    <predicate id="pr10" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-connecting_architecture" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T13:47:36UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t28"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

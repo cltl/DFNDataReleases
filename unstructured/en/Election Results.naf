@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.1">
+  <nafHeader>
+    <fileDesc creationtime="1-01-01T00:00:00UTC" title="Election Results"/>
+    <public uri="https://www.in.gov/sos/elections/2400.htm"/>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-01-08T14:05:27UTC" endTimestamp="2021-01-08T14:05:27UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-01-08T14:05:27UTC" endTimestamp="2021-01-08T14:05:27UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-01-08T14:05:27UTC" endTimestamp="2021-01-08T14:05:27UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-01-08T14:05:27UTC" endTimestamp="2021-01-08T14:05:27UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-01-08T14:05:27UTC" endTimestamp="2021-01-08T14:05:27UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp beginTimestamp="1-01-01T00:00:00UTC" endTimestamp="1-01-01T00:00:00UTC" name="Wikipedia hyperlinks" version="Wikipedia dump from 2019-07-20"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-01-08T19:32:02CET" beginTimestamp="2021-01-08T18:20:23UTC" endTimestamp="2021-01-08T18:31:52UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>AMBER ALERT
+But when you're done reading it, click the close button in the corner to dismiss this alert.</raw>
+  <text>
+    <wf sent="1" id="w1" length="5" offset="0">AMBER</wf>
+    <wf sent="1" id="w2" length="5" offset="6">ALERT</wf>
+    <wf sent="1" id="w3" length="1" offset="11">
+</wf>
+    <wf sent="2" id="w4" length="3" offset="12">But</wf>
+    <wf sent="2" id="w5" length="4" offset="16">when</wf>
+    <wf sent="2" id="w6" length="3" offset="21">you</wf>
+    <wf sent="2" id="w7" length="3" offset="24">'re</wf>
+    <wf sent="2" id="w8" length="4" offset="28">done</wf>
+    <wf sent="2" id="w9" length="7" offset="33">reading</wf>
+    <wf sent="2" id="w10" length="2" offset="41">it</wf>
+    <wf sent="2" id="w11" length="1" offset="43">,</wf>
+    <wf sent="2" id="w12" length="5" offset="45">click</wf>
+    <wf sent="2" id="w13" length="3" offset="51">the</wf>
+    <wf sent="2" id="w14" length="5" offset="55">close</wf>
+    <wf sent="2" id="w15" length="6" offset="61">button</wf>
+    <wf sent="2" id="w16" length="2" offset="68">in</wf>
+    <wf sent="2" id="w17" length="3" offset="71">the</wf>
+    <wf sent="2" id="w18" length="6" offset="75">corner</wf>
+    <wf sent="2" id="w19" length="2" offset="82">to</wf>
+    <wf sent="2" id="w20" length="7" offset="85">dismiss</wf>
+    <wf sent="2" id="w21" length="4" offset="93">this</wf>
+    <wf sent="2" id="w22" length="5" offset="98">alert</wf>
+    <wf sent="2" id="w23" length="1" offset="103">.</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="AMBER" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="ALERT" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="&#10;" pos="SPACE" type="open" morphofeat="_SP">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="but" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="when" pos="ADV" type="open" morphofeat="WRB">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="be" pos="VERB" type="open" morphofeat="VBP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="do" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="read" pos="VERB" type="open" morphofeat="VBG">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="click" pos="VERB" type="open" morphofeat="VB">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="close" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="button" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="corner" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="to" pos="PART" type="open" morphofeat="TO">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="dismiss" pos="VERB" type="open" morphofeat="VB">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="this" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="alert" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t2" to="t1" rfunc="compound"/>
+    <dep from="t2" to="t3" rfunc=""/>
+    <dep from="t12" to="t4" rfunc="cc"/>
+    <dep from="t8" to="t5" rfunc="advmod"/>
+    <dep from="t12" to="t8" rfunc="advcl"/>
+    <dep from="t8" to="t6" rfunc="nsubjpass"/>
+    <dep from="t8" to="t7" rfunc="auxpass"/>
+    <dep from="t8" to="t9" rfunc="xcomp"/>
+    <dep from="t9" to="t10" rfunc="dobj"/>
+    <dep from="t12" to="t11" rfunc="punct"/>
+    <dep from="t15" to="t13" rfunc="det"/>
+    <dep from="t12" to="t15" rfunc="dobj"/>
+    <dep from="t15" to="t14" rfunc="amod"/>
+    <dep from="t15" to="t16" rfunc="prep"/>
+    <dep from="t18" to="t17" rfunc="det"/>
+    <dep from="t16" to="t18" rfunc="pobj"/>
+    <dep from="t20" to="t19" rfunc="aux"/>
+    <dep from="t12" to="t20" rfunc="advcl"/>
+    <dep from="t22" to="t21" rfunc="det"/>
+    <dep from="t20" to="t22" rfunc="dobj"/>
+    <dep from="t12" to="t23" rfunc="punct"/>
+  </deps>
+  <entities/>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-temporal_collocation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T18:31:52UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t5"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-intentionally_act" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T18:31:52UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t8"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-linguistic_meaning" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T18:31:52UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t9"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-attention" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T18:31:52UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t22"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

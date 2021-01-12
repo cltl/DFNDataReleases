@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.1">
+  <nafHeader>
+    <fileDesc creationtime="1-01-01T00:00:00UTC" title="Results of 1960 Presidential Election Primaries"/>
+    <public uri="https://www.jfklibrary.org/learn/about-jfk/life-of-john-f-kennedy/fast-facts-john-f-kennedy/results-of-1960-presidential-election-primaries"/>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-01-08T13:11:37UTC" endTimestamp="2021-01-08T13:11:37UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-01-08T13:11:37UTC" endTimestamp="2021-01-08T13:11:37UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-01-08T13:11:37UTC" endTimestamp="2021-01-08T13:11:37UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-01-08T13:11:37UTC" endTimestamp="2021-01-08T13:11:37UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-01-08T13:11:37UTC" endTimestamp="2021-01-08T13:11:37UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp beginTimestamp="1-01-01T00:00:00UTC" endTimestamp="1-01-01T00:00:00UTC" name="Wikipedia hyperlinks" version="Wikipedia dump from 2019-07-20"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-01-08T19:32:02CET" beginTimestamp="2021-01-08T18:20:23UTC" endTimestamp="2021-01-08T18:31:52UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>Primary Date and Location
+Republican Candidate
+Number of Votes for Candidate and Percentage of All Votes
+Democractic Candidate</raw>
+  <text>
+    <wf sent="1" id="w1" length="7" offset="0">Primary</wf>
+    <wf sent="1" id="w2" length="4" offset="8">Date</wf>
+    <wf sent="1" id="w3" length="3" offset="13">and</wf>
+    <wf sent="1" id="w4" length="8" offset="17">Location</wf>
+    <wf sent="1" id="w5" length="1" offset="25">
+</wf>
+    <wf sent="1" id="w6" length="10" offset="26">Republican</wf>
+    <wf sent="1" id="w7" length="9" offset="37">Candidate</wf>
+    <wf sent="1" id="w8" length="1" offset="46">
+</wf>
+    <wf sent="1" id="w9" length="6" offset="47">Number</wf>
+    <wf sent="1" id="w10" length="2" offset="54">of</wf>
+    <wf sent="1" id="w11" length="5" offset="57">Votes</wf>
+    <wf sent="1" id="w12" length="3" offset="63">for</wf>
+    <wf sent="1" id="w13" length="9" offset="67">Candidate</wf>
+    <wf sent="1" id="w14" length="3" offset="77">and</wf>
+    <wf sent="1" id="w15" length="10" offset="81">Percentage</wf>
+    <wf sent="1" id="w16" length="2" offset="92">of</wf>
+    <wf sent="1" id="w17" length="3" offset="95">All</wf>
+    <wf sent="1" id="w18" length="5" offset="99">Votes</wf>
+    <wf sent="1" id="w19" length="1" offset="104">
+</wf>
+    <wf sent="1" id="w20" length="11" offset="105">Democractic</wf>
+    <wf sent="1" id="w21" length="9" offset="117">Candidate</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="Primary" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="Date" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="Location" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="&#10;" pos="SPACE" type="open" morphofeat="_SP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="republican" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="Candidate" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="&#10;" pos="SPACE" type="open" morphofeat="_SP">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="Number" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="Votes" pos="PROPN" type="open" morphofeat="NNPS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="for" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="Candidate" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="Percentage" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="all" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="vote" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="&#10;" pos="SPACE" type="open" morphofeat="_SP">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="democractic" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="candidate" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t2" to="t1" rfunc="compound"/>
+    <dep from="t7" to="t2" rfunc="nmod"/>
+    <dep from="t9" to="t7" rfunc="nmod"/>
+    <dep from="t2" to="t3" rfunc="cc"/>
+    <dep from="t2" to="t4" rfunc="conj"/>
+    <dep from="t4" to="t5" rfunc=""/>
+    <dep from="t7" to="t6" rfunc="compound"/>
+    <dep from="t7" to="t8" rfunc=""/>
+    <dep from="t9" to="t10" rfunc="prep"/>
+    <dep from="t10" to="t11" rfunc="pobj"/>
+    <dep from="t9" to="t12" rfunc="prep"/>
+    <dep from="t12" to="t13" rfunc="pobj"/>
+    <dep from="t13" to="t14" rfunc="cc"/>
+    <dep from="t13" to="t15" rfunc="conj"/>
+    <dep from="t13" to="t16" rfunc="prep"/>
+    <dep from="t18" to="t17" rfunc="det"/>
+    <dep from="t16" to="t18" rfunc="pobj"/>
+    <dep from="t18" to="t19" rfunc=""/>
+    <dep from="t21" to="t20" rfunc="compound"/>
+    <dep from="t18" to="t21" rfunc="appos"/>
+  </deps>
+  <entities/>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-first_rank" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T18:31:52UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locale" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-01-08T18:31:52UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t4"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>
