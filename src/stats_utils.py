@@ -178,7 +178,7 @@ def get_stats(repo_dir,
                                       verbose=verbose)
 
     # instance-level
-    project_incs = set(relevant_info['proj2inc']['HistoricalDistanceData'])
+    project_incs = set(relevant_info['proj2inc'][project])
     if verbose >= 1:
         print()
         print(f'found {len(project_incs)} incidents for project {project}')
