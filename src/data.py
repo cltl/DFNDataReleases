@@ -6,6 +6,7 @@ import shutil
 from glob import glob
 from collections import defaultdict
 
+import lxml
 from lxml import etree
 
 from .path_utils import get_relevant_info
@@ -209,7 +210,14 @@ def integrate_data(json_dir,
                 source_path = os.path.join(source_naf_dir,
                                            rt.language,
                                            f'{rt.name}.naf')
-                doc = etree.parse(source_path)
+
+                try:
+                    doc = etree.parse(source_path)
+                except lxml.etree.XMLSyntaxError:
+                    if verbose >= 1:
+                        print(f'invalid XML for {source_path}')
+                        continue
+
                 public_el = doc.find('nafHeader/public')
                 uri = public_el.get('uri')
                 if 'wikipedia.org/wiki' in uri:
