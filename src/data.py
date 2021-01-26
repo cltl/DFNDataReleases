@@ -6,6 +6,8 @@ import shutil
 from glob import glob
 from collections import defaultdict
 
+from lxml import etree
+
 from .path_utils import get_relevant_info
 from .stats_utils import  print_dict_stats
 from .time_utils import convert_time_values_to_utc
@@ -16,6 +18,7 @@ def integrate_data_collection(data_collection_dir,
                               repo_dir,
                               mwep_repo_dir,
                               project,
+                              wikipedia=False,
                               overwrite=True,
                               start_from_scratch=False,
                               verbose=0):
@@ -61,6 +64,7 @@ def integrate_data_collection(data_collection_dir,
                        path_inc_coll_obj=path_inc_coll_obj,
                        mwep_repo_dir=mwep_repo_dir,
                        project=project,
+                       wikipedia=wikipedia,
                        start_from_scratch=start_from_scratch,
                        overwrite=overwrite,
                        verbose=verbose)
@@ -74,6 +78,7 @@ def integrate_data(json_dir,
                    path_inc_coll_obj,
                    mwep_repo_dir,
                    project,
+                   wikipedia=False,
                    overwrite=True,
                    start_from_scratch=False,
                    verbose=0):
@@ -89,6 +94,8 @@ def integrate_data(json_dir,
     where https://github.com/cltl/multilingual-wiki-event-pipeline is cloned
     :param str project: the project to which the IncidentCollection belongs,
     e.g., "HistoricalDistanceData"
+    :param bool wikipedia: if False, remove documents
+    of which the uri contains 'wikipedia.org/wiki'
     :param bool overwrite:
     :param bool start_from_scratch: if True, start with empty json files for structured data
     :return:
@@ -192,10 +199,28 @@ def integrate_data(json_dir,
         for k, v in inc_obj.extra_info.items():
             str_data[k] = list(v)
 
+        # solve wikipedia problems here
         rts = []
+        new_ref_texts = []
         for rt in inc_obj.reference_texts:
-            rt_info = '%s/%s' % (rt.language, rt.name)
-            rts.append(rt_info)
+
+            # wikipedia check
+            if not wikipedia:
+                source_path = os.path.join(source_naf_dir,
+                                           rt.language,
+                                           f'{rt.name}.naf')
+                doc = etree.parse(source_path)
+                public_el = doc.find('nafHeader/public')
+                uri = public_el.get('uri')
+                if 'wikipedia.org/wiki' in uri:
+                    continue
+
+                new_ref_texts.append(rt)
+
+                rt_info = '%s/%s' % (rt.language, rt.name)
+                rts.append(rt_info)
+
+        inc_obj.reference_texts = new_ref_texts
 
         inc_id = inc_obj.wdt_id
         event_type = inc_obj.incident_type
@@ -210,7 +235,8 @@ def integrate_data(json_dir,
                                     inc_obj,
                                     source_naf_dir,
                                     target_naf_dir,
-                                    overwrite)
+                                    overwrite,
+                                    wikipedia)
             inc2lang2doc_stats[result] += 1
 
             #update_inc2str
@@ -282,7 +308,8 @@ def update_inc2lang2doc(inc2lang2doc,
                         inc_obj,
                         source_naf_dir,
                         target_naf_dir,
-                        overwrite):
+                        overwrite,
+                        wikipedia):
 
     write_docs = False
 
@@ -291,7 +318,6 @@ def update_inc2lang2doc(inc2lang2doc,
     for lang_rt in rts:
         lang, rt = lang_rt.split('/', 1)
         lang_to_rts[lang].append(rt)
-
 
     if inc_id in inc2lang2doc:
         if overwrite:
@@ -336,6 +362,7 @@ def update_inc2lang2doc(inc2lang2doc,
 
             source_path = os.path.join(source_naf_dir, lang, f'{basename}.naf')
             target_path = os.path.join(target_naf_dir, lang, f'{basename}.naf')
+
             shutil.copy(source_path, target_path)
 
     return result
@@ -366,7 +393,8 @@ def update_inc2str(inc2str, inc_id, str_data, overwrite):
         if sem_rel in {'sem:hasTimeStamp', 'sem:hasPlace'}:
             if len(values) >= 1:
                 str_data[sem_rel] = [values[0]]
-                print(f'{inc_id} had more than 2 values for {sem_rel}, only using first one.')
+                if len(values) >= 2:
+                    print(f'{inc_id} had 2 or more values for {sem_rel}, only using first one.')
 
     for sem_rel, values in str_data.items():
         if all([sem_rel in {'sem:hasTimeStamp', 'sem:hasPlace'},

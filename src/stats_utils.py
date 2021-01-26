@@ -237,8 +237,8 @@ def get_stats(repo_dir,
         'Conceptual totals' : (totals_conceptual_df, True),
         'Distributions' : (distribution_df, True),
         'Event type -> Incidents' : (event_type_to_inc_df, True),
-        'Incidents -> Languages' : (inc_to_lang_df, True),
-        'Incidents -> Structured Data' : (inc_to_str_df, True),
+        'Incidents -> Languages' : (inc_to_lang_df, False),
+        'Incidents -> Structured Data' : (inc_to_str_df, False),
         'Predicates and Frame Elements' : (ref_text_to_pred_df, False)
     }
 
