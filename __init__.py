@@ -8,6 +8,8 @@ from .src import edit_structured_data
 from .src import add_lexical_data
 from .src import get_relevant_info
 
+from .src import get_labels
+
 dir_path = os.path.dirname(os.path.realpath(__file__))
 mwep_repo_dir = os.path.join(dir_path, 'res/multilingual-wiki-event-pipeline')
 assert os.path.exists(mwep_repo_dir), f'{mwep_repo_dir} does not exist. Please inspect.'

@@ -147,20 +147,29 @@ def get_labels(set_of_q_ids,
     post_processed = dict()
     for batch in chunks(list(set_of_q_ids), BATCH_SIZE):
 
-        items_string = ' '.join([f'wd:{qid}' for qid in batch])
-        the_query = sparql_query % items_string
-
         if verbose >= 2:
             print()
             print(f'working on batch starting from index {count} ({datetime.now()})\n')
+
+        list_of_wd_ids = [f'wd:{qid}' for qid in batch
+                                 if qid.startswith('Q')]
+
+        if list_of_wd_ids:
+            items_string = ' '.join(list_of_wd_ids)
+            the_query = sparql_query % items_string
+
             if verbose >= 5:
                 print(the_query)
 
-        part_post_processed = call_wikidata(sparql_query=the_query,
-                                            query_name='labels',
-                                            verbose=verbose)
+            part_post_processed = call_wikidata(sparql_query=the_query,
+                                                query_name='labels',
+                                                verbose=verbose)
+        else:
+            part_post_processed = {}
 
-        post_processed.update(part_post_processed)
+        for item in batch:
+            value = part_post_processed.get(item, item)
+            post_processed[item] = value
 
         count += len(batch)
 
