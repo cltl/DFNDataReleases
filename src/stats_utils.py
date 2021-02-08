@@ -4,6 +4,10 @@ from collections import Counter
 from collections import defaultdict
 import statistics
 from datetime import datetime
+import xlrd
+from glob import glob
+import json
+from pathlib import Path
 
 from .path_utils import get_relevant_info
 
@@ -120,6 +124,58 @@ def get_historical_distance_df(historical_distance_folder,
     return df
 
 
+def get_lang_doc2dct_info(historical_distance_folder,
+                          json_path=None,
+                          verbose=0):
+    """
+
+    :param historical_distance_folder:
+    :return:
+    """
+    lang2doc2dct_info = {}
+    xlsx_iterable = list(glob(f'{historical_distance_folder}/*xlsx'))
+
+    for iteration, xslx_path in enumerate(xlsx_iterable):
+
+        path_obj = Path(xslx_path)
+        inc_id, lang = path_obj.stem.rsplit(sep='-', maxsplit=1)
+
+        if lang not in lang2doc2dct_info:
+            lang2doc2dct_info[lang] = {}
+
+        try:
+            df = pandas.read_excel(xslx_path)
+        except xlrd.biffh.XLRDError:
+            print(f'error processing {xslx_path}')
+            continue
+
+        for index, row in df.iterrows():
+            lang2doc2dct_info[lang][row['title']] = row.to_dict()
+
+        if verbose >= 5:
+            if iteration % 1000 == 0:
+                print(iteration, datetime.now())
+
+
+
+    if json_path:
+        with open(json_path, 'w') as outfile:
+            json.dump(lang2doc2dct_info,
+                      outfile,
+                      indent=4)
+
+            if verbose:
+                print(f'stored JSON object at {json_path}')
+
+    if verbose:
+        print()
+        print(f'retrieved dct information for {len(xlsx_iterable)} incidents.')
+        for lang, doc2dct_info in lang2doc2dct_info.items():
+            print(f'for language ({lang}): {len(doc2dct_info)} NAF documents.')
+
+    return lang2doc2dct_info
+
+
 def get_evtype_and_lang_to_time_buckets_df(historical_distance_df,
                                            time_bucket_labels):
     """
@@ -230,6 +286,10 @@ def get_stats(repo_dir,
         evtype_and_lang_to_time_buckets_df = get_evtype_and_lang_to_time_buckets_df(historical_distance_df=historical_distance_df,
                                                                                     time_bucket_labels=time_bucket_labels)
 
+        # one JSON containing mapping from LANG -> NAF TITLE -> dct_info
+        get_lang_doc2dct_info(historical_distance_folder=relevant_info['historical_distance_folder'],
+                              json_path=relevant_info['lang2doc2dct_info'],
+                              verbose=verbose)
 
     # write to disk
     name_to_df = {

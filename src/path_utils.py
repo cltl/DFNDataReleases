@@ -41,6 +41,7 @@ def get_relevant_info(repo_dir,
     paths['main_statistics_folder'] = os.path.join(repo_dir, 'statistics')
     paths['project_statistics'] = os.path.join(paths['main_statistics_folder'], project)
     paths['path_inc2str'] = os.path.join(repo_dir, 'structured', 'inc2str_index.json')
+    paths['lang2doc2dct_info'] = os.path.join(repo_dir, 'structured', 'lang2doc2dct_info.json')
 
     paths['historical_distance_folder'] = os.path.join(paths['project_statistics'], 'historical_distance')
 
