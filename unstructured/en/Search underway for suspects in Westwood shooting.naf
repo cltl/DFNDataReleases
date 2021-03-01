@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.1">
+  <nafHeader>
+    <fileDesc creationtime="2017-05-27T15:09:23UTC" title="Search underway for suspects in Westwood shooting"/>
+    <public uri="http://web.archive.org/web/20180915213800/http://www.fox19.com/story/35531742/search-underway-for-suspects-in-westwood-shooting/"/>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-01-25T16:11:09UTC" endTimestamp="2021-01-25T16:11:09UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-01-25T16:11:09UTC" endTimestamp="2021-01-25T16:11:09UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-01-25T16:11:09UTC" endTimestamp="2021-01-25T16:11:09UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-01-25T16:11:09UTC" endTimestamp="2021-01-25T16:11:09UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-01-25T16:11:09UTC" endTimestamp="2021-01-25T16:11:09UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-02-12T17:58:34CET" beginTimestamp="2021-02-12T15:44:45UTC" endTimestamp="2021-02-12T16:57:26UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>Officers arrived to find Malik Johnson, 18, suffering from a gunshot wound to his left arm. He is expected to recover.</raw>
+  <text>
+    <wf sent="1" id="w1" length="8" offset="0">Officers</wf>
+    <wf sent="1" id="w2" length="7" offset="9">arrived</wf>
+    <wf sent="1" id="w3" length="2" offset="17">to</wf>
+    <wf sent="1" id="w4" length="4" offset="20">find</wf>
+    <wf sent="1" id="w5" length="5" offset="25">Malik</wf>
+    <wf sent="1" id="w6" length="7" offset="31">Johnson</wf>
+    <wf sent="1" id="w7" length="1" offset="38">,</wf>
+    <wf sent="1" id="w8" length="2" offset="40">18</wf>
+    <wf sent="1" id="w9" length="1" offset="42">,</wf>
+    <wf sent="1" id="w10" length="9" offset="44">suffering</wf>
+    <wf sent="1" id="w11" length="4" offset="54">from</wf>
+    <wf sent="1" id="w12" length="1" offset="59">a</wf>
+    <wf sent="1" id="w13" length="7" offset="61">gunshot</wf>
+    <wf sent="1" id="w14" length="5" offset="69">wound</wf>
+    <wf sent="1" id="w15" length="2" offset="75">to</wf>
+    <wf sent="1" id="w16" length="3" offset="78">his</wf>
+    <wf sent="1" id="w17" length="4" offset="82">left</wf>
+    <wf sent="1" id="w18" length="3" offset="87">arm</wf>
+    <wf sent="1" id="w19" length="1" offset="90">.</wf>
+    <wf sent="2" id="w20" length="2" offset="92">He</wf>
+    <wf sent="2" id="w21" length="2" offset="95">is</wf>
+    <wf sent="2" id="w22" length="8" offset="98">expected</wf>
+    <wf sent="2" id="w23" length="2" offset="107">to</wf>
+    <wf sent="2" id="w24" length="7" offset="110">recover</wf>
+    <wf sent="2" id="w25" length="1" offset="117">.</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="officer" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="arrive" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="to" pos="PART" type="open" morphofeat="TO">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="find" pos="VERB" type="open" morphofeat="VB">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="Malik" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="Johnson" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="18" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="suffer" pos="VERB" type="open" morphofeat="VBG">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="from" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="a" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="gunshot" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="wound" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="to" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="-PRON-" pos="DET" type="open" morphofeat="PRP$">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="left" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="arm" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="be" pos="VERB" type="open" morphofeat="VBZ">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="expect" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="to" pos="PART" type="open" morphofeat="TO">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="recover" pos="VERB" type="open" morphofeat="VB">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t2" to="t1" rfunc="nsubj"/>
+    <dep from="t4" to="t3" rfunc="aux"/>
+    <dep from="t2" to="t4" rfunc="advcl"/>
+    <dep from="t6" to="t5" rfunc="compound"/>
+    <dep from="t4" to="t6" rfunc="dobj"/>
+    <dep from="t6" to="t7" rfunc="punct"/>
+    <dep from="t6" to="t8" rfunc="appos"/>
+    <dep from="t6" to="t9" rfunc="punct"/>
+    <dep from="t4" to="t10" rfunc="advcl"/>
+    <dep from="t10" to="t11" rfunc="prep"/>
+    <dep from="t14" to="t12" rfunc="det"/>
+    <dep from="t11" to="t14" rfunc="pobj"/>
+    <dep from="t14" to="t13" rfunc="compound"/>
+    <dep from="t11" to="t15" rfunc="prep"/>
+    <dep from="t18" to="t16" rfunc="poss"/>
+    <dep from="t15" to="t18" rfunc="pobj"/>
+    <dep from="t18" to="t17" rfunc="amod"/>
+    <dep from="t2" to="t19" rfunc="punct"/>
+    <dep from="t22" to="t20" rfunc="nsubjpass"/>
+    <dep from="t22" to="t21" rfunc="auxpass"/>
+    <dep from="t24" to="t23" rfunc="aux"/>
+    <dep from="t22" to="t24" rfunc="xcomp"/>
+    <dep from="t22" to="t25" rfunc="punct"/>
+  </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-arriving" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T16:57:26UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t2"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locating" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T16:57:26UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t4"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-medical_conditions" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T16:57:26UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t14"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-part_orientational" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T16:57:26UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t17"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T16:57:26UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t18"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-expectation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T16:57:26UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t22"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

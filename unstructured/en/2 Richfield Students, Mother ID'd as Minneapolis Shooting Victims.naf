@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.1">
+  <nafHeader>
+    <fileDesc creationtime="2016-10-02T00:00:00UTC" title="2 Richfield Students, Mother ID'd as Minneapolis Shooting Victims"/>
+    <public uri="http://web.archive.org/web/20161109153955/http://kstp.com:80/news/minneapolis-shooting-richfield-school-district-students-victims/4280001/?"/>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-01-25T21:40:49UTC" endTimestamp="2021-01-25T21:40:49UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-01-25T21:40:49UTC" endTimestamp="2021-01-25T21:40:49UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-01-25T21:40:49UTC" endTimestamp="2021-01-25T21:40:49UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-01-25T21:40:49UTC" endTimestamp="2021-01-25T21:40:49UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-01-25T21:40:49UTC" endTimestamp="2021-01-25T21:40:49UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-02-11T19:45:08CET" beginTimestamp="2021-02-11T17:28:46UTC" endTimestamp="2021-02-11T18:44:17UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>The school district also identified a third victim, the children’s mother, Maria Romero. The statement said Romero was hospitalized.
+The statement said that Romero was a former school district employee.</raw>
+  <text>
+    <wf sent="1" id="w1" length="3" offset="0">The</wf>
+    <wf sent="1" id="w2" length="6" offset="4">school</wf>
+    <wf sent="1" id="w3" length="8" offset="11">district</wf>
+    <wf sent="1" id="w4" length="4" offset="20">also</wf>
+    <wf sent="1" id="w5" length="10" offset="25">identified</wf>
+    <wf sent="1" id="w6" length="1" offset="36">a</wf>
+    <wf sent="1" id="w7" length="5" offset="38">third</wf>
+    <wf sent="1" id="w8" length="6" offset="44">victim</wf>
+    <wf sent="1" id="w9" length="1" offset="50">,</wf>
+    <wf sent="1" id="w10" length="3" offset="52">the</wf>
+    <wf sent="1" id="w11" length="8" offset="56">children</wf>
+    <wf sent="1" id="w12" length="2" offset="64">’s</wf>
+    <wf sent="1" id="w13" length="6" offset="67">mother</wf>
+    <wf sent="1" id="w14" length="1" offset="73">,</wf>
+    <wf sent="1" id="w15" length="5" offset="75">Maria</wf>
+    <wf sent="1" id="w16" length="6" offset="81">Romero</wf>
+    <wf sent="1" id="w17" length="1" offset="87">.</wf>
+    <wf sent="2" id="w18" length="3" offset="89">The</wf>
+    <wf sent="2" id="w19" length="9" offset="93">statement</wf>
+    <wf sent="2" id="w20" length="4" offset="103">said</wf>
+    <wf sent="2" id="w21" length="6" offset="108">Romero</wf>
+    <wf sent="2" id="w22" length="3" offset="115">was</wf>
+    <wf sent="2" id="w23" length="12" offset="119">hospitalized</wf>
+    <wf sent="2" id="w24" length="1" offset="131">.</wf>
+    <wf sent="2" id="w25" length="1" offset="132">
+</wf>
+    <wf sent="3" id="w26" length="3" offset="133">The</wf>
+    <wf sent="3" id="w27" length="9" offset="137">statement</wf>
+    <wf sent="3" id="w28" length="4" offset="147">said</wf>
+    <wf sent="3" id="w29" length="4" offset="152">that</wf>
+    <wf sent="3" id="w30" length="6" offset="157">Romero</wf>
+    <wf sent="3" id="w31" length="3" offset="164">was</wf>
+    <wf sent="3" id="w32" length="1" offset="168">a</wf>
+    <wf sent="3" id="w33" length="6" offset="170">former</wf>
+    <wf sent="3" id="w34" length="6" offset="177">school</wf>
+    <wf sent="3" id="w35" length="8" offset="184">district</wf>
+    <wf sent="3" id="w36" length="8" offset="193">employee</wf>
+    <wf sent="3" id="w37" length="1" offset="201">.</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="school" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="district" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="also" pos="ADV" type="open" morphofeat="RB">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="identify" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="a" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="third" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="victim" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="child" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="’s" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="mother" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="Maria" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="Romero" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="statement" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="say" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="Romero" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="be" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="hospitalize" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="&#10;" pos="SPACE" type="open" morphofeat="_SP">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term id="t27" lemma="statement" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term id="t28" lemma="say" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term id="t29" lemma="that" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term id="t30" lemma="Romero" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term id="t31" lemma="be" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term id="t32" lemma="a" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term id="t33" lemma="former" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term id="t34" lemma="school" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term id="t35" lemma="district" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term id="t36" lemma="employee" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term id="t37" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t3" to="t1" rfunc="det"/>
+    <dep from="t5" to="t3" rfunc="nsubj"/>
+    <dep from="t3" to="t2" rfunc="compound"/>
+    <dep from="t5" to="t4" rfunc="advmod"/>
+    <dep from="t8" to="t6" rfunc="det"/>
+    <dep from="t5" to="t8" rfunc="dobj"/>
+    <dep from="t8" to="t7" rfunc="amod"/>
+    <dep from="t8" to="t9" rfunc="punct"/>
+    <dep from="t11" to="t10" rfunc="det"/>
+    <dep from="t8" to="t11" rfunc="appos"/>
+    <dep from="t11" to="t12" rfunc="cc"/>
+    <dep from="t11" to="t13" rfunc="conj"/>
+    <dep from="t13" to="t14" rfunc="punct"/>
+    <dep from="t16" to="t15" rfunc="compound"/>
+    <dep from="t11" to="t16" rfunc="appos"/>
+    <dep from="t5" to="t17" rfunc="punct"/>
+    <dep from="t19" to="t18" rfunc="det"/>
+    <dep from="t20" to="t19" rfunc="nsubj"/>
+    <dep from="t23" to="t21" rfunc="nsubjpass"/>
+    <dep from="t20" to="t23" rfunc="ccomp"/>
+    <dep from="t23" to="t22" rfunc="auxpass"/>
+    <dep from="t20" to="t24" rfunc="punct"/>
+    <dep from="t24" to="t25" rfunc=""/>
+    <dep from="t27" to="t26" rfunc="det"/>
+    <dep from="t28" to="t27" rfunc="nsubj"/>
+    <dep from="t31" to="t29" rfunc="mark"/>
+    <dep from="t28" to="t31" rfunc="ccomp"/>
+    <dep from="t31" to="t30" rfunc="nsubj"/>
+    <dep from="t36" to="t32" rfunc="det"/>
+    <dep from="t31" to="t36" rfunc="attr"/>
+    <dep from="t36" to="t33" rfunc="amod"/>
+    <dep from="t35" to="t34" rfunc="compound"/>
+    <dep from="t36" to="t35" rfunc="compound"/>
+    <dep from="t28" to="t37" rfunc="punct"/>
+  </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locale_by_use" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t2"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t3"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-ordinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t7"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-catastrophe" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t8"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-kinship" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t11"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-kinship" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t13"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t19"/>
+      </span>
+    </predicate>
+    <predicate id="pr8" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t20"/>
+      </span>
+    </predicate>
+    <predicate id="pr9" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-institutionalization" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t23"/>
+      </span>
+    </predicate>
+    <predicate id="pr10" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t27"/>
+      </span>
+    </predicate>
+    <predicate id="pr11" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t28"/>
+      </span>
+    </predicate>
+    <predicate id="pr12" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locale_by_use" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t34"/>
+      </span>
+    </predicate>
+    <predicate id="pr13" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t35"/>
+      </span>
+    </predicate>
+    <predicate id="pr14" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-employing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T18:44:17UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t36"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

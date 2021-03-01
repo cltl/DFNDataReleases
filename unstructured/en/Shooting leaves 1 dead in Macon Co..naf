@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.1">
+  <nafHeader>
+    <fileDesc creationtime="2015-08-06T01:02:03UTC" title="Shooting leaves 1 dead in Macon Co."/>
+    <public uri="http://web.archive.org/web/20201026133218/https://www.wsfa.com/story/29653316/shooting-leaves-1-dead-in-macon-co/"/>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-01-24T21:50:18UTC" endTimestamp="2021-01-24T21:50:18UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-01-24T21:50:18UTC" endTimestamp="2021-01-24T21:50:18UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-01-24T21:50:18UTC" endTimestamp="2021-01-24T21:50:18UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-01-24T21:50:18UTC" endTimestamp="2021-01-24T21:50:18UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-01-24T21:50:18UTC" endTimestamp="2021-01-24T21:50:18UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-02-11T21:02:06CET" beginTimestamp="2021-02-11T18:46:19UTC" endTimestamp="2021-02-11T20:01:20UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>Details are limited, but Sheriff Andre Brunson says the incident happened around 10 a.m. in the Little Texas community.</raw>
+  <text>
+    <wf sent="1" id="w1" length="7" offset="0">Details</wf>
+    <wf sent="1" id="w2" length="3" offset="8">are</wf>
+    <wf sent="1" id="w3" length="7" offset="12">limited</wf>
+    <wf sent="1" id="w4" length="1" offset="19">,</wf>
+    <wf sent="1" id="w5" length="3" offset="21">but</wf>
+    <wf sent="1" id="w6" length="7" offset="25">Sheriff</wf>
+    <wf sent="1" id="w7" length="5" offset="33">Andre</wf>
+    <wf sent="1" id="w8" length="7" offset="39">Brunson</wf>
+    <wf sent="1" id="w9" length="4" offset="47">says</wf>
+    <wf sent="1" id="w10" length="3" offset="52">the</wf>
+    <wf sent="1" id="w11" length="8" offset="56">incident</wf>
+    <wf sent="1" id="w12" length="8" offset="65">happened</wf>
+    <wf sent="1" id="w13" length="6" offset="74">around</wf>
+    <wf sent="1" id="w14" length="2" offset="81">10</wf>
+    <wf sent="1" id="w15" length="4" offset="84">a.m.</wf>
+    <wf sent="1" id="w16" length="2" offset="89">in</wf>
+    <wf sent="1" id="w17" length="3" offset="92">the</wf>
+    <wf sent="1" id="w18" length="6" offset="96">Little</wf>
+    <wf sent="1" id="w19" length="5" offset="103">Texas</wf>
+    <wf sent="1" id="w20" length="9" offset="109">community</wf>
+    <wf sent="1" id="w21" length="1" offset="118">.</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="detail" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="be" pos="VERB" type="open" morphofeat="VBP">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="limited" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="but" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="Sheriff" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="Andre" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="Brunson" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="say" pos="VERB" type="open" morphofeat="VBZ">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="incident" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="happen" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="around" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="10" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="a.m." pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="Little" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="Texas" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="community" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t2" to="t1" rfunc="nsubj"/>
+    <dep from="t2" to="t3" rfunc="acomp"/>
+    <dep from="t2" to="t4" rfunc="punct"/>
+    <dep from="t2" to="t5" rfunc="cc"/>
+    <dep from="t8" to="t6" rfunc="compound"/>
+    <dep from="t9" to="t8" rfunc="nsubj"/>
+    <dep from="t2" to="t9" rfunc="conj"/>
+    <dep from="t8" to="t7" rfunc="compound"/>
+    <dep from="t11" to="t10" rfunc="det"/>
+    <dep from="t12" to="t11" rfunc="nsubj"/>
+    <dep from="t9" to="t12" rfunc="ccomp"/>
+    <dep from="t12" to="t13" rfunc="prep"/>
+    <dep from="t15" to="t14" rfunc="nummod"/>
+    <dep from="t13" to="t15" rfunc="pobj"/>
+    <dep from="t12" to="t16" rfunc="prep"/>
+    <dep from="t20" to="t17" rfunc="det"/>
+    <dep from="t16" to="t20" rfunc="pobj"/>
+    <dep from="t19" to="t18" rfunc="compound"/>
+    <dep from="t20" to="t19" rfunc="compound"/>
+    <dep from="t9" to="t21" rfunc="punct"/>
+  </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T20:01:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t9"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-catastrophe" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T20:01:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t11"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-event" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T20:01:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t12"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T20:01:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t20"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

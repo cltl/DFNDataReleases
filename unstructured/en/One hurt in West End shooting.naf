@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.1">
+  <nafHeader>
+    <fileDesc creationtime="2017-10-21T18:05:18UTC" title="One hurt in West End shooting"/>
+    <public uri="http://web.archive.org/web/20180916164726/http://www.fox19.com/story/36650434/one-hurt-in-west-end-shooting/"/>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-01-25T21:52:38UTC" endTimestamp="2021-01-25T21:52:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-01-25T21:52:38UTC" endTimestamp="2021-01-25T21:52:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-01-25T21:52:38UTC" endTimestamp="2021-01-25T21:52:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-01-25T21:52:38UTC" endTimestamp="2021-01-25T21:52:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-01-25T21:52:38UTC" endTimestamp="2021-01-25T21:52:38UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-02-12T11:35:42CET" beginTimestamp="2021-02-12T09:19:50UTC" endTimestamp="2021-02-12T10:35:07UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>Cincinnati Police said a man was shot in the leg. He was transported to the University of Cincinnati Medical Center with non-life threatening injuries.</raw>
+  <text>
+    <wf sent="1" id="w1" length="10" offset="0">Cincinnati</wf>
+    <wf sent="1" id="w2" length="6" offset="11">Police</wf>
+    <wf sent="1" id="w3" length="4" offset="18">said</wf>
+    <wf sent="1" id="w4" length="1" offset="23">a</wf>
+    <wf sent="1" id="w5" length="3" offset="25">man</wf>
+    <wf sent="1" id="w6" length="3" offset="29">was</wf>
+    <wf sent="1" id="w7" length="4" offset="33">shot</wf>
+    <wf sent="1" id="w8" length="2" offset="38">in</wf>
+    <wf sent="1" id="w9" length="3" offset="41">the</wf>
+    <wf sent="1" id="w10" length="3" offset="45">leg</wf>
+    <wf sent="1" id="w11" length="1" offset="48">.</wf>
+    <wf sent="2" id="w12" length="2" offset="50">He</wf>
+    <wf sent="2" id="w13" length="3" offset="53">was</wf>
+    <wf sent="2" id="w14" length="11" offset="57">transported</wf>
+    <wf sent="2" id="w15" length="2" offset="69">to</wf>
+    <wf sent="2" id="w16" length="3" offset="72">the</wf>
+    <wf sent="2" id="w17" length="10" offset="76">University</wf>
+    <wf sent="2" id="w18" length="2" offset="87">of</wf>
+    <wf sent="2" id="w19" length="10" offset="90">Cincinnati</wf>
+    <wf sent="2" id="w20" length="7" offset="101">Medical</wf>
+    <wf sent="2" id="w21" length="6" offset="109">Center</wf>
+    <wf sent="2" id="w22" length="4" offset="116">with</wf>
+    <wf sent="2" id="w23" length="3" offset="121">non</wf>
+    <wf sent="2" id="w24" length="1" offset="124">-</wf>
+    <wf sent="2" id="w25" length="4" offset="125">life</wf>
+    <wf sent="2" id="w26" length="11" offset="130">threatening</wf>
+    <wf sent="2" id="w27" length="8" offset="142">injuries</wf>
+    <wf sent="2" id="w28" length="1" offset="150">.</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="Cincinnati" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="Police" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="say" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="a" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="man" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="be" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="shoot" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="leg" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="be" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="transport" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="to" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="University" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="Cincinnati" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="Medical" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="Center" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="with" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="non" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="-" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="life" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" lemma="threaten" pos="VERB" type="open" morphofeat="VBG">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term id="t27" lemma="injury" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term id="t28" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t2" to="t1" rfunc="compound"/>
+    <dep from="t3" to="t2" rfunc="nsubj"/>
+    <dep from="t5" to="t4" rfunc="det"/>
+    <dep from="t7" to="t5" rfunc="nsubjpass"/>
+    <dep from="t3" to="t7" rfunc="ccomp"/>
+    <dep from="t7" to="t6" rfunc="auxpass"/>
+    <dep from="t7" to="t8" rfunc="prep"/>
+    <dep from="t10" to="t9" rfunc="det"/>
+    <dep from="t8" to="t10" rfunc="pobj"/>
+    <dep from="t3" to="t11" rfunc="punct"/>
+    <dep from="t14" to="t12" rfunc="nsubjpass"/>
+    <dep from="t14" to="t13" rfunc="auxpass"/>
+    <dep from="t14" to="t15" rfunc="prep"/>
+    <dep from="t17" to="t16" rfunc="det"/>
+    <dep from="t15" to="t17" rfunc="pobj"/>
+    <dep from="t17" to="t18" rfunc="prep"/>
+    <dep from="t21" to="t19" rfunc="compound"/>
+    <dep from="t18" to="t21" rfunc="pobj"/>
+    <dep from="t21" to="t20" rfunc="compound"/>
+    <dep from="t17" to="t22" rfunc="prep"/>
+    <dep from="t24" to="t23" rfunc="subtok"/>
+    <dep from="t25" to="t24" rfunc="subtok"/>
+    <dep from="t26" to="t25" rfunc="amod"/>
+    <dep from="t27" to="t26" rfunc="amod"/>
+    <dep from="t22" to="t27" rfunc="pobj"/>
+    <dep from="t14" to="t28" rfunc="punct"/>
+  </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T10:35:07UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t3"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T10:35:07UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t5"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-hit_target" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T10:35:07UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t7"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-bringing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T10:35:07UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t14"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-experience_bodily_harm" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T10:35:07UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t27"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

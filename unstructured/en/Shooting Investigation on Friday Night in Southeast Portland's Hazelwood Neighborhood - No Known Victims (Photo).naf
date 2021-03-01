@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.1">
+  <nafHeader>
+    <fileDesc creationtime="1-01-01T00:00:00UTC" title="Shooting Investigation on Friday Night in Southeast Portland's Hazelwood Neighborhood - No Known Victims (Photo)"/>
+    <public uri="http://web.archive.org/web/20160519160008/http://www.portlandoregon.gov/police/news/read.cfm?id=7106&amp;ec=1"/>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-01-24T23:31:36UTC" endTimestamp="2021-01-24T23:31:37UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-01-24T23:31:36UTC" endTimestamp="2021-01-24T23:31:37UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-01-24T23:31:36UTC" endTimestamp="2021-01-24T23:31:37UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-01-24T23:31:36UTC" endTimestamp="2021-01-24T23:31:37UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-01-24T23:31:36UTC" endTimestamp="2021-01-24T23:31:37UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-02-11T22:21:02CET" beginTimestamp="2021-02-11T20:03:36UTC" endTimestamp="2021-02-11T21:19:53UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>Shooting Investigation on Friday Night in Southeast Portland's Hazelwood Neighborhood - No Known Victims (Photo)</raw>
+  <text>
+    <wf sent="1" id="w1" length="8" offset="0">Shooting</wf>
+    <wf sent="1" id="w2" length="13" offset="9">Investigation</wf>
+    <wf sent="1" id="w3" length="2" offset="23">on</wf>
+    <wf sent="1" id="w4" length="6" offset="26">Friday</wf>
+    <wf sent="1" id="w5" length="5" offset="33">Night</wf>
+    <wf sent="1" id="w6" length="2" offset="39">in</wf>
+    <wf sent="1" id="w7" length="9" offset="42">Southeast</wf>
+    <wf sent="1" id="w8" length="8" offset="52">Portland</wf>
+    <wf sent="1" id="w9" length="2" offset="60">'s</wf>
+    <wf sent="1" id="w10" length="9" offset="63">Hazelwood</wf>
+    <wf sent="1" id="w11" length="12" offset="73">Neighborhood</wf>
+    <wf sent="2" id="w12" length="1" offset="86">-</wf>
+    <wf sent="2" id="w13" length="2" offset="88">No</wf>
+    <wf sent="2" id="w14" length="5" offset="91">Known</wf>
+    <wf sent="2" id="w15" length="7" offset="97">Victims</wf>
+    <wf sent="2" id="w16" length="1" offset="105">(</wf>
+    <wf sent="2" id="w17" length="5" offset="106">Photo</wf>
+    <wf sent="2" id="w18" length="1" offset="111">)</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="Shooting" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="Investigation" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="on" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="Friday" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="Night" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="Southeast" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="Portland" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="'s" pos="PART" type="open" morphofeat="POS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="Hazelwood" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="Neighborhood" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="-" pos="PUNCT" type="open" morphofeat="HYPH">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="no" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="Known" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="Victims" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="(" pos="PUNCT" type="open" morphofeat="-LRB-">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="photo" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma=")" pos="PUNCT" type="open" morphofeat="-RRB-">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t1" to="t2" rfunc="dobj"/>
+    <dep from="t1" to="t3" rfunc="prep"/>
+    <dep from="t5" to="t4" rfunc="compound"/>
+    <dep from="t3" to="t5" rfunc="pobj"/>
+    <dep from="t5" to="t6" rfunc="prep"/>
+    <dep from="t8" to="t7" rfunc="compound"/>
+    <dep from="t11" to="t8" rfunc="poss"/>
+    <dep from="t6" to="t11" rfunc="pobj"/>
+    <dep from="t8" to="t9" rfunc="case"/>
+    <dep from="t11" to="t10" rfunc="compound"/>
+    <dep from="t15" to="t12" rfunc="punct"/>
+    <dep from="t15" to="t13" rfunc="det"/>
+    <dep from="t15" to="t14" rfunc="compound"/>
+    <dep from="t17" to="t16" rfunc="punct"/>
+    <dep from="t15" to="t17" rfunc="appos"/>
+    <dep from="t17" to="t18" rfunc="punct"/>
+  </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-scrutiny" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T21:19:53UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t2"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-11T21:19:53UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t4"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.1">
+  <nafHeader>
+    <fileDesc creationtime="2017-02-06T18:48:00UTC" title="KC police ID man fatally shot by officers in standoff on Wayne Avenue"/>
+    <public uri="http://web.archive.org/web/20170707023917/http://www.kansascity.com:80/news/local/crime/article131131129.html"/>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-01-24T23:28:17UTC" endTimestamp="2021-01-24T23:28:17UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-01-24T23:28:17UTC" endTimestamp="2021-01-24T23:28:17UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-01-24T23:28:17UTC" endTimestamp="2021-01-24T23:28:17UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-01-24T23:28:17UTC" endTimestamp="2021-01-24T23:28:17UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-01-24T23:28:17UTC" endTimestamp="2021-01-24T23:28:17UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-02-12T06:15:26CET" beginTimestamp="2021-02-12T04:00:52UTC" endTimestamp="2021-02-12T05:14:40UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>Police were investigating an officer-involved shooting during a standoff Saturday near 80th Street and Wayne Avenue. The name of the man killed was released Monday. File photo by Allison Long along@kcstar.com</raw>
+  <text>
+    <wf sent="1" id="w1" length="6" offset="0">Police</wf>
+    <wf sent="1" id="w2" length="4" offset="7">were</wf>
+    <wf sent="1" id="w3" length="13" offset="12">investigating</wf>
+    <wf sent="1" id="w4" length="2" offset="26">an</wf>
+    <wf sent="1" id="w5" length="7" offset="29">officer</wf>
+    <wf sent="1" id="w6" length="1" offset="36">-</wf>
+    <wf sent="1" id="w7" length="8" offset="37">involved</wf>
+    <wf sent="1" id="w8" length="8" offset="46">shooting</wf>
+    <wf sent="1" id="w9" length="6" offset="55">during</wf>
+    <wf sent="1" id="w10" length="1" offset="62">a</wf>
+    <wf sent="1" id="w11" length="8" offset="64">standoff</wf>
+    <wf sent="1" id="w12" length="8" offset="73">Saturday</wf>
+    <wf sent="1" id="w13" length="4" offset="82">near</wf>
+    <wf sent="1" id="w14" length="4" offset="87">80th</wf>
+    <wf sent="1" id="w15" length="6" offset="92">Street</wf>
+    <wf sent="1" id="w16" length="3" offset="99">and</wf>
+    <wf sent="1" id="w17" length="5" offset="103">Wayne</wf>
+    <wf sent="1" id="w18" length="6" offset="109">Avenue</wf>
+    <wf sent="1" id="w19" length="1" offset="115">.</wf>
+    <wf sent="2" id="w20" length="3" offset="117">The</wf>
+    <wf sent="2" id="w21" length="4" offset="121">name</wf>
+    <wf sent="2" id="w22" length="2" offset="126">of</wf>
+    <wf sent="2" id="w23" length="3" offset="129">the</wf>
+    <wf sent="2" id="w24" length="3" offset="133">man</wf>
+    <wf sent="2" id="w25" length="6" offset="137">killed</wf>
+    <wf sent="2" id="w26" length="3" offset="144">was</wf>
+    <wf sent="2" id="w27" length="8" offset="148">released</wf>
+    <wf sent="2" id="w28" length="6" offset="157">Monday</wf>
+    <wf sent="2" id="w29" length="1" offset="163">.</wf>
+    <wf sent="3" id="w30" length="4" offset="165">File</wf>
+    <wf sent="3" id="w31" length="5" offset="170">photo</wf>
+    <wf sent="3" id="w32" length="2" offset="176">by</wf>
+    <wf sent="3" id="w33" length="7" offset="179">Allison</wf>
+    <wf sent="3" id="w34" length="4" offset="187">Long</wf>
+    <wf sent="3" id="w35" length="16" offset="192">along@kcstar.com</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="Police" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="be" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="investigate" pos="VERB" type="open" morphofeat="VBG">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="an" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="officer" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="-" pos="PUNCT" type="open" morphofeat="HYPH">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="involve" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="shooting" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="during" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="a" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="standoff" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="Saturday" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="near" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="80th" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="Street" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="Wayne" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="Avenue" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="name" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="man" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="kill" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" lemma="be" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term id="t27" lemma="release" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term id="t28" lemma="Monday" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term id="t29" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term id="t30" lemma="file" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term id="t31" lemma="photo" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term id="t32" lemma="by" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term id="t33" lemma="Allison" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term id="t34" lemma="Long" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term id="t35" lemma="along@kcstar.com" pos="X" type="open" morphofeat="ADD">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t3" to="t1" rfunc="nsubj"/>
+    <dep from="t3" to="t2" rfunc="aux"/>
+    <dep from="t5" to="t4" rfunc="det"/>
+    <dep from="t7" to="t5" rfunc="npadvmod"/>
+    <dep from="t8" to="t7" rfunc="amod"/>
+    <dep from="t3" to="t8" rfunc="dobj"/>
+    <dep from="t7" to="t6" rfunc="punct"/>
+    <dep from="t8" to="t9" rfunc="prep"/>
+    <dep from="t11" to="t10" rfunc="det"/>
+    <dep from="t9" to="t11" rfunc="pobj"/>
+    <dep from="t11" to="t12" rfunc="npadvmod"/>
+    <dep from="t11" to="t13" rfunc="prep"/>
+    <dep from="t15" to="t14" rfunc="amod"/>
+    <dep from="t13" to="t15" rfunc="pobj"/>
+    <dep from="t15" to="t16" rfunc="cc"/>
+    <dep from="t18" to="t17" rfunc="compound"/>
+    <dep from="t15" to="t18" rfunc="conj"/>
+    <dep from="t3" to="t19" rfunc="punct"/>
+    <dep from="t21" to="t20" rfunc="det"/>
+    <dep from="t27" to="t21" rfunc="nsubjpass"/>
+    <dep from="t21" to="t22" rfunc="prep"/>
+    <dep from="t24" to="t23" rfunc="det"/>
+    <dep from="t22" to="t24" rfunc="pobj"/>
+    <dep from="t24" to="t25" rfunc="acl"/>
+    <dep from="t27" to="t26" rfunc="auxpass"/>
+    <dep from="t27" to="t28" rfunc="npadvmod"/>
+    <dep from="t27" to="t29" rfunc="punct"/>
+    <dep from="t31" to="t30" rfunc="compound"/>
+    <dep from="t31" to="t32" rfunc="prep"/>
+    <dep from="t34" to="t33" rfunc="compound"/>
+    <dep from="t32" to="t34" rfunc="pobj"/>
+    <dep from="t31" to="t35" rfunc="punct"/>
+  </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-scrutiny" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T05:14:40UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t3"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T05:14:40UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t12"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-roadways" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T05:14:40UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t15"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-roadways" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T05:14:40UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t18"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-being_named" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T05:14:40UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t21"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T05:14:40UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t24"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-killing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T05:14:40UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t25"/>
+      </span>
+    </predicate>
+    <predicate id="pr8" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-releasing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T05:14:40UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t27"/>
+      </span>
+    </predicate>
+    <predicate id="pr9" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-12T05:14:40UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t28"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

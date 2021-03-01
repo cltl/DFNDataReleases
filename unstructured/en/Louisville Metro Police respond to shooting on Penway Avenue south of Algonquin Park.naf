@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.1">
+  <nafHeader>
+    <fileDesc creationtime="2015-04-01T19:01:00UTC" title="Louisville Metro Police respond to shooting on Penway Avenue south of Algonquin Park"/>
+    <public uri="http://web.archive.org/web/20181118144638/http://www.wdrb.com/story/28698885/louisville-metro-police-respond-to-shooting-on-penway-avenue-south-of-alqonquin-park"/>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-01-25T20:20:05UTC" endTimestamp="2021-01-25T20:20:05UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-01-25T20:20:05UTC" endTimestamp="2021-01-25T20:20:05UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-01-25T20:20:05UTC" endTimestamp="2021-01-25T20:20:05UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-01-25T20:20:05UTC" endTimestamp="2021-01-25T20:20:05UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-01-25T20:20:05UTC" endTimestamp="2021-01-25T20:20:05UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-02-13T03:02:57CET" beginTimestamp="2021-02-13T00:46:26UTC" endTimestamp="2021-02-13T02:02:11UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>Police have not said if they have any suspects and do not know the condition, but they say he was shot at least once.</raw>
+  <text>
+    <wf sent="1" id="w1" length="6" offset="0">Police</wf>
+    <wf sent="1" id="w2" length="4" offset="7">have</wf>
+    <wf sent="1" id="w3" length="3" offset="12">not</wf>
+    <wf sent="1" id="w4" length="4" offset="16">said</wf>
+    <wf sent="1" id="w5" length="2" offset="21">if</wf>
+    <wf sent="1" id="w6" length="4" offset="24">they</wf>
+    <wf sent="1" id="w7" length="4" offset="29">have</wf>
+    <wf sent="1" id="w8" length="3" offset="34">any</wf>
+    <wf sent="1" id="w9" length="8" offset="38">suspects</wf>
+    <wf sent="1" id="w10" length="3" offset="47">and</wf>
+    <wf sent="1" id="w11" length="2" offset="51">do</wf>
+    <wf sent="1" id="w12" length="3" offset="54">not</wf>
+    <wf sent="1" id="w13" length="4" offset="58">know</wf>
+    <wf sent="1" id="w14" length="3" offset="63">the</wf>
+    <wf sent="1" id="w15" length="9" offset="67">condition</wf>
+    <wf sent="1" id="w16" length="1" offset="76">,</wf>
+    <wf sent="1" id="w17" length="3" offset="78">but</wf>
+    <wf sent="1" id="w18" length="4" offset="82">they</wf>
+    <wf sent="1" id="w19" length="3" offset="87">say</wf>
+    <wf sent="1" id="w20" length="2" offset="91">he</wf>
+    <wf sent="1" id="w21" length="3" offset="94">was</wf>
+    <wf sent="1" id="w22" length="4" offset="98">shot</wf>
+    <wf sent="1" id="w23" length="2" offset="103">at</wf>
+    <wf sent="1" id="w24" length="5" offset="106">least</wf>
+    <wf sent="1" id="w25" length="4" offset="112">once</wf>
+    <wf sent="1" id="w26" length="1" offset="116">.</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="Police" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="have" pos="VERB" type="open" morphofeat="VBP">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="not" pos="ADV" type="open" morphofeat="RB">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="say" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="if" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="have" pos="VERB" type="open" morphofeat="VBP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="any" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="suspect" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="do" pos="VERB" type="open" morphofeat="VBP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="not" pos="ADV" type="open" morphofeat="RB">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="know" pos="VERB" type="open" morphofeat="VB">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="condition" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="but" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="say" pos="VERB" type="open" morphofeat="VBP">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="be" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="shoot" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="at" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="least" pos="ADJ" type="open" morphofeat="JJS">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="once" pos="ADV" type="open" morphofeat="RB">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t4" to="t1" rfunc="nsubj"/>
+    <dep from="t4" to="t2" rfunc="aux"/>
+    <dep from="t4" to="t3" rfunc="neg"/>
+    <dep from="t7" to="t5" rfunc="mark"/>
+    <dep from="t4" to="t7" rfunc="advcl"/>
+    <dep from="t7" to="t6" rfunc="nsubj"/>
+    <dep from="t9" to="t8" rfunc="det"/>
+    <dep from="t7" to="t9" rfunc="dobj"/>
+    <dep from="t7" to="t10" rfunc="cc"/>
+    <dep from="t13" to="t11" rfunc="aux"/>
+    <dep from="t7" to="t13" rfunc="conj"/>
+    <dep from="t13" to="t12" rfunc="neg"/>
+    <dep from="t15" to="t14" rfunc="det"/>
+    <dep from="t13" to="t15" rfunc="dobj"/>
+    <dep from="t4" to="t16" rfunc="punct"/>
+    <dep from="t4" to="t17" rfunc="cc"/>
+    <dep from="t19" to="t18" rfunc="nsubj"/>
+    <dep from="t4" to="t19" rfunc="conj"/>
+    <dep from="t22" to="t20" rfunc="nsubjpass"/>
+    <dep from="t19" to="t22" rfunc="ccomp"/>
+    <dep from="t22" to="t21" rfunc="auxpass"/>
+    <dep from="t24" to="t23" rfunc="advmod"/>
+    <dep from="t25" to="t24" rfunc="advmod"/>
+    <dep from="t22" to="t25" rfunc="advmod"/>
+    <dep from="t19" to="t26" rfunc="punct"/>
+  </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-law_enforcement_agency" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-13T02:02:11UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-13T02:02:11UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t4"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-awareness" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-13T02:02:11UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t9"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-awareness" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-13T02:02:11UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t13"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-state_of_entity" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-13T02:02:11UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t15"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-13T02:02:11UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t19"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-hit_target" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-13T02:02:11UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t22"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

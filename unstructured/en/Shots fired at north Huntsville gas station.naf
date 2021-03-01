@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.1">
+  <nafHeader>
+    <fileDesc creationtime="2017-10-23T20:25:43UTC" title="Shots fired at north Huntsville gas station"/>
+    <public uri="http://web.archive.org/web/20200806162627/https://www.waff.com/story/36656714/shots-fired-at-north-huntsville-gas-station/"/>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-01-25T11:06:32UTC" endTimestamp="2021-01-25T11:06:32UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-01-25T11:06:32UTC" endTimestamp="2021-01-25T11:06:32UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-01-25T11:06:32UTC" endTimestamp="2021-01-25T11:06:32UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-01-25T11:06:32UTC" endTimestamp="2021-01-25T11:06:32UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-01-25T11:06:32UTC" endTimestamp="2021-01-25T11:06:32UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-02-13T03:03:01CET" beginTimestamp="2021-02-13T00:46:26UTC" endTimestamp="2021-02-13T02:02:11UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>William is a graduate of Auburn University. He started his career at WSFA in Montgomery before making the move to the Rocket City.</raw>
+  <text>
+    <wf sent="1" id="w1" length="7" offset="0">William</wf>
+    <wf sent="1" id="w2" length="2" offset="8">is</wf>
+    <wf sent="1" id="w3" length="1" offset="11">a</wf>
+    <wf sent="1" id="w4" length="8" offset="13">graduate</wf>
+    <wf sent="1" id="w5" length="2" offset="22">of</wf>
+    <wf sent="1" id="w6" length="6" offset="25">Auburn</wf>
+    <wf sent="1" id="w7" length="10" offset="32">University</wf>
+    <wf sent="1" id="w8" length="1" offset="42">.</wf>
+    <wf sent="2" id="w9" length="2" offset="44">He</wf>
+    <wf sent="2" id="w10" length="7" offset="47">started</wf>
+    <wf sent="2" id="w11" length="3" offset="55">his</wf>
+    <wf sent="2" id="w12" length="6" offset="59">career</wf>
+    <wf sent="2" id="w13" length="2" offset="66">at</wf>
+    <wf sent="2" id="w14" length="4" offset="69">WSFA</wf>
+    <wf sent="2" id="w15" length="2" offset="74">in</wf>
+    <wf sent="2" id="w16" length="10" offset="77">Montgomery</wf>
+    <wf sent="2" id="w17" length="6" offset="88">before</wf>
+    <wf sent="2" id="w18" length="6" offset="95">making</wf>
+    <wf sent="2" id="w19" length="3" offset="102">the</wf>
+    <wf sent="2" id="w20" length="4" offset="106">move</wf>
+    <wf sent="2" id="w21" length="2" offset="111">to</wf>
+    <wf sent="2" id="w22" length="3" offset="114">the</wf>
+    <wf sent="2" id="w23" length="6" offset="118">Rocket</wf>
+    <wf sent="2" id="w24" length="4" offset="125">City</wf>
+    <wf sent="2" id="w25" length="1" offset="129">.</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="William" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="be" pos="VERB" type="open" morphofeat="VBZ">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="a" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="graduate" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="Auburn" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="University" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="start" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="-PRON-" pos="DET" type="open" morphofeat="PRP$">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="career" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="at" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="WSFA" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="Montgomery" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="before" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="make" pos="VERB" type="open" morphofeat="VBG">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="move" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="to" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="Rocket" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="City" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t2" to="t1" rfunc="nsubj"/>
+    <dep from="t4" to="t3" rfunc="det"/>
+    <dep from="t2" to="t4" rfunc="attr"/>
+    <dep from="t4" to="t5" rfunc="prep"/>
+    <dep from="t7" to="t6" rfunc="compound"/>
+    <dep from="t5" to="t7" rfunc="pobj"/>
+    <dep from="t2" to="t8" rfunc="punct"/>
+    <dep from="t10" to="t9" rfunc="nsubj"/>
+    <dep from="t12" to="t11" rfunc="poss"/>
+    <dep from="t10" to="t12" rfunc="dobj"/>
+    <dep from="t10" to="t13" rfunc="prep"/>
+    <dep from="t13" to="t14" rfunc="pcomp"/>
+    <dep from="t10" to="t15" rfunc="prep"/>
+    <dep from="t15" to="t16" rfunc="pobj"/>
+    <dep from="t10" to="t17" rfunc="prep"/>
+    <dep from="t17" to="t18" rfunc="pcomp"/>
+    <dep from="t20" to="t19" rfunc="det"/>
+    <dep from="t18" to="t20" rfunc="dobj"/>
+    <dep from="t20" to="t21" rfunc="prep"/>
+    <dep from="t24" to="t22" rfunc="det"/>
+    <dep from="t21" to="t24" rfunc="pobj"/>
+    <dep from="t24" to="t23" rfunc="compound"/>
+    <dep from="t10" to="t25" rfunc="punct"/>
+  </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-education_teaching" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-13T02:02:11UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t4"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locale_by_use" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-13T02:02:11UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t7"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-process_start" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-13T02:02:11UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t10"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-time_vector" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-13T02:02:11UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t17"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-intentionally_act" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-13T02:02:11UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t20"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-02-13T02:02:11UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t24"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>
