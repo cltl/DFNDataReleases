@@ -223,10 +223,10 @@ def integrate_data(json_dir,
                 if 'wikipedia.org/wiki' in uri:
                     continue
 
-                new_ref_texts.append(rt)
+            new_ref_texts.append(rt)
 
-                rt_info = '%s/%s' % (rt.language, rt.name)
-                rts.append(rt_info)
+            rt_info = '%s/%s' % (rt.language, rt.name)
+            rts.append(rt_info)
 
         inc_obj.reference_texts = new_ref_texts
 
