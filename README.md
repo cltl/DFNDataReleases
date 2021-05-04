@@ -12,10 +12,10 @@ For example, a folder could have the following structure:
 
 * OUTPUT_FOLDER
     * bin
-        EVENT_ID.bin (this is the instance of IncidentCollection)
+        * EVENT_ID.bin (this is the instance of IncidentCollection)
     * wiki_output (this is the NAF folder)
         * LANGUAGE
-            *naf
+            * .naf
 
 ### Prerequisites
 
