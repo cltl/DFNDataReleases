@@ -211,6 +211,9 @@ def integrate_data(json_dir,
                                            rt.language,
                                            f'{rt.name}.naf')
 
+                if not os.path.exists(source_path):
+                    continue
+
                 try:
                     doc = etree.parse(source_path)
                 except lxml.etree.XMLSyntaxError:
