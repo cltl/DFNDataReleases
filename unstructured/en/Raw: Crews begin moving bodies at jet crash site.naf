@@ -1,25 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3.1">
+<NAF xml:lang="en" version="v4">
   <nafHeader>
-    <fileDesc creationtime="2011-09-20T00:00:00UTC" title="Raw: Crews begin moving bodies at jet crash site"/>
-    <public uri="http://web.archive.org/web/20200803200911/https://www.usatoday.com/videos/news/nation/2014/07/19/12883715/"/>
+    <fileDesc creationtime="2014-07-29T00:00:00UTC" title="Raw: Crews begin moving bodies at jet crash site"/>
+    <public uri="http://web.archive.org/web/20201101184253/https://www.usatoday.com/videos/news/nation/2014/07/19/12883715/"/>
     <linguisticProcessors layer="raw">
-      <lp beginTimestamp="2020-10-11T23:10:54UTC" endTimestamp="2020-10-11T23:10:54UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-09-10T01:37:22UTC" endTimestamp="2021-09-10T01:37:22UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="text">
-      <lp beginTimestamp="2020-10-11T23:10:54UTC" endTimestamp="2020-10-11T23:10:54UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-09-10T01:37:22UTC" endTimestamp="2021-09-10T01:37:22UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="terms">
-      <lp beginTimestamp="2020-10-11T23:10:54UTC" endTimestamp="2020-10-11T23:10:54UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-09-10T01:37:22UTC" endTimestamp="2021-09-10T01:37:22UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="deps">
-      <lp beginTimestamp="2020-10-11T23:10:54UTC" endTimestamp="2020-10-11T23:10:54UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-09-10T01:37:22UTC" endTimestamp="2021-09-10T01:37:22UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="multiwords">
-      <lp beginTimestamp="2020-10-11T23:10:54UTC" endTimestamp="2020-10-11T23:10:54UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-09-10T01:37:22UTC" endTimestamp="2021-09-10T01:37:22UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-09-13T10:44:51CEST" beginTimestamp="2021-09-13T08:35:40UTC" endTimestamp="2021-09-13T08:44:45UTC" hostname="kyoto"/>
     </linguisticProcessors>
   </nafHeader>
-  <raw><![CDATA[Raw: Crews begin moving bodies at jet crash site OSCE representatives arrive at the site of the Malaysian airlines plane that was shot down on the Ukraine and Russia border. Rescuers begin moving bodies at the scene. (July 19) AP]]></raw>
+  <raw><![CDATA[Raw: Crews begin moving bodies at jet crash site OSCE representatives arrive at the site of the Malaysian airlines plane that was shot down on the Ukraine and Russia border. Rescuers begin moving bodies at the scene. (July 19)]]></raw>
   <text>
     <wf sent="1" id="w1" length="3" offset="0"><![CDATA[Raw]]></wf>
     <wf sent="1" id="w2" length="1" offset="3"><![CDATA[:]]></wf>
@@ -65,7 +68,6 @@
     <wf sent="3" id="w42" length="4" offset="218"><![CDATA[July]]></wf>
     <wf sent="3" id="w43" length="2" offset="223"><![CDATA[19]]></wf>
     <wf sent="3" id="w44" length="1" offset="225"><![CDATA[)]]></wf>
-    <wf sent="3" id="w45" length="2" offset="227"><![CDATA[AP]]></wf>
   </text>
   <terms>
     <term id="t1" lemma="raw" pos="ADJ" type="open" morphofeat="JJ">
@@ -288,11 +290,6 @@
         <target id="w44"/>
       </span>
     </term>
-    <term id="t45" lemma="AP" pos="PROPN" type="open" morphofeat="NNP">
-      <span>
-        <target id="w45"/>
-      </span>
-    </term>
   </terms>
   <deps>
     <dep from="t4" to="t1" rfunc="advmod"/>
@@ -333,9 +330,90 @@
     <dep from="t39" to="t38" rfunc="det"/>
     <dep from="t37" to="t39" rfunc="pobj"/>
     <dep from="t34" to="t40" rfunc="punct"/>
-    <dep from="t45" to="t41" rfunc="punct"/>
-    <dep from="t45" to="t42" rfunc="nmod"/>
+    <dep from="t42" to="t41" rfunc="punct"/>
     <dep from="t42" to="t43" rfunc="nummod"/>
     <dep from="t42" to="t44" rfunc="punct"/>
   </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-process_start" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T08:44:45UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t4"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T08:44:45UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t6"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locale_by_use" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T08:44:45UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t10"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-arriving" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T08:44:45UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t13"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locale_by_use" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T08:44:45UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t16"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-attempt" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T08:44:45UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t24"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-boundary" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T08:44:45UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t31"/>
+      </span>
+    </predicate>
+    <predicate id="pr8" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-process_start" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T08:44:45UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t34"/>
+      </span>
+    </predicate>
+    <predicate id="pr9" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T08:44:45UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t35"/>
+      </span>
+    </predicate>
+    <predicate id="pr10" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T08:44:45UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t36"/>
+      </span>
+    </predicate>
+  </srl>
 </NAF>

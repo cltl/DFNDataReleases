@@ -1,106 +1,110 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3.1">
+<NAF xml:lang="en" version="v4">
   <nafHeader>
-    <fileDesc creationtime="2019-03-18T10:38:03UTC" title="Man opens fire on Dutch tram, several hurt"/>
+    <fileDesc creationtime="2019-03-18T00:00:00UTC" title="Man opens fire on Dutch tram, several hurt"/>
     <public uri="https://web.archive.org/web/20190318104618/https://www.bbc.co.uk/news/world-europe-47611811"/>
     <linguisticProcessors layer="raw">
-      <lp beginTimestamp="2020-10-11T22:35:42UTC" endTimestamp="2020-10-11T22:35:42UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-08-06T11:47:16UTC" endTimestamp="2021-08-06T11:47:16UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="text">
-      <lp beginTimestamp="2020-10-11T22:35:42UTC" endTimestamp="2020-10-11T22:35:42UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-08-06T11:47:16UTC" endTimestamp="2021-08-06T11:47:16UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="terms">
-      <lp beginTimestamp="2020-10-11T22:35:42UTC" endTimestamp="2020-10-11T22:35:42UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-08-06T11:47:16UTC" endTimestamp="2021-08-06T11:47:16UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="deps">
-      <lp beginTimestamp="2020-10-11T22:35:42UTC" endTimestamp="2020-10-11T22:35:42UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-08-06T11:47:16UTC" endTimestamp="2021-08-06T11:47:16UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="multiwords">
-      <lp beginTimestamp="2020-10-11T22:35:42UTC" endTimestamp="2020-10-11T22:35:42UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-08-06T11:47:16UTC" endTimestamp="2021-08-06T11:47:16UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-08-06T12:20:38CEST" beginTimestamp="2021-08-06T10:16:37UTC" endTimestamp="2021-08-06T10:20:38UTC" hostname="kyoto"/>
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-09-13T14:49:17CEST" beginTimestamp="2021-09-13T12:45:17UTC" endTimestamp="2021-09-13T12:49:16UTC" hostname="kyoto"/>
     </linguisticProcessors>
   </nafHeader>
-  <raw><![CDATA[Several people have been injured after a man opened fire on a tram in the Dutch city of Utrecht, police have said. A square near a tram station has been cordoned off by authorities, and emergency services are at the scene. The shooting took place at about 10:45 local time (09:45 GMT). Three helicopters have been despatched. Police have asked people to keep roads clear for emergency workers to get through.]]></raw>
+  <raw>Several people have been injured after a man opened fire on a tram in the Dutch city of Utrecht, police have said. A square near a tram station has been cordoned off by authorities, and emergency services are at the scene. The shooting took place at about 10:45 local time (09:45 GMT). Three helicopters have been despatched. Police have asked people to keep roads clear for emergency workers to get through.</raw>
   <text>
-    <wf sent="1" id="w1" length="7" offset="0"><![CDATA[Several]]></wf>
-    <wf sent="1" id="w2" length="6" offset="8"><![CDATA[people]]></wf>
-    <wf sent="1" id="w3" length="4" offset="15"><![CDATA[have]]></wf>
-    <wf sent="1" id="w4" length="4" offset="20"><![CDATA[been]]></wf>
-    <wf sent="1" id="w5" length="7" offset="25"><![CDATA[injured]]></wf>
-    <wf sent="1" id="w6" length="5" offset="33"><![CDATA[after]]></wf>
-    <wf sent="1" id="w7" length="1" offset="39"><![CDATA[a]]></wf>
-    <wf sent="1" id="w8" length="3" offset="41"><![CDATA[man]]></wf>
-    <wf sent="1" id="w9" length="6" offset="45"><![CDATA[opened]]></wf>
-    <wf sent="1" id="w10" length="4" offset="52"><![CDATA[fire]]></wf>
-    <wf sent="1" id="w11" length="2" offset="57"><![CDATA[on]]></wf>
-    <wf sent="1" id="w12" length="1" offset="60"><![CDATA[a]]></wf>
-    <wf sent="1" id="w13" length="4" offset="62"><![CDATA[tram]]></wf>
-    <wf sent="1" id="w14" length="2" offset="67"><![CDATA[in]]></wf>
-    <wf sent="1" id="w15" length="3" offset="70"><![CDATA[the]]></wf>
-    <wf sent="1" id="w16" length="5" offset="74"><![CDATA[Dutch]]></wf>
-    <wf sent="1" id="w17" length="4" offset="80"><![CDATA[city]]></wf>
-    <wf sent="1" id="w18" length="2" offset="85"><![CDATA[of]]></wf>
-    <wf sent="1" id="w19" length="7" offset="88"><![CDATA[Utrecht]]></wf>
-    <wf sent="1" id="w20" length="1" offset="95"><![CDATA[,]]></wf>
-    <wf sent="1" id="w21" length="6" offset="97"><![CDATA[police]]></wf>
-    <wf sent="1" id="w22" length="4" offset="104"><![CDATA[have]]></wf>
-    <wf sent="1" id="w23" length="4" offset="109"><![CDATA[said]]></wf>
-    <wf sent="1" id="w24" length="1" offset="113"><![CDATA[.]]></wf>
-    <wf sent="2" id="w25" length="1" offset="115"><![CDATA[A]]></wf>
-    <wf sent="2" id="w26" length="6" offset="117"><![CDATA[square]]></wf>
-    <wf sent="2" id="w27" length="4" offset="124"><![CDATA[near]]></wf>
-    <wf sent="2" id="w28" length="1" offset="129"><![CDATA[a]]></wf>
-    <wf sent="2" id="w29" length="4" offset="131"><![CDATA[tram]]></wf>
-    <wf sent="2" id="w30" length="7" offset="136"><![CDATA[station]]></wf>
-    <wf sent="2" id="w31" length="3" offset="144"><![CDATA[has]]></wf>
-    <wf sent="2" id="w32" length="4" offset="148"><![CDATA[been]]></wf>
-    <wf sent="2" id="w33" length="8" offset="153"><![CDATA[cordoned]]></wf>
-    <wf sent="2" id="w34" length="3" offset="162"><![CDATA[off]]></wf>
-    <wf sent="2" id="w35" length="2" offset="166"><![CDATA[by]]></wf>
-    <wf sent="2" id="w36" length="11" offset="169"><![CDATA[authorities]]></wf>
-    <wf sent="2" id="w37" length="1" offset="180"><![CDATA[,]]></wf>
-    <wf sent="2" id="w38" length="3" offset="182"><![CDATA[and]]></wf>
-    <wf sent="2" id="w39" length="9" offset="186"><![CDATA[emergency]]></wf>
-    <wf sent="2" id="w40" length="8" offset="196"><![CDATA[services]]></wf>
-    <wf sent="2" id="w41" length="3" offset="205"><![CDATA[are]]></wf>
-    <wf sent="2" id="w42" length="2" offset="209"><![CDATA[at]]></wf>
-    <wf sent="2" id="w43" length="3" offset="212"><![CDATA[the]]></wf>
-    <wf sent="2" id="w44" length="5" offset="216"><![CDATA[scene]]></wf>
-    <wf sent="2" id="w45" length="1" offset="221"><![CDATA[.]]></wf>
-    <wf sent="3" id="w46" length="3" offset="223"><![CDATA[The]]></wf>
-    <wf sent="3" id="w47" length="8" offset="227"><![CDATA[shooting]]></wf>
-    <wf sent="3" id="w48" length="4" offset="236"><![CDATA[took]]></wf>
-    <wf sent="3" id="w49" length="5" offset="241"><![CDATA[place]]></wf>
-    <wf sent="3" id="w50" length="2" offset="247"><![CDATA[at]]></wf>
-    <wf sent="3" id="w51" length="5" offset="250"><![CDATA[about]]></wf>
-    <wf sent="3" id="w52" length="5" offset="256"><![CDATA[10:45]]></wf>
-    <wf sent="3" id="w53" length="5" offset="262"><![CDATA[local]]></wf>
-    <wf sent="3" id="w54" length="4" offset="268"><![CDATA[time]]></wf>
-    <wf sent="3" id="w55" length="1" offset="273"><![CDATA[(]]></wf>
-    <wf sent="3" id="w56" length="5" offset="274"><![CDATA[09:45]]></wf>
-    <wf sent="3" id="w57" length="3" offset="280"><![CDATA[GMT]]></wf>
-    <wf sent="3" id="w58" length="1" offset="283"><![CDATA[)]]></wf>
-    <wf sent="3" id="w59" length="1" offset="284"><![CDATA[.]]></wf>
-    <wf sent="4" id="w60" length="5" offset="286"><![CDATA[Three]]></wf>
-    <wf sent="4" id="w61" length="11" offset="292"><![CDATA[helicopters]]></wf>
-    <wf sent="4" id="w62" length="4" offset="304"><![CDATA[have]]></wf>
-    <wf sent="4" id="w63" length="4" offset="309"><![CDATA[been]]></wf>
-    <wf sent="4" id="w64" length="10" offset="314"><![CDATA[despatched]]></wf>
-    <wf sent="4" id="w65" length="1" offset="324"><![CDATA[.]]></wf>
-    <wf sent="5" id="w66" length="6" offset="326"><![CDATA[Police]]></wf>
-    <wf sent="5" id="w67" length="4" offset="333"><![CDATA[have]]></wf>
-    <wf sent="5" id="w68" length="5" offset="338"><![CDATA[asked]]></wf>
-    <wf sent="5" id="w69" length="6" offset="344"><![CDATA[people]]></wf>
-    <wf sent="5" id="w70" length="2" offset="351"><![CDATA[to]]></wf>
-    <wf sent="5" id="w71" length="4" offset="354"><![CDATA[keep]]></wf>
-    <wf sent="5" id="w72" length="5" offset="359"><![CDATA[roads]]></wf>
-    <wf sent="5" id="w73" length="5" offset="365"><![CDATA[clear]]></wf>
-    <wf sent="5" id="w74" length="3" offset="371"><![CDATA[for]]></wf>
-    <wf sent="5" id="w75" length="9" offset="375"><![CDATA[emergency]]></wf>
-    <wf sent="5" id="w76" length="7" offset="385"><![CDATA[workers]]></wf>
-    <wf sent="5" id="w77" length="2" offset="393"><![CDATA[to]]></wf>
-    <wf sent="5" id="w78" length="3" offset="396"><![CDATA[get]]></wf>
-    <wf sent="5" id="w79" length="7" offset="400"><![CDATA[through]]></wf>
-    <wf sent="5" id="w80" length="1" offset="407"><![CDATA[.]]></wf>
+    <wf sent="1" id="w1" length="7" offset="0">Several</wf>
+    <wf sent="1" id="w2" length="6" offset="8">people</wf>
+    <wf sent="1" id="w3" length="4" offset="15">have</wf>
+    <wf sent="1" id="w4" length="4" offset="20">been</wf>
+    <wf sent="1" id="w5" length="7" offset="25">injured</wf>
+    <wf sent="1" id="w6" length="5" offset="33">after</wf>
+    <wf sent="1" id="w7" length="1" offset="39">a</wf>
+    <wf sent="1" id="w8" length="3" offset="41">man</wf>
+    <wf sent="1" id="w9" length="6" offset="45">opened</wf>
+    <wf sent="1" id="w10" length="4" offset="52">fire</wf>
+    <wf sent="1" id="w11" length="2" offset="57">on</wf>
+    <wf sent="1" id="w12" length="1" offset="60">a</wf>
+    <wf sent="1" id="w13" length="4" offset="62">tram</wf>
+    <wf sent="1" id="w14" length="2" offset="67">in</wf>
+    <wf sent="1" id="w15" length="3" offset="70">the</wf>
+    <wf sent="1" id="w16" length="5" offset="74">Dutch</wf>
+    <wf sent="1" id="w17" length="4" offset="80">city</wf>
+    <wf sent="1" id="w18" length="2" offset="85">of</wf>
+    <wf sent="1" id="w19" length="7" offset="88">Utrecht</wf>
+    <wf sent="1" id="w20" length="1" offset="95">,</wf>
+    <wf sent="1" id="w21" length="6" offset="97">police</wf>
+    <wf sent="1" id="w22" length="4" offset="104">have</wf>
+    <wf sent="1" id="w23" length="4" offset="109">said</wf>
+    <wf sent="1" id="w24" length="1" offset="113">.</wf>
+    <wf sent="2" id="w25" length="1" offset="115">A</wf>
+    <wf sent="2" id="w26" length="6" offset="117">square</wf>
+    <wf sent="2" id="w27" length="4" offset="124">near</wf>
+    <wf sent="2" id="w28" length="1" offset="129">a</wf>
+    <wf sent="2" id="w29" length="4" offset="131">tram</wf>
+    <wf sent="2" id="w30" length="7" offset="136">station</wf>
+    <wf sent="2" id="w31" length="3" offset="144">has</wf>
+    <wf sent="2" id="w32" length="4" offset="148">been</wf>
+    <wf sent="2" id="w33" length="8" offset="153">cordoned</wf>
+    <wf sent="2" id="w34" length="3" offset="162">off</wf>
+    <wf sent="2" id="w35" length="2" offset="166">by</wf>
+    <wf sent="2" id="w36" length="11" offset="169">authorities</wf>
+    <wf sent="2" id="w37" length="1" offset="180">,</wf>
+    <wf sent="2" id="w38" length="3" offset="182">and</wf>
+    <wf sent="2" id="w39" length="9" offset="186">emergency</wf>
+    <wf sent="2" id="w40" length="8" offset="196">services</wf>
+    <wf sent="2" id="w41" length="3" offset="205">are</wf>
+    <wf sent="2" id="w42" length="2" offset="209">at</wf>
+    <wf sent="2" id="w43" length="3" offset="212">the</wf>
+    <wf sent="2" id="w44" length="5" offset="216">scene</wf>
+    <wf sent="2" id="w45" length="1" offset="221">.</wf>
+    <wf sent="3" id="w46" length="3" offset="223">The</wf>
+    <wf sent="3" id="w47" length="8" offset="227">shooting</wf>
+    <wf sent="3" id="w48" length="4" offset="236">took</wf>
+    <wf sent="3" id="w49" length="5" offset="241">place</wf>
+    <wf sent="3" id="w50" length="2" offset="247">at</wf>
+    <wf sent="3" id="w51" length="5" offset="250">about</wf>
+    <wf sent="3" id="w52" length="5" offset="256">10:45</wf>
+    <wf sent="3" id="w53" length="5" offset="262">local</wf>
+    <wf sent="3" id="w54" length="4" offset="268">time</wf>
+    <wf sent="3" id="w55" length="1" offset="273">(</wf>
+    <wf sent="3" id="w56" length="5" offset="274">09:45</wf>
+    <wf sent="3" id="w57" length="3" offset="280">GMT</wf>
+    <wf sent="3" id="w58" length="1" offset="283">)</wf>
+    <wf sent="3" id="w59" length="1" offset="284">.</wf>
+    <wf sent="4" id="w60" length="5" offset="286">Three</wf>
+    <wf sent="4" id="w61" length="11" offset="292">helicopters</wf>
+    <wf sent="4" id="w62" length="4" offset="304">have</wf>
+    <wf sent="4" id="w63" length="4" offset="309">been</wf>
+    <wf sent="4" id="w64" length="10" offset="314">despatched</wf>
+    <wf sent="4" id="w65" length="1" offset="324">.</wf>
+    <wf sent="5" id="w66" length="6" offset="326">Police</wf>
+    <wf sent="5" id="w67" length="4" offset="333">have</wf>
+    <wf sent="5" id="w68" length="5" offset="338">asked</wf>
+    <wf sent="5" id="w69" length="6" offset="344">people</wf>
+    <wf sent="5" id="w70" length="2" offset="351">to</wf>
+    <wf sent="5" id="w71" length="4" offset="354">keep</wf>
+    <wf sent="5" id="w72" length="5" offset="359">roads</wf>
+    <wf sent="5" id="w73" length="5" offset="365">clear</wf>
+    <wf sent="5" id="w74" length="3" offset="371">for</wf>
+    <wf sent="5" id="w75" length="9" offset="375">emergency</wf>
+    <wf sent="5" id="w76" length="7" offset="385">workers</wf>
+    <wf sent="5" id="w77" length="2" offset="393">to</wf>
+    <wf sent="5" id="w78" length="3" offset="396">get</wf>
+    <wf sent="5" id="w79" length="7" offset="400">through</wf>
+    <wf sent="5" id="w80" length="1" offset="407">.</wf>
   </text>
   <terms>
     <term id="t1" lemma="several" pos="ADJ" type="open" morphofeat="JJ">
@@ -581,4 +585,230 @@
     <dep from="t78" to="t79" rfunc="prt"/>
     <dep from="t68" to="t80" rfunc="punct"/>
   </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-quantified_mass" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t2"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cause_harm" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t5"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-time_vector" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t6"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t8"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-fire_burning" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t10"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-origin" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t16"/>
+      </span>
+    </predicate>
+    <predicate id="pr8" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t17"/>
+      </span>
+    </predicate>
+    <predicate id="pr9" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-law_enforcement_agency" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t21"/>
+      </span>
+    </predicate>
+    <predicate id="pr10" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t23"/>
+      </span>
+    </predicate>
+    <predicate id="pr11" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locale_by_use" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t26"/>
+      </span>
+    </predicate>
+    <predicate id="pr12" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locative_relation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t27"/>
+      </span>
+    </predicate>
+    <predicate id="pr13" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-spatial_contact" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t34"/>
+      </span>
+    </predicate>
+    <predicate id="pr14" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-leadership" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t36"/>
+      </span>
+    </predicate>
+    <predicate id="pr15" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-public_services" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t40"/>
+      </span>
+    </predicate>
+    <predicate id="pr16" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-sensation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t44"/>
+      </span>
+    </predicate>
+    <predicate id="pr17" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-killing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t47"/>
+      </span>
+    </predicate>
+    <predicate id="pr18" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locale" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t49"/>
+      </span>
+    </predicate>
+    <predicate id="pr19" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t53"/>
+      </span>
+    </predicate>
+    <predicate id="pr20" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-vehicle" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t61"/>
+      </span>
+    </predicate>
+    <predicate id="pr21" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-law_enforcement_agency" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t66"/>
+      </span>
+    </predicate>
+    <predicate id="pr22" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-questioning" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t68"/>
+      </span>
+    </predicate>
+    <predicate id="pr23" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t69"/>
+      </span>
+    </predicate>
+    <predicate id="pr24" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cause_to_continue" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t71"/>
+      </span>
+    </predicate>
+    <predicate id="pr25" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-roadways" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t72"/>
+      </span>
+    </predicate>
+    <predicate id="pr26" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-obviousness" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t73"/>
+      </span>
+    </predicate>
+    <predicate id="pr27" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-employing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t76"/>
+      </span>
+    </predicate>
+    <predicate id="pr28" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-transition_to_state" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t78"/>
+      </span>
+    </predicate>
+  </srl>
 </NAF>
