@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v4">
+  <nafHeader>
+    <fileDesc creationtime="2015-02-19T00:00:00UTC" title="Ministerie van Volksgezondheid, Welzijn en Sport"/>
+    <public uri="http://web.archive.org/web/20210629190215/https://github.com/minvws"/>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-08-16T15:51:09UTC" endTimestamp="2021-08-16T15:51:09UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-08-16T15:51:09UTC" endTimestamp="2021-08-16T15:51:09UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-08-16T15:51:09UTC" endTimestamp="2021-08-16T15:51:09UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-08-16T15:51:09UTC" endTimestamp="2021-08-16T15:51:09UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-08-16T15:51:09UTC" endTimestamp="2021-08-16T15:51:09UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-09-13T15:38:04CEST" beginTimestamp="2021-09-13T13:33:42UTC" endTimestamp="2021-09-13T13:38:04UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Calculations behind the corona dashboard, which provides information on the outbreak and prevalence of COVID-19 in The Netherlands.]]></raw>
+  <text>
+    <wf sent="1" id="w1" length="12" offset="0"><![CDATA[Calculations]]></wf>
+    <wf sent="1" id="w2" length="6" offset="13"><![CDATA[behind]]></wf>
+    <wf sent="1" id="w3" length="3" offset="20"><![CDATA[the]]></wf>
+    <wf sent="1" id="w4" length="6" offset="24"><![CDATA[corona]]></wf>
+    <wf sent="1" id="w5" length="9" offset="31"><![CDATA[dashboard]]></wf>
+    <wf sent="1" id="w6" length="1" offset="40"><![CDATA[,]]></wf>
+    <wf sent="1" id="w7" length="5" offset="42"><![CDATA[which]]></wf>
+    <wf sent="1" id="w8" length="8" offset="48"><![CDATA[provides]]></wf>
+    <wf sent="1" id="w9" length="11" offset="57"><![CDATA[information]]></wf>
+    <wf sent="1" id="w10" length="2" offset="69"><![CDATA[on]]></wf>
+    <wf sent="1" id="w11" length="3" offset="72"><![CDATA[the]]></wf>
+    <wf sent="1" id="w12" length="8" offset="76"><![CDATA[outbreak]]></wf>
+    <wf sent="1" id="w13" length="3" offset="85"><![CDATA[and]]></wf>
+    <wf sent="1" id="w14" length="10" offset="89"><![CDATA[prevalence]]></wf>
+    <wf sent="1" id="w15" length="2" offset="100"><![CDATA[of]]></wf>
+    <wf sent="1" id="w16" length="8" offset="103"><![CDATA[COVID-19]]></wf>
+    <wf sent="1" id="w17" length="2" offset="112"><![CDATA[in]]></wf>
+    <wf sent="1" id="w18" length="3" offset="115"><![CDATA[The]]></wf>
+    <wf sent="1" id="w19" length="11" offset="119"><![CDATA[Netherlands]]></wf>
+    <wf sent="1" id="w20" length="1" offset="130"><![CDATA[.]]></wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="calculation" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="behind" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="corona" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="dashboard" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="which" pos="DET" type="open" morphofeat="WDT">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="provide" pos="VERB" type="open" morphofeat="VBZ">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="information" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="on" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="outbreak" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="prevalence" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="COVID-19" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="Netherlands" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t1" to="t2" rfunc="prep"/>
+    <dep from="t5" to="t3" rfunc="det"/>
+    <dep from="t2" to="t5" rfunc="pobj"/>
+    <dep from="t5" to="t4" rfunc="compound"/>
+    <dep from="t5" to="t6" rfunc="punct"/>
+    <dep from="t8" to="t7" rfunc="nsubj"/>
+    <dep from="t5" to="t8" rfunc="relcl"/>
+    <dep from="t8" to="t9" rfunc="dobj"/>
+    <dep from="t9" to="t10" rfunc="prep"/>
+    <dep from="t12" to="t11" rfunc="det"/>
+    <dep from="t10" to="t12" rfunc="pobj"/>
+    <dep from="t12" to="t13" rfunc="cc"/>
+    <dep from="t12" to="t14" rfunc="conj"/>
+    <dep from="t12" to="t15" rfunc="prep"/>
+    <dep from="t15" to="t16" rfunc="pobj"/>
+    <dep from="t12" to="t17" rfunc="prep"/>
+    <dep from="t19" to="t18" rfunc="det"/>
+    <dep from="t17" to="t19" rfunc="pobj"/>
+    <dep from="t1" to="t20" rfunc="punct"/>
+  </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-relative_time" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:38:04UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t2"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-supply" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:38:04UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t8"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-information" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:38:04UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t9"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>
