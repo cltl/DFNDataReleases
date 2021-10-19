@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v4">
+  <nafHeader>
+    <fileDesc creationtime="1-01-01T00:00:00UTC" title="Coronavirus (COVID-19) in the Slovak Republic in numbers"/>
+    <public uri="http://web.archive.org/web/20210812093406/https://korona.gov.sk/en/coronavirus-covid-19-in-the-slovak-republic-in-numbers/"/>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-08-17T17:51:56UTC" endTimestamp="2021-08-17T17:51:56UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-08-17T17:51:56UTC" endTimestamp="2021-08-17T17:51:56UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-08-17T17:51:56UTC" endTimestamp="2021-08-17T17:51:56UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-08-17T17:51:56UTC" endTimestamp="2021-08-17T17:51:56UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-08-17T17:51:56UTC" endTimestamp="2021-08-17T17:51:56UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-09-13T15:20:25CEST" beginTimestamp="2021-09-13T13:12:22UTC" endTimestamp="2021-09-13T13:20:20UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[54 Number of patients in hospitals confirmed with COVID-19 of which in intensive care: 2 and on ventilation: 4]]></raw>
+  <text>
+    <wf sent="1" id="w1" length="2" offset="0"><![CDATA[54]]></wf>
+    <wf sent="1" id="w2" length="6" offset="3"><![CDATA[Number]]></wf>
+    <wf sent="1" id="w3" length="2" offset="10"><![CDATA[of]]></wf>
+    <wf sent="1" id="w4" length="8" offset="13"><![CDATA[patients]]></wf>
+    <wf sent="1" id="w5" length="2" offset="22"><![CDATA[in]]></wf>
+    <wf sent="1" id="w6" length="9" offset="25"><![CDATA[hospitals]]></wf>
+    <wf sent="1" id="w7" length="9" offset="35"><![CDATA[confirmed]]></wf>
+    <wf sent="1" id="w8" length="4" offset="45"><![CDATA[with]]></wf>
+    <wf sent="1" id="w9" length="8" offset="50"><![CDATA[COVID-19]]></wf>
+    <wf sent="1" id="w10" length="2" offset="59"><![CDATA[of]]></wf>
+    <wf sent="1" id="w11" length="5" offset="62"><![CDATA[which]]></wf>
+    <wf sent="1" id="w12" length="2" offset="68"><![CDATA[in]]></wf>
+    <wf sent="1" id="w13" length="9" offset="71"><![CDATA[intensive]]></wf>
+    <wf sent="1" id="w14" length="4" offset="81"><![CDATA[care]]></wf>
+    <wf sent="1" id="w15" length="1" offset="85"><![CDATA[:]]></wf>
+    <wf sent="1" id="w16" length="1" offset="87"><![CDATA[2]]></wf>
+    <wf sent="1" id="w17" length="3" offset="89"><![CDATA[and]]></wf>
+    <wf sent="1" id="w18" length="2" offset="93"><![CDATA[on]]></wf>
+    <wf sent="1" id="w19" length="11" offset="96"><![CDATA[ventilation]]></wf>
+    <wf sent="1" id="w20" length="1" offset="107"><![CDATA[:]]></wf>
+    <wf sent="1" id="w21" length="1" offset="109"><![CDATA[4]]></wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="54" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="number" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="patient" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="hospital" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="confirm" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="with" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="COVID-19" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="which" pos="DET" type="open" morphofeat="WDT">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="intensive" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="care" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma=":" pos="PUNCT" type="open" morphofeat=":">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="2" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="on" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="ventilation" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma=":" pos="PUNCT" type="open" morphofeat=":">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="4" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t2" to="t1" rfunc="nummod"/>
+    <dep from="t2" to="t3" rfunc="prep"/>
+    <dep from="t3" to="t4" rfunc="pobj"/>
+    <dep from="t4" to="t5" rfunc="prep"/>
+    <dep from="t5" to="t6" rfunc="pobj"/>
+    <dep from="t6" to="t7" rfunc="acl"/>
+    <dep from="t7" to="t8" rfunc="prep"/>
+    <dep from="t8" to="t9" rfunc="pobj"/>
+    <dep from="t9" to="t10" rfunc="prep"/>
+    <dep from="t10" to="t11" rfunc="pobj"/>
+    <dep from="t7" to="t12" rfunc="prep"/>
+    <dep from="t14" to="t13" rfunc="amod"/>
+    <dep from="t12" to="t14" rfunc="pobj"/>
+    <dep from="t2" to="t15" rfunc="punct"/>
+    <dep from="t2" to="t16" rfunc="appos"/>
+    <dep from="t16" to="t17" rfunc="cc"/>
+    <dep from="t16" to="t18" rfunc="conj"/>
+    <dep from="t18" to="t19" rfunc="pobj"/>
+    <dep from="t2" to="t20" rfunc="punct"/>
+    <dep from="t2" to="t21" rfunc="appos"/>
+  </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-buildings" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t6"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t7"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

@@ -1,0 +1,879 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v4">
+  <nafHeader>
+    <fileDesc creationtime="1-01-01T00:00:00UTC" title="COVID19 Home"/>
+    <public uri="http://web.archive.org/web/20210816055427/https://covid19.moph.gov.qa/EN/Pages/default.aspx"/>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-08-17T17:51:30UTC" endTimestamp="2021-08-17T17:51:30UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-08-17T17:51:30UTC" endTimestamp="2021-08-17T17:51:30UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-08-17T17:51:30UTC" endTimestamp="2021-08-17T17:51:30UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-08-17T17:51:30UTC" endTimestamp="2021-08-17T17:51:30UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-08-17T17:51:30UTC" endTimestamp="2021-08-17T17:51:30UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-09-13T15:20:24CEST" beginTimestamp="2021-09-13T13:12:22UTC" endTimestamp="2021-09-13T13:20:20UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Ministry of Public Health today announces 1754 confirmed new cases of coronavirus (Covid-19), with 1467 people having recovered from the disease in the last 24 hours. This brings the total number of people recovered in the State of Qatar to 40,935. The Ministry also announces that 4 people had died from the virus in the last 24 hours Over the last 24 hours, 18 patients had been admitted to intensive care due to the virus, bringing the total number of patients currently in intensive care to 238 cases.]]></raw>
+  <text>
+    <wf sent="1" id="w1" length="8" offset="0"><![CDATA[Ministry]]></wf>
+    <wf sent="1" id="w2" length="2" offset="9"><![CDATA[of]]></wf>
+    <wf sent="1" id="w3" length="6" offset="12"><![CDATA[Public]]></wf>
+    <wf sent="1" id="w4" length="6" offset="19"><![CDATA[Health]]></wf>
+    <wf sent="1" id="w5" length="5" offset="26"><![CDATA[today]]></wf>
+    <wf sent="1" id="w6" length="9" offset="32"><![CDATA[announces]]></wf>
+    <wf sent="1" id="w7" length="4" offset="42"><![CDATA[1754]]></wf>
+    <wf sent="1" id="w8" length="9" offset="47"><![CDATA[confirmed]]></wf>
+    <wf sent="1" id="w9" length="3" offset="57"><![CDATA[new]]></wf>
+    <wf sent="1" id="w10" length="5" offset="61"><![CDATA[cases]]></wf>
+    <wf sent="1" id="w11" length="2" offset="67"><![CDATA[of]]></wf>
+    <wf sent="1" id="w12" length="11" offset="70"><![CDATA[coronavirus]]></wf>
+    <wf sent="1" id="w13" length="1" offset="82"><![CDATA[(]]></wf>
+    <wf sent="1" id="w14" length="8" offset="83"><![CDATA[Covid-19]]></wf>
+    <wf sent="1" id="w15" length="1" offset="91"><![CDATA[)]]></wf>
+    <wf sent="1" id="w16" length="1" offset="92"><![CDATA[,]]></wf>
+    <wf sent="1" id="w17" length="4" offset="94"><![CDATA[with]]></wf>
+    <wf sent="1" id="w18" length="4" offset="99"><![CDATA[1467]]></wf>
+    <wf sent="1" id="w19" length="6" offset="104"><![CDATA[people]]></wf>
+    <wf sent="1" id="w20" length="6" offset="111"><![CDATA[having]]></wf>
+    <wf sent="1" id="w21" length="9" offset="118"><![CDATA[recovered]]></wf>
+    <wf sent="1" id="w22" length="4" offset="128"><![CDATA[from]]></wf>
+    <wf sent="1" id="w23" length="3" offset="133"><![CDATA[the]]></wf>
+    <wf sent="1" id="w24" length="7" offset="137"><![CDATA[disease]]></wf>
+    <wf sent="1" id="w25" length="2" offset="145"><![CDATA[in]]></wf>
+    <wf sent="1" id="w26" length="3" offset="148"><![CDATA[the]]></wf>
+    <wf sent="1" id="w27" length="4" offset="152"><![CDATA[last]]></wf>
+    <wf sent="1" id="w28" length="2" offset="157"><![CDATA[24]]></wf>
+    <wf sent="1" id="w29" length="5" offset="160"><![CDATA[hours]]></wf>
+    <wf sent="1" id="w30" length="1" offset="165"><![CDATA[.]]></wf>
+    <wf sent="2" id="w31" length="4" offset="167"><![CDATA[This]]></wf>
+    <wf sent="2" id="w32" length="6" offset="172"><![CDATA[brings]]></wf>
+    <wf sent="2" id="w33" length="3" offset="179"><![CDATA[the]]></wf>
+    <wf sent="2" id="w34" length="5" offset="183"><![CDATA[total]]></wf>
+    <wf sent="2" id="w35" length="6" offset="189"><![CDATA[number]]></wf>
+    <wf sent="2" id="w36" length="2" offset="196"><![CDATA[of]]></wf>
+    <wf sent="2" id="w37" length="6" offset="199"><![CDATA[people]]></wf>
+    <wf sent="2" id="w38" length="9" offset="206"><![CDATA[recovered]]></wf>
+    <wf sent="2" id="w39" length="2" offset="216"><![CDATA[in]]></wf>
+    <wf sent="2" id="w40" length="3" offset="219"><![CDATA[the]]></wf>
+    <wf sent="2" id="w41" length="5" offset="223"><![CDATA[State]]></wf>
+    <wf sent="2" id="w42" length="2" offset="229"><![CDATA[of]]></wf>
+    <wf sent="2" id="w43" length="5" offset="232"><![CDATA[Qatar]]></wf>
+    <wf sent="2" id="w44" length="2" offset="238"><![CDATA[to]]></wf>
+    <wf sent="2" id="w45" length="6" offset="241"><![CDATA[40,935]]></wf>
+    <wf sent="2" id="w46" length="1" offset="247"><![CDATA[.]]></wf>
+    <wf sent="3" id="w47" length="3" offset="249"><![CDATA[The]]></wf>
+    <wf sent="3" id="w48" length="8" offset="253"><![CDATA[Ministry]]></wf>
+    <wf sent="3" id="w49" length="4" offset="262"><![CDATA[also]]></wf>
+    <wf sent="3" id="w50" length="9" offset="267"><![CDATA[announces]]></wf>
+    <wf sent="3" id="w51" length="4" offset="277"><![CDATA[that]]></wf>
+    <wf sent="3" id="w52" length="1" offset="282"><![CDATA[4]]></wf>
+    <wf sent="3" id="w53" length="6" offset="284"><![CDATA[people]]></wf>
+    <wf sent="3" id="w54" length="3" offset="291"><![CDATA[had]]></wf>
+    <wf sent="3" id="w55" length="4" offset="295"><![CDATA[died]]></wf>
+    <wf sent="3" id="w56" length="4" offset="300"><![CDATA[from]]></wf>
+    <wf sent="3" id="w57" length="3" offset="305"><![CDATA[the]]></wf>
+    <wf sent="3" id="w58" length="5" offset="309"><![CDATA[virus]]></wf>
+    <wf sent="3" id="w59" length="2" offset="315"><![CDATA[in]]></wf>
+    <wf sent="3" id="w60" length="3" offset="318"><![CDATA[the]]></wf>
+    <wf sent="3" id="w61" length="4" offset="322"><![CDATA[last]]></wf>
+    <wf sent="3" id="w62" length="2" offset="327"><![CDATA[24]]></wf>
+    <wf sent="3" id="w63" length="5" offset="330"><![CDATA[hours]]></wf>
+    <wf sent="3" id="w64" length="4" offset="336"><![CDATA[Over]]></wf>
+    <wf sent="3" id="w65" length="3" offset="341"><![CDATA[the]]></wf>
+    <wf sent="3" id="w66" length="4" offset="345"><![CDATA[last]]></wf>
+    <wf sent="3" id="w67" length="2" offset="350"><![CDATA[24]]></wf>
+    <wf sent="3" id="w68" length="5" offset="353"><![CDATA[hours]]></wf>
+    <wf sent="3" id="w69" length="1" offset="358"><![CDATA[,]]></wf>
+    <wf sent="3" id="w70" length="2" offset="360"><![CDATA[18]]></wf>
+    <wf sent="3" id="w71" length="8" offset="363"><![CDATA[patients]]></wf>
+    <wf sent="3" id="w72" length="3" offset="372"><![CDATA[had]]></wf>
+    <wf sent="3" id="w73" length="4" offset="376"><![CDATA[been]]></wf>
+    <wf sent="3" id="w74" length="8" offset="381"><![CDATA[admitted]]></wf>
+    <wf sent="3" id="w75" length="2" offset="390"><![CDATA[to]]></wf>
+    <wf sent="3" id="w76" length="9" offset="393"><![CDATA[intensive]]></wf>
+    <wf sent="3" id="w77" length="4" offset="403"><![CDATA[care]]></wf>
+    <wf sent="3" id="w78" length="3" offset="408"><![CDATA[due]]></wf>
+    <wf sent="3" id="w79" length="2" offset="412"><![CDATA[to]]></wf>
+    <wf sent="3" id="w80" length="3" offset="415"><![CDATA[the]]></wf>
+    <wf sent="3" id="w81" length="5" offset="419"><![CDATA[virus]]></wf>
+    <wf sent="3" id="w82" length="1" offset="424"><![CDATA[,]]></wf>
+    <wf sent="3" id="w83" length="8" offset="426"><![CDATA[bringing]]></wf>
+    <wf sent="3" id="w84" length="3" offset="435"><![CDATA[the]]></wf>
+    <wf sent="3" id="w85" length="5" offset="439"><![CDATA[total]]></wf>
+    <wf sent="3" id="w86" length="6" offset="445"><![CDATA[number]]></wf>
+    <wf sent="3" id="w87" length="2" offset="452"><![CDATA[of]]></wf>
+    <wf sent="3" id="w88" length="8" offset="455"><![CDATA[patients]]></wf>
+    <wf sent="3" id="w89" length="9" offset="464"><![CDATA[currently]]></wf>
+    <wf sent="3" id="w90" length="2" offset="474"><![CDATA[in]]></wf>
+    <wf sent="3" id="w91" length="9" offset="477"><![CDATA[intensive]]></wf>
+    <wf sent="3" id="w92" length="4" offset="487"><![CDATA[care]]></wf>
+    <wf sent="3" id="w93" length="2" offset="492"><![CDATA[to]]></wf>
+    <wf sent="3" id="w94" length="3" offset="495"><![CDATA[238]]></wf>
+    <wf sent="3" id="w95" length="5" offset="499"><![CDATA[cases]]></wf>
+    <wf sent="3" id="w96" length="1" offset="504"><![CDATA[.]]></wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="Ministry" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="Public" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="Health" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="today" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="announce" pos="VERB" type="open" morphofeat="VBZ">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="1754" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="confirm" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="new" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="case" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="coronavirus" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="(" pos="PUNCT" type="open" morphofeat="-LRB-">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="Covid-19" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma=")" pos="PUNCT" type="open" morphofeat="-RRB-">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="with" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="1467" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="people" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="have" pos="VERB" type="open" morphofeat="VBG">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="recover" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="from" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="disease" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term id="t27" lemma="last" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term id="t28" lemma="24" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term id="t29" lemma="hour" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term id="t30" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term id="t31" lemma="this" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term id="t32" lemma="bring" pos="VERB" type="open" morphofeat="VBZ">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term id="t33" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term id="t34" lemma="total" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term id="t35" lemma="number" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term id="t36" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term id="t37" lemma="people" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term id="t38" lemma="recover" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term id="t39" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term id="t40" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term id="t41" lemma="State" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term id="t42" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term id="t43" lemma="Qatar" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term id="t44" lemma="to" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term id="t45" lemma="40,935" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term id="t46" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term id="t47" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term id="t48" lemma="Ministry" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term id="t49" lemma="also" pos="ADV" type="open" morphofeat="RB">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term id="t50" lemma="announce" pos="VERB" type="open" morphofeat="VBZ">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <term id="t51" lemma="that" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <term id="t52" lemma="4" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <term id="t53" lemma="people" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <term id="t54" lemma="have" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <term id="t55" lemma="die" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <term id="t56" lemma="from" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <term id="t57" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <term id="t58" lemma="virus" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <term id="t59" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <term id="t60" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <term id="t61" lemma="last" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <term id="t62" lemma="24" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <term id="t63" lemma="hour" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <term id="t64" lemma="over" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <term id="t65" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <term id="t66" lemma="last" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <term id="t67" lemma="24" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <term id="t68" lemma="hour" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <term id="t69" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <term id="t70" lemma="18" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <term id="t71" lemma="patient" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <term id="t72" lemma="have" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <term id="t73" lemma="be" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <term id="t74" lemma="admit" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <term id="t75" lemma="to" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <term id="t76" lemma="intensive" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <term id="t77" lemma="care" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <term id="t78" lemma="due" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <term id="t79" lemma="to" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <term id="t80" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <term id="t81" lemma="virus" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term id="t82" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <term id="t83" lemma="bring" pos="VERB" type="open" morphofeat="VBG">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term id="t84" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term id="t85" lemma="total" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term id="t86" lemma="number" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <term id="t87" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term id="t88" lemma="patient" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term id="t89" lemma="currently" pos="ADV" type="open" morphofeat="RB">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term id="t90" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <term id="t91" lemma="intensive" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <term id="t92" lemma="care" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <term id="t93" lemma="to" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <term id="t94" lemma="238" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <term id="t95" lemma="case" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <term id="t96" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t6" to="t1" rfunc="nsubj"/>
+    <dep from="t1" to="t2" rfunc="prep"/>
+    <dep from="t4" to="t3" rfunc="compound"/>
+    <dep from="t2" to="t4" rfunc="pobj"/>
+    <dep from="t6" to="t5" rfunc="npadvmod"/>
+    <dep from="t6" to="t7" rfunc="npadvmod"/>
+    <dep from="t10" to="t8" rfunc="amod"/>
+    <dep from="t6" to="t10" rfunc="dobj"/>
+    <dep from="t10" to="t9" rfunc="amod"/>
+    <dep from="t10" to="t11" rfunc="prep"/>
+    <dep from="t11" to="t12" rfunc="pobj"/>
+    <dep from="t14" to="t13" rfunc="punct"/>
+    <dep from="t12" to="t14" rfunc="appos"/>
+    <dep from="t12" to="t15" rfunc="punct"/>
+    <dep from="t6" to="t16" rfunc="punct"/>
+    <dep from="t6" to="t17" rfunc="prep"/>
+    <dep from="t19" to="t18" rfunc="nummod"/>
+    <dep from="t21" to="t19" rfunc="nsubj"/>
+    <dep from="t17" to="t21" rfunc="pcomp"/>
+    <dep from="t21" to="t20" rfunc="aux"/>
+    <dep from="t21" to="t22" rfunc="prep"/>
+    <dep from="t24" to="t23" rfunc="det"/>
+    <dep from="t22" to="t24" rfunc="pobj"/>
+    <dep from="t21" to="t25" rfunc="prep"/>
+    <dep from="t29" to="t26" rfunc="det"/>
+    <dep from="t25" to="t29" rfunc="pobj"/>
+    <dep from="t29" to="t27" rfunc="amod"/>
+    <dep from="t29" to="t28" rfunc="nummod"/>
+    <dep from="t6" to="t30" rfunc="punct"/>
+    <dep from="t32" to="t31" rfunc="nsubj"/>
+    <dep from="t35" to="t33" rfunc="det"/>
+    <dep from="t32" to="t35" rfunc="dobj"/>
+    <dep from="t35" to="t34" rfunc="amod"/>
+    <dep from="t35" to="t36" rfunc="prep"/>
+    <dep from="t36" to="t37" rfunc="pobj"/>
+    <dep from="t37" to="t38" rfunc="acl"/>
+    <dep from="t38" to="t39" rfunc="prep"/>
+    <dep from="t41" to="t40" rfunc="det"/>
+    <dep from="t39" to="t41" rfunc="pobj"/>
+    <dep from="t41" to="t42" rfunc="prep"/>
+    <dep from="t42" to="t43" rfunc="pobj"/>
+    <dep from="t38" to="t44" rfunc="prep"/>
+    <dep from="t44" to="t45" rfunc="pobj"/>
+    <dep from="t32" to="t46" rfunc="punct"/>
+    <dep from="t48" to="t47" rfunc="det"/>
+    <dep from="t50" to="t48" rfunc="nsubj"/>
+    <dep from="t74" to="t50" rfunc="ccomp"/>
+    <dep from="t50" to="t49" rfunc="advmod"/>
+    <dep from="t55" to="t51" rfunc="mark"/>
+    <dep from="t50" to="t55" rfunc="ccomp"/>
+    <dep from="t53" to="t52" rfunc="nummod"/>
+    <dep from="t55" to="t53" rfunc="nsubj"/>
+    <dep from="t55" to="t54" rfunc="aux"/>
+    <dep from="t55" to="t56" rfunc="prep"/>
+    <dep from="t58" to="t57" rfunc="det"/>
+    <dep from="t56" to="t58" rfunc="pobj"/>
+    <dep from="t55" to="t59" rfunc="prep"/>
+    <dep from="t63" to="t60" rfunc="det"/>
+    <dep from="t59" to="t63" rfunc="pobj"/>
+    <dep from="t63" to="t61" rfunc="amod"/>
+    <dep from="t63" to="t62" rfunc="nummod"/>
+    <dep from="t55" to="t64" rfunc="prep"/>
+    <dep from="t68" to="t65" rfunc="det"/>
+    <dep from="t64" to="t68" rfunc="pobj"/>
+    <dep from="t68" to="t66" rfunc="amod"/>
+    <dep from="t68" to="t67" rfunc="nummod"/>
+    <dep from="t74" to="t69" rfunc="punct"/>
+    <dep from="t71" to="t70" rfunc="nummod"/>
+    <dep from="t74" to="t71" rfunc="nsubjpass"/>
+    <dep from="t74" to="t72" rfunc="aux"/>
+    <dep from="t74" to="t73" rfunc="auxpass"/>
+    <dep from="t74" to="t75" rfunc="prep"/>
+    <dep from="t77" to="t76" rfunc="amod"/>
+    <dep from="t75" to="t77" rfunc="pobj"/>
+    <dep from="t74" to="t78" rfunc="prep"/>
+    <dep from="t78" to="t79" rfunc="pcomp"/>
+    <dep from="t81" to="t80" rfunc="det"/>
+    <dep from="t78" to="t81" rfunc="pobj"/>
+    <dep from="t74" to="t82" rfunc="punct"/>
+    <dep from="t74" to="t83" rfunc="advcl"/>
+    <dep from="t86" to="t84" rfunc="det"/>
+    <dep from="t83" to="t86" rfunc="dobj"/>
+    <dep from="t86" to="t85" rfunc="amod"/>
+    <dep from="t86" to="t87" rfunc="prep"/>
+    <dep from="t87" to="t88" rfunc="pobj"/>
+    <dep from="t90" to="t89" rfunc="advmod"/>
+    <dep from="t83" to="t90" rfunc="prep"/>
+    <dep from="t92" to="t91" rfunc="amod"/>
+    <dep from="t90" to="t92" rfunc="pobj"/>
+    <dep from="t83" to="t93" rfunc="prep"/>
+    <dep from="t95" to="t94" rfunc="nummod"/>
+    <dep from="t93" to="t95" rfunc="pobj"/>
+    <dep from="t74" to="t96" rfunc="punct"/>
+  </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t5"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t8"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-age" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t9"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-instance" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t10"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t19"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-medical_conditions" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t24"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t29"/>
+      </span>
+    </predicate>
+    <predicate id="pr8" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-bringing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t32"/>
+      </span>
+    </predicate>
+    <predicate id="pr9" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-amounting_to" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t34"/>
+      </span>
+    </predicate>
+    <predicate id="pr10" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-quantified_mass" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t35"/>
+      </span>
+    </predicate>
+    <predicate id="pr11" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t37"/>
+      </span>
+    </predicate>
+    <predicate id="pr12" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-leadership" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t41"/>
+      </span>
+    </predicate>
+    <predicate id="pr13" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t50"/>
+      </span>
+    </predicate>
+    <predicate id="pr14" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t53"/>
+      </span>
+    </predicate>
+    <predicate id="pr15" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-death" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t55"/>
+      </span>
+    </predicate>
+    <predicate id="pr16" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t63"/>
+      </span>
+    </predicate>
+    <predicate id="pr17" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t68"/>
+      </span>
+    </predicate>
+    <predicate id="pr18" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-reveal_secret" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t74"/>
+      </span>
+    </predicate>
+    <predicate id="pr19" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-bringing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t83"/>
+      </span>
+    </predicate>
+    <predicate id="pr20" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-amounting_to" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t85"/>
+      </span>
+    </predicate>
+    <predicate id="pr21" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-quantified_mass" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t86"/>
+      </span>
+    </predicate>
+    <predicate id="pr22" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-instance" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T13:20:20UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t95"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>
