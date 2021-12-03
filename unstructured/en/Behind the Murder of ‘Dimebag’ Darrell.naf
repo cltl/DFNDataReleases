@@ -21,6 +21,9 @@
     <linguisticProcessors layer="entities">
       <lp beginTimestamp="2004-12-30T22:30:00UTC" endTimestamp="2004-12-30T22:30:00UTC" name="Wikipedia hyperlinks" version="Wikipedia dump from 2019-07-20"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-09-13T11:35:30CEST" beginTimestamp="2021-09-13T08:54:04UTC" endTimestamp="2021-09-13T09:34:55UTC" hostname="kyoto"/>
+    </linguisticProcessors>
   </nafHeader>
   <raw><![CDATA[This story is from the December 30, 2004 issue of Rolling Stone.
 A young fan obsessed with heavy metal shot and killed former Pantera guitarist “Dimebag” Darrell Abbott and three other people during a show by Damageplan, Abbott’s latest band. The tragedy took place on the evening of December 8th at the Alrosa Villa nightclub in Columbus, Ohio.
@@ -11000,4 +11003,2774 @@ Additional reporting by Andy Greene, Brian Hiatt and Bill Werde]]></raw>
     <dep from="t1574" to="t1577" rfunc="conj"/>
   </deps>
   <entities/>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t6"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-point_of_dispute" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t10"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-age" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t17"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-attempt" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t23"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-killing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t25"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-increment" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t36"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t37"/>
+      </span>
+    </predicate>
+    <predicate id="pr8" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-relative_time" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t46"/>
+      </span>
+    </predicate>
+    <predicate id="pr9" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t47"/>
+      </span>
+    </predicate>
+    <predicate id="pr10" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-catastrophe" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t50"/>
+      </span>
+    </predicate>
+    <predicate id="pr11" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-taking_time" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t51"/>
+      </span>
+    </predicate>
+    <predicate id="pr12" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locale" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t52"/>
+      </span>
+    </predicate>
+    <predicate id="pr13" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t55"/>
+      </span>
+    </predicate>
+    <predicate id="pr14" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t57"/>
+      </span>
+    </predicate>
+    <predicate id="pr15" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-killing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t79"/>
+      </span>
+    </predicate>
+    <predicate id="pr16" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-law_enforcement_agency" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t83"/>
+      </span>
+    </predicate>
+    <predicate id="pr17" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-measure_duration" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t85"/>
+      </span>
+    </predicate>
+    <predicate id="pr18" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-time_vector" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t86"/>
+      </span>
+    </predicate>
+    <predicate id="pr19" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-violence" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t88"/>
+      </span>
+    </predicate>
+    <predicate id="pr20" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-process_start" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t89"/>
+      </span>
+    </predicate>
+    <predicate id="pr21" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-unattributed_information" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t98"/>
+      </span>
+    </predicate>
+    <predicate id="pr22" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-preventing_or_letting" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t99"/>
+      </span>
+    </predicate>
+    <predicate id="pr23" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t107"/>
+      </span>
+    </predicate>
+    <predicate id="pr24" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-judgment" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t112"/>
+      </span>
+    </predicate>
+    <predicate id="pr25" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t116"/>
+      </span>
+    </predicate>
+    <predicate id="pr26" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-becoming_separated" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t119"/>
+      </span>
+    </predicate>
+    <predicate id="pr27" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-death" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t122"/>
+      </span>
+    </predicate>
+    <predicate id="pr28" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-ordinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t128"/>
+      </span>
+    </predicate>
+    <predicate id="pr29" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-killing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t132"/>
+      </span>
+    </predicate>
+    <predicate id="pr30" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-increment" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t139"/>
+      </span>
+    </predicate>
+    <predicate id="pr31" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-catastrophe" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t140"/>
+      </span>
+    </predicate>
+    <predicate id="pr32" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-age" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t144"/>
+      </span>
+    </predicate>
+    <predicate id="pr33" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t150"/>
+      </span>
+    </predicate>
+    <predicate id="pr34" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-membership" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t151"/>
+      </span>
+    </predicate>
+    <predicate id="pr35" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-weapon" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t161"/>
+      </span>
+    </predicate>
+    <predicate id="pr36" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-employing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t162"/>
+      </span>
+    </predicate>
+    <predicate id="pr37" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-awareness" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t175"/>
+      </span>
+    </predicate>
+    <predicate id="pr38" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-vehicle" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t187"/>
+      </span>
+    </predicate>
+    <predicate id="pr39" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-means" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t190"/>
+      </span>
+    </predicate>
+    <predicate id="pr40" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-electricity" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t196"/>
+      </span>
+    </predicate>
+    <predicate id="pr41" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t201"/>
+      </span>
+    </predicate>
+    <predicate id="pr42" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-intentionally_act" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t209"/>
+      </span>
+    </predicate>
+    <predicate id="pr43" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t214"/>
+      </span>
+    </predicate>
+    <predicate id="pr44" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-successful_action" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t218"/>
+      </span>
+    </predicate>
+    <predicate id="pr45" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-temporal_collocation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t220"/>
+      </span>
+    </predicate>
+    <predicate id="pr46" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t226"/>
+      </span>
+    </predicate>
+    <predicate id="pr47" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-commerce_sell" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t227"/>
+      </span>
+    </predicate>
+    <predicate id="pr48" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-increment" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t228"/>
+      </span>
+    </predicate>
+    <predicate id="pr49" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t231"/>
+      </span>
+    </predicate>
+    <predicate id="pr50" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-text" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t232"/>
+      </span>
+    </predicate>
+    <predicate id="pr51" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-be_in_agreement_on_action" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t234"/>
+      </span>
+    </predicate>
+    <predicate id="pr52" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-goal" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t235"/>
+      </span>
+    </predicate>
+    <predicate id="pr53" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-arriving" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t243"/>
+      </span>
+    </predicate>
+    <predicate id="pr54" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t248"/>
+      </span>
+    </predicate>
+    <predicate id="pr55" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-commerce_sell" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t250"/>
+      </span>
+    </predicate>
+    <predicate id="pr56" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t252"/>
+      </span>
+    </predicate>
+    <predicate id="pr57" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-duplication" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t253"/>
+      </span>
+    </predicate>
+    <predicate id="pr58" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t256"/>
+      </span>
+    </predicate>
+    <predicate id="pr59" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t257"/>
+      </span>
+    </predicate>
+    <predicate id="pr60" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t261"/>
+      </span>
+    </predicate>
+    <predicate id="pr61" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locative_relation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t262"/>
+      </span>
+    </predicate>
+    <predicate id="pr62" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-topic" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t268"/>
+      </span>
+    </predicate>
+    <predicate id="pr63" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t270"/>
+      </span>
+    </predicate>
+    <predicate id="pr64" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-commerce_pay" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t272"/>
+      </span>
+    </predicate>
+    <predicate id="pr65" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locative_relation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t273"/>
+      </span>
+    </predicate>
+    <predicate id="pr66" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-evidence" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t280"/>
+      </span>
+    </predicate>
+    <predicate id="pr67" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-duration_description" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t284"/>
+      </span>
+    </predicate>
+    <predicate id="pr68" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locale_by_event" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t287"/>
+      </span>
+    </predicate>
+    <predicate id="pr69" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-capability" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t289"/>
+      </span>
+    </predicate>
+    <predicate id="pr70" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t296"/>
+      </span>
+    </predicate>
+    <predicate id="pr71" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t297"/>
+      </span>
+    </predicate>
+    <predicate id="pr72" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-intentionally_act" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t306"/>
+      </span>
+    </predicate>
+    <predicate id="pr73" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-dressing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t308"/>
+      </span>
+    </predicate>
+    <predicate id="pr74" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-hostile_encounter" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t310"/>
+      </span>
+    </predicate>
+    <predicate id="pr75" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-increment" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t313"/>
+      </span>
+    </predicate>
+    <predicate id="pr76" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t314"/>
+      </span>
+    </predicate>
+    <predicate id="pr77" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-being_named" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t317"/>
+      </span>
+    </predicate>
+    <predicate id="pr78" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-weapon" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t334"/>
+      </span>
+    </predicate>
+    <predicate id="pr79" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-destiny" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t337"/>
+      </span>
+    </predicate>
+    <predicate id="pr80" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-performing_arts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t340"/>
+      </span>
+    </predicate>
+    <predicate id="pr81" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-measure_mass" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t341"/>
+      </span>
+    </predicate>
+    <predicate id="pr82" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-part_inner_outer" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t342"/>
+      </span>
+    </predicate>
+    <predicate id="pr83" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-building" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t345"/>
+      </span>
+    </predicate>
+    <predicate id="pr84" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-employing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t346"/>
+      </span>
+    </predicate>
+    <predicate id="pr85" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-color" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t353"/>
+      </span>
+    </predicate>
+    <predicate id="pr86" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-measure_linear_extent" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t360"/>
+      </span>
+    </predicate>
+    <predicate id="pr87" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-directional_locative_relation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t361"/>
+      </span>
+    </predicate>
+    <predicate id="pr88" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-being_located" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t366"/>
+      </span>
+    </predicate>
+    <predicate id="pr89" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t367"/>
+      </span>
+    </predicate>
+    <predicate id="pr90" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t368"/>
+      </span>
+    </predicate>
+    <predicate id="pr91" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t369"/>
+      </span>
+    </predicate>
+    <predicate id="pr92" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-dimension" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t371"/>
+      </span>
+    </predicate>
+    <predicate id="pr93" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-measure_mass" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t375"/>
+      </span>
+    </predicate>
+    <predicate id="pr94" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-wearing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t378"/>
+      </span>
+    </predicate>
+    <predicate id="pr95" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-substance" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t380"/>
+      </span>
+    </predicate>
+    <predicate id="pr96" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-excreting" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t391"/>
+      </span>
+    </predicate>
+    <predicate id="pr97" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t398"/>
+      </span>
+    </predicate>
+    <predicate id="pr98" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-perception_active" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t404"/>
+      </span>
+    </predicate>
+    <predicate id="pr99" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-evidence" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t406"/>
+      </span>
+    </predicate>
+    <predicate id="pr100" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-questioning" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t411"/>
+      </span>
+    </predicate>
+    <predicate id="pr101" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-desiring" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t419"/>
+      </span>
+    </predicate>
+    <predicate id="pr102" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t424"/>
+      </span>
+    </predicate>
+    <predicate id="pr103" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t425"/>
+      </span>
+    </predicate>
+    <predicate id="pr104" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t429"/>
+      </span>
+    </predicate>
+    <predicate id="pr105" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-capability" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t434"/>
+      </span>
+    </predicate>
+    <predicate id="pr106" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t437"/>
+      </span>
+    </predicate>
+    <predicate id="pr107" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-part_inner_outer" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t438"/>
+      </span>
+    </predicate>
+    <predicate id="pr108" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-temporary_stay" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t440"/>
+      </span>
+    </predicate>
+    <predicate id="pr109" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-temperature" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t441"/>
+      </span>
+    </predicate>
+    <predicate id="pr110" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t448"/>
+      </span>
+    </predicate>
+    <predicate id="pr111" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t452"/>
+      </span>
+    </predicate>
+    <predicate id="pr112" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-waiting" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t459"/>
+      </span>
+    </predicate>
+    <predicate id="pr113" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people_by_vocation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t466"/>
+      </span>
+    </predicate>
+    <predicate id="pr114" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-mental_property" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t488"/>
+      </span>
+    </predicate>
+    <predicate id="pr115" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-attempt" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t490"/>
+      </span>
+    </predicate>
+    <predicate id="pr116" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t492"/>
+      </span>
+    </predicate>
+    <predicate id="pr117" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-membership" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t494"/>
+      </span>
+    </predicate>
+    <predicate id="pr118" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t497"/>
+      </span>
+    </predicate>
+    <predicate id="pr119" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t501"/>
+      </span>
+    </predicate>
+    <predicate id="pr120" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t504"/>
+      </span>
+    </predicate>
+    <predicate id="pr121" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-assistance" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t509"/>
+      </span>
+    </predicate>
+    <predicate id="pr122" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-bail_decision" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t511"/>
+      </span>
+    </predicate>
+    <predicate id="pr123" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t514"/>
+      </span>
+    </predicate>
+    <predicate id="pr124" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-telling" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t516"/>
+      </span>
+    </predicate>
+    <predicate id="pr125" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-departing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t519"/>
+      </span>
+    </predicate>
+    <predicate id="pr126" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-taking_time" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t527"/>
+      </span>
+    </predicate>
+    <predicate id="pr127" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-traversing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t532"/>
+      </span>
+    </predicate>
+    <predicate id="pr128" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t536"/>
+      </span>
+    </predicate>
+    <predicate id="pr129" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-position_on_a_scale" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t538"/>
+      </span>
+    </predicate>
+    <predicate id="pr130" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-self_motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t541"/>
+      </span>
+    </predicate>
+    <predicate id="pr131" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-weapon" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t544"/>
+      </span>
+    </predicate>
+    <predicate id="pr132" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-taking_sides" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t547"/>
+      </span>
+    </predicate>
+    <predicate id="pr133" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-connecting_architecture" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t548"/>
+      </span>
+    </predicate>
+    <predicate id="pr134" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-relative_time" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t552"/>
+      </span>
+    </predicate>
+    <predicate id="pr135" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-buildings" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t557"/>
+      </span>
+    </predicate>
+    <predicate id="pr136" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-sensation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t560"/>
+      </span>
+    </predicate>
+    <predicate id="pr137" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-arriving" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t564"/>
+      </span>
+    </predicate>
+    <predicate id="pr138" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-part_orientational" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t566"/>
+      </span>
+    </predicate>
+    <predicate id="pr139" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-taking_sides" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t567"/>
+      </span>
+    </predicate>
+    <predicate id="pr140" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-opinion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t573"/>
+      </span>
+    </predicate>
+    <predicate id="pr141" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t577"/>
+      </span>
+    </predicate>
+    <predicate id="pr142" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-desiring" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t581"/>
+      </span>
+    </predicate>
+    <predicate id="pr143" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t590"/>
+      </span>
+    </predicate>
+    <predicate id="pr144" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-measure_duration" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t591"/>
+      </span>
+    </predicate>
+    <predicate id="pr145" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-ordinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t594"/>
+      </span>
+    </predicate>
+    <predicate id="pr146" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-text" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t595"/>
+      </span>
+    </predicate>
+    <predicate id="pr147" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-age" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t602"/>
+      </span>
+    </predicate>
+    <predicate id="pr148" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-sole_instance" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t603"/>
+      </span>
+    </predicate>
+    <predicate id="pr149" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-means" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t616"/>
+      </span>
+    </predicate>
+    <predicate id="pr150" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-contingency" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t617"/>
+      </span>
+    </predicate>
+    <predicate id="pr151" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t620"/>
+      </span>
+    </predicate>
+    <predicate id="pr152" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-arriving" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t633"/>
+      </span>
+    </predicate>
+    <predicate id="pr153" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-weapon" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t635"/>
+      </span>
+    </predicate>
+    <predicate id="pr154" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-being_obligated" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t642"/>
+      </span>
+    </predicate>
+    <predicate id="pr155" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-perception_active" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t645"/>
+      </span>
+    </predicate>
+    <predicate id="pr156" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-self_motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t650"/>
+      </span>
+    </predicate>
+    <predicate id="pr157" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t654"/>
+      </span>
+    </predicate>
+    <predicate id="pr158" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-hostile_encounter" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t656"/>
+      </span>
+    </predicate>
+    <predicate id="pr159" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cause_motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t663"/>
+      </span>
+    </predicate>
+    <predicate id="pr160" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-leadership" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t670"/>
+      </span>
+    </predicate>
+    <predicate id="pr161" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-opinion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t684"/>
+      </span>
+    </predicate>
+    <predicate id="pr162" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-certainty" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t695"/>
+      </span>
+    </predicate>
+    <predicate id="pr163" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-hearsay" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t705"/>
+      </span>
+    </predicate>
+    <predicate id="pr164" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t708"/>
+      </span>
+    </predicate>
+    <predicate id="pr165" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t712"/>
+      </span>
+    </predicate>
+    <predicate id="pr166" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-secrecy_status" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t718"/>
+      </span>
+    </predicate>
+    <predicate id="pr167" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t720"/>
+      </span>
+    </predicate>
+    <predicate id="pr168" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-awareness" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t729"/>
+      </span>
+    </predicate>
+    <predicate id="pr169" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-perception_active" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t736"/>
+      </span>
+    </predicate>
+    <predicate id="pr170" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-contingency" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t737"/>
+      </span>
+    </predicate>
+    <predicate id="pr171" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-hit_target" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t741"/>
+      </span>
+    </predicate>
+    <predicate id="pr172" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t749"/>
+      </span>
+    </predicate>
+    <predicate id="pr173" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t752"/>
+      </span>
+    </predicate>
+    <predicate id="pr174" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t759"/>
+      </span>
+    </predicate>
+    <predicate id="pr175" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-intentionally_act" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t764"/>
+      </span>
+    </predicate>
+    <predicate id="pr176" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t769"/>
+      </span>
+    </predicate>
+    <predicate id="pr177" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-being_located" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t777"/>
+      </span>
+    </predicate>
+    <predicate id="pr178" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-transition_to_state" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t782"/>
+      </span>
+    </predicate>
+    <predicate id="pr179" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-likelihood" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t798"/>
+      </span>
+    </predicate>
+    <predicate id="pr180" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-opinion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t801"/>
+      </span>
+    </predicate>
+    <predicate id="pr181" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t804"/>
+      </span>
+    </predicate>
+    <predicate id="pr182" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-ingest_substance" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t812"/>
+      </span>
+    </predicate>
+    <predicate id="pr183" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-shoot_projectiles" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t816"/>
+      </span>
+    </predicate>
+    <predicate id="pr184" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-weapon" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t819"/>
+      </span>
+    </predicate>
+    <predicate id="pr185" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-opinion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t823"/>
+      </span>
+    </predicate>
+    <predicate id="pr186" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t832"/>
+      </span>
+    </predicate>
+    <predicate id="pr187" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-being_employed" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t838"/>
+      </span>
+    </predicate>
+    <predicate id="pr188" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-being_at_risk" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t839"/>
+      </span>
+    </predicate>
+    <predicate id="pr189" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t842"/>
+      </span>
+    </predicate>
+    <predicate id="pr190" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-opinion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t848"/>
+      </span>
+    </predicate>
+    <predicate id="pr191" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cause_to_continue" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t856"/>
+      </span>
+    </predicate>
+    <predicate id="pr192" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-mass_motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t857"/>
+      </span>
+    </predicate>
+    <predicate id="pr193" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-performing_arts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t862"/>
+      </span>
+    </predicate>
+    <predicate id="pr194" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-preventing_or_letting" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t863"/>
+      </span>
+    </predicate>
+    <predicate id="pr195" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-kinship" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t871"/>
+      </span>
+    </predicate>
+    <predicate id="pr196" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-being_located" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t873"/>
+      </span>
+    </predicate>
+    <predicate id="pr197" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-noise_makers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t881"/>
+      </span>
+    </predicate>
+    <predicate id="pr198" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-process_start" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t882"/>
+      </span>
+    </predicate>
+    <predicate id="pr199" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-position_on_a_scale" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t888"/>
+      </span>
+    </predicate>
+    <predicate id="pr200" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-being_at_risk" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t895"/>
+      </span>
+    </predicate>
+    <predicate id="pr201" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-activity_ongoing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t901"/>
+      </span>
+    </predicate>
+    <predicate id="pr202" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t906"/>
+      </span>
+    </predicate>
+    <predicate id="pr203" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t908"/>
+      </span>
+    </predicate>
+    <predicate id="pr204" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-ammunition" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t909"/>
+      </span>
+    </predicate>
+    <predicate id="pr205" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t912"/>
+      </span>
+    </predicate>
+    <predicate id="pr206" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-member_of_military" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t925"/>
+      </span>
+    </predicate>
+    <predicate id="pr207" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-change_position_on_a_scale" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t927"/>
+      </span>
+    </predicate>
+    <predicate id="pr208" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-attempt" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t936"/>
+      </span>
+    </predicate>
+    <predicate id="pr209" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-questioning" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t944"/>
+      </span>
+    </predicate>
+    <predicate id="pr210" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-intentionally_act" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t955"/>
+      </span>
+    </predicate>
+    <predicate id="pr211" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t960"/>
+      </span>
+    </predicate>
+    <predicate id="pr212" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-similarity" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t965"/>
+      </span>
+    </predicate>
+    <predicate id="pr213" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-transition_to_state" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t973"/>
+      </span>
+    </predicate>
+    <predicate id="pr214" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t979"/>
+      </span>
+    </predicate>
+    <predicate id="pr215" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-hit_target" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t985"/>
+      </span>
+    </predicate>
+    <predicate id="pr216" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-ammunition" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t990"/>
+      </span>
+    </predicate>
+    <predicate id="pr217" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t991"/>
+      </span>
+    </predicate>
+    <predicate id="pr218" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-opinion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1001"/>
+      </span>
+    </predicate>
+    <predicate id="pr219" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-text" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1008"/>
+      </span>
+    </predicate>
+    <predicate id="pr220" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1016"/>
+      </span>
+    </predicate>
+    <predicate id="pr221" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-concessive" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1018"/>
+      </span>
+    </predicate>
+    <predicate id="pr222" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-fleeing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1021"/>
+      </span>
+    </predicate>
+    <predicate id="pr223" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1023"/>
+      </span>
+    </predicate>
+    <predicate id="pr224" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-medical_professionals" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1031"/>
+      </span>
+    </predicate>
+    <predicate id="pr225" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-self_motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1035"/>
+      </span>
+    </predicate>
+    <predicate id="pr226" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1040"/>
+      </span>
+    </predicate>
+    <predicate id="pr227" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-medical_professionals" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1049"/>
+      </span>
+    </predicate>
+    <predicate id="pr228" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1053"/>
+      </span>
+    </predicate>
+    <predicate id="pr229" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-needing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1059"/>
+      </span>
+    </predicate>
+    <predicate id="pr230" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-assistance" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1060"/>
+      </span>
+    </predicate>
+    <predicate id="pr231" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1068"/>
+      </span>
+    </predicate>
+    <predicate id="pr232" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1070"/>
+      </span>
+    </predicate>
+    <predicate id="pr233" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-measure_duration" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1071"/>
+      </span>
+    </predicate>
+    <predicate id="pr234" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cause_to_continue" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1074"/>
+      </span>
+    </predicate>
+    <predicate id="pr235" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1075"/>
+      </span>
+    </predicate>
+    <predicate id="pr236" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-arriving" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1080"/>
+      </span>
+    </predicate>
+    <predicate id="pr237" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-arriving" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1083"/>
+      </span>
+    </predicate>
+    <predicate id="pr238" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-temporary_stay" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1088"/>
+      </span>
+    </predicate>
+    <predicate id="pr239" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locative_relation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1096"/>
+      </span>
+    </predicate>
+    <predicate id="pr240" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-death" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1097"/>
+      </span>
+    </predicate>
+    <predicate id="pr241" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-arriving" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1102"/>
+      </span>
+    </predicate>
+    <predicate id="pr242" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locale" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1108"/>
+      </span>
+    </predicate>
+    <predicate id="pr243" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-give_impression" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1113"/>
+      </span>
+    </predicate>
+    <predicate id="pr244" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-bringing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1115"/>
+      </span>
+    </predicate>
+    <predicate id="pr245" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-self_motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1124"/>
+      </span>
+    </predicate>
+    <predicate id="pr246" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-relative_time" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1125"/>
+      </span>
+    </predicate>
+    <predicate id="pr247" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-taking_time" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1136"/>
+      </span>
+    </predicate>
+    <predicate id="pr248" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-weapon" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1143"/>
+      </span>
+    </predicate>
+    <predicate id="pr249" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-verification" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1146"/>
+      </span>
+    </predicate>
+    <predicate id="pr250" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1147"/>
+      </span>
+    </predicate>
+    <predicate id="pr251" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1149"/>
+      </span>
+    </predicate>
+    <predicate id="pr252" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-process_start" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1152"/>
+      </span>
+    </predicate>
+    <predicate id="pr253" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-part_orientational" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1156"/>
+      </span>
+    </predicate>
+    <predicate id="pr254" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-weapon" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1159"/>
+      </span>
+    </predicate>
+    <predicate id="pr255" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1162"/>
+      </span>
+    </predicate>
+    <predicate id="pr256" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1163"/>
+      </span>
+    </predicate>
+    <predicate id="pr257" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-shoot_projectiles" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1167"/>
+      </span>
+    </predicate>
+    <predicate id="pr258" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-killing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1170"/>
+      </span>
+    </predicate>
+    <predicate id="pr259" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-be_in_agreement_on_action" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1177"/>
+      </span>
+    </predicate>
+    <predicate id="pr260" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1179"/>
+      </span>
+    </predicate>
+    <predicate id="pr261" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-predicament" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1184"/>
+      </span>
+    </predicate>
+    <predicate id="pr262" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-violence" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1190"/>
+      </span>
+    </predicate>
+    <predicate id="pr263" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-becoming_a_member" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1193"/>
+      </span>
+    </predicate>
+    <predicate id="pr264" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-departing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1200"/>
+      </span>
+    </predicate>
+    <predicate id="pr265" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1202"/>
+      </span>
+    </predicate>
+    <predicate id="pr266" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-reason" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1208"/>
+      </span>
+    </predicate>
+    <predicate id="pr267" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1211"/>
+      </span>
+    </predicate>
+    <predicate id="pr268" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-temporal_subregion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1212"/>
+      </span>
+    </predicate>
+    <predicate id="pr269" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-being_employed" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1215"/>
+      </span>
+    </predicate>
+    <predicate id="pr270" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-building" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1217"/>
+      </span>
+    </predicate>
+    <predicate id="pr271" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locale_by_use" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1218"/>
+      </span>
+    </predicate>
+    <predicate id="pr272" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-substance" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1222"/>
+      </span>
+    </predicate>
+    <predicate id="pr273" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-undergo_change" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1224"/>
+      </span>
+    </predicate>
+    <predicate id="pr274" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locale_by_use" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1225"/>
+      </span>
+    </predicate>
+    <predicate id="pr275" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-performers_and_roles" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1237"/>
+      </span>
+    </predicate>
+    <predicate id="pr276" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-attack" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1238"/>
+      </span>
+    </predicate>
+    <predicate id="pr277" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1245"/>
+      </span>
+    </predicate>
+    <predicate id="pr278" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1248"/>
+      </span>
+    </predicate>
+    <predicate id="pr279" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1252"/>
+      </span>
+    </predicate>
+    <predicate id="pr280" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-bringing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1253"/>
+      </span>
+    </predicate>
+    <predicate id="pr281" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-possibility" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1256"/>
+      </span>
+    </predicate>
+    <predicate id="pr282" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locating" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1259"/>
+      </span>
+    </predicate>
+    <predicate id="pr283" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-perception_active" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1265"/>
+      </span>
+    </predicate>
+    <predicate id="pr284" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-spatial_contact" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1270"/>
+      </span>
+    </predicate>
+    <predicate id="pr285" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-law_enforcement_agency" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1278"/>
+      </span>
+    </predicate>
+    <predicate id="pr286" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-arrest" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1279"/>
+      </span>
+    </predicate>
+    <predicate id="pr287" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-operate_vehicle" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1282"/>
+      </span>
+    </predicate>
+    <predicate id="pr288" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-activity_pause" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1285"/>
+      </span>
+    </predicate>
+    <predicate id="pr289" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-personal_relationship" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1291"/>
+      </span>
+    </predicate>
+    <predicate id="pr290" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-telling" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1292"/>
+      </span>
+    </predicate>
+    <predicate id="pr291" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-undergo_change" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1299"/>
+      </span>
+    </predicate>
+    <predicate id="pr292" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1304"/>
+      </span>
+    </predicate>
+    <predicate id="pr293" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-make_noise" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1306"/>
+      </span>
+    </predicate>
+    <predicate id="pr294" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-telling" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1311"/>
+      </span>
+    </predicate>
+    <predicate id="pr295" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-personal_relationship" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1313"/>
+      </span>
+    </predicate>
+    <predicate id="pr296" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-theft" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1317"/>
+      </span>
+    </predicate>
+    <predicate id="pr297" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-text" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1319"/>
+      </span>
+    </predicate>
+    <predicate id="pr298" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1324"/>
+      </span>
+    </predicate>
+    <predicate id="pr299" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people_by_vocation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1333"/>
+      </span>
+    </predicate>
+    <predicate id="pr300" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-roadways" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1344"/>
+      </span>
+    </predicate>
+    <predicate id="pr301" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-buildings" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1348"/>
+      </span>
+    </predicate>
+    <predicate id="pr302" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1350"/>
+      </span>
+    </predicate>
+    <predicate id="pr303" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-frequency" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1354"/>
+      </span>
+    </predicate>
+    <predicate id="pr304" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-visiting" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1355"/>
+      </span>
+    </predicate>
+    <predicate id="pr305" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-transition_to_state" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1359"/>
+      </span>
+    </predicate>
+    <predicate id="pr306" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-departing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1366"/>
+      </span>
+    </predicate>
+    <predicate id="pr307" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-coming_up_with" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1373"/>
+      </span>
+    </predicate>
+    <predicate id="pr308" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1377"/>
+      </span>
+    </predicate>
+    <predicate id="pr309" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-transition_to_state" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1383"/>
+      </span>
+    </predicate>
+    <predicate id="pr310" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-body_parts" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1385"/>
+      </span>
+    </predicate>
+    <predicate id="pr311" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1389"/>
+      </span>
+    </predicate>
+    <predicate id="pr312" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-time_vector" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1392"/>
+      </span>
+    </predicate>
+    <predicate id="pr313" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-arriving" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1395"/>
+      </span>
+    </predicate>
+    <predicate id="pr314" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-frequency" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1399"/>
+      </span>
+    </predicate>
+    <predicate id="pr315" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-attempt" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1403"/>
+      </span>
+    </predicate>
+    <predicate id="pr316" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cause_to_continue" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1405"/>
+      </span>
+    </predicate>
+    <predicate id="pr317" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-social_interaction_evaluation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1413"/>
+      </span>
+    </predicate>
+    <predicate id="pr318" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-idiosyncrasy" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1418"/>
+      </span>
+    </predicate>
+    <predicate id="pr319" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1424"/>
+      </span>
+    </predicate>
+    <predicate id="pr320" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-telling" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1426"/>
+      </span>
+    </predicate>
+    <predicate id="pr321" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-part_orientational" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1430"/>
+      </span>
+    </predicate>
+    <predicate id="pr322" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-predicament" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1436"/>
+      </span>
+    </predicate>
+    <predicate id="pr323" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-taking_time" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1439"/>
+      </span>
+    </predicate>
+    <predicate id="pr324" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1455"/>
+      </span>
+    </predicate>
+    <predicate id="pr325" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1459"/>
+      </span>
+    </predicate>
+    <predicate id="pr326" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-create_physical_artwork" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1463"/>
+      </span>
+    </predicate>
+    <predicate id="pr327" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-noise_makers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1465"/>
+      </span>
+    </predicate>
+    <predicate id="pr328" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-process_start" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1469"/>
+      </span>
+    </predicate>
+    <predicate id="pr329" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-attempt" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1470"/>
+      </span>
+    </predicate>
+    <predicate id="pr330" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-law_enforcement_agency" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1480"/>
+      </span>
+    </predicate>
+    <predicate id="pr331" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-leadership" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1481"/>
+      </span>
+    </predicate>
+    <predicate id="pr332" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1489"/>
+      </span>
+    </predicate>
+    <predicate id="pr333" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-escaping" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1494"/>
+      </span>
+    </predicate>
+    <predicate id="pr334" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-travel" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1498"/>
+      </span>
+    </predicate>
+    <predicate id="pr335" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-bringing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1499"/>
+      </span>
+    </predicate>
+    <predicate id="pr336" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-experiencer_focus" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1513"/>
+      </span>
+    </predicate>
+    <predicate id="pr337" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-telling" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1528"/>
+      </span>
+    </predicate>
+    <predicate id="pr338" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-residence" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1531"/>
+      </span>
+    </predicate>
+    <predicate id="pr339" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-time_vector" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1532"/>
+      </span>
+    </predicate>
+    <predicate id="pr340" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-evidence" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1534"/>
+      </span>
+    </predicate>
+    <predicate id="pr341" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1538"/>
+      </span>
+    </predicate>
+    <predicate id="pr342" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1540"/>
+      </span>
+    </predicate>
+    <predicate id="pr343" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1552"/>
+      </span>
+    </predicate>
+    <predicate id="pr344" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1553"/>
+      </span>
+    </predicate>
+    <predicate id="pr345" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-arriving" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1557"/>
+      </span>
+    </predicate>
+    <predicate id="pr346" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t1568"/>
+      </span>
+    </predicate>
+  </srl>
 </NAF>

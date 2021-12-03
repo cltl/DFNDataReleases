@@ -1,170 +1,178 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v4">
+<NAF xml:lang="en" version="v3.1">
   <nafHeader>
     <fileDesc creationtime="2019-03-18T10:51:29UTC" title="Gunman Attacks Tram Passengers in Utrecht, Dutch Police Say"/>
     <public uri="https://web.archive.org/web/20190318134605/https://www.nytimes.com/2019/03/18/world/europe/utrecht-shooting-netherlands.html"/>
-    <linguisticProcessors layer="raw">
-      <lp beginTimestamp="2021-08-06T11:47:27UTC" endTimestamp="2021-08-06T11:47:27UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
-    </linguisticProcessors>
     <linguisticProcessors layer="text">
-      <lp beginTimestamp="2021-08-06T11:47:27UTC" endTimestamp="2021-08-06T11:47:27UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
-    </linguisticProcessors>
-    <linguisticProcessors layer="terms">
-      <lp beginTimestamp="2021-08-06T11:47:27UTC" endTimestamp="2021-08-06T11:47:27UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2020-12-10T11:45:53UTC" endTimestamp="2020-12-10T11:45:53UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="deps">
-      <lp beginTimestamp="2021-08-06T11:47:27UTC" endTimestamp="2021-08-06T11:47:27UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2020-12-10T11:45:53UTC" endTimestamp="2020-12-10T11:45:53UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2020-12-10T11:45:53UTC" endTimestamp="2020-12-10T11:45:53UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2020-12-10T11:45:53UTC" endTimestamp="2020-12-10T11:45:53UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="multiwords">
-      <lp beginTimestamp="2021-08-06T11:47:27UTC" endTimestamp="2021-08-06T11:47:27UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2020-12-10T11:45:53UTC" endTimestamp="2020-12-10T11:45:53UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp beginTimestamp="2019-03-18T10:51:29UTC" endTimestamp="2019-03-18T10:51:29UTC" name="Wikipedia hyperlinks" version="Wikipedia dump from 2019-07-20"/>
     </linguisticProcessors>
     <linguisticProcessors layer="srl">
-      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-08-06T12:20:38CEST" beginTimestamp="2021-08-06T10:16:37UTC" endTimestamp="2021-08-06T10:20:38UTC" hostname="kyoto"/>
-      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-09-13T14:49:17CEST" beginTimestamp="2021-09-13T12:45:17UTC" endTimestamp="2021-09-13T12:49:16UTC" hostname="kyoto"/>
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-09-13T11:35:35CEST" beginTimestamp="2021-09-13T08:54:04UTC" endTimestamp="2021-09-13T09:34:55UTC" hostname="kyoto"/>
     </linguisticProcessors>
   </nafHeader>
-  <raw>A shooting attack on Monday in the Dutch city of Utrecht that left several people injured was being investigated as a possible case of terrorism, the authorities said, and the police were focusing their hunt on a gunman who escaped the scene. The Netherlands’ main counterterrorism agency raised its assessment of the threat in Utrecht province, just southeast of Amsterdam, to the highest level, and said it had activated a crisis team. The Dutch paramilitary police increased security at airports and other vital infrastructure points. The Utrecht Police said they were looking for Gokman Tanis, 37, who was born in Turkey; they did not call him a suspect, but said he was “associated with the incident,” and warned people not to approach him.</raw>
+  <raw><![CDATA[A shooting attack on Monday in the Dutch city of Utrecht that left several people injured was being investigated as a possible case of terrorism, the authorities said, and the police were focusing their hunt on a gunman who escaped the scene.
+The Netherlands’ main counterterrorism agency raised its assessment of the threat in Utrecht province, just southeast of Amsterdam, to the highest level, and said it had activated a crisis team. The Dutch paramilitary police increased security at airports and other vital infrastructure points.
+The Utrecht Police said they were looking for Gokman Tanis, 37, who was born in Turkey; they did not call him a suspect, but said he was “associated with the incident,” and warned people not to approach him.]]></raw>
   <text>
-    <wf sent="1" id="w1" length="1" offset="0">A</wf>
-    <wf sent="1" id="w2" length="8" offset="2">shooting</wf>
-    <wf sent="1" id="w3" length="6" offset="11">attack</wf>
-    <wf sent="1" id="w4" length="2" offset="18">on</wf>
-    <wf sent="1" id="w5" length="6" offset="21">Monday</wf>
-    <wf sent="1" id="w6" length="2" offset="28">in</wf>
-    <wf sent="1" id="w7" length="3" offset="31">the</wf>
-    <wf sent="1" id="w8" length="5" offset="35">Dutch</wf>
-    <wf sent="1" id="w9" length="4" offset="41">city</wf>
-    <wf sent="1" id="w10" length="2" offset="46">of</wf>
-    <wf sent="1" id="w11" length="7" offset="49">Utrecht</wf>
-    <wf sent="1" id="w12" length="4" offset="57">that</wf>
-    <wf sent="1" id="w13" length="4" offset="62">left</wf>
-    <wf sent="1" id="w14" length="7" offset="67">several</wf>
-    <wf sent="1" id="w15" length="6" offset="75">people</wf>
-    <wf sent="1" id="w16" length="7" offset="82">injured</wf>
-    <wf sent="1" id="w17" length="3" offset="90">was</wf>
-    <wf sent="1" id="w18" length="5" offset="94">being</wf>
-    <wf sent="1" id="w19" length="12" offset="100">investigated</wf>
-    <wf sent="1" id="w20" length="2" offset="113">as</wf>
-    <wf sent="1" id="w21" length="1" offset="116">a</wf>
-    <wf sent="1" id="w22" length="8" offset="118">possible</wf>
-    <wf sent="1" id="w23" length="4" offset="127">case</wf>
-    <wf sent="1" id="w24" length="2" offset="132">of</wf>
-    <wf sent="1" id="w25" length="9" offset="135">terrorism</wf>
-    <wf sent="1" id="w26" length="1" offset="144">,</wf>
-    <wf sent="1" id="w27" length="3" offset="146">the</wf>
-    <wf sent="1" id="w28" length="11" offset="150">authorities</wf>
-    <wf sent="1" id="w29" length="4" offset="162">said</wf>
-    <wf sent="1" id="w30" length="1" offset="166">,</wf>
-    <wf sent="1" id="w31" length="3" offset="168">and</wf>
-    <wf sent="1" id="w32" length="3" offset="172">the</wf>
-    <wf sent="1" id="w33" length="6" offset="176">police</wf>
-    <wf sent="1" id="w34" length="4" offset="183">were</wf>
-    <wf sent="1" id="w35" length="8" offset="188">focusing</wf>
-    <wf sent="1" id="w36" length="5" offset="197">their</wf>
-    <wf sent="1" id="w37" length="4" offset="203">hunt</wf>
-    <wf sent="1" id="w38" length="2" offset="208">on</wf>
-    <wf sent="1" id="w39" length="1" offset="211">a</wf>
-    <wf sent="1" id="w40" length="6" offset="213">gunman</wf>
-    <wf sent="1" id="w41" length="3" offset="220">who</wf>
-    <wf sent="1" id="w42" length="7" offset="224">escaped</wf>
-    <wf sent="1" id="w43" length="3" offset="232">the</wf>
-    <wf sent="1" id="w44" length="5" offset="236">scene</wf>
-    <wf sent="1" id="w45" length="1" offset="241">.</wf>
-    <wf sent="2" id="w46" length="3" offset="243">The</wf>
-    <wf sent="2" id="w47" length="11" offset="247">Netherlands</wf>
-    <wf sent="2" id="w48" length="1" offset="258">’</wf>
-    <wf sent="2" id="w49" length="4" offset="260">main</wf>
-    <wf sent="2" id="w50" length="16" offset="265">counterterrorism</wf>
-    <wf sent="2" id="w51" length="6" offset="282">agency</wf>
-    <wf sent="2" id="w52" length="6" offset="289">raised</wf>
-    <wf sent="2" id="w53" length="3" offset="296">its</wf>
-    <wf sent="2" id="w54" length="10" offset="300">assessment</wf>
-    <wf sent="2" id="w55" length="2" offset="311">of</wf>
-    <wf sent="2" id="w56" length="3" offset="314">the</wf>
-    <wf sent="2" id="w57" length="6" offset="318">threat</wf>
-    <wf sent="2" id="w58" length="2" offset="325">in</wf>
-    <wf sent="2" id="w59" length="7" offset="328">Utrecht</wf>
-    <wf sent="2" id="w60" length="8" offset="336">province</wf>
-    <wf sent="2" id="w61" length="1" offset="344">,</wf>
-    <wf sent="2" id="w62" length="4" offset="346">just</wf>
-    <wf sent="2" id="w63" length="9" offset="351">southeast</wf>
-    <wf sent="2" id="w64" length="2" offset="361">of</wf>
-    <wf sent="2" id="w65" length="9" offset="364">Amsterdam</wf>
-    <wf sent="2" id="w66" length="1" offset="373">,</wf>
-    <wf sent="2" id="w67" length="2" offset="375">to</wf>
-    <wf sent="2" id="w68" length="3" offset="378">the</wf>
-    <wf sent="2" id="w69" length="7" offset="382">highest</wf>
-    <wf sent="2" id="w70" length="5" offset="390">level</wf>
-    <wf sent="2" id="w71" length="1" offset="395">,</wf>
-    <wf sent="2" id="w72" length="3" offset="397">and</wf>
-    <wf sent="2" id="w73" length="4" offset="401">said</wf>
-    <wf sent="2" id="w74" length="2" offset="406">it</wf>
-    <wf sent="2" id="w75" length="3" offset="409">had</wf>
-    <wf sent="2" id="w76" length="9" offset="413">activated</wf>
-    <wf sent="2" id="w77" length="1" offset="423">a</wf>
-    <wf sent="2" id="w78" length="6" offset="425">crisis</wf>
-    <wf sent="2" id="w79" length="4" offset="432">team</wf>
-    <wf sent="2" id="w80" length="1" offset="436">.</wf>
-    <wf sent="3" id="w81" length="3" offset="438">The</wf>
-    <wf sent="3" id="w82" length="5" offset="442">Dutch</wf>
-    <wf sent="3" id="w83" length="12" offset="448">paramilitary</wf>
-    <wf sent="3" id="w84" length="6" offset="461">police</wf>
-    <wf sent="3" id="w85" length="9" offset="468">increased</wf>
-    <wf sent="3" id="w86" length="8" offset="478">security</wf>
-    <wf sent="3" id="w87" length="2" offset="487">at</wf>
-    <wf sent="3" id="w88" length="8" offset="490">airports</wf>
-    <wf sent="3" id="w89" length="3" offset="499">and</wf>
-    <wf sent="3" id="w90" length="5" offset="503">other</wf>
-    <wf sent="3" id="w91" length="5" offset="509">vital</wf>
-    <wf sent="3" id="w92" length="14" offset="515">infrastructure</wf>
-    <wf sent="3" id="w93" length="6" offset="530">points</wf>
-    <wf sent="3" id="w94" length="1" offset="536">.</wf>
-    <wf sent="4" id="w95" length="3" offset="538">The</wf>
-    <wf sent="4" id="w96" length="7" offset="542">Utrecht</wf>
-    <wf sent="4" id="w97" length="6" offset="550">Police</wf>
-    <wf sent="4" id="w98" length="4" offset="557">said</wf>
-    <wf sent="4" id="w99" length="4" offset="562">they</wf>
-    <wf sent="4" id="w100" length="4" offset="567">were</wf>
-    <wf sent="4" id="w101" length="7" offset="572">looking</wf>
-    <wf sent="4" id="w102" length="3" offset="580">for</wf>
-    <wf sent="4" id="w103" length="6" offset="584">Gokman</wf>
-    <wf sent="4" id="w104" length="5" offset="591">Tanis</wf>
-    <wf sent="4" id="w105" length="1" offset="596">,</wf>
-    <wf sent="4" id="w106" length="2" offset="598">37</wf>
-    <wf sent="4" id="w107" length="1" offset="600">,</wf>
-    <wf sent="4" id="w108" length="3" offset="602">who</wf>
-    <wf sent="4" id="w109" length="3" offset="606">was</wf>
-    <wf sent="4" id="w110" length="4" offset="610">born</wf>
-    <wf sent="4" id="w111" length="2" offset="615">in</wf>
-    <wf sent="4" id="w112" length="6" offset="618">Turkey</wf>
-    <wf sent="4" id="w113" length="1" offset="624">;</wf>
-    <wf sent="4" id="w114" length="4" offset="626">they</wf>
-    <wf sent="4" id="w115" length="3" offset="631">did</wf>
-    <wf sent="4" id="w116" length="3" offset="635">not</wf>
-    <wf sent="4" id="w117" length="4" offset="639">call</wf>
-    <wf sent="4" id="w118" length="3" offset="644">him</wf>
-    <wf sent="4" id="w119" length="1" offset="648">a</wf>
-    <wf sent="4" id="w120" length="7" offset="650">suspect</wf>
-    <wf sent="4" id="w121" length="1" offset="657">,</wf>
-    <wf sent="4" id="w122" length="3" offset="659">but</wf>
-    <wf sent="4" id="w123" length="4" offset="663">said</wf>
-    <wf sent="4" id="w124" length="2" offset="668">he</wf>
-    <wf sent="4" id="w125" length="3" offset="671">was</wf>
-    <wf sent="4" id="w126" length="1" offset="675">“</wf>
-    <wf sent="4" id="w127" length="10" offset="676">associated</wf>
-    <wf sent="4" id="w128" length="4" offset="687">with</wf>
-    <wf sent="4" id="w129" length="3" offset="692">the</wf>
-    <wf sent="4" id="w130" length="8" offset="696">incident</wf>
-    <wf sent="4" id="w131" length="1" offset="704">,</wf>
-    <wf sent="4" id="w132" length="1" offset="705">”</wf>
-    <wf sent="4" id="w133" length="3" offset="707">and</wf>
-    <wf sent="4" id="w134" length="6" offset="711">warned</wf>
-    <wf sent="4" id="w135" length="6" offset="718">people</wf>
-    <wf sent="4" id="w136" length="3" offset="725">not</wf>
-    <wf sent="4" id="w137" length="2" offset="729">to</wf>
-    <wf sent="4" id="w138" length="8" offset="732">approach</wf>
-    <wf sent="4" id="w139" length="3" offset="741">him</wf>
-    <wf sent="4" id="w140" length="1" offset="744">.</wf>
+    <wf sent="1" id="w1" length="1" offset="0"><![CDATA[A]]></wf>
+    <wf sent="1" id="w2" length="8" offset="2"><![CDATA[shooting]]></wf>
+    <wf sent="1" id="w3" length="6" offset="11"><![CDATA[attack]]></wf>
+    <wf sent="1" id="w4" length="2" offset="18"><![CDATA[on]]></wf>
+    <wf sent="1" id="w5" length="6" offset="21"><![CDATA[Monday]]></wf>
+    <wf sent="1" id="w6" length="2" offset="28"><![CDATA[in]]></wf>
+    <wf sent="1" id="w7" length="3" offset="31"><![CDATA[the]]></wf>
+    <wf sent="1" id="w8" length="5" offset="35"><![CDATA[Dutch]]></wf>
+    <wf sent="1" id="w9" length="4" offset="41"><![CDATA[city]]></wf>
+    <wf sent="1" id="w10" length="2" offset="46"><![CDATA[of]]></wf>
+    <wf sent="1" id="w11" length="7" offset="49"><![CDATA[Utrecht]]></wf>
+    <wf sent="1" id="w12" length="4" offset="57"><![CDATA[that]]></wf>
+    <wf sent="1" id="w13" length="4" offset="62"><![CDATA[left]]></wf>
+    <wf sent="1" id="w14" length="7" offset="67"><![CDATA[several]]></wf>
+    <wf sent="1" id="w15" length="6" offset="75"><![CDATA[people]]></wf>
+    <wf sent="1" id="w16" length="7" offset="82"><![CDATA[injured]]></wf>
+    <wf sent="1" id="w17" length="3" offset="90"><![CDATA[was]]></wf>
+    <wf sent="1" id="w18" length="5" offset="94"><![CDATA[being]]></wf>
+    <wf sent="1" id="w19" length="12" offset="100"><![CDATA[investigated]]></wf>
+    <wf sent="1" id="w20" length="2" offset="113"><![CDATA[as]]></wf>
+    <wf sent="1" id="w21" length="1" offset="116"><![CDATA[a]]></wf>
+    <wf sent="1" id="w22" length="8" offset="118"><![CDATA[possible]]></wf>
+    <wf sent="1" id="w23" length="4" offset="127"><![CDATA[case]]></wf>
+    <wf sent="1" id="w24" length="2" offset="132"><![CDATA[of]]></wf>
+    <wf sent="1" id="w25" length="9" offset="135"><![CDATA[terrorism]]></wf>
+    <wf sent="1" id="w26" length="1" offset="144"><![CDATA[,]]></wf>
+    <wf sent="1" id="w27" length="3" offset="146"><![CDATA[the]]></wf>
+    <wf sent="1" id="w28" length="11" offset="150"><![CDATA[authorities]]></wf>
+    <wf sent="1" id="w29" length="4" offset="162"><![CDATA[said]]></wf>
+    <wf sent="1" id="w30" length="1" offset="166"><![CDATA[,]]></wf>
+    <wf sent="1" id="w31" length="3" offset="168"><![CDATA[and]]></wf>
+    <wf sent="1" id="w32" length="3" offset="172"><![CDATA[the]]></wf>
+    <wf sent="1" id="w33" length="6" offset="176"><![CDATA[police]]></wf>
+    <wf sent="1" id="w34" length="4" offset="183"><![CDATA[were]]></wf>
+    <wf sent="1" id="w35" length="8" offset="188"><![CDATA[focusing]]></wf>
+    <wf sent="1" id="w36" length="5" offset="197"><![CDATA[their]]></wf>
+    <wf sent="1" id="w37" length="4" offset="203"><![CDATA[hunt]]></wf>
+    <wf sent="1" id="w38" length="2" offset="208"><![CDATA[on]]></wf>
+    <wf sent="1" id="w39" length="1" offset="211"><![CDATA[a]]></wf>
+    <wf sent="1" id="w40" length="6" offset="213"><![CDATA[gunman]]></wf>
+    <wf sent="1" id="w41" length="3" offset="220"><![CDATA[who]]></wf>
+    <wf sent="1" id="w42" length="7" offset="224"><![CDATA[escaped]]></wf>
+    <wf sent="1" id="w43" length="3" offset="232"><![CDATA[the]]></wf>
+    <wf sent="1" id="w44" length="5" offset="236"><![CDATA[scene]]></wf>
+    <wf sent="1" id="w45" length="1" offset="241"><![CDATA[.]]></wf>
+    <wf sent="1" id="w46" length="1" offset="242"><![CDATA[
+]]></wf>
+    <wf sent="2" id="w47" length="3" offset="243"><![CDATA[The]]></wf>
+    <wf sent="2" id="w48" length="11" offset="247"><![CDATA[Netherlands]]></wf>
+    <wf sent="2" id="w49" length="1" offset="258"><![CDATA[’]]></wf>
+    <wf sent="2" id="w50" length="4" offset="260"><![CDATA[main]]></wf>
+    <wf sent="2" id="w51" length="16" offset="265"><![CDATA[counterterrorism]]></wf>
+    <wf sent="2" id="w52" length="6" offset="282"><![CDATA[agency]]></wf>
+    <wf sent="2" id="w53" length="6" offset="289"><![CDATA[raised]]></wf>
+    <wf sent="2" id="w54" length="3" offset="296"><![CDATA[its]]></wf>
+    <wf sent="2" id="w55" length="10" offset="300"><![CDATA[assessment]]></wf>
+    <wf sent="2" id="w56" length="2" offset="311"><![CDATA[of]]></wf>
+    <wf sent="2" id="w57" length="3" offset="314"><![CDATA[the]]></wf>
+    <wf sent="2" id="w58" length="6" offset="318"><![CDATA[threat]]></wf>
+    <wf sent="2" id="w59" length="2" offset="325"><![CDATA[in]]></wf>
+    <wf sent="2" id="w60" length="7" offset="328"><![CDATA[Utrecht]]></wf>
+    <wf sent="2" id="w61" length="8" offset="336"><![CDATA[province]]></wf>
+    <wf sent="2" id="w62" length="1" offset="344"><![CDATA[,]]></wf>
+    <wf sent="2" id="w63" length="4" offset="346"><![CDATA[just]]></wf>
+    <wf sent="2" id="w64" length="9" offset="351"><![CDATA[southeast]]></wf>
+    <wf sent="2" id="w65" length="2" offset="361"><![CDATA[of]]></wf>
+    <wf sent="2" id="w66" length="9" offset="364"><![CDATA[Amsterdam]]></wf>
+    <wf sent="2" id="w67" length="1" offset="373"><![CDATA[,]]></wf>
+    <wf sent="2" id="w68" length="2" offset="375"><![CDATA[to]]></wf>
+    <wf sent="2" id="w69" length="3" offset="378"><![CDATA[the]]></wf>
+    <wf sent="2" id="w70" length="7" offset="382"><![CDATA[highest]]></wf>
+    <wf sent="2" id="w71" length="5" offset="390"><![CDATA[level]]></wf>
+    <wf sent="2" id="w72" length="1" offset="395"><![CDATA[,]]></wf>
+    <wf sent="2" id="w73" length="3" offset="397"><![CDATA[and]]></wf>
+    <wf sent="2" id="w74" length="4" offset="401"><![CDATA[said]]></wf>
+    <wf sent="2" id="w75" length="2" offset="406"><![CDATA[it]]></wf>
+    <wf sent="2" id="w76" length="3" offset="409"><![CDATA[had]]></wf>
+    <wf sent="2" id="w77" length="9" offset="413"><![CDATA[activated]]></wf>
+    <wf sent="2" id="w78" length="1" offset="423"><![CDATA[a]]></wf>
+    <wf sent="2" id="w79" length="6" offset="425"><![CDATA[crisis]]></wf>
+    <wf sent="2" id="w80" length="4" offset="432"><![CDATA[team]]></wf>
+    <wf sent="2" id="w81" length="1" offset="436"><![CDATA[.]]></wf>
+    <wf sent="3" id="w82" length="3" offset="438"><![CDATA[The]]></wf>
+    <wf sent="3" id="w83" length="5" offset="442"><![CDATA[Dutch]]></wf>
+    <wf sent="3" id="w84" length="12" offset="448"><![CDATA[paramilitary]]></wf>
+    <wf sent="3" id="w85" length="6" offset="461"><![CDATA[police]]></wf>
+    <wf sent="3" id="w86" length="9" offset="468"><![CDATA[increased]]></wf>
+    <wf sent="3" id="w87" length="8" offset="478"><![CDATA[security]]></wf>
+    <wf sent="3" id="w88" length="2" offset="487"><![CDATA[at]]></wf>
+    <wf sent="3" id="w89" length="8" offset="490"><![CDATA[airports]]></wf>
+    <wf sent="3" id="w90" length="3" offset="499"><![CDATA[and]]></wf>
+    <wf sent="3" id="w91" length="5" offset="503"><![CDATA[other]]></wf>
+    <wf sent="3" id="w92" length="5" offset="509"><![CDATA[vital]]></wf>
+    <wf sent="3" id="w93" length="14" offset="515"><![CDATA[infrastructure]]></wf>
+    <wf sent="3" id="w94" length="6" offset="530"><![CDATA[points]]></wf>
+    <wf sent="3" id="w95" length="1" offset="536"><![CDATA[.]]></wf>
+    <wf sent="3" id="w96" length="1" offset="537"><![CDATA[
+]]></wf>
+    <wf sent="4" id="w97" length="3" offset="538"><![CDATA[The]]></wf>
+    <wf sent="4" id="w98" length="7" offset="542"><![CDATA[Utrecht]]></wf>
+    <wf sent="4" id="w99" length="6" offset="550"><![CDATA[Police]]></wf>
+    <wf sent="4" id="w100" length="4" offset="557"><![CDATA[said]]></wf>
+    <wf sent="4" id="w101" length="4" offset="562"><![CDATA[they]]></wf>
+    <wf sent="4" id="w102" length="4" offset="567"><![CDATA[were]]></wf>
+    <wf sent="4" id="w103" length="7" offset="572"><![CDATA[looking]]></wf>
+    <wf sent="4" id="w104" length="3" offset="580"><![CDATA[for]]></wf>
+    <wf sent="4" id="w105" length="6" offset="584"><![CDATA[Gokman]]></wf>
+    <wf sent="4" id="w106" length="5" offset="591"><![CDATA[Tanis]]></wf>
+    <wf sent="4" id="w107" length="1" offset="596"><![CDATA[,]]></wf>
+    <wf sent="4" id="w108" length="2" offset="598"><![CDATA[37]]></wf>
+    <wf sent="4" id="w109" length="1" offset="600"><![CDATA[,]]></wf>
+    <wf sent="4" id="w110" length="3" offset="602"><![CDATA[who]]></wf>
+    <wf sent="4" id="w111" length="3" offset="606"><![CDATA[was]]></wf>
+    <wf sent="4" id="w112" length="4" offset="610"><![CDATA[born]]></wf>
+    <wf sent="4" id="w113" length="2" offset="615"><![CDATA[in]]></wf>
+    <wf sent="4" id="w114" length="6" offset="618"><![CDATA[Turkey]]></wf>
+    <wf sent="4" id="w115" length="1" offset="624"><![CDATA[;]]></wf>
+    <wf sent="4" id="w116" length="4" offset="626"><![CDATA[they]]></wf>
+    <wf sent="4" id="w117" length="3" offset="631"><![CDATA[did]]></wf>
+    <wf sent="4" id="w118" length="3" offset="635"><![CDATA[not]]></wf>
+    <wf sent="4" id="w119" length="4" offset="639"><![CDATA[call]]></wf>
+    <wf sent="4" id="w120" length="3" offset="644"><![CDATA[him]]></wf>
+    <wf sent="4" id="w121" length="1" offset="648"><![CDATA[a]]></wf>
+    <wf sent="4" id="w122" length="7" offset="650"><![CDATA[suspect]]></wf>
+    <wf sent="4" id="w123" length="1" offset="657"><![CDATA[,]]></wf>
+    <wf sent="4" id="w124" length="3" offset="659"><![CDATA[but]]></wf>
+    <wf sent="4" id="w125" length="4" offset="663"><![CDATA[said]]></wf>
+    <wf sent="4" id="w126" length="2" offset="668"><![CDATA[he]]></wf>
+    <wf sent="4" id="w127" length="3" offset="671"><![CDATA[was]]></wf>
+    <wf sent="4" id="w128" length="1" offset="675"><![CDATA[“]]></wf>
+    <wf sent="4" id="w129" length="10" offset="676"><![CDATA[associated]]></wf>
+    <wf sent="4" id="w130" length="4" offset="687"><![CDATA[with]]></wf>
+    <wf sent="4" id="w131" length="3" offset="692"><![CDATA[the]]></wf>
+    <wf sent="4" id="w132" length="8" offset="696"><![CDATA[incident]]></wf>
+    <wf sent="4" id="w133" length="1" offset="704"><![CDATA[,]]></wf>
+    <wf sent="4" id="w134" length="1" offset="705"><![CDATA[”]]></wf>
+    <wf sent="4" id="w135" length="3" offset="707"><![CDATA[and]]></wf>
+    <wf sent="4" id="w136" length="6" offset="711"><![CDATA[warned]]></wf>
+    <wf sent="4" id="w137" length="6" offset="718"><![CDATA[people]]></wf>
+    <wf sent="4" id="w138" length="3" offset="725"><![CDATA[not]]></wf>
+    <wf sent="4" id="w139" length="2" offset="729"><![CDATA[to]]></wf>
+    <wf sent="4" id="w140" length="8" offset="732"><![CDATA[approach]]></wf>
+    <wf sent="4" id="w141" length="3" offset="741"><![CDATA[him]]></wf>
+    <wf sent="4" id="w142" length="1" offset="744"><![CDATA[.]]></wf>
   </text>
   <terms>
     <term id="t1" lemma="a" pos="DET" type="open" morphofeat="DT">
@@ -392,307 +400,307 @@
         <target id="w45"/>
       </span>
     </term>
-    <term id="t46" lemma="the" pos="DET" type="open" morphofeat="DT">
+    <term id="t46" lemma="&#10;" pos="SPACE" type="open" morphofeat="_SP">
       <span>
         <target id="w46"/>
       </span>
     </term>
-    <term id="t47" lemma="Netherlands" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t47" lemma="the" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w47"/>
       </span>
     </term>
-    <term id="t48" lemma="’" pos="PART" type="open" morphofeat="POS">
+    <term id="t48" lemma="Netherlands" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w48"/>
       </span>
     </term>
-    <term id="t49" lemma="main" pos="ADJ" type="open" morphofeat="JJ">
+    <term id="t49" lemma="’" pos="PART" type="open" morphofeat="POS">
       <span>
         <target id="w49"/>
       </span>
     </term>
-    <term id="t50" lemma="counterterrorism" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t50" lemma="main" pos="ADJ" type="open" morphofeat="JJ">
       <span>
         <target id="w50"/>
       </span>
     </term>
-    <term id="t51" lemma="agency" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t51" lemma="counterterrorism" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w51"/>
       </span>
     </term>
-    <term id="t52" lemma="raise" pos="VERB" type="open" morphofeat="VBD">
+    <term id="t52" lemma="agency" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w52"/>
       </span>
     </term>
-    <term id="t53" lemma="-PRON-" pos="DET" type="open" morphofeat="PRP$">
+    <term id="t53" lemma="raise" pos="VERB" type="open" morphofeat="VBD">
       <span>
         <target id="w53"/>
       </span>
     </term>
-    <term id="t54" lemma="assessment" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t54" lemma="-PRON-" pos="DET" type="open" morphofeat="PRP$">
       <span>
         <target id="w54"/>
       </span>
     </term>
-    <term id="t55" lemma="of" pos="ADP" type="open" morphofeat="IN">
+    <term id="t55" lemma="assessment" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w55"/>
       </span>
     </term>
-    <term id="t56" lemma="the" pos="DET" type="open" morphofeat="DT">
+    <term id="t56" lemma="of" pos="ADP" type="open" morphofeat="IN">
       <span>
         <target id="w56"/>
       </span>
     </term>
-    <term id="t57" lemma="threat" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t57" lemma="the" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w57"/>
       </span>
     </term>
-    <term id="t58" lemma="in" pos="ADP" type="open" morphofeat="IN">
+    <term id="t58" lemma="threat" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w58"/>
       </span>
     </term>
-    <term id="t59" lemma="Utrecht" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t59" lemma="in" pos="ADP" type="open" morphofeat="IN">
       <span>
         <target id="w59"/>
       </span>
     </term>
-    <term id="t60" lemma="province" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t60" lemma="Utrecht" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w60"/>
       </span>
     </term>
-    <term id="t61" lemma="," pos="PUNCT" type="open" morphofeat=",">
+    <term id="t61" lemma="province" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w61"/>
       </span>
     </term>
-    <term id="t62" lemma="just" pos="ADV" type="open" morphofeat="RB">
+    <term id="t62" lemma="," pos="PUNCT" type="open" morphofeat=",">
       <span>
         <target id="w62"/>
       </span>
     </term>
-    <term id="t63" lemma="southeast" pos="ADV" type="open" morphofeat="RB">
+    <term id="t63" lemma="just" pos="ADV" type="open" morphofeat="RB">
       <span>
         <target id="w63"/>
       </span>
     </term>
-    <term id="t64" lemma="of" pos="ADP" type="open" morphofeat="IN">
+    <term id="t64" lemma="southeast" pos="ADV" type="open" morphofeat="RB">
       <span>
         <target id="w64"/>
       </span>
     </term>
-    <term id="t65" lemma="Amsterdam" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t65" lemma="of" pos="ADP" type="open" morphofeat="IN">
       <span>
         <target id="w65"/>
       </span>
     </term>
-    <term id="t66" lemma="," pos="PUNCT" type="open" morphofeat=",">
+    <term id="t66" lemma="Amsterdam" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w66"/>
       </span>
     </term>
-    <term id="t67" lemma="to" pos="ADP" type="open" morphofeat="IN">
+    <term id="t67" lemma="," pos="PUNCT" type="open" morphofeat=",">
       <span>
         <target id="w67"/>
       </span>
     </term>
-    <term id="t68" lemma="the" pos="DET" type="open" morphofeat="DT">
+    <term id="t68" lemma="to" pos="ADP" type="open" morphofeat="IN">
       <span>
         <target id="w68"/>
       </span>
     </term>
-    <term id="t69" lemma="high" pos="ADJ" type="open" morphofeat="JJS">
+    <term id="t69" lemma="the" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w69"/>
       </span>
     </term>
-    <term id="t70" lemma="level" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t70" lemma="high" pos="ADJ" type="open" morphofeat="JJS">
       <span>
         <target id="w70"/>
       </span>
     </term>
-    <term id="t71" lemma="," pos="PUNCT" type="open" morphofeat=",">
+    <term id="t71" lemma="level" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w71"/>
       </span>
     </term>
-    <term id="t72" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+    <term id="t72" lemma="," pos="PUNCT" type="open" morphofeat=",">
       <span>
         <target id="w72"/>
       </span>
     </term>
-    <term id="t73" lemma="say" pos="VERB" type="open" morphofeat="VBD">
+    <term id="t73" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
       <span>
         <target id="w73"/>
       </span>
     </term>
-    <term id="t74" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+    <term id="t74" lemma="say" pos="VERB" type="open" morphofeat="VBD">
       <span>
         <target id="w74"/>
       </span>
     </term>
-    <term id="t75" lemma="have" pos="VERB" type="open" morphofeat="VBD">
+    <term id="t75" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
       <span>
         <target id="w75"/>
       </span>
     </term>
-    <term id="t76" lemma="activate" pos="VERB" type="open" morphofeat="VBN">
+    <term id="t76" lemma="have" pos="VERB" type="open" morphofeat="VBD">
       <span>
         <target id="w76"/>
       </span>
     </term>
-    <term id="t77" lemma="a" pos="DET" type="open" morphofeat="DT">
+    <term id="t77" lemma="activate" pos="VERB" type="open" morphofeat="VBN">
       <span>
         <target id="w77"/>
       </span>
     </term>
-    <term id="t78" lemma="crisis" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t78" lemma="a" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w78"/>
       </span>
     </term>
-    <term id="t79" lemma="team" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t79" lemma="crisis" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w79"/>
       </span>
     </term>
-    <term id="t80" lemma="." pos="PUNCT" type="open" morphofeat=".">
+    <term id="t80" lemma="team" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w80"/>
       </span>
     </term>
-    <term id="t81" lemma="the" pos="DET" type="open" morphofeat="DT">
+    <term id="t81" lemma="." pos="PUNCT" type="open" morphofeat=".">
       <span>
         <target id="w81"/>
       </span>
     </term>
-    <term id="t82" lemma="dutch" pos="ADJ" type="open" morphofeat="JJ">
+    <term id="t82" lemma="the" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w82"/>
       </span>
     </term>
-    <term id="t83" lemma="paramilitary" pos="ADJ" type="open" morphofeat="JJ">
+    <term id="t83" lemma="dutch" pos="ADJ" type="open" morphofeat="JJ">
       <span>
         <target id="w83"/>
       </span>
     </term>
-    <term id="t84" lemma="police" pos="NOUN" type="open" morphofeat="NNS">
+    <term id="t84" lemma="paramilitary" pos="ADJ" type="open" morphofeat="JJ">
       <span>
         <target id="w84"/>
       </span>
     </term>
-    <term id="t85" lemma="increase" pos="VERB" type="open" morphofeat="VBD">
+    <term id="t85" lemma="police" pos="NOUN" type="open" morphofeat="NNS">
       <span>
         <target id="w85"/>
       </span>
     </term>
-    <term id="t86" lemma="security" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t86" lemma="increase" pos="VERB" type="open" morphofeat="VBD">
       <span>
         <target id="w86"/>
       </span>
     </term>
-    <term id="t87" lemma="at" pos="ADP" type="open" morphofeat="IN">
+    <term id="t87" lemma="security" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w87"/>
       </span>
     </term>
-    <term id="t88" lemma="airport" pos="NOUN" type="open" morphofeat="NNS">
+    <term id="t88" lemma="at" pos="ADP" type="open" morphofeat="IN">
       <span>
         <target id="w88"/>
       </span>
     </term>
-    <term id="t89" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+    <term id="t89" lemma="airport" pos="NOUN" type="open" morphofeat="NNS">
       <span>
         <target id="w89"/>
       </span>
     </term>
-    <term id="t90" lemma="other" pos="ADJ" type="open" morphofeat="JJ">
+    <term id="t90" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
       <span>
         <target id="w90"/>
       </span>
     </term>
-    <term id="t91" lemma="vital" pos="ADJ" type="open" morphofeat="JJ">
+    <term id="t91" lemma="other" pos="ADJ" type="open" morphofeat="JJ">
       <span>
         <target id="w91"/>
       </span>
     </term>
-    <term id="t92" lemma="infrastructure" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t92" lemma="vital" pos="ADJ" type="open" morphofeat="JJ">
       <span>
         <target id="w92"/>
       </span>
     </term>
-    <term id="t93" lemma="point" pos="NOUN" type="open" morphofeat="NNS">
+    <term id="t93" lemma="infrastructure" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w93"/>
       </span>
     </term>
-    <term id="t94" lemma="." pos="PUNCT" type="open" morphofeat=".">
+    <term id="t94" lemma="point" pos="NOUN" type="open" morphofeat="NNS">
       <span>
         <target id="w94"/>
       </span>
     </term>
-    <term id="t95" lemma="the" pos="DET" type="open" morphofeat="DT">
+    <term id="t95" lemma="." pos="PUNCT" type="open" morphofeat=".">
       <span>
         <target id="w95"/>
       </span>
     </term>
-    <term id="t96" lemma="Utrecht" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t96" lemma="&#10;" pos="SPACE" type="open" morphofeat="_SP">
       <span>
         <target id="w96"/>
       </span>
     </term>
-    <term id="t97" lemma="Police" pos="PROPN" type="open" morphofeat="NNPS">
+    <term id="t97" lemma="the" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w97"/>
       </span>
     </term>
-    <term id="t98" lemma="say" pos="VERB" type="open" morphofeat="VBD">
+    <term id="t98" lemma="Utrecht" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w98"/>
       </span>
     </term>
-    <term id="t99" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+    <term id="t99" lemma="Police" pos="PROPN" type="open" morphofeat="NNPS">
       <span>
         <target id="w99"/>
       </span>
     </term>
-    <term id="t100" lemma="be" pos="VERB" type="open" morphofeat="VBD">
+    <term id="t100" lemma="say" pos="VERB" type="open" morphofeat="VBD">
       <span>
         <target id="w100"/>
       </span>
     </term>
-    <term id="t101" lemma="look" pos="VERB" type="open" morphofeat="VBG">
+    <term id="t101" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
       <span>
         <target id="w101"/>
       </span>
     </term>
-    <term id="t102" lemma="for" pos="ADP" type="open" morphofeat="IN">
+    <term id="t102" lemma="be" pos="VERB" type="open" morphofeat="VBD">
       <span>
         <target id="w102"/>
       </span>
     </term>
-    <term id="t103" lemma="Gokman" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t103" lemma="look" pos="VERB" type="open" morphofeat="VBG">
       <span>
         <target id="w103"/>
       </span>
     </term>
-    <term id="t104" lemma="Tanis" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t104" lemma="for" pos="ADP" type="open" morphofeat="IN">
       <span>
         <target id="w104"/>
       </span>
     </term>
-    <term id="t105" lemma="," pos="PUNCT" type="open" morphofeat=",">
+    <term id="t105" lemma="Gokman" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w105"/>
       </span>
     </term>
-    <term id="t106" lemma="37" pos="NUM" type="open" morphofeat="CD">
+    <term id="t106" lemma="Tanis" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w106"/>
       </span>
@@ -702,169 +710,179 @@
         <target id="w107"/>
       </span>
     </term>
-    <term id="t108" lemma="who" pos="PRON" type="open" morphofeat="WP">
+    <term id="t108" lemma="37" pos="NUM" type="open" morphofeat="CD">
       <span>
         <target id="w108"/>
       </span>
     </term>
-    <term id="t109" lemma="be" pos="VERB" type="open" morphofeat="VBD">
+    <term id="t109" lemma="," pos="PUNCT" type="open" morphofeat=",">
       <span>
         <target id="w109"/>
       </span>
     </term>
-    <term id="t110" lemma="bear" pos="VERB" type="open" morphofeat="VBN">
+    <term id="t110" lemma="who" pos="PRON" type="open" morphofeat="WP">
       <span>
         <target id="w110"/>
       </span>
     </term>
-    <term id="t111" lemma="in" pos="ADP" type="open" morphofeat="IN">
+    <term id="t111" lemma="be" pos="VERB" type="open" morphofeat="VBD">
       <span>
         <target id="w111"/>
       </span>
     </term>
-    <term id="t112" lemma="Turkey" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t112" lemma="bear" pos="VERB" type="open" morphofeat="VBN">
       <span>
         <target id="w112"/>
       </span>
     </term>
-    <term id="t113" lemma=";" pos="PUNCT" type="open" morphofeat=":">
+    <term id="t113" lemma="in" pos="ADP" type="open" morphofeat="IN">
       <span>
         <target id="w113"/>
       </span>
     </term>
-    <term id="t114" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+    <term id="t114" lemma="Turkey" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w114"/>
       </span>
     </term>
-    <term id="t115" lemma="do" pos="VERB" type="open" morphofeat="VBD">
+    <term id="t115" lemma=";" pos="PUNCT" type="open" morphofeat=":">
       <span>
         <target id="w115"/>
       </span>
     </term>
-    <term id="t116" lemma="not" pos="ADV" type="open" morphofeat="RB">
+    <term id="t116" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
       <span>
         <target id="w116"/>
       </span>
     </term>
-    <term id="t117" lemma="call" pos="VERB" type="open" morphofeat="VB">
+    <term id="t117" lemma="do" pos="VERB" type="open" morphofeat="VBD">
       <span>
         <target id="w117"/>
       </span>
     </term>
-    <term id="t118" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+    <term id="t118" lemma="not" pos="ADV" type="open" morphofeat="RB">
       <span>
         <target id="w118"/>
       </span>
     </term>
-    <term id="t119" lemma="a" pos="DET" type="open" morphofeat="DT">
+    <term id="t119" lemma="call" pos="VERB" type="open" morphofeat="VB">
       <span>
         <target id="w119"/>
       </span>
     </term>
-    <term id="t120" lemma="suspect" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t120" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
       <span>
         <target id="w120"/>
       </span>
     </term>
-    <term id="t121" lemma="," pos="PUNCT" type="open" morphofeat=",">
+    <term id="t121" lemma="a" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w121"/>
       </span>
     </term>
-    <term id="t122" lemma="but" pos="CCONJ" type="open" morphofeat="CC">
+    <term id="t122" lemma="suspect" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w122"/>
       </span>
     </term>
-    <term id="t123" lemma="say" pos="VERB" type="open" morphofeat="VBD">
+    <term id="t123" lemma="," pos="PUNCT" type="open" morphofeat=",">
       <span>
         <target id="w123"/>
       </span>
     </term>
-    <term id="t124" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+    <term id="t124" lemma="but" pos="CCONJ" type="open" morphofeat="CC">
       <span>
         <target id="w124"/>
       </span>
     </term>
-    <term id="t125" lemma="be" pos="VERB" type="open" morphofeat="VBD">
+    <term id="t125" lemma="say" pos="VERB" type="open" morphofeat="VBD">
       <span>
         <target id="w125"/>
       </span>
     </term>
-    <term id="t126" lemma="&quot;" pos="PUNCT" type="open" morphofeat="``">
+    <term id="t126" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
       <span>
         <target id="w126"/>
       </span>
     </term>
-    <term id="t127" lemma="associate" pos="VERB" type="open" morphofeat="VBN">
+    <term id="t127" lemma="be" pos="VERB" type="open" morphofeat="VBD">
       <span>
         <target id="w127"/>
       </span>
     </term>
-    <term id="t128" lemma="with" pos="ADP" type="open" morphofeat="IN">
+    <term id="t128" lemma="&quot;" pos="PUNCT" type="open" morphofeat="``">
       <span>
         <target id="w128"/>
       </span>
     </term>
-    <term id="t129" lemma="the" pos="DET" type="open" morphofeat="DT">
+    <term id="t129" lemma="associate" pos="VERB" type="open" morphofeat="VBN">
       <span>
         <target id="w129"/>
       </span>
     </term>
-    <term id="t130" lemma="incident" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t130" lemma="with" pos="ADP" type="open" morphofeat="IN">
       <span>
         <target id="w130"/>
       </span>
     </term>
-    <term id="t131" lemma="," pos="PUNCT" type="open" morphofeat=",">
+    <term id="t131" lemma="the" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w131"/>
       </span>
     </term>
-    <term id="t132" lemma="&quot;" pos="PUNCT" type="open" morphofeat="''">
+    <term id="t132" lemma="incident" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w132"/>
       </span>
     </term>
-    <term id="t133" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+    <term id="t133" lemma="," pos="PUNCT" type="open" morphofeat=",">
       <span>
         <target id="w133"/>
       </span>
     </term>
-    <term id="t134" lemma="warn" pos="VERB" type="open" morphofeat="VBD">
+    <term id="t134" lemma="&quot;" pos="PUNCT" type="open" morphofeat="''">
       <span>
         <target id="w134"/>
       </span>
     </term>
-    <term id="t135" lemma="people" pos="NOUN" type="open" morphofeat="NNS">
+    <term id="t135" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
       <span>
         <target id="w135"/>
       </span>
     </term>
-    <term id="t136" lemma="not" pos="ADV" type="open" morphofeat="RB">
+    <term id="t136" lemma="warn" pos="VERB" type="open" morphofeat="VBD">
       <span>
         <target id="w136"/>
       </span>
     </term>
-    <term id="t137" lemma="to" pos="PART" type="open" morphofeat="TO">
+    <term id="t137" lemma="people" pos="NOUN" type="open" morphofeat="NNS">
       <span>
         <target id="w137"/>
       </span>
     </term>
-    <term id="t138" lemma="approach" pos="VERB" type="open" morphofeat="VB">
+    <term id="t138" lemma="not" pos="ADV" type="open" morphofeat="RB">
       <span>
         <target id="w138"/>
       </span>
     </term>
-    <term id="t139" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+    <term id="t139" lemma="to" pos="PART" type="open" morphofeat="TO">
       <span>
         <target id="w139"/>
       </span>
     </term>
-    <term id="t140" lemma="." pos="PUNCT" type="open" morphofeat=".">
+    <term id="t140" lemma="approach" pos="VERB" type="open" morphofeat="VB">
       <span>
         <target id="w140"/>
+      </span>
+    </term>
+    <term id="t141" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <term id="t142" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w142"/>
       </span>
     </term>
   </terms>
@@ -913,103 +931,106 @@
     <dep from="t44" to="t43" rfunc="det"/>
     <dep from="t42" to="t44" rfunc="dobj"/>
     <dep from="t29" to="t45" rfunc="punct"/>
-    <dep from="t51" to="t46" rfunc="det"/>
-    <dep from="t52" to="t51" rfunc="nsubj"/>
-    <dep from="t51" to="t47" rfunc="nmod"/>
-    <dep from="t51" to="t48" rfunc="nmod"/>
-    <dep from="t51" to="t49" rfunc="amod"/>
-    <dep from="t51" to="t50" rfunc="compound"/>
-    <dep from="t54" to="t53" rfunc="poss"/>
-    <dep from="t52" to="t54" rfunc="dobj"/>
-    <dep from="t54" to="t55" rfunc="prep"/>
-    <dep from="t57" to="t56" rfunc="det"/>
-    <dep from="t55" to="t57" rfunc="pobj"/>
-    <dep from="t57" to="t58" rfunc="prep"/>
-    <dep from="t60" to="t59" rfunc="compound"/>
-    <dep from="t58" to="t60" rfunc="pobj"/>
-    <dep from="t54" to="t61" rfunc="punct"/>
-    <dep from="t63" to="t62" rfunc="advmod"/>
-    <dep from="t54" to="t63" rfunc="appos"/>
-    <dep from="t63" to="t64" rfunc="prep"/>
-    <dep from="t64" to="t65" rfunc="pobj"/>
-    <dep from="t52" to="t66" rfunc="punct"/>
-    <dep from="t52" to="t67" rfunc="prep"/>
-    <dep from="t70" to="t68" rfunc="det"/>
-    <dep from="t67" to="t70" rfunc="pobj"/>
-    <dep from="t70" to="t69" rfunc="amod"/>
-    <dep from="t52" to="t71" rfunc="punct"/>
-    <dep from="t52" to="t72" rfunc="cc"/>
-    <dep from="t52" to="t73" rfunc="conj"/>
-    <dep from="t76" to="t74" rfunc="nsubj"/>
-    <dep from="t73" to="t76" rfunc="ccomp"/>
-    <dep from="t76" to="t75" rfunc="aux"/>
-    <dep from="t79" to="t77" rfunc="det"/>
-    <dep from="t76" to="t79" rfunc="dobj"/>
-    <dep from="t79" to="t78" rfunc="compound"/>
-    <dep from="t52" to="t80" rfunc="punct"/>
-    <dep from="t84" to="t81" rfunc="det"/>
-    <dep from="t85" to="t84" rfunc="nsubj"/>
-    <dep from="t84" to="t82" rfunc="amod"/>
-    <dep from="t84" to="t83" rfunc="amod"/>
-    <dep from="t85" to="t86" rfunc="dobj"/>
-    <dep from="t86" to="t87" rfunc="prep"/>
-    <dep from="t87" to="t88" rfunc="pobj"/>
-    <dep from="t88" to="t89" rfunc="cc"/>
-    <dep from="t93" to="t90" rfunc="amod"/>
-    <dep from="t88" to="t93" rfunc="conj"/>
-    <dep from="t93" to="t91" rfunc="amod"/>
-    <dep from="t93" to="t92" rfunc="compound"/>
-    <dep from="t85" to="t94" rfunc="punct"/>
-    <dep from="t97" to="t95" rfunc="det"/>
-    <dep from="t98" to="t97" rfunc="nsubj"/>
-    <dep from="t117" to="t98" rfunc="ccomp"/>
-    <dep from="t97" to="t96" rfunc="compound"/>
-    <dep from="t101" to="t99" rfunc="nsubj"/>
-    <dep from="t98" to="t101" rfunc="ccomp"/>
-    <dep from="t101" to="t100" rfunc="aux"/>
-    <dep from="t101" to="t102" rfunc="prep"/>
-    <dep from="t104" to="t103" rfunc="compound"/>
-    <dep from="t102" to="t104" rfunc="pobj"/>
-    <dep from="t104" to="t105" rfunc="punct"/>
-    <dep from="t104" to="t106" rfunc="appos"/>
-    <dep from="t104" to="t107" rfunc="punct"/>
-    <dep from="t110" to="t108" rfunc="nsubjpass"/>
-    <dep from="t104" to="t110" rfunc="relcl"/>
-    <dep from="t110" to="t109" rfunc="auxpass"/>
-    <dep from="t110" to="t111" rfunc="prep"/>
-    <dep from="t111" to="t112" rfunc="pobj"/>
-    <dep from="t117" to="t113" rfunc="punct"/>
-    <dep from="t117" to="t114" rfunc="nsubj"/>
-    <dep from="t117" to="t115" rfunc="aux"/>
-    <dep from="t117" to="t116" rfunc="neg"/>
-    <dep from="t117" to="t118" rfunc="dobj"/>
-    <dep from="t120" to="t119" rfunc="det"/>
-    <dep from="t117" to="t120" rfunc="oprd"/>
-    <dep from="t117" to="t121" rfunc="punct"/>
-    <dep from="t117" to="t122" rfunc="cc"/>
-    <dep from="t117" to="t123" rfunc="conj"/>
-    <dep from="t127" to="t124" rfunc="nsubjpass"/>
-    <dep from="t123" to="t127" rfunc="ccomp"/>
-    <dep from="t127" to="t125" rfunc="auxpass"/>
-    <dep from="t127" to="t126" rfunc="punct"/>
-    <dep from="t127" to="t128" rfunc="prep"/>
-    <dep from="t130" to="t129" rfunc="det"/>
-    <dep from="t128" to="t130" rfunc="pobj"/>
-    <dep from="t123" to="t131" rfunc="punct"/>
-    <dep from="t123" to="t132" rfunc="punct"/>
-    <dep from="t123" to="t133" rfunc="cc"/>
-    <dep from="t123" to="t134" rfunc="conj"/>
-    <dep from="t134" to="t135" rfunc="dobj"/>
-    <dep from="t138" to="t136" rfunc="neg"/>
-    <dep from="t134" to="t138" rfunc="xcomp"/>
-    <dep from="t138" to="t137" rfunc="aux"/>
-    <dep from="t138" to="t139" rfunc="dobj"/>
-    <dep from="t117" to="t140" rfunc="punct"/>
+    <dep from="t45" to="t46" rfunc=""/>
+    <dep from="t52" to="t47" rfunc="det"/>
+    <dep from="t53" to="t52" rfunc="nsubj"/>
+    <dep from="t52" to="t48" rfunc="nmod"/>
+    <dep from="t52" to="t49" rfunc="nmod"/>
+    <dep from="t52" to="t50" rfunc="amod"/>
+    <dep from="t52" to="t51" rfunc="compound"/>
+    <dep from="t55" to="t54" rfunc="poss"/>
+    <dep from="t53" to="t55" rfunc="dobj"/>
+    <dep from="t55" to="t56" rfunc="prep"/>
+    <dep from="t58" to="t57" rfunc="det"/>
+    <dep from="t56" to="t58" rfunc="pobj"/>
+    <dep from="t58" to="t59" rfunc="prep"/>
+    <dep from="t61" to="t60" rfunc="compound"/>
+    <dep from="t59" to="t61" rfunc="pobj"/>
+    <dep from="t55" to="t62" rfunc="punct"/>
+    <dep from="t64" to="t63" rfunc="advmod"/>
+    <dep from="t55" to="t64" rfunc="appos"/>
+    <dep from="t64" to="t65" rfunc="prep"/>
+    <dep from="t65" to="t66" rfunc="pobj"/>
+    <dep from="t53" to="t67" rfunc="punct"/>
+    <dep from="t53" to="t68" rfunc="prep"/>
+    <dep from="t71" to="t69" rfunc="det"/>
+    <dep from="t68" to="t71" rfunc="pobj"/>
+    <dep from="t71" to="t70" rfunc="amod"/>
+    <dep from="t53" to="t72" rfunc="punct"/>
+    <dep from="t53" to="t73" rfunc="cc"/>
+    <dep from="t53" to="t74" rfunc="conj"/>
+    <dep from="t77" to="t75" rfunc="nsubj"/>
+    <dep from="t74" to="t77" rfunc="ccomp"/>
+    <dep from="t77" to="t76" rfunc="aux"/>
+    <dep from="t80" to="t78" rfunc="det"/>
+    <dep from="t77" to="t80" rfunc="dobj"/>
+    <dep from="t80" to="t79" rfunc="compound"/>
+    <dep from="t53" to="t81" rfunc="punct"/>
+    <dep from="t85" to="t82" rfunc="det"/>
+    <dep from="t86" to="t85" rfunc="nsubj"/>
+    <dep from="t85" to="t83" rfunc="amod"/>
+    <dep from="t85" to="t84" rfunc="amod"/>
+    <dep from="t86" to="t87" rfunc="dobj"/>
+    <dep from="t87" to="t88" rfunc="prep"/>
+    <dep from="t88" to="t89" rfunc="pobj"/>
+    <dep from="t89" to="t90" rfunc="cc"/>
+    <dep from="t94" to="t91" rfunc="amod"/>
+    <dep from="t89" to="t94" rfunc="conj"/>
+    <dep from="t94" to="t92" rfunc="amod"/>
+    <dep from="t94" to="t93" rfunc="compound"/>
+    <dep from="t86" to="t95" rfunc="punct"/>
+    <dep from="t95" to="t96" rfunc=""/>
+    <dep from="t99" to="t97" rfunc="det"/>
+    <dep from="t100" to="t99" rfunc="nsubj"/>
+    <dep from="t119" to="t100" rfunc="ccomp"/>
+    <dep from="t99" to="t98" rfunc="compound"/>
+    <dep from="t103" to="t101" rfunc="nsubj"/>
+    <dep from="t100" to="t103" rfunc="ccomp"/>
+    <dep from="t103" to="t102" rfunc="aux"/>
+    <dep from="t103" to="t104" rfunc="prep"/>
+    <dep from="t106" to="t105" rfunc="compound"/>
+    <dep from="t104" to="t106" rfunc="pobj"/>
+    <dep from="t106" to="t107" rfunc="punct"/>
+    <dep from="t106" to="t108" rfunc="appos"/>
+    <dep from="t106" to="t109" rfunc="punct"/>
+    <dep from="t112" to="t110" rfunc="nsubjpass"/>
+    <dep from="t106" to="t112" rfunc="relcl"/>
+    <dep from="t112" to="t111" rfunc="auxpass"/>
+    <dep from="t112" to="t113" rfunc="prep"/>
+    <dep from="t113" to="t114" rfunc="pobj"/>
+    <dep from="t119" to="t115" rfunc="punct"/>
+    <dep from="t119" to="t116" rfunc="nsubj"/>
+    <dep from="t119" to="t117" rfunc="aux"/>
+    <dep from="t119" to="t118" rfunc="neg"/>
+    <dep from="t119" to="t120" rfunc="dobj"/>
+    <dep from="t122" to="t121" rfunc="det"/>
+    <dep from="t119" to="t122" rfunc="oprd"/>
+    <dep from="t119" to="t123" rfunc="punct"/>
+    <dep from="t119" to="t124" rfunc="cc"/>
+    <dep from="t119" to="t125" rfunc="conj"/>
+    <dep from="t129" to="t126" rfunc="nsubjpass"/>
+    <dep from="t125" to="t129" rfunc="ccomp"/>
+    <dep from="t129" to="t127" rfunc="auxpass"/>
+    <dep from="t129" to="t128" rfunc="punct"/>
+    <dep from="t129" to="t130" rfunc="prep"/>
+    <dep from="t132" to="t131" rfunc="det"/>
+    <dep from="t130" to="t132" rfunc="pobj"/>
+    <dep from="t125" to="t133" rfunc="punct"/>
+    <dep from="t125" to="t134" rfunc="punct"/>
+    <dep from="t125" to="t135" rfunc="cc"/>
+    <dep from="t125" to="t136" rfunc="conj"/>
+    <dep from="t136" to="t137" rfunc="dobj"/>
+    <dep from="t140" to="t138" rfunc="neg"/>
+    <dep from="t136" to="t140" rfunc="xcomp"/>
+    <dep from="t140" to="t139" rfunc="aux"/>
+    <dep from="t140" to="t141" rfunc="dobj"/>
+    <dep from="t119" to="t142" rfunc="punct"/>
   </deps>
+  <entities/>
   <srl>
     <predicate id="pr1" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-killing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-killing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t2"/>
@@ -1017,7 +1038,7 @@
     </predicate>
     <predicate id="pr2" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-attack" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-attack" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t3"/>
@@ -1025,7 +1046,7 @@
     </predicate>
     <predicate id="pr3" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t5"/>
@@ -1033,7 +1054,7 @@
     </predicate>
     <predicate id="pr4" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-origin" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-origin" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t8"/>
@@ -1041,7 +1062,7 @@
     </predicate>
     <predicate id="pr5" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t9"/>
@@ -1049,7 +1070,7 @@
     </predicate>
     <predicate id="pr6" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-part_orientational" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-part_orientational" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t13"/>
@@ -1057,7 +1078,7 @@
     </predicate>
     <predicate id="pr7" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-quantified_mass" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-quantified_mass" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t14"/>
@@ -1065,7 +1086,7 @@
     </predicate>
     <predicate id="pr8" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t15"/>
@@ -1073,7 +1094,7 @@
     </predicate>
     <predicate id="pr9" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-scrutiny" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-scrutiny" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t19"/>
@@ -1081,7 +1102,7 @@
     </predicate>
     <predicate id="pr10" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-likelihood" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-likelihood" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t22"/>
@@ -1089,7 +1110,7 @@
     </predicate>
     <predicate id="pr11" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-terrorism" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-terrorism" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t25"/>
@@ -1097,7 +1118,7 @@
     </predicate>
     <predicate id="pr12" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-leadership" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-leadership" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t28"/>
@@ -1105,7 +1126,7 @@
     </predicate>
     <predicate id="pr13" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t29"/>
@@ -1113,7 +1134,7 @@
     </predicate>
     <predicate id="pr14" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-emphasizing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-emphasizing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t35"/>
@@ -1121,7 +1142,7 @@
     </predicate>
     <predicate id="pr15" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-hunting" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-hunting" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t37"/>
@@ -1129,7 +1150,7 @@
     </predicate>
     <predicate id="pr16" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-bearing_arms" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-bearing_arms" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t40"/>
@@ -1137,7 +1158,7 @@
     </predicate>
     <predicate id="pr17" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-escaping" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-escaping" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t42"/>
@@ -1145,202 +1166,202 @@
     </predicate>
     <predicate id="pr18" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-building" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-building" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t52"/>
+        <target id="t53"/>
       </span>
     </predicate>
     <predicate id="pr19" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-assessing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-assessing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t54"/>
+        <target id="t55"/>
       </span>
     </predicate>
     <predicate id="pr20" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-risky_situation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-risky_situation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t57"/>
+        <target id="t58"/>
       </span>
     </predicate>
     <predicate id="pr21" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t60"/>
+        <target id="t61"/>
       </span>
     </predicate>
     <predicate id="pr22" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-directional_locative_relation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-directional_locative_relation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t63"/>
+        <target id="t64"/>
       </span>
     </predicate>
     <predicate id="pr23" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t73"/>
+        <target id="t74"/>
       </span>
     </predicate>
     <predicate id="pr24" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-catastrophe" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
-      </externalReferences>
-      <span>
-        <target id="t78"/>
-      </span>
-    </predicate>
-    <predicate id="pr25" status="system">
-      <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-catastrophe" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t79"/>
       </span>
     </predicate>
-    <predicate id="pr26" status="system">
+    <predicate id="pr25" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-origin" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-aggregate" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t82"/>
+        <target id="t80"/>
+      </span>
+    </predicate>
+    <predicate id="pr26" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-origin" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t83"/>
       </span>
     </predicate>
     <predicate id="pr27" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-change_position_on_a_scale" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
-      </externalReferences>
-      <span>
-        <target id="t85"/>
-      </span>
-    </predicate>
-    <predicate id="pr28" status="system">
-      <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-being_at_risk" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-change_position_on_a_scale" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t86"/>
       </span>
     </predicate>
-    <predicate id="pr29" status="system">
+    <predicate id="pr28" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-increment" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-being_at_risk" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t90"/>
+        <target id="t87"/>
       </span>
     </predicate>
-    <predicate id="pr30" status="system">
+    <predicate id="pr29" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-importance" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-increment" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t91"/>
       </span>
     </predicate>
-    <predicate id="pr31" status="system">
+    <predicate id="pr30" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-infrastructure" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-importance" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
         <target id="t92"/>
       </span>
     </predicate>
-    <predicate id="pr32" status="system">
+    <predicate id="pr31" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-infrastructure" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t98"/>
+        <target id="t93"/>
+      </span>
+    </predicate>
+    <predicate id="pr32" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t100"/>
       </span>
     </predicate>
     <predicate id="pr33" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-perception_active" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-perception_active" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t101"/>
+        <target id="t103"/>
       </span>
     </predicate>
     <predicate id="pr34" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-tolerating" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-tolerating" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t110"/>
+        <target id="t112"/>
       </span>
     </predicate>
     <predicate id="pr35" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-referring_by_name" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-referring_by_name" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t117"/>
+        <target id="t119"/>
       </span>
     </predicate>
     <predicate id="pr36" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-awareness" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-awareness" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t120"/>
+        <target id="t122"/>
       </span>
     </predicate>
     <predicate id="pr37" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-statement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t123"/>
+        <target id="t125"/>
       </span>
     </predicate>
     <predicate id="pr38" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-collaboration" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-collaboration" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t127"/>
+        <target id="t129"/>
       </span>
     </predicate>
     <predicate id="pr39" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-catastrophe" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-catastrophe" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t130"/>
+        <target id="t132"/>
       </span>
     </predicate>
     <predicate id="pr40" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-warning" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-warning" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t134"/>
+        <target id="t136"/>
       </span>
     </predicate>
     <predicate id="pr41" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-people" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t135"/>
+        <target id="t137"/>
       </span>
     </predicate>
     <predicate id="pr42" status="system">
       <externalReferences>
-        <externalRef reference="http://premon.fbk.eu/resource/fn17-arriving" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-08-06T10:20:38UTC"/>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-arriving" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
       </externalReferences>
       <span>
-        <target id="t138"/>
+        <target id="t140"/>
       </span>
     </predicate>
   </srl>

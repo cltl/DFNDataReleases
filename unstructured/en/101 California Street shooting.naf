@@ -1,0 +1,721 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.1">
+  <nafHeader>
+    <fileDesc creationtime="2019-07-20T00:00:00UTC" title="101 California Street shooting"/>
+    <public uri="https://en.wikipedia.org/wiki/101_California_Street_shooting"/>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2020-12-10T09:36:42UTC" endTimestamp="2020-12-10T09:36:42UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2020-12-10T09:36:42UTC" endTimestamp="2020-12-10T09:36:42UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2020-12-10T09:36:42UTC" endTimestamp="2020-12-10T09:36:42UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2020-12-10T09:36:42UTC" endTimestamp="2020-12-10T09:36:42UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2020-12-10T09:36:42UTC" endTimestamp="2020-12-10T09:36:42UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp beginTimestamp="2019-07-20T00:00:00UTC" endTimestamp="2019-07-20T00:00:00UTC" name="Wikipedia hyperlinks" version="Wikipedia dump from 2019-07-20"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-09-13T11:35:29CEST" beginTimestamp="2021-09-13T08:54:04UTC" endTimestamp="2021-09-13T09:34:55UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[++101 California Street shooting++.
+The 101 California Street Shooting was a mass shooting on July 1, 1993, in San Francisco, California. The killings sparked a number of legal and legislative actions that were precursors to the Violent Crime Control and Law Enforcement Act, H.R.3355, 103rd Congress. The Act took effect in 1994 and expired in September 2004 after the expiration of a sunset provision.]]></raw>
+  <text>
+    <wf sent="1" id="w1" length="1" offset="0"><![CDATA[+]]></wf>
+    <wf sent="1" id="w2" length="4" offset="1"><![CDATA[+101]]></wf>
+    <wf sent="1" id="w3" length="10" offset="6"><![CDATA[California]]></wf>
+    <wf sent="1" id="w4" length="6" offset="17"><![CDATA[Street]]></wf>
+    <wf sent="1" id="w5" length="10" offset="24"><![CDATA[shooting++]]></wf>
+    <wf sent="1" id="w6" length="1" offset="34"><![CDATA[.]]></wf>
+    <wf sent="1" id="w7" length="1" offset="35"><![CDATA[
+]]></wf>
+    <wf sent="2" id="w8" length="3" offset="36"><![CDATA[The]]></wf>
+    <wf sent="2" id="w9" length="3" offset="40"><![CDATA[101]]></wf>
+    <wf sent="2" id="w10" length="10" offset="44"><![CDATA[California]]></wf>
+    <wf sent="2" id="w11" length="6" offset="55"><![CDATA[Street]]></wf>
+    <wf sent="2" id="w12" length="8" offset="62"><![CDATA[Shooting]]></wf>
+    <wf sent="2" id="w13" length="3" offset="71"><![CDATA[was]]></wf>
+    <wf sent="2" id="w14" length="1" offset="75"><![CDATA[a]]></wf>
+    <wf sent="2" id="w15" length="4" offset="77"><![CDATA[mass]]></wf>
+    <wf sent="2" id="w16" length="8" offset="82"><![CDATA[shooting]]></wf>
+    <wf sent="2" id="w17" length="2" offset="91"><![CDATA[on]]></wf>
+    <wf sent="2" id="w18" length="4" offset="94"><![CDATA[July]]></wf>
+    <wf sent="2" id="w19" length="1" offset="99"><![CDATA[1]]></wf>
+    <wf sent="2" id="w20" length="1" offset="100"><![CDATA[,]]></wf>
+    <wf sent="2" id="w21" length="4" offset="102"><![CDATA[1993]]></wf>
+    <wf sent="2" id="w22" length="1" offset="106"><![CDATA[,]]></wf>
+    <wf sent="2" id="w23" length="2" offset="108"><![CDATA[in]]></wf>
+    <wf sent="2" id="w24" length="3" offset="111"><![CDATA[San]]></wf>
+    <wf sent="2" id="w25" length="9" offset="115"><![CDATA[Francisco]]></wf>
+    <wf sent="2" id="w26" length="1" offset="124"><![CDATA[,]]></wf>
+    <wf sent="2" id="w27" length="10" offset="126"><![CDATA[California]]></wf>
+    <wf sent="2" id="w28" length="1" offset="136"><![CDATA[.]]></wf>
+    <wf sent="3" id="w29" length="3" offset="138"><![CDATA[The]]></wf>
+    <wf sent="3" id="w30" length="8" offset="142"><![CDATA[killings]]></wf>
+    <wf sent="3" id="w31" length="7" offset="151"><![CDATA[sparked]]></wf>
+    <wf sent="3" id="w32" length="1" offset="159"><![CDATA[a]]></wf>
+    <wf sent="3" id="w33" length="6" offset="161"><![CDATA[number]]></wf>
+    <wf sent="3" id="w34" length="2" offset="168"><![CDATA[of]]></wf>
+    <wf sent="3" id="w35" length="5" offset="171"><![CDATA[legal]]></wf>
+    <wf sent="3" id="w36" length="3" offset="177"><![CDATA[and]]></wf>
+    <wf sent="3" id="w37" length="11" offset="181"><![CDATA[legislative]]></wf>
+    <wf sent="3" id="w38" length="7" offset="193"><![CDATA[actions]]></wf>
+    <wf sent="3" id="w39" length="4" offset="201"><![CDATA[that]]></wf>
+    <wf sent="3" id="w40" length="4" offset="206"><![CDATA[were]]></wf>
+    <wf sent="3" id="w41" length="10" offset="211"><![CDATA[precursors]]></wf>
+    <wf sent="3" id="w42" length="2" offset="222"><![CDATA[to]]></wf>
+    <wf sent="3" id="w43" length="3" offset="225"><![CDATA[the]]></wf>
+    <wf sent="3" id="w44" length="7" offset="229"><![CDATA[Violent]]></wf>
+    <wf sent="3" id="w45" length="5" offset="237"><![CDATA[Crime]]></wf>
+    <wf sent="3" id="w46" length="7" offset="243"><![CDATA[Control]]></wf>
+    <wf sent="3" id="w47" length="3" offset="251"><![CDATA[and]]></wf>
+    <wf sent="3" id="w48" length="3" offset="255"><![CDATA[Law]]></wf>
+    <wf sent="3" id="w49" length="11" offset="259"><![CDATA[Enforcement]]></wf>
+    <wf sent="3" id="w50" length="3" offset="271"><![CDATA[Act]]></wf>
+    <wf sent="3" id="w51" length="1" offset="274"><![CDATA[,]]></wf>
+    <wf sent="3" id="w52" length="8" offset="276"><![CDATA[H.R.3355]]></wf>
+    <wf sent="3" id="w53" length="1" offset="284"><![CDATA[,]]></wf>
+    <wf sent="3" id="w54" length="5" offset="286"><![CDATA[103rd]]></wf>
+    <wf sent="3" id="w55" length="8" offset="292"><![CDATA[Congress]]></wf>
+    <wf sent="3" id="w56" length="1" offset="300"><![CDATA[.]]></wf>
+    <wf sent="4" id="w57" length="3" offset="302"><![CDATA[The]]></wf>
+    <wf sent="4" id="w58" length="3" offset="306"><![CDATA[Act]]></wf>
+    <wf sent="4" id="w59" length="4" offset="310"><![CDATA[took]]></wf>
+    <wf sent="4" id="w60" length="6" offset="315"><![CDATA[effect]]></wf>
+    <wf sent="4" id="w61" length="2" offset="322"><![CDATA[in]]></wf>
+    <wf sent="4" id="w62" length="4" offset="325"><![CDATA[1994]]></wf>
+    <wf sent="4" id="w63" length="3" offset="330"><![CDATA[and]]></wf>
+    <wf sent="4" id="w64" length="7" offset="334"><![CDATA[expired]]></wf>
+    <wf sent="4" id="w65" length="2" offset="342"><![CDATA[in]]></wf>
+    <wf sent="4" id="w66" length="9" offset="345"><![CDATA[September]]></wf>
+    <wf sent="4" id="w67" length="4" offset="355"><![CDATA[2004]]></wf>
+    <wf sent="4" id="w68" length="5" offset="360"><![CDATA[after]]></wf>
+    <wf sent="4" id="w69" length="3" offset="366"><![CDATA[the]]></wf>
+    <wf sent="4" id="w70" length="10" offset="370"><![CDATA[expiration]]></wf>
+    <wf sent="4" id="w71" length="2" offset="381"><![CDATA[of]]></wf>
+    <wf sent="4" id="w72" length="1" offset="384"><![CDATA[a]]></wf>
+    <wf sent="4" id="w73" length="6" offset="386"><![CDATA[sunset]]></wf>
+    <wf sent="4" id="w74" length="9" offset="393"><![CDATA[provision]]></wf>
+    <wf sent="4" id="w75" length="1" offset="402"><![CDATA[.]]></wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="+" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="+101" pos="PUNCT" type="open" morphofeat="NFP">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="California" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="Street" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="shooting++" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="&#10;" pos="SPACE" type="open" morphofeat="_SP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="101" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="California" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="Street" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="Shooting" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="be" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="a" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="mass" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="shooting" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="on" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="July" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="1" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="1993" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="San" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="Francisco" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term id="t27" lemma="California" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term id="t28" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term id="t29" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term id="t30" lemma="killing" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term id="t31" lemma="spark" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term id="t32" lemma="a" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term id="t33" lemma="number" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term id="t34" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term id="t35" lemma="legal" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term id="t36" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term id="t37" lemma="legislative" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term id="t38" lemma="action" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term id="t39" lemma="that" pos="DET" type="open" morphofeat="WDT">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term id="t40" lemma="be" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term id="t41" lemma="precursor" pos="NOUN" type="open" morphofeat="NNS">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term id="t42" lemma="to" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term id="t43" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term id="t44" lemma="Violent" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term id="t45" lemma="Crime" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term id="t46" lemma="Control" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term id="t47" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term id="t48" lemma="Law" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term id="t49" lemma="Enforcement" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term id="t50" lemma="Act" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <term id="t51" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <term id="t52" lemma="H.R.3355" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <term id="t53" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <term id="t54" lemma="103rd" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <term id="t55" lemma="Congress" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <term id="t56" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <term id="t57" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <term id="t58" lemma="Act" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <term id="t59" lemma="take" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <term id="t60" lemma="effect" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <term id="t61" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <term id="t62" lemma="1994" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <term id="t63" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <term id="t64" lemma="expire" pos="VERB" type="open" morphofeat="VBD">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <term id="t65" lemma="in" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <term id="t66" lemma="September" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <term id="t67" lemma="2004" pos="NUM" type="open" morphofeat="CD">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <term id="t68" lemma="after" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <term id="t69" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <term id="t70" lemma="expiration" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <term id="t71" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <term id="t72" lemma="a" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <term id="t73" lemma="sunset" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <term id="t74" lemma="provision" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <term id="t75" lemma="." pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t5" to="t1" rfunc="cc"/>
+    <dep from="t5" to="t2" rfunc="punct"/>
+    <dep from="t4" to="t3" rfunc="compound"/>
+    <dep from="t5" to="t4" rfunc="compound"/>
+    <dep from="t5" to="t6" rfunc="punct"/>
+    <dep from="t6" to="t7" rfunc=""/>
+    <dep from="t12" to="t8" rfunc="det"/>
+    <dep from="t13" to="t12" rfunc="nsubj"/>
+    <dep from="t12" to="t9" rfunc="nummod"/>
+    <dep from="t12" to="t10" rfunc="compound"/>
+    <dep from="t12" to="t11" rfunc="compound"/>
+    <dep from="t15" to="t14" rfunc="det"/>
+    <dep from="t13" to="t15" rfunc="attr"/>
+    <dep from="t15" to="t16" rfunc="acl"/>
+    <dep from="t16" to="t17" rfunc="prep"/>
+    <dep from="t17" to="t18" rfunc="pobj"/>
+    <dep from="t18" to="t19" rfunc="nummod"/>
+    <dep from="t18" to="t20" rfunc="punct"/>
+    <dep from="t18" to="t21" rfunc="nummod"/>
+    <dep from="t18" to="t22" rfunc="punct"/>
+    <dep from="t18" to="t23" rfunc="prep"/>
+    <dep from="t25" to="t24" rfunc="compound"/>
+    <dep from="t23" to="t25" rfunc="pobj"/>
+    <dep from="t25" to="t26" rfunc="punct"/>
+    <dep from="t25" to="t27" rfunc="appos"/>
+    <dep from="t13" to="t28" rfunc="punct"/>
+    <dep from="t30" to="t29" rfunc="det"/>
+    <dep from="t31" to="t30" rfunc="nsubj"/>
+    <dep from="t33" to="t32" rfunc="det"/>
+    <dep from="t31" to="t33" rfunc="dobj"/>
+    <dep from="t33" to="t34" rfunc="prep"/>
+    <dep from="t38" to="t35" rfunc="amod"/>
+    <dep from="t34" to="t38" rfunc="pobj"/>
+    <dep from="t35" to="t36" rfunc="cc"/>
+    <dep from="t35" to="t37" rfunc="conj"/>
+    <dep from="t40" to="t39" rfunc="nsubj"/>
+    <dep from="t38" to="t40" rfunc="relcl"/>
+    <dep from="t40" to="t41" rfunc="attr"/>
+    <dep from="t41" to="t42" rfunc="prep"/>
+    <dep from="t50" to="t43" rfunc="det"/>
+    <dep from="t42" to="t50" rfunc="pobj"/>
+    <dep from="t50" to="t44" rfunc="compound"/>
+    <dep from="t50" to="t45" rfunc="nmod"/>
+    <dep from="t50" to="t46" rfunc="nmod"/>
+    <dep from="t46" to="t47" rfunc="cc"/>
+    <dep from="t49" to="t48" rfunc="compound"/>
+    <dep from="t46" to="t49" rfunc="conj"/>
+    <dep from="t50" to="t51" rfunc="punct"/>
+    <dep from="t55" to="t52" rfunc="nmod"/>
+    <dep from="t50" to="t55" rfunc="appos"/>
+    <dep from="t55" to="t53" rfunc="punct"/>
+    <dep from="t55" to="t54" rfunc="compound"/>
+    <dep from="t31" to="t56" rfunc="punct"/>
+    <dep from="t58" to="t57" rfunc="det"/>
+    <dep from="t59" to="t58" rfunc="nsubj"/>
+    <dep from="t59" to="t60" rfunc="dobj"/>
+    <dep from="t59" to="t61" rfunc="prep"/>
+    <dep from="t61" to="t62" rfunc="pobj"/>
+    <dep from="t59" to="t63" rfunc="cc"/>
+    <dep from="t59" to="t64" rfunc="conj"/>
+    <dep from="t64" to="t65" rfunc="prep"/>
+    <dep from="t65" to="t66" rfunc="pobj"/>
+    <dep from="t66" to="t67" rfunc="nummod"/>
+    <dep from="t64" to="t68" rfunc="prep"/>
+    <dep from="t70" to="t69" rfunc="det"/>
+    <dep from="t68" to="t70" rfunc="pobj"/>
+    <dep from="t70" to="t71" rfunc="prep"/>
+    <dep from="t74" to="t72" rfunc="det"/>
+    <dep from="t71" to="t74" rfunc="pobj"/>
+    <dep from="t74" to="t73" rfunc="compound"/>
+    <dep from="t59" to="t75" rfunc="punct"/>
+  </deps>
+  <entities>
+    <entity id="e1" type="UNK">
+      <span>
+        <!--m a s s   s h o o t i n g-->
+        <target id="t15"/>
+        <target id="t16"/>
+      </span>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Mass_shooting" resource="Wikipedia hyperlinks" source="https://www.wikipedia.org/" timestamp="2019-07-20T00:00:00UTC"/>
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="UNK">
+      <span>
+        <!--S a n   F r a n c i s c o-->
+        <target id="t24"/>
+        <target id="t25"/>
+      </span>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/San_Francisco" resource="Wikipedia hyperlinks" source="https://www.wikipedia.org/" timestamp="2019-07-20T00:00:00UTC"/>
+      </externalReferences>
+    </entity>
+    <entity id="e3" type="UNK">
+      <span>
+        <!--C a l i f o r n i a-->
+        <target id="t27"/>
+      </span>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/California" resource="Wikipedia hyperlinks" source="https://www.wikipedia.org/" timestamp="2019-07-20T00:00:00UTC"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Vecchia_California" resource="Wikipedia hyperlinks" source="https://www.wikipedia.org/" timestamp="2019-07-20T00:00:00UTC"/>
+      </externalReferences>
+    </entity>
+    <entity id="e4" type="UNK">
+      <span>
+        <!--V i o l e n t   C r i m e   C o n t r o l   a n d   L a w   E n f o r c e m e n t   A c t-->
+        <target id="t44"/>
+        <target id="t45"/>
+        <target id="t46"/>
+        <target id="t47"/>
+        <target id="t48"/>
+        <target id="t49"/>
+        <target id="t50"/>
+      </span>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Violent_Crime_Control_and_Law_Enforcement_Act" resource="Wikipedia hyperlinks" source="https://www.wikipedia.org/" timestamp="2019-07-20T00:00:00UTC"/>
+      </externalReferences>
+    </entity>
+    <entity id="e5" type="UNK">
+      <span>
+        <!--s u n s e t   p r o v i s i o n-->
+        <target id="t73"/>
+        <target id="t74"/>
+      </span>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Sunset_provision" resource="Wikipedia hyperlinks" source="https://www.wikipedia.org/" timestamp="2019-07-20T00:00:00UTC"/>
+      </externalReferences>
+    </entity>
+  </entities>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-roadways" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t4"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-roadways" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t11"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-quantified_mass" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t15"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-hit_target" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t16"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-quantified_mass" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t33"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-intentionally_act" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t38"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-ingredients" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t41"/>
+      </span>
+    </predicate>
+    <predicate id="pr8" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-intentionally_act" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t50"/>
+      </span>
+    </predicate>
+    <predicate id="pr9" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-intentionally_act" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t58"/>
+      </span>
+    </predicate>
+    <predicate id="pr10" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-objective_influence" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t60"/>
+      </span>
+    </predicate>
+    <predicate id="pr11" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-breathing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t64"/>
+      </span>
+    </predicate>
+    <predicate id="pr12" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-time_vector" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t68"/>
+      </span>
+    </predicate>
+    <predicate id="pr13" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-terms_of_agreement" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-09-13T09:34:55UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t74"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

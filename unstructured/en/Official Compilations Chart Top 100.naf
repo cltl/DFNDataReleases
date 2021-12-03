@@ -2,21 +2,24 @@
 <NAF xml:lang="en" version="v4">
   <nafHeader>
     <fileDesc creationtime="1-01-01T00:00:00UTC" title="Official Compilations Chart Top 100"/>
-    <public uri="http://web.archive.org/web/20210506063545/https://www.officialcharts.com/charts/official-compilations-chart/20190524/7503/"/>
+    <public uri="http://web.archive.org/web/20210603003109/https://www.officialcharts.com/charts/official-compilations-chart/20200522/7503/"/>
     <linguisticProcessors layer="raw">
-      <lp beginTimestamp="2021-09-06T15:52:52UTC" endTimestamp="2021-09-06T15:52:52UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-11-24T18:06:52UTC" endTimestamp="2021-11-24T18:06:52UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="text">
-      <lp beginTimestamp="2021-09-06T15:52:52UTC" endTimestamp="2021-09-06T15:52:52UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-11-24T18:06:52UTC" endTimestamp="2021-11-24T18:06:52UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="terms">
-      <lp beginTimestamp="2021-09-06T15:52:52UTC" endTimestamp="2021-09-06T15:52:52UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-11-24T18:06:52UTC" endTimestamp="2021-11-24T18:06:52UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="deps">
-      <lp beginTimestamp="2021-09-06T15:52:52UTC" endTimestamp="2021-09-06T15:52:52UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-11-24T18:06:52UTC" endTimestamp="2021-11-24T18:06:52UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="multiwords">
-      <lp beginTimestamp="2021-09-06T15:52:52UTC" endTimestamp="2021-09-06T15:52:52UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+      <lp beginTimestamp="2021-11-24T18:06:52UTC" endTimestamp="2021-11-24T18:06:52UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-11-24T22:34:05CET" beginTimestamp="2021-11-24T21:28:39UTC" endTimestamp="2021-11-24T21:34:03UTC" hostname="kyoto"/>
     </linguisticProcessors>
   </nafHeader>
   <raw><![CDATA[Official Compilations Chart Top 100 The Official Compilations Chart is compiled by the Official Charts Company and based on UK sales of digital bundles, CDs, vinyl and other formats, across a seven day period.]]></raw>
@@ -290,4 +293,54 @@
     <dep from="t37" to="t36" rfunc="compound"/>
     <dep from="t11" to="t38" rfunc="punct"/>
   </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-businesses" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-11-24T21:34:03UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t16"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-commerce_sell" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-11-24T21:34:03UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t21"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-increment" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-11-24T21:34:03UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t30"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-11-24T21:34:03UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t35"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-11-24T21:34:03UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t36"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-frequency" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-11-24T21:34:03UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t37"/>
+      </span>
+    </predicate>
+  </srl>
 </NAF>
