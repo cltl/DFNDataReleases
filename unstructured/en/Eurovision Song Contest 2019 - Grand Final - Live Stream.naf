@@ -18,6 +18,9 @@
     <linguisticProcessors layer="multiwords">
       <lp beginTimestamp="2021-09-06T15:54:18UTC" endTimestamp="2021-09-06T15:54:18UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2022-01-28T16:49:15CET" beginTimestamp="2022-01-28T15:40:40UTC" endTimestamp="2022-01-28T15:49:09UTC" hostname="kyoto"/>
+    </linguisticProcessors>
   </nafHeader>
   <raw><![CDATA[Rating is available when the video has been rented. This feature is not available right now. Please try again later.]]></raw>
   <text>
@@ -184,4 +187,30 @@
     <dep from="t20" to="t22" rfunc="advmod"/>
     <dep from="t20" to="t23" rfunc="punct"/>
   </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-direction" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t16"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-attempt" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t20"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-temporal_subregion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t22"/>
+      </span>
+    </predicate>
+  </srl>
 </NAF>

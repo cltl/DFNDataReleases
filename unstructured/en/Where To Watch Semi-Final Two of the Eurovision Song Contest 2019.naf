@@ -18,6 +18,9 @@
     <linguisticProcessors layer="multiwords">
       <lp beginTimestamp="2021-09-06T15:52:48UTC" endTimestamp="2021-09-06T15:52:49UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2022-01-28T16:49:15CET" beginTimestamp="2022-01-28T15:40:40UTC" endTimestamp="2022-01-28T15:49:09UTC" hostname="kyoto"/>
+    </linguisticProcessors>
   </nafHeader>
   <raw><![CDATA[Eighteen nations take to the stage tonight competing for ten places in the Grand Final of Eurovision 2019, here’s where you can watch the show. Whether you’re sat in front of the TV, listening on the radio or streaming the contest online, here’s where you can enjoy the Second Semi-Final of Eurovision 2019. Television The following channels in nations that are competing in the Eurovision Song Contest 2019 are broadcasting Semi-Final Two: Albania – RTSH 1, RTSH Muzike Armenia – First Channel Austria – ORF Eins Azerbaijan – iTV Australia – SBS, SBS HD Belarus – Belarus 1, Belarus 24 Belgium – Ketnet, La Une Croatia – HRT1 Czech Republic – CT2 Cyprus – RIK 1, RIK SAT, RIK HD Denmark – DR1 Estonia – ETV, ETC+ Finland – Yle TV2, TV Finland France – France 4 Georgia – First Channel Georgia – ERT1, ERT Sports HD, ERT World Germany – ONE Hungary – DUNA Iceland – RÚV 1, RÚV 1 Ireland – RTE Two Israel – Kan 11 Italy – Rai 4 Latvia – LTV1 Lithuania – LRT HD Netherlands – NPO 1, BVN North Macedonia – MRT 1, MRT 2 Malta – PBS Moldova – Moldova 1 Montenegro – TVCG 1, TVCG 2 Norway – NRK1 Poland – TVP1, TVP Polonia Portugal – RTP1, RTP Africa, RTP Internacional – 7 minute delay Romania – TVR 1, TVR HD, TVR International Russia – Russia 1, Russia HD San Marino – San Marino RTV Serbia – RTS 1, RTS HD, RTS Svet Slovenia – TV SLO 2, RTV 4D Spain – La 2 Sweden – SVT 1 Switzerland – SRF Info United Kingdom – BBC Four The following non-participating countries are broadcasting the contest: Canada – OMNI.1 – 6 hour delay Kazakhstan – Khabar Kosovo – RTK Ukraine – UA:Pershyi, STB Radio The following radio stations in nations that are competing in the Eurovision Song Contest 2019 are airing Semi-Final Two: Albania – Radio Tirana Armenia – Public Radio of Armenia Finland – Yle Radio Suomi, Yle X3M Greece – ERA 2, Voice of Greece Iceland – Ras 2 Ireland – RTE Radio 1 Lithuania – LRT Radijas Moldova – Radio Moldova San Marino – Radio San Marino Sweden – Sveriges Radio P4 Online There are a number of ways to watch the Eurovision Song Contest live online. For a broadcast without commentary you can stream the contest live on YouTube. Broadcasts with commentary are available via SVT Play, RUV 2 and Eurovision.de]]></raw>
   <text>
@@ -3234,4 +3237,318 @@
     <dep from="t461" to="t463" rfunc="cc"/>
     <dep from="t461" to="t464" rfunc="conj"/>
   </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t2"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-taking_time" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t3"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-cardinal_numbers" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t10"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-placing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t11"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-interior_profile_relation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t12"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locative_relation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t20"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locative_relation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t22"/>
+      </span>
+    </predicate>
+    <predicate id="pr8" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-capability" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t24"/>
+      </span>
+    </predicate>
+    <predicate id="pr9" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-perception_active" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t25"/>
+      </span>
+    </predicate>
+    <predicate id="pr10" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-evidence" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t27"/>
+      </span>
+    </predicate>
+    <predicate id="pr11" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-front_for" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t34"/>
+      </span>
+    </predicate>
+    <predicate id="pr12" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-perception_active" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t39"/>
+      </span>
+    </predicate>
+    <predicate id="pr13" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-spatial_contact" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t40"/>
+      </span>
+    </predicate>
+    <predicate id="pr14" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-fluidic_motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t44"/>
+      </span>
+    </predicate>
+    <predicate id="pr15" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locative_relation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t49"/>
+      </span>
+    </predicate>
+    <predicate id="pr16" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-capability" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t53"/>
+      </span>
+    </predicate>
+    <predicate id="pr17" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-experiencer_focus" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t54"/>
+      </span>
+    </predicate>
+    <predicate id="pr18" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-measure_duration" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t56"/>
+      </span>
+    </predicate>
+    <predicate id="pr19" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-relative_time" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t66"/>
+      </span>
+    </predicate>
+    <predicate id="pr20" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t69"/>
+      </span>
+    </predicate>
+    <predicate id="pr21" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-first_experience" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t95"/>
+      </span>
+    </predicate>
+    <predicate id="pr22" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-measure_duration" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t253"/>
+      </span>
+    </predicate>
+    <predicate id="pr23" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-change_event_time" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t254"/>
+      </span>
+    </predicate>
+    <predicate id="pr24" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t309"/>
+      </span>
+    </predicate>
+    <predicate id="pr25" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-participation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t317"/>
+      </span>
+    </predicate>
+    <predicate id="pr26" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t318"/>
+      </span>
+    </predicate>
+    <predicate id="pr27" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-calendric_unit" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t329"/>
+      </span>
+    </predicate>
+    <predicate id="pr28" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-change_event_time" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t330"/>
+      </span>
+    </predicate>
+    <predicate id="pr29" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-relative_time" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t346"/>
+      </span>
+    </predicate>
+    <predicate id="pr30" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-political_locales" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t350"/>
+      </span>
+    </predicate>
+    <predicate id="pr31" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-expressing_publicly" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t361"/>
+      </span>
+    </predicate>
+    <predicate id="pr32" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-locative_relation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t423"/>
+      </span>
+    </predicate>
+    <predicate id="pr33" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-quantified_mass" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t426"/>
+      </span>
+    </predicate>
+    <predicate id="pr34" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-means" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t428"/>
+      </span>
+    </predicate>
+    <predicate id="pr35" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-perception_active" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t430"/>
+      </span>
+    </predicate>
+    <predicate id="pr36" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-residence" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t435"/>
+      </span>
+    </predicate>
+    <predicate id="pr37" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-capability" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t444"/>
+      </span>
+    </predicate>
+    <predicate id="pr38" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-fluidic_motion" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t445"/>
+      </span>
+    </predicate>
+    <predicate id="pr39" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-residence" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t448"/>
+      </span>
+    </predicate>
+  </srl>
 </NAF>

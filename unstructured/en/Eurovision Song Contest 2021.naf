@@ -18,6 +18,9 @@
     <linguisticProcessors layer="multiwords">
       <lp beginTimestamp="2021-09-06T15:55:09UTC" endTimestamp="2021-09-06T15:55:09UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2022-01-28T16:49:15CET" beginTimestamp="2022-01-28T15:40:40UTC" endTimestamp="2022-01-28T15:49:09UTC" hostname="kyoto"/>
+    </linguisticProcessors>
   </nafHeader>
   <raw><![CDATA[Rogers Media uses cookies for personalization, to customize its online advertisements, and for other purposes. Learn more or change your cookie preferences. Rogers Media supports the Digital Advertising Alliance principles. By continuing to use our service, you agree to our use of cookies.]]></raw>
   <text>
@@ -372,4 +375,78 @@
     <dep from="t48" to="t49" rfunc="pobj"/>
     <dep from="t44" to="t50" rfunc="punct"/>
   </deps>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-using" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t3"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-increment" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t16"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-purpose" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t17"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-undergo_change" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t22"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-taking_sides" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t29"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-activity_ongoing" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t37"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-using" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t39"/>
+      </span>
+    </predicate>
+    <predicate id="pr8" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-make_agreement_on_action" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t44"/>
+      </span>
+    </predicate>
+    <predicate id="pr9" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-purpose" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2022-01-28T15:49:09UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t47"/>
+      </span>
+    </predicate>
+  </srl>
 </NAF>
