@@ -269,7 +269,7 @@ When in a criminal investigation two or more countries are cooperating, there ar
     <wf sent="16" id="w250" length="1" offset="1392">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="questions" pos="PROPN" type="open" morphofeat="SPEC|deeleigen"><span><target id="w1"/></span></term><term id="t2" lemma="and" pos="X" type="open" morphofeat="SPEC|vreemd__Foreign=Yes"><span><target id="w2"/></span></term><term id="t3" lemma="answer" pos="NOUN" type="open" morphofeat="N|soort|mv|basis__Number=Plur"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w4"/></span></term><term id="t5" lemma="wh" pos="NOUN" type="open" morphofeat="N|soort|mv|neut__Number=Plur">
+    <term id="t1" lemma="Questions" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|onz|stan"><span><target id="w1"/></span></term><term id="t2" lemma="and" pos="SYM" type="open" morphofeat="SPEC|vreemd"><span><target id="w2"/></span></term><term id="t3" lemma="answer" pos="NOUN" type="open" morphofeat="N|soort|mv|basis"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w4"/></span></term><term id="t5" lemma="wh" pos="NOUN" type="open" morphofeat="N|soort|mv|neut__Number=Plur">
       <span>
         <target id="w5"/>
       </span>
@@ -1501,7 +1501,7 @@ When in a criminal investigation two or more countries are cooperating, there ar
     </term>
   </terms>
   <deps>
-    <dep from="t1" to="t2" rfunc="flat"/><dep from="t1" to="t3" rfunc="flat"/><dep from="t1" to="t4" rfunc="punct"/><dep from="t41" to="t5" rfunc="nsubj"/>
+    <dep from="t1" to="t2" rfunc="fixed"/><dep from="t1" to="t3" rfunc="fixed"/><dep from="t1" to="t4" rfunc="punct"/><dep from="t41" to="t5" rfunc="nsubj"/>
     <dep from="t8" to="t6" rfunc="case"/>
     <dep from="t5" to="t8" rfunc="nmod"/>
     <dep from="t8" to="t7" rfunc="case"/>

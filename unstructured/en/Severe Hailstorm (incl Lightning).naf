@@ -629,7 +629,7 @@ It took many months before all damaged houses were repaired (particularly where 
     <wf sent="23" id="w589" length="1" offset="3137">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Severe" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Hailstorm" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="(" pos="PUNCT" type="open" morphofeat="-LRB-"><span><target id="w3"/></span></term><term id="t4" lemma="incl" pos="VERB" type="open" morphofeat="VBZ"><span><target id="w4"/></span></term><term id="t5" lemma="Lightning" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma=")" pos="PUNCT" type="open" morphofeat="-RRB-"><span><target id="w6"/></span></term><term id="t7" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w7"/></span></term><term id="t8" lemma="at" pos="ADP" type="open" morphofeat="IN">
+    <term id="t1" lemma="severe" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w1"/></span></term><term id="t2" lemma="Hailstorm" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="(" pos="PUNCT" type="open" morphofeat="-LRB-"><span><target id="w3"/></span></term><term id="t4" lemma="incl" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w4"/></span></term><term id="t5" lemma="Lightning" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma=")" pos="PUNCT" type="open" morphofeat="-RRB-"><span><target id="w6"/></span></term><term id="t7" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w7"/></span></term><term id="t8" lemma="at" pos="ADP" type="open" morphofeat="IN">
       <span>
         <target id="w8"/>
       </span>
@@ -3541,7 +3541,7 @@ It took many months before all damaged houses were repaired (particularly where 
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t2" to="t4" rfunc="appos"/><dep from="t2" to="t5" rfunc="appos"/><dep from="t2" to="t6" rfunc="punct"/><dep from="t2" to="t7" rfunc="punct"/><dep from="t15" to="t8" rfunc="prep"/>
+    <dep from="t2" to="t1" rfunc="amod"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t5" to="t4" rfunc="amod"/><dep from="t2" to="t5" rfunc="appos"/><dep from="t2" to="t6" rfunc="punct"/><dep from="t2" to="t7" rfunc="punct"/><dep from="t15" to="t8" rfunc="prep"/>
     <dep from="t10" to="t9" rfunc="advmod"/>
     <dep from="t11" to="t10" rfunc="nummod"/>
     <dep from="t8" to="t11" rfunc="pobj"/>

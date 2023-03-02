@@ -980,7 +980,7 @@ Are you worried that you have been infected? If you are ill (coughing, have a fe
     <wf sent="34" id="w958" length="1" offset="5328">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Coronavirus" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="disease" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="COVID-19" pos="PUNCT" type="open" morphofeat=","><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="be" pos="VERB" type="open" morphofeat="VBP">
+    <term id="t1" lemma="coronavirus" pos="NOUN" type="open" morphofeat="NN"><span><target id="w1"/></span></term><term id="t2" lemma="disease" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="covid-19" pos="NOUN" type="open" morphofeat="NN"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="be" pos="VERB" type="open" morphofeat="VBP">
       <span>
         <target id="w5"/>
       </span>
@@ -5752,7 +5752,7 @@ Are you worried that you have been infected? If you are ill (coughing, have a fe
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t2" to="t3" rfunc="dobj"/><dep from="t2" to="t4" rfunc="punct"/><dep from="t5" to="t6" rfunc="nsubj"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t5" to="t6" rfunc="nsubj"/>
     <dep from="t5" to="t7" rfunc="acomp"/>
     <dep from="t12" to="t8" rfunc="mark"/>
     <dep from="t7" to="t12" rfunc="ccomp"/>

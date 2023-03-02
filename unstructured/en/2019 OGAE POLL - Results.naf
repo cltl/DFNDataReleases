@@ -111,7 +111,7 @@ Updated as at Tuesday 30th April 2019 WINNER with votes from over 3500 OGAE Memb
     <wf sent="8" id="w91" length="8" offset="493">Facebook</wf>
   </text>
   <terms>
-    <term id="t1" lemma="2019" pos="NUM" type="open" morphofeat="CD"><span><target id="w1"/></span></term><term id="t2" lemma="OGAE" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="POLL" pos="PROPN" type="open" morphofeat="NNPS"><span><target id="w3"/></span></term><term id="t4" lemma="-" pos="PUNCT" type="open" morphofeat="HYPH"><span><target id="w4"/></span></term><term id="t5" lemma="Results" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="update" pos="VERB" type="open" morphofeat="VBN">
+    <term id="t1" lemma="2019" pos="NUM" type="open" morphofeat="CD"><span><target id="w1"/></span></term><term id="t2" lemma="ogae" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="POLL" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w3"/></span></term><term id="t4" lemma="-" pos="PUNCT" type="open" morphofeat=":"><span><target id="w4"/></span></term><term id="t5" lemma="Results" pos="PROPN" type="open" morphofeat="NNPS"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="update" pos="VERB" type="open" morphofeat="VBN">
       <span>
         <target id="w7"/>
       </span>
@@ -538,7 +538,7 @@ Updated as at Tuesday 30th April 2019 WINNER with votes from over 3500 OGAE Memb
     </term>
   </terms>
   <deps>
-    <dep from="t5" to="t1" rfunc="nummod"/><dep from="t5" to="t2" rfunc="compound"/><dep from="t5" to="t3" rfunc="compound"/><dep from="t5" to="t4" rfunc="punct"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t7" to="t8" rfunc="prep"/>
+    <dep from="t3" to="t1" rfunc="nummod"/><dep from="t5" to="t3" rfunc="dep"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t5" to="t4" rfunc="punct"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t7" to="t8" rfunc="prep"/>
     <dep from="t8" to="t9" rfunc="prep"/>
     <dep from="t11" to="t10" rfunc="compound"/>
     <dep from="t9" to="t11" rfunc="pobj"/>

@@ -49,7 +49,7 @@
     <wf sent="3" id="w26" length="1" offset="136">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="covid-19" pos="INTJ" type="open" morphofeat="UH"><span><target id="w1"/></span></term><term id="t2" lemma="!" pos="PUNCT" type="open" morphofeat="."><span><target id="w2"/></span></term><term id="t3" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w3"/></span></term><term id="t4" lemma="ኢትዮጵያ" pos="VERB" type="open" morphofeat="VBN">
+    <term id="t1" lemma="Covid-19" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="!" pos="PUNCT" type="open" morphofeat="."><span><target id="w2"/></span></term><term id="t3" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w3"/></span></term><term id="t4" lemma="ኢትዮጵያ" pos="VERB" type="open" morphofeat="VBN">
       <span>
         <target id="w4"/>
       </span>
@@ -166,7 +166,7 @@
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="dep"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t4" to="t5" rfunc="nummod"/>
+    <dep from="t1" to="t2" rfunc="punct"/><dep from="t1" to="t3" rfunc="punct"/><dep from="t4" to="t5" rfunc="nummod"/>
     <dep from="t4" to="t6" rfunc="cc"/>
     <dep from="t4" to="t7" rfunc="nummod"/>
     <dep from="t9" to="t8" rfunc="compound"/>

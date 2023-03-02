@@ -1276,7 +1276,7 @@ Original reporting by Shohret Hoshur for RFA's Uyghur service. Uyghur service di
     <wf sent="77" id="w1198" length="1" offset="6022">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Outspoken" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Economist" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Presumed" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Held" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="HONG" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t1" lemma="Outspoken" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Economist" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Presumed" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="hold" pos="VERB" type="open" morphofeat="VBN"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="HONG" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w6"/>
       </span>
@@ -7243,7 +7243,7 @@ Original reporting by Shohret Hoshur for RFA's Uyghur service. Uyghur service di
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t2" to="t4" rfunc="acl"/><dep from="t2" to="t5" rfunc="punct"/><dep from="t7" to="t6" rfunc="compound"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t4" to="t2" rfunc="nsubj"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t4" to="t5" rfunc="punct"/><dep from="t7" to="t6" rfunc="compound"/>
     <dep from="t8" to="t7" rfunc="nsubj"/>
     <dep from="t11" to="t9" rfunc="det"/>
     <dep from="t33" to="t11" rfunc="nsubj"/>

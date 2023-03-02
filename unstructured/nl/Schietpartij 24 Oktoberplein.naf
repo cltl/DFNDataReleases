@@ -110,7 +110,7 @@ Op 1 juli 2019 begon de strafzaak tegen Gökmen T. die wordt verdacht van de sch
     <wf sent="6" id="w91" length="1" offset="530">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="schietpartij" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w1"/></span></term><term id="t2" lemma="24" pos="NUM" type="open" morphofeat="TW|hoofd|vrij"><span><target id="w2"/></span></term><term id="t3" lemma="oktoberplein" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w4"/></span></term><term id="t5" lemma="op" pos="ADP" type="open" morphofeat="Prep|voor__AdpType=Prep">
+    <term id="t1" lemma="schietpartij" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan"><span><target id="w1"/></span></term><term id="t2" lemma="24" pos="NUM" type="open" morphofeat="TW|hoofd|vrij"><span><target id="w2"/></span></term><term id="t3" lemma="Oktoberplein" pos="PROPN" type="open" morphofeat="SPEC|deeleigen"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w4"/></span></term><term id="t5" lemma="op" pos="ADP" type="open" morphofeat="Prep|voor__AdpType=Prep">
       <span>
         <target id="w5"/>
       </span>
@@ -547,7 +547,7 @@ Op 1 juli 2019 begon de strafzaak tegen Gökmen T. die wordt verdacht van de sch
     </term>
   </terms>
   <deps>
-    <dep from="t1" to="t2" rfunc="flat"/><dep from="t1" to="t3" rfunc="flat"/><dep from="t1" to="t4" rfunc="punct"/><dep from="t6" to="t5" rfunc="case"/>
+    <dep from="t1" to="t2" rfunc="appos"/><dep from="t1" to="t3" rfunc="flat"/><dep from="t1" to="t4" rfunc="punct"/><dep from="t6" to="t5" rfunc="case"/>
     <dep from="t9" to="t6" rfunc="obl"/>
     <dep from="t6" to="t7" rfunc="compound"/>
     <dep from="t6" to="t8" rfunc="compound"/>

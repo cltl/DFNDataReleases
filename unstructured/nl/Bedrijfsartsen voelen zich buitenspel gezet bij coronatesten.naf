@@ -671,7 +671,7 @@ GGD-medewerkers nemen coronatests af in een drive-inlocatie bij mensen die in de
     <wf sent="37" id="w656" length="1" offset="3726">’</wf>
   </text>
   <terms>
-    <term id="t1" lemma="bedrijfsarts" pos="NOUN" type="open" morphofeat="N|soort|mv|basis__Number=Plur"><span><target id="w1"/></span></term><term id="t2" lemma="voelen" pos="AUX" type="open" morphofeat="WW|pv|tgw|mv__Number=Plur|Tense=Pres|VerbForm=Fin"><span><target id="w2"/></span></term><term id="t3" lemma="zich" pos="PRON" type="open" morphofeat="VNW|refl|pron|obl|red|3|getal__Case=Acc|Person=3|PronType=Prs|Reflex=Yes"><span><target id="w3"/></span></term><term id="t4" lemma="buitenspel" pos="ADJ" type="open" morphofeat="ADJ|vrij|basis|zonder__Degree=Pos"><span><target id="w4"/></span></term><term id="t5" lemma="zetten" pos="VERB" type="open" morphofeat="WW|vd|vrij|zonder__VerbForm=Part"><span><target id="w5"/></span></term><term id="t6" lemma="bij" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w6"/></span></term><term id="t7" lemma="coronatest" pos="NOUN" type="open" morphofeat="N|soort|mv|basis__Number=Plur"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w8"/></span></term><term id="t9" lemma="ggd" pos="NOUN" type="open" morphofeat="N|soort|mv|neut__Number=Plur">
+    <term id="t1" lemma="Bedrijfsart" pos="NOUN" type="open" morphofeat="N|soort|mv|basis"><span><target id="w1"/></span></term><term id="t2" lemma="voelen" pos="VERB" type="open" morphofeat="WW|pv|tgw|mv"><span><target id="w2"/></span></term><term id="t3" lemma="zich" pos="PRON" type="open" morphofeat="VNW|refl|pron|obl|red|3|getal"><span><target id="w3"/></span></term><term id="t4" lemma="buitenspel" pos="NOUN" type="open" morphofeat="ADJ|vrij|basis|zonder"><span><target id="w4"/></span></term><term id="t5" lemma="zetten" pos="VERB" type="open" morphofeat="WW|vd|vrij|zonder"><span><target id="w5"/></span></term><term id="t6" lemma="bij" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w6"/></span></term><term id="t7" lemma="coronatesat" pos="NOUN" type="open" morphofeat="N|soort|mv|basis"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w8"/></span></term><term id="t9" lemma="ggd" pos="NOUN" type="open" morphofeat="N|soort|mv|neut__Number=Plur">
       <span>
         <target id="w9"/>
       </span>
@@ -3913,7 +3913,7 @@ GGD-medewerkers nemen coronatests af in een drive-inlocatie bij mensen die in de
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t2" to="t3" rfunc="expl:pv"/><dep from="t5" to="t4" rfunc="advmod"/><dep from="t2" to="t5" rfunc="ccomp"/><dep from="t7" to="t6" rfunc="case"/><dep from="t5" to="t7" rfunc="obl"/><dep from="t2" to="t8" rfunc="punct"/><dep from="t11" to="t9" rfunc="nmod"/>
+    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t5" to="t3" rfunc="expl:pv"/><dep from="t2" to="t5" rfunc="ccomp"/><dep from="t5" to="t4" rfunc="xcomp"/><dep from="t7" to="t6" rfunc="case"/><dep from="t5" to="t7" rfunc="obl"/><dep from="t2" to="t8" rfunc="punct"/><dep from="t11" to="t9" rfunc="nmod"/>
     <dep from="t12" to="t11" rfunc="nsubj"/>
     <dep from="t11" to="t10" rfunc="nmod"/>
     <dep from="t12" to="t13" rfunc="obl"/>

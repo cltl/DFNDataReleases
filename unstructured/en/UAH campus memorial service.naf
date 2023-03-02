@@ -1612,7 +1612,7 @@ Staff writer Mike Marshall contributed to this article.</raw>
     <wf sent="82" id="w1508" length="1" offset="7068">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="UAH" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="campus" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="memorial" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w3"/></span></term><term id="t4" lemma="service" pos="NOUN" type="open" morphofeat="NN"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="HUNTSVILLE" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t1" lemma="uah" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w1"/></span></term><term id="t2" lemma="campus" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="memorial" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w3"/></span></term><term id="t4" lemma="service" pos="NOUN" type="open" morphofeat="NN"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="HUNTSVILLE" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w6"/>
       </span>
@@ -9129,7 +9129,7 @@ Staff writer Mike Marshall contributed to this article.</raw>
     </term>
   </terms>
   <deps>
-    <dep from="t4" to="t1" rfunc="compound"/><dep from="t4" to="t2" rfunc="compound"/><dep from="t4" to="t3" rfunc="amod"/><dep from="t4" to="t5" rfunc="punct"/><dep from="t6" to="t7" rfunc="punct"/>
+    <dep from="t4" to="t1" rfunc="nmod"/><dep from="t1" to="t2" rfunc="npadvmod"/><dep from="t4" to="t3" rfunc="amod"/><dep from="t4" to="t5" rfunc="punct"/><dep from="t6" to="t7" rfunc="punct"/>
     <dep from="t6" to="t8" rfunc="npadvmod"/>
     <dep from="t6" to="t9" rfunc="punct"/>
     <dep from="t38" to="t10" rfunc="prep"/>

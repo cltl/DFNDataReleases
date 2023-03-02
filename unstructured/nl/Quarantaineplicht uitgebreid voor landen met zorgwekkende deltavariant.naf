@@ -282,7 +282,7 @@ Quarantaineplicht uitgebreid voor landen met zorgwekkende deltavariant Op advies
     <wf sent="15" id="w267" length="1" offset="1618">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="quarantaineplicht" pos="ADJ" type="open" morphofeat="ADJ|vrij|basis|zonder__Degree=Pos"><span><target id="w1"/></span></term><term id="t2" lemma="uitbreiden" pos="VERB" type="open" morphofeat="WW|vd|vrij|zonder__VerbForm=Part"><span><target id="w2"/></span></term><term id="t3" lemma="voor" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w3"/></span></term><term id="t4" lemma="land" pos="NOUN" type="open" morphofeat="N|soort|mv|basis__Number=Plur"><span><target id="w4"/></span></term><term id="t5" lemma="met" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w5"/></span></term><term id="t6" lemma="zorgwekkend" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan__Degree=Pos"><span><target id="w6"/></span></term><term id="t7" lemma="deltavariant" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w8"/></span></term><term id="t9" lemma="quarantaineplicht" pos="NOUN" type="open" morphofeat="N|eigen|ev|neut__Number=Sing">
+    <term id="t1" lemma="Quarantaineplicht" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan"><span><target id="w1"/></span></term><term id="t2" lemma="uitbreiden" pos="VERB" type="open" morphofeat="WW|vd|vrij|zonder"><span><target id="w2"/></span></term><term id="t3" lemma="voor" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w3"/></span></term><term id="t4" lemma="land" pos="NOUN" type="open" morphofeat="N|soort|mv|basis"><span><target id="w4"/></span></term><term id="t5" lemma="met" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w5"/></span></term><term id="t6" lemma="zorgwekkend" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan"><span><target id="w6"/></span></term><term id="t7" lemma="deltavariant" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|onz|stan"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w8"/></span></term><term id="t9" lemma="quarantaineplicht" pos="NOUN" type="open" morphofeat="N|eigen|ev|neut__Number=Sing">
       <span>
         <target id="w9"/>
       </span>
@@ -1579,7 +1579,7 @@ Quarantaineplicht uitgebreid voor landen met zorgwekkende deltavariant Op advies
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t4" to="t3" rfunc="case"/><dep from="t2" to="t4" rfunc="obl"/><dep from="t7" to="t5" rfunc="case"/><dep from="t4" to="t7" rfunc="nmod"/><dep from="t7" to="t6" rfunc="amod"/><dep from="t2" to="t8" rfunc="punct"/><dep from="t10" to="t9" rfunc="obl"/>
+    <dep from="t1" to="t2" rfunc="parataxis"/><dep from="t4" to="t3" rfunc="case"/><dep from="t2" to="t4" rfunc="obl"/><dep from="t7" to="t5" rfunc="case"/><dep from="t4" to="t7" rfunc="nmod"/><dep from="t7" to="t6" rfunc="amod"/><dep from="t1" to="t8" rfunc="punct"/><dep from="t10" to="t9" rfunc="obl"/>
     <dep from="t40" to="t10" rfunc="advcl"/>
     <dep from="t12" to="t11" rfunc="case"/>
     <dep from="t10" to="t12" rfunc="obl"/>

@@ -150,7 +150,7 @@ The toplines are here and the crosstabs are here.</raw>
     <wf sent="8" id="w124" length="1" offset="633">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="biden" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w1"/></span></term><term id="t2" lemma="Leads" pos="PROPN" type="open" morphofeat="NNPS"><span><target id="w2"/></span></term><term id="t3" lemma="in" pos="ADP" type="open" morphofeat="IN"><span><target id="w3"/></span></term><term id="t4" lemma="New" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="Hampshire" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="Poll" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w6"/></span></term><term id="t7" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w7"/></span></term><term id="t8" lemma="a" pos="DET" type="open" morphofeat="DT">
+    <term id="t1" lemma="Biden" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="lead" pos="VERB" type="open" morphofeat="VBZ"><span><target id="w2"/></span></term><term id="t3" lemma="in" pos="ADP" type="open" morphofeat="IN"><span><target id="w3"/></span></term><term id="t4" lemma="New" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="Hampshire" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="Poll" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w6"/></span></term><term id="t7" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w7"/></span></term><term id="t8" lemma="a" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w8"/>
       </span>
@@ -737,7 +737,7 @@ The toplines are here and the crosstabs are here.</raw>
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t2" to="t3" rfunc="prep"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t6" to="t5" rfunc="compound"/><dep from="t3" to="t6" rfunc="pobj"/><dep from="t2" to="t7" rfunc="punct"/><dep from="t10" to="t8" rfunc="det"/>
+    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t2" to="t3" rfunc="prep"/><dep from="t6" to="t4" rfunc="compound"/><dep from="t3" to="t6" rfunc="pobj"/><dep from="t6" to="t5" rfunc="compound"/><dep from="t2" to="t7" rfunc="punct"/><dep from="t10" to="t8" rfunc="det"/>
     <dep from="t22" to="t10" rfunc="nsubj"/>
     <dep from="t10" to="t9" rfunc="amod"/>
     <dep from="t10" to="t11" rfunc="acl"/>

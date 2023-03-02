@@ -274,7 +274,7 @@ NEW YORK - Het rapport van de Onderzoeksraad voor Veiligheid (OVV) over de ramp 
     <wf sent="16" id="w255" length="1" offset="1447">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="mh17-rapport" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|genus|stan__Gender=Com,Neut|Number=Sing"><span><target id="w1"/></span></term><term id="t2" lemma="in" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w2"/></span></term><term id="t3" lemma="vn-veiligheidsraad" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w4"/></span></term><term id="t5" lemma="new" pos="NOUN" type="open" morphofeat="N_N|eigen|ev|neut_eigen|ev|neut___">
+    <term id="t1" lemma="MH17-rapport" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|zijd|stan"><span><target id="w1"/></span></term><term id="t2" lemma="in" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w2"/></span></term><term id="t3" lemma="VN-Veiligheidsraad" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|onz|stan"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w4"/></span></term><term id="t5" lemma="new" pos="NOUN" type="open" morphofeat="N_N|eigen|ev|neut_eigen|ev|neut___">
       <span>
         <target id="w5"/>
       </span>
@@ -1531,7 +1531,7 @@ NEW YORK - Het rapport van de Onderzoeksraad voor Veiligheid (OVV) over de ramp 
     </term>
   </terms>
   <deps>
-    <dep from="t3" to="t2" rfunc="case"/><dep from="t1" to="t3" rfunc="obl"/><dep from="t1" to="t4" rfunc="punct"/><dep from="t28" to="t5" rfunc="nsubj"/>
+    <dep from="t3" to="t2" rfunc="case"/><dep from="t1" to="t3" rfunc="nmod"/><dep from="t1" to="t4" rfunc="punct"/><dep from="t28" to="t5" rfunc="nsubj"/>
     <dep from="t5" to="t6" rfunc="appos"/>
     <dep from="t5" to="t7" rfunc="nmod"/>
     <dep from="t9" to="t8" rfunc="det"/>

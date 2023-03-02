@@ -924,7 +924,7 @@ Maatregelen tegen corona blijven gelden De besmettingen met het coronavirus neme
     <wf sent="78" id="w907" length="1" offset="5082">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="maatregel" pos="NOUN" type="open" morphofeat="N|soort|mv|basis__Number=Plur"><span><target id="w1"/></span></term><term id="t2" lemma="tegen" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w2"/></span></term><term id="t3" lemma="corona" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w3"/></span></term><term id="t4" lemma="blijven" pos="VERB" type="open" morphofeat="WW|inf|vrij|zonder__VerbForm=Inf"><span><target id="w4"/></span></term><term id="t5" lemma="gelden" pos="VERB" type="open" morphofeat="WW|inf|vrij|zonder__VerbForm=Inf"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w6"/></span></term><term id="t7" lemma="maatregel" pos="NOUN" type="open" morphofeat="N|soort|mv|neut__Number=Plur">
+    <term id="t1" lemma="Maatregelen" pos="PROPN" type="open" morphofeat="N|eigen|mv|basis"><span><target id="w1"/></span></term><term id="t2" lemma="tegen" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w2"/></span></term><term id="t3" lemma="corona" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|zijd|stan"><span><target id="w3"/></span></term><term id="t4" lemma="blijven" pos="VERB" type="open" morphofeat="WW|pv|tgw|mv"><span><target id="w4"/></span></term><term id="t5" lemma="gelden" pos="VERB" type="open" morphofeat="WW|inf|vrij|zonder"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w6"/></span></term><term id="t7" lemma="maatregel" pos="NOUN" type="open" morphofeat="N|soort|mv|neut__Number=Plur">
       <span>
         <target id="w7"/>
       </span>
@@ -5431,7 +5431,7 @@ Maatregelen tegen corona blijven gelden De besmettingen met het coronavirus neme
     </term>
   </terms>
   <deps>
-    <dep from="t4" to="t1" rfunc="nsubj"/><dep from="t3" to="t2" rfunc="case"/><dep from="t1" to="t3" rfunc="nmod"/><dep from="t4" to="t5" rfunc="xcomp"/><dep from="t4" to="t6" rfunc="punct"/><dep from="t11" to="t7" rfunc="nsubj"/>
+    <dep from="t4" to="t1" rfunc="nsubj"/><dep from="t3" to="t2" rfunc="case"/><dep from="t5" to="t3" rfunc="obl"/><dep from="t4" to="t5" rfunc="xcomp"/><dep from="t4" to="t6" rfunc="punct"/><dep from="t11" to="t7" rfunc="nsubj"/>
     <dep from="t9" to="t8" rfunc="case"/>
     <dep from="t7" to="t9" rfunc="nmod"/>
     <dep from="t11" to="t10" rfunc="aux"/>

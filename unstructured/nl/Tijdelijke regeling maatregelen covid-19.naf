@@ -149,7 +149,7 @@ De Ministers van Volksgezondheid, Welzijn en Sport, van Justitie en Veiligheid e
     <wf sent="4" id="w131" length="1" offset="684">;</wf>
   </text>
   <terms>
-    <term id="t1" lemma="tijdelijk" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan__Degree=Pos"><span><target id="w1"/></span></term><term id="t2" lemma="regeling" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w2"/></span></term><term id="t3" lemma="maatregel" pos="NOUN" type="open" morphofeat="N|soort|mv|basis__Number=Plur"><span><target id="w3"/></span></term><term id="t4" lemma="covid-19" pos="NUM" type="open" morphofeat="TW|hoofd|vrij"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w5"/></span></term><term id="t6" lemma="de" pos="DET" type="open" morphofeat="Art|bep|zijdofmv|neut__Definite=Def|PronType=Art">
+    <term id="t1" lemma="Tijdelijke" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan"><span><target id="w1"/></span></term><term id="t2" lemma="regeling" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan"><span><target id="w2"/></span></term><term id="t3" lemma="maatregel" pos="NOUN" type="open" morphofeat="N|soort|mv|basis"><span><target id="w3"/></span></term><term id="t4" lemma="covid-19" pos="PROPN" type="open" morphofeat="SPEC|symb"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w5"/></span></term><term id="t6" lemma="de" pos="DET" type="open" morphofeat="Art|bep|zijdofmv|neut__Definite=Def|PronType=Art">
       <span>
         <target id="w6"/>
       </span>
@@ -781,7 +781,7 @@ De Ministers van Volksgezondheid, Welzijn en Sport, van Justitie en Veiligheid e
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="amod"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t3" to="t4" rfunc="obj"/><dep from="t3" to="t5" rfunc="punct"/><dep from="t7" to="t6" rfunc="det"/>
+    <dep from="t2" to="t1" rfunc="amod"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t3" to="t4" rfunc="appos"/><dep from="t3" to="t5" rfunc="punct"/><dep from="t7" to="t6" rfunc="det"/>
     <dep from="t7" to="t8" rfunc="flat"/>
     <dep from="t7" to="t9" rfunc="flat"/>
     <dep from="t11" to="t10" rfunc="punct"/>

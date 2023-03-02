@@ -1143,7 +1143,7 @@ But by that time, Anselmo had been involved in another public outburst, throwing
     <wf sent="67" id="w1104" length="1" offset="5147">"</wf>
   </text>
   <terms>
-    <term id="t1" lemma="why" pos="ADV" type="open" morphofeat="WRB"><span><target id="w1"/></span></term><term id="t2" lemma="Vinnie" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Paul" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="refuse" pos="VERB" type="open" morphofeat="VBD"><span><target id="w4"/></span></term><term id="t5" lemma="to" pos="ADP" type="open" morphofeat="IN"><span><target id="w5"/></span></term><term id="t6" lemma="Reunite" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w6"/></span></term><term id="t7" lemma="Pantera" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w8"/></span></term><term id="t9" lemma="when" pos="ADV" type="open" morphofeat="WRB">
+    <term id="t1" lemma="why" pos="SCONJ" type="open" morphofeat="WRB"><span><target id="w1"/></span></term><term id="t2" lemma="Vinnie" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Paul" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="refuse" pos="VERB" type="open" morphofeat="VBD"><span><target id="w4"/></span></term><term id="t5" lemma="to" pos="PART" type="open" morphofeat="TO"><span><target id="w5"/></span></term><term id="t6" lemma="reunite" pos="VERB" type="open" morphofeat="VB"><span><target id="w6"/></span></term><term id="t7" lemma="Pantera" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w8"/></span></term><term id="t9" lemma="when" pos="ADV" type="open" morphofeat="WRB">
       <span>
         <target id="w9"/>
       </span>
@@ -6625,7 +6625,7 @@ But by that time, Anselmo had been involved in another public outburst, throwing
     </term>
   </terms>
   <deps>
-    <dep from="t4" to="t1" rfunc="advmod"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t4" to="t3" rfunc="nsubj"/><dep from="t4" to="t5" rfunc="prep"/><dep from="t7" to="t6" rfunc="compound"/><dep from="t5" to="t7" rfunc="pobj"/><dep from="t4" to="t8" rfunc="punct"/><dep from="t15" to="t9" rfunc="advmod"/>
+    <dep from="t4" to="t1" rfunc="advmod"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t4" to="t3" rfunc="nsubj"/><dep from="t6" to="t5" rfunc="aux"/><dep from="t4" to="t6" rfunc="xcomp"/><dep from="t6" to="t7" rfunc="dobj"/><dep from="t4" to="t8" rfunc="punct"/><dep from="t15" to="t9" rfunc="advmod"/>
     <dep from="t41" to="t15" rfunc="advcl"/>
     <dep from="t12" to="t10" rfunc="amod"/>
     <dep from="t14" to="t12" rfunc="compound"/>

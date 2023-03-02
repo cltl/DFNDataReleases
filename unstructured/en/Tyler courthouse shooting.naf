@@ -130,7 +130,7 @@ On February 24, 2005, a man shot his wife and son outside the courthouse in Tyle
     <wf sent="6" id="w103" length="1" offset="488">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="tyler" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w1"/></span></term><term id="t2" lemma="courthouse" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="shooting" pos="NOUN" type="open" morphofeat="NN"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="+" pos="X" type="open" morphofeat="XX">
+    <term id="t1" lemma="Tyler" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="courthouse" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="shooting" pos="NOUN" type="open" morphofeat="NN"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="+" pos="X" type="open" morphofeat="XX">
       <span>
         <target id="w5"/>
       </span>
@@ -627,7 +627,7 @@ On February 24, 2005, a man shot his wife and son outside the courthouse in Tyle
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t8" to="t5" rfunc="cc"/>
+    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t8" to="t5" rfunc="cc"/>
     <dep from="t8" to="t6" rfunc="cc"/>
     <dep from="t8" to="t7" rfunc="compound"/>
     <dep from="t8" to="t9" rfunc="advmod"/>

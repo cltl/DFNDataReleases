@@ -113,7 +113,7 @@ It did not work - or at least Flybe did not make it work - in Europe. It retrenc
     <wf sent="5" id="w97" length="1" offset="480">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="collapse" pos="VERB" type="open" morphofeat="VBN"><span><target id="w1"/></span></term><term id="t2" lemma="Flybe" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="tell" pos="VERB" type="open" morphofeat="VBZ"><span><target id="w3"/></span></term><term id="t4" lemma="passenger" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w4"/></span></term><term id="t5" lemma="not" pos="PART" type="open" morphofeat="RB"><span><target id="w5"/></span></term><term id="t6" lemma="to" pos="PART" type="open" morphofeat="TO"><span><target id="w6"/></span></term><term id="t7" lemma="travel" pos="VERB" type="open" morphofeat="VB"><span><target id="w7"/></span></term><term id="t8" lemma="to" pos="ADP" type="open" morphofeat="IN"><span><target id="w8"/></span></term><term id="t9" lemma="airport" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w9"/></span></term><term id="t10" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w10"/></span></term><term id="t11" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+    <term id="t1" lemma="Collapsed" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Flybe" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="tell" pos="VERB" type="open" morphofeat="VBZ"><span><target id="w3"/></span></term><term id="t4" lemma="passenger" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w4"/></span></term><term id="t5" lemma="not" pos="PART" type="open" morphofeat="RB"><span><target id="w5"/></span></term><term id="t6" lemma="to" pos="PART" type="open" morphofeat="TO"><span><target id="w6"/></span></term><term id="t7" lemma="travel" pos="VERB" type="open" morphofeat="VB"><span><target id="w7"/></span></term><term id="t8" lemma="to" pos="ADP" type="open" morphofeat="IN"><span><target id="w8"/></span></term><term id="t9" lemma="airport" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w9"/></span></term><term id="t10" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w10"/></span></term><term id="t11" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
       <span>
         <target id="w11"/>
       </span>
@@ -550,7 +550,7 @@ It did not work - or at least Flybe did not make it work - in Europe. It retrenc
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t3" to="t4" rfunc="dobj"/><dep from="t7" to="t5" rfunc="neg"/><dep from="t3" to="t7" rfunc="xcomp"/><dep from="t7" to="t6" rfunc="aux"/><dep from="t7" to="t8" rfunc="prep"/><dep from="t8" to="t9" rfunc="pobj"/><dep from="t3" to="t10" rfunc="punct"/><dep from="t14" to="t11" rfunc="nsubj"/>
+    <dep from="t2" to="t1" rfunc="amod"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t3" to="t4" rfunc="dobj"/><dep from="t7" to="t5" rfunc="neg"/><dep from="t3" to="t7" rfunc="xcomp"/><dep from="t7" to="t6" rfunc="aux"/><dep from="t7" to="t8" rfunc="prep"/><dep from="t8" to="t9" rfunc="pobj"/><dep from="t3" to="t10" rfunc="punct"/><dep from="t14" to="t11" rfunc="nsubj"/>
     <dep from="t14" to="t12" rfunc="aux"/>
     <dep from="t14" to="t13" rfunc="neg"/>
     <dep from="t14" to="t15" rfunc="punct"/>

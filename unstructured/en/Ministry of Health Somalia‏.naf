@@ -69,7 +69,7 @@ The Internet Archive discovers and captures web pages through many different web
     <wf sent="4" id="w47" length="7" offset="261">Machine</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Ministry" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="of" pos="ADP" type="open" morphofeat="IN"><span><target id="w2"/></span></term><term id="t3" lemma="Health" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Somalia‏." pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="the" pos="DET" type="open" morphofeat="DT">
+    <term id="t1" lemma="Ministry" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="of" pos="ADP" type="open" morphofeat="IN"><span><target id="w2"/></span></term><term id="t3" lemma="Health" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="somalia‏." pos="NOUN" type="open" morphofeat="NN"><span><target id="w4"/></span></term><term id="t5" lemma="the" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w5"/>
       </span>
@@ -286,7 +286,7 @@ The Internet Archive discovers and captures web pages through many different web
     </term>
   </terms>
   <deps>
-    <dep from="t1" to="t2" rfunc="prep"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t2" to="t4" rfunc="pobj"/><dep from="t8" to="t5" rfunc="det"/>
+    <dep from="t4" to="t1" rfunc="nmod"/><dep from="t1" to="t2" rfunc="prep"/><dep from="t2" to="t3" rfunc="pobj"/><dep from="t8" to="t5" rfunc="det"/>
     <dep from="t11" to="t8" rfunc="nsubj"/>
     <dep from="t7" to="t6" rfunc="compound"/>
     <dep from="t8" to="t7" rfunc="amod"/>

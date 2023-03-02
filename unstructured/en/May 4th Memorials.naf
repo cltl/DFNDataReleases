@@ -1150,7 +1150,7 @@ The fourth annual symposium on democracy, Democracy and Globalization, is held.<
     <wf sent="73" id="w1039" length="1" offset="5405">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="May" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="4th" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="Memorials" pos="PROPN" type="open" morphofeat="NNPS"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="memorial" pos="NOUN" type="open" morphofeat="NNS">
+    <term id="t1" lemma="May" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="4th" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Memorials" pos="PROPN" type="open" morphofeat="NNPS"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="memorial" pos="NOUN" type="open" morphofeat="NNS">
       <span>
         <target id="w5"/>
       </span>
@@ -6327,7 +6327,7 @@ The fourth annual symposium on democracy, Democracy and Globalization, is held.<
     </term>
   </terms>
   <deps>
-    <dep from="t3" to="t1" rfunc="nmod"/><dep from="t3" to="t2" rfunc="amod"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t5" to="t6" rfunc="cc"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t5" to="t6" rfunc="cc"/>
     <dep from="t5" to="t7" rfunc="conj"/>
     <dep from="t5" to="t8" rfunc="prep"/>
     <dep from="t8" to="t9" rfunc="pobj"/>

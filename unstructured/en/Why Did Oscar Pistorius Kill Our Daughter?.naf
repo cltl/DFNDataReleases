@@ -78,7 +78,7 @@ In their only TV interview, Reeva's parents Barry and June Steenkamp reveal what
     <wf sent="2" id="w58" length="1" offset="305">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="why" pos="ADV" type="open" morphofeat="WRB"><span><target id="w1"/></span></term><term id="t2" lemma="do" pos="AUX" type="open" morphofeat="VBD"><span><target id="w2"/></span></term><term id="t3" lemma="Oscar" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Pistorius" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="kill" pos="VERB" type="open" morphofeat="VB"><span><target id="w5"/></span></term><term id="t6" lemma="-PRON-" pos="DET" type="open" morphofeat="PRP$"><span><target id="w6"/></span></term><term id="t7" lemma="daughter" pos="NOUN" type="open" morphofeat="NN"><span><target id="w7"/></span></term><term id="t8" lemma="?" pos="PUNCT" type="open" morphofeat="."><span><target id="w8"/></span></term><term id="t9" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w9"/></span></term><term id="t10" lemma="in" pos="ADP" type="open" morphofeat="IN">
+    <term id="t1" lemma="why" pos="SCONJ" type="open" morphofeat="WRB"><span><target id="w1"/></span></term><term id="t2" lemma="do" pos="AUX" type="open" morphofeat="VBD"><span><target id="w2"/></span></term><term id="t3" lemma="Oscar" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Pistorius" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="kill" pos="VERB" type="open" morphofeat="VB"><span><target id="w5"/></span></term><term id="t6" lemma="our" pos="PRON" type="open" morphofeat="PRP$"><span><target id="w6"/></span></term><term id="t7" lemma="Daughter" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w7"/></span></term><term id="t8" lemma="?" pos="PUNCT" type="open" morphofeat="."><span><target id="w8"/></span></term><term id="t9" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w9"/></span></term><term id="t10" lemma="in" pos="ADP" type="open" morphofeat="IN">
       <span>
         <target id="w10"/>
       </span>
@@ -325,7 +325,7 @@ In their only TV interview, Reeva's parents Barry and June Steenkamp reveal what
     </term>
   </terms>
   <deps>
-    <dep from="t5" to="t1" rfunc="advmod"/><dep from="t5" to="t2" rfunc="aux"/><dep from="t5" to="t3" rfunc="compound"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t7" to="t6" rfunc="poss"/><dep from="t5" to="t7" rfunc="dobj"/><dep from="t5" to="t8" rfunc="punct"/><dep from="t5" to="t9" rfunc="punct"/><dep from="t23" to="t10" rfunc="prep"/>
+    <dep from="t5" to="t1" rfunc="advmod"/><dep from="t5" to="t2" rfunc="aux"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t5" to="t4" rfunc="nsubj"/><dep from="t7" to="t6" rfunc="poss"/><dep from="t5" to="t7" rfunc="dobj"/><dep from="t5" to="t8" rfunc="punct"/><dep from="t5" to="t9" rfunc="punct"/><dep from="t23" to="t10" rfunc="prep"/>
     <dep from="t14" to="t11" rfunc="poss"/>
     <dep from="t10" to="t14" rfunc="pobj"/>
     <dep from="t14" to="t12" rfunc="amod"/>

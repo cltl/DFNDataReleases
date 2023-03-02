@@ -133,7 +133,7 @@ A severe thunderstorm on New Year's Day in Sydney, was accompanied by large hail
     <wf sent="6" id="w107" length="1" offset="553">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Severe" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Hailstorm" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w3"/></span></term><term id="t4" lemma="a" pos="DET" type="open" morphofeat="DT">
+    <term id="t1" lemma="severe" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w1"/></span></term><term id="t2" lemma="Hailstorm" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w3"/></span></term><term id="t4" lemma="a" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w4"/>
       </span>
@@ -655,7 +655,7 @@ A severe thunderstorm on New Year's Day in Sydney, was accompanied by large hail
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t6" to="t4" rfunc="det"/>
+    <dep from="t2" to="t1" rfunc="amod"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t6" to="t4" rfunc="det"/>
     <dep from="t16" to="t6" rfunc="nsubjpass"/>
     <dep from="t6" to="t5" rfunc="amod"/>
     <dep from="t6" to="t7" rfunc="prep"/>

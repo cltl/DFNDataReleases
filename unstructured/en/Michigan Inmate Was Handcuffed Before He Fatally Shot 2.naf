@@ -410,7 +410,7 @@ State police are investigating the shooting, according to Gov. Rick Snyder.</raw
     <wf sent="19" id="w371" length="1" offset="1813">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Michigan" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Inmate" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="be" pos="AUX" type="open" morphofeat="VBD"><span><target id="w3"/></span></term><term id="t4" lemma="handcuff" pos="VERB" type="open" morphofeat="VBN"><span><target id="w4"/></span></term><term id="t5" lemma="before" pos="ADP" type="open" morphofeat="IN"><span><target id="w5"/></span></term><term id="t6" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP"><span><target id="w6"/></span></term><term id="t7" lemma="fatally" pos="ADV" type="open" morphofeat="RB"><span><target id="w7"/></span></term><term id="t8" lemma="shoot" pos="VERB" type="open" morphofeat="VBD"><span><target id="w8"/></span></term><term id="t9" lemma="2" pos="NUM" type="open" morphofeat="CD"><span><target id="w9"/></span></term><term id="t10" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w10"/></span></term><term id="t11" lemma="Larry" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t1" lemma="Michigan" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Inmate" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="be" pos="AUX" type="open" morphofeat="VBD"><span><target id="w3"/></span></term><term id="t4" lemma="handcuff" pos="VERB" type="open" morphofeat="VBN"><span><target id="w4"/></span></term><term id="t5" lemma="before" pos="SCONJ" type="open" morphofeat="IN"><span><target id="w5"/></span></term><term id="t6" lemma="he" pos="PRON" type="open" morphofeat="PRP"><span><target id="w6"/></span></term><term id="t7" lemma="fatally" pos="ADV" type="open" morphofeat="RB"><span><target id="w7"/></span></term><term id="t8" lemma="Shot" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w8"/></span></term><term id="t9" lemma="2" pos="NUM" type="open" morphofeat="CD"><span><target id="w9"/></span></term><term id="t10" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w10"/></span></term><term id="t11" lemma="Larry" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w11"/>
       </span>
@@ -2217,7 +2217,7 @@ State police are investigating the shooting, according to Gov. Rick Snyder.</raw
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t3" to="t4" rfunc="attr"/><dep from="t8" to="t5" rfunc="mark"/><dep from="t3" to="t8" rfunc="advcl"/><dep from="t8" to="t6" rfunc="nsubj"/><dep from="t8" to="t7" rfunc="advmod"/><dep from="t8" to="t9" rfunc="dobj"/><dep from="t3" to="t10" rfunc="punct"/><dep from="t13" to="t11" rfunc="compound"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t4" to="t2" rfunc="nsubjpass"/><dep from="t4" to="t3" rfunc="auxpass"/><dep from="t8" to="t5" rfunc="mark"/><dep from="t4" to="t8" rfunc="advcl"/><dep from="t8" to="t6" rfunc="nsubj"/><dep from="t8" to="t7" rfunc="advmod"/><dep from="t8" to="t9" rfunc="npadvmod"/><dep from="t4" to="t10" rfunc="punct"/><dep from="t13" to="t11" rfunc="compound"/>
     <dep from="t52" to="t13" rfunc="nsubj"/>
     <dep from="t13" to="t12" rfunc="compound"/>
     <dep from="t13" to="t14" rfunc="punct"/>

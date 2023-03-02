@@ -459,7 +459,7 @@ The Forage Cap carries the badge of the Blues and Royals, which features the ins
     <wf sent="22" id="w411" length="1" offset="1985">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="the" pos="DET" type="open" morphofeat="DT"><span><target id="w1"/></span></term><term id="t2" lemma="Bridegroom" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="and" pos="CCONJ" type="open" morphofeat="CC"><span><target id="w3"/></span></term><term id="t4" lemma="Best" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="Man" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="Uniforms" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w6"/></span></term><term id="t7" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w7"/></span></term><term id="t8" lemma="Prince" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t1" lemma="the" pos="DET" type="open" morphofeat="DT"><span><target id="w1"/></span></term><term id="t2" lemma="Bridegroom" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="and" pos="CCONJ" type="open" morphofeat="CC"><span><target id="w3"/></span></term><term id="t4" lemma="Best" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="Man" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="Uniforms" pos="PROPN" type="open" morphofeat="NNPS"><span><target id="w6"/></span></term><term id="t7" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w7"/></span></term><term id="t8" lemma="Prince" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w8"/>
       </span>
@@ -2481,7 +2481,7 @@ The Forage Cap carries the badge of the Blues and Royals, which features the ins
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="det"/><dep from="t2" to="t3" rfunc="cc"/><dep from="t6" to="t4" rfunc="compound"/><dep from="t2" to="t6" rfunc="conj"/><dep from="t6" to="t5" rfunc="compound"/><dep from="t2" to="t7" rfunc="punct"/><dep from="t9" to="t8" rfunc="compound"/>
+    <dep from="t6" to="t1" rfunc="det"/><dep from="t6" to="t2" rfunc="nmod"/><dep from="t2" to="t3" rfunc="cc"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t2" to="t5" rfunc="conj"/><dep from="t6" to="t7" rfunc="punct"/><dep from="t9" to="t8" rfunc="compound"/>
     <dep from="t11" to="t9" rfunc="nsubj"/>
     <dep from="t11" to="t10" rfunc="aux"/>
     <dep from="t13" to="t12" rfunc="aux"/>

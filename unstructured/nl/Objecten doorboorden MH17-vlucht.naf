@@ -470,7 +470,7 @@ Vlucht MH17 is tijdens de vlucht in stukken gebroken, vermoedelijk als gevolg va
     <wf sent="26" id="w451" length="1" offset="2606">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="object" pos="NOUN" type="open" morphofeat="N|soort|mv|basis__Number=Plur"><span><target id="w1"/></span></term><term id="t2" lemma="doorboren" pos="AUX" type="open" morphofeat="WW|pv|verl|mv__Number=Plur|Tense=Past|VerbForm=Fin"><span><target id="w2"/></span></term><term id="t3" lemma="mh17-vlucht" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|onz|stan__Gender=Neut|Number=Sing"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w4"/></span></term><term id="t5" lemma="vlucht" pos="NOUN" type="open" morphofeat="N_N|eigen|ev|neut_eigen|ev|neut___">
+    <term id="t1" lemma="object" pos="NOUN" type="open" morphofeat="N|soort|mv|basis"><span><target id="w1"/></span></term><term id="t2" lemma="doorbooren" pos="VERB" type="open" morphofeat="WW|pv|verl|mv"><span><target id="w2"/></span></term><term id="t3" lemma="MH17-vlucht" pos="ADJ" type="open" morphofeat="ADJ|vrij|basis|zonder"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w4"/></span></term><term id="t5" lemma="vlucht" pos="NOUN" type="open" morphofeat="N_N|eigen|ev|neut_eigen|ev|neut___">
       <span>
         <target id="w5"/>
       </span>
@@ -2707,7 +2707,7 @@ Vlucht MH17 is tijdens de vlucht in stukken gebroken, vermoedelijk als gevolg va
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t2" to="t3" rfunc="xcomp"/><dep from="t2" to="t4" rfunc="punct"/><dep from="t13" to="t5" rfunc="nsubj"/>
+    <dep from="t3" to="t1" rfunc="nsubj"/><dep from="t3" to="t2" rfunc="advmod"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t13" to="t5" rfunc="nsubj"/>
     <dep from="t21" to="t13" rfunc="advcl"/>
     <dep from="t5" to="t6" rfunc="appos"/>
     <dep from="t13" to="t7" rfunc="aux"/>

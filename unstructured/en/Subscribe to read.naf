@@ -82,7 +82,7 @@ Join over 300,000 Finance professionals who already subscribe to the FT.</raw>
     <wf sent="4" id="w51" length="1" offset="266">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="subscribe" pos="VERB" type="open" morphofeat="VB"><span><target id="w1"/></span></term><term id="t2" lemma="to" pos="PART" type="open" morphofeat="TO"><span><target id="w2"/></span></term><term id="t3" lemma="read" pos="VERB" type="open" morphofeat="VB"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="become" pos="VERB" type="open" morphofeat="VB">
+    <term id="t1" lemma="Subscribe" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="to" pos="PART" type="open" morphofeat="TO"><span><target id="w2"/></span></term><term id="t3" lemma="read" pos="VERB" type="open" morphofeat="VB"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="become" pos="VERB" type="open" morphofeat="VB">
       <span>
         <target id="w5"/>
       </span>
@@ -319,7 +319,7 @@ Join over 300,000 Finance professionals who already subscribe to the FT.</raw>
     </term>
   </terms>
   <deps>
-    <dep from="t3" to="t2" rfunc="aux"/><dep from="t1" to="t3" rfunc="acl"/><dep from="t1" to="t4" rfunc="punct"/><dep from="t8" to="t6" rfunc="det"/>
+    <dep from="t3" to="t1" rfunc="nsubj"/><dep from="t3" to="t2" rfunc="aux"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t8" to="t6" rfunc="det"/>
     <dep from="t5" to="t8" rfunc="attr"/>
     <dep from="t8" to="t7" rfunc="compound"/>
     <dep from="t10" to="t9" rfunc="aux"/>

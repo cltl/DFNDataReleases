@@ -161,7 +161,7 @@ Op het politiebureau in Haren hebben vandaag 25 mensen aangifte gedaan van schad
     <wf sent="10" id="w143" length="1" offset="766">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="harenaar" pos="NOUN" type="open" morphofeat="N|soort|mv|basis__Number=Plur"><span><target id="w1"/></span></term><term id="t2" lemma="doen" pos="AUX" type="open" morphofeat="WW|pv|tgw|mv__Number=Plur|Tense=Pres|VerbForm=Fin"><span><target id="w2"/></span></term><term id="t3" lemma="aangifte" pos="ADV" type="open" morphofeat="BW"><span><target id="w3"/></span></term><term id="t4" lemma="schade" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w5"/></span></term><term id="t6" lemma="op" pos="ADP" type="open" morphofeat="Prep|voor__AdpType=Prep">
+    <term id="t1" lemma="Harenaars" pos="NOUN" type="open" morphofeat="N|soort|mv|basis"><span><target id="w1"/></span></term><term id="t2" lemma="doen" pos="VERB" type="open" morphofeat="WW|pv|tgw|mv"><span><target id="w2"/></span></term><term id="t3" lemma="aangifte" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan"><span><target id="w3"/></span></term><term id="t4" lemma="schade" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w5"/></span></term><term id="t6" lemma="op" pos="ADP" type="open" morphofeat="Prep|voor__AdpType=Prep">
       <span>
         <target id="w6"/>
       </span>
@@ -853,7 +853,7 @@ Op het politiebureau in Haren hebben vandaag 25 mensen aangifte gedaan van schad
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t2" to="t3" rfunc="nsubj"/><dep from="t2" to="t4" rfunc="obj"/><dep from="t2" to="t5" rfunc="punct"/><dep from="t8" to="t6" rfunc="case"/>
+    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t2" to="t3" rfunc="obj"/><dep from="t2" to="t4" rfunc="obj"/><dep from="t2" to="t5" rfunc="punct"/><dep from="t8" to="t6" rfunc="case"/>
     <dep from="t16" to="t8" rfunc="obl"/>
     <dep from="t8" to="t7" rfunc="det"/>
     <dep from="t10" to="t9" rfunc="case"/>

@@ -1736,7 +1736,7 @@ The hysterics at the Seattle Times don't get it but Mayor Nickels seems to. Nick
     <wf sent="93" id="w1672" length="1" offset="8195">"</wf>
   </text>
   <terms>
-    <term id="t1" lemma="rave" pos="VERB" type="open" morphofeat="VBG"><span><target id="w1"/></span></term><term id="t2" lemma="mad" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w2"/></span></term><term id="t3" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w3"/></span></term><term id="t4" lemma="rave" pos="VERB" type="open" morphofeat="VBG">
+    <term id="t1" lemma="Raving" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Mad" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w3"/></span></term><term id="t4" lemma="rave" pos="VERB" type="open" morphofeat="VBG">
       <span>
         <target id="w4"/>
       </span>
@@ -10083,7 +10083,7 @@ The hysterics at the Seattle Times don't get it but Mayor Nickels seems to. Nick
     </term>
   </terms>
   <deps>
-    <dep from="t1" to="t2" rfunc="dobj"/><dep from="t1" to="t3" rfunc="punct"/><dep from="t8" to="t4" rfunc="csubj"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t8" to="t4" rfunc="csubj"/>
     <dep from="t14" to="t8" rfunc="ccomp"/>
     <dep from="t7" to="t5" rfunc="amod"/>
     <dep from="t4" to="t7" rfunc="dobj"/>

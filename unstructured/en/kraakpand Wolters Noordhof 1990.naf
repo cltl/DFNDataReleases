@@ -149,7 +149,7 @@ Crawl of outlinks from wikipedia.org started March, 2016. These files are curren
     <wf sent="13" id="w125" length="1" offset="638">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="kraakpand" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Wolters" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Noordhof" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="1990" pos="NUM" type="open" morphofeat="CD"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="crawl" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t1" lemma="kraakpand" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Wolters" pos="PROPN" type="open" morphofeat="NNPS"><span><target id="w2"/></span></term><term id="t3" lemma="Noordhof" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="1990" pos="NUM" type="open" morphofeat="CD"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="crawl" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w6"/>
       </span>
@@ -751,7 +751,7 @@ Crawl of outlinks from wikipedia.org started March, 2016. These files are curren
     </term>
   </terms>
   <deps>
-    <dep from="t3" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t3" to="t4" rfunc="nummod"/><dep from="t3" to="t5" rfunc="punct"/><dep from="t11" to="t6" rfunc="nsubj"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t3" to="t4" rfunc="nummod"/><dep from="t3" to="t5" rfunc="punct"/><dep from="t11" to="t6" rfunc="nsubj"/>
     <dep from="t6" to="t7" rfunc="prep"/>
     <dep from="t7" to="t8" rfunc="pobj"/>
     <dep from="t8" to="t9" rfunc="prep"/>

@@ -1378,7 +1378,7 @@ RELATED: SoCal Airports Beef Up Security After LAX Shooting</raw>
     <wf sent="74" id="w1287" length="8" offset="6348">Shooting</wf>
   </text>
   <terms>
-    <term id="t1" lemma="TSA" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Agent" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Killed" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="," pos="PUNCT" type="open" morphofeat=","><span><target id="w4"/></span></term><term id="t5" lemma="6" pos="NUM" type="open" morphofeat="CD"><span><target id="w5"/></span></term><term id="t6" lemma="injure" pos="VERB" type="open" morphofeat="VBN"><span><target id="w6"/></span></term><term id="t7" lemma="in" pos="ADP" type="open" morphofeat="IN"><span><target id="w7"/></span></term><term id="t8" lemma="LAX" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w8"/></span></term><term id="t9" lemma="shoot" pos="VERB" type="open" morphofeat="VBG"><span><target id="w9"/></span></term><term id="t10" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w10"/></span></term><term id="t11" lemma="LOS" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t1" lemma="TSA" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Agent" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Killed" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="," pos="PUNCT" type="open" morphofeat=","><span><target id="w4"/></span></term><term id="t5" lemma="6" pos="NUM" type="open" morphofeat="CD"><span><target id="w5"/></span></term><term id="t6" lemma="injure" pos="VERB" type="open" morphofeat="VBN"><span><target id="w6"/></span></term><term id="t7" lemma="in" pos="ADP" type="open" morphofeat="IN"><span><target id="w7"/></span></term><term id="t8" lemma="LAX" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w8"/></span></term><term id="t9" lemma="Shooting" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w9"/></span></term><term id="t10" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w10"/></span></term><term id="t11" lemma="LOS" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w11"/>
       </span>
@@ -7765,7 +7765,7 @@ RELATED: SoCal Airports Beef Up Security After LAX Shooting</raw>
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t6" to="t5" rfunc="nummod"/><dep from="t3" to="t6" rfunc="appos"/><dep from="t6" to="t7" rfunc="prep"/><dep from="t9" to="t8" rfunc="compound"/><dep from="t7" to="t9" rfunc="pobj"/><dep from="t3" to="t10" rfunc="punct"/><dep from="t12" to="t11" rfunc="compound"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t3" to="t5" rfunc="appos"/><dep from="t5" to="t6" rfunc="acl"/><dep from="t6" to="t7" rfunc="prep"/><dep from="t9" to="t8" rfunc="compound"/><dep from="t7" to="t9" rfunc="pobj"/><dep from="t3" to="t10" rfunc="punct"/><dep from="t12" to="t11" rfunc="compound"/>
     <dep from="t12" to="t13" rfunc="punct"/>
     <dep from="t12" to="t14" rfunc="intj"/>
     <dep from="t14" to="t15" rfunc="punct"/>

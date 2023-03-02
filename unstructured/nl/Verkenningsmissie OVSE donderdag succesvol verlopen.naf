@@ -1295,7 +1295,7 @@ Verkenners van de OVSE zijn er donderdag in geslaagd de wrakstukken van de neerg
     <wf sent="79" id="w1278" length="8" offset="7162">Oekraïne</wf>
   </text>
   <terms>
-    <term id="t1" lemma="verkenningsmissie" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w1"/></span></term><term id="t2" lemma="ovse" pos="PROPN" type="open" morphofeat="SPEC|deeleigen"><span><target id="w2"/></span></term><term id="t3" lemma="donderdag" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w3"/></span></term><term id="t4" lemma="succesvol" pos="ADJ" type="open" morphofeat="ADJ|vrij|basis|zonder__Degree=Pos"><span><target id="w4"/></span></term><term id="t5" lemma="verlopen" pos="VERB" type="open" morphofeat="WW|vd|vrij|zonder__VerbForm=Part"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w6"/></span></term><term id="t7" lemma="verkenner" pos="NOUN" type="open" morphofeat="N|soort|mv|neut__Number=Plur">
+    <term id="t1" lemma="Verkenningsmissie" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan"><span><target id="w1"/></span></term><term id="t2" lemma="OVSE" pos="ADJ" type="open" morphofeat="SPEC|deeleigen"><span><target id="w2"/></span></term><term id="t3" lemma="donderdag" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|zijd|stan"><span><target id="w3"/></span></term><term id="t4" lemma="succesvol" pos="ADJ" type="open" morphofeat="ADJ|vrij|basis|zonder"><span><target id="w4"/></span></term><term id="t5" lemma="verlopen" pos="VERB" type="open" morphofeat="WW|vd|vrij|zonder"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w6"/></span></term><term id="t7" lemma="verkenner" pos="NOUN" type="open" morphofeat="N|soort|mv|neut__Number=Plur">
       <span>
         <target id="w7"/>
       </span>
@@ -7657,7 +7657,7 @@ Verkenners van de OVSE zijn er donderdag in geslaagd de wrakstukken van de neerg
     </term>
   </terms>
   <deps>
-    <dep from="t5" to="t2" rfunc="advmod"/><dep from="t5" to="t3" rfunc="obl"/><dep from="t3" to="t4" rfunc="nmod"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t15" to="t7" rfunc="nsubj"/>
+    <dep from="t5" to="t2" rfunc="nsubj"/><dep from="t2" to="t3" rfunc="flat"/><dep from="t5" to="t4" rfunc="xcomp"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t15" to="t7" rfunc="nsubj"/>
     <dep from="t10" to="t8" rfunc="case"/>
     <dep from="t7" to="t10" rfunc="nmod"/>
     <dep from="t10" to="t9" rfunc="det"/>

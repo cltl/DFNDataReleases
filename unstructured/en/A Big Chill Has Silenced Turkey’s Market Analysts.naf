@@ -1257,7 +1257,7 @@ When Bloomberg reached him on his mobile phone, he declined to comment on what h
     <wf sent="48" id="w1192" length="1" offset="6191">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="a" pos="DET" type="open" morphofeat="DT"><span><target id="w1"/></span></term><term id="t2" lemma="Big" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Chill" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="have" pos="AUX" type="open" morphofeat="VBZ"><span><target id="w4"/></span></term><term id="t5" lemma="Silenced" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="Turkey" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w6"/></span></term><term id="t7" lemma="’s" pos="PART" type="open" morphofeat="POS"><span><target id="w7"/></span></term><term id="t8" lemma="Market" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w8"/></span></term><term id="t9" lemma="analyst" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w9"/></span></term><term id="t10" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w10"/></span></term><term id="t11" lemma="LISTEN" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t1" lemma="a" pos="DET" type="open" morphofeat="DT"><span><target id="w1"/></span></term><term id="t2" lemma="Big" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Chill" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="have" pos="AUX" type="open" morphofeat="VBZ"><span><target id="w4"/></span></term><term id="t5" lemma="silence" pos="VERB" type="open" morphofeat="VBN"><span><target id="w5"/></span></term><term id="t6" lemma="Turkey" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w6"/></span></term><term id="t7" lemma="’s" pos="PART" type="open" morphofeat="POS"><span><target id="w7"/></span></term><term id="t8" lemma="Market" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w8"/></span></term><term id="t9" lemma="analyst" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w9"/></span></term><term id="t10" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w10"/></span></term><term id="t11" lemma="LISTEN" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w11"/>
       </span>
@@ -7169,7 +7169,7 @@ When Bloomberg reached him on his mobile phone, he declined to comment on what h
     </term>
   </terms>
   <deps>
-    <dep from="t3" to="t1" rfunc="det"/><dep from="t4" to="t3" rfunc="nsubj"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t6" to="t5" rfunc="compound"/><dep from="t4" to="t6" rfunc="dobj"/><dep from="t6" to="t7" rfunc="punct"/><dep from="t9" to="t8" rfunc="compound"/><dep from="t6" to="t9" rfunc="appos"/><dep from="t4" to="t10" rfunc="punct"/><dep from="t13" to="t12" rfunc="aux"/>
+    <dep from="t3" to="t1" rfunc="det"/><dep from="t5" to="t3" rfunc="nsubj"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t5" to="t4" rfunc="aux"/><dep from="t9" to="t6" rfunc="poss"/><dep from="t5" to="t9" rfunc="dobj"/><dep from="t6" to="t7" rfunc="case"/><dep from="t9" to="t8" rfunc="compound"/><dep from="t5" to="t10" rfunc="punct"/><dep from="t13" to="t12" rfunc="aux"/>
     <dep from="t11" to="t13" rfunc="acl"/>
     <dep from="t15" to="t14" rfunc="nummod"/>
     <dep from="t13" to="t15" rfunc="dobj"/>

@@ -153,7 +153,7 @@ The multiple shooting occurred about 11 a.m. at the Azana Salon &amp; Spa on N. 
     <wf sent="6" id="w129" length="1" offset="646">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="three" pos="NUM" type="open" morphofeat="CD"><span><target id="w1"/></span></term><term id="t2" lemma="kill" pos="VERB" type="open" morphofeat="VBN"><span><target id="w2"/></span></term><term id="t3" lemma="," pos="PUNCT" type="open" morphofeat=","><span><target id="w3"/></span></term><term id="t4" lemma="four" pos="NUM" type="open" morphofeat="CD"><span><target id="w4"/></span></term><term id="t5" lemma="injure" pos="VERB" type="open" morphofeat="VBN"><span><target id="w5"/></span></term><term id="t6" lemma="in" pos="ADP" type="open" morphofeat="IN"><span><target id="w6"/></span></term><term id="t7" lemma="Wisconsin" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w7"/></span></term><term id="t8" lemma="Shooting" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w8"/></span></term><term id="t9" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w9"/></span></term><term id="t10" lemma="three" pos="NUM" type="open" morphofeat="CD">
+    <term id="t1" lemma="three" pos="NUM" type="open" morphofeat="CD"><span><target id="w1"/></span></term><term id="t2" lemma="Killed" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="," pos="PUNCT" type="open" morphofeat=","><span><target id="w3"/></span></term><term id="t4" lemma="four" pos="NUM" type="open" morphofeat="CD"><span><target id="w4"/></span></term><term id="t5" lemma="injure" pos="VERB" type="open" morphofeat="VBN"><span><target id="w5"/></span></term><term id="t6" lemma="in" pos="ADP" type="open" morphofeat="IN"><span><target id="w6"/></span></term><term id="t7" lemma="Wisconsin" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w7"/></span></term><term id="t8" lemma="Shooting" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w8"/></span></term><term id="t9" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w9"/></span></term><term id="t10" lemma="three" pos="NUM" type="open" morphofeat="CD">
       <span>
         <target id="w10"/>
       </span>
@@ -755,7 +755,7 @@ The multiple shooting occurred about 11 a.m. at the Azana Salon &amp; Spa on N. 
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="nummod"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t5" to="t4" rfunc="nummod"/><dep from="t2" to="t5" rfunc="appos"/><dep from="t5" to="t6" rfunc="prep"/><dep from="t8" to="t7" rfunc="compound"/><dep from="t6" to="t8" rfunc="pobj"/><dep from="t2" to="t9" rfunc="punct"/><dep from="t11" to="t10" rfunc="nummod"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t2" to="t4" rfunc="appos"/><dep from="t4" to="t5" rfunc="acl"/><dep from="t5" to="t6" rfunc="prep"/><dep from="t8" to="t7" rfunc="compound"/><dep from="t6" to="t8" rfunc="pobj"/><dep from="t2" to="t9" rfunc="punct"/><dep from="t11" to="t10" rfunc="nummod"/>
     <dep from="t13" to="t11" rfunc="nsubjpass"/>
     <dep from="t13" to="t12" rfunc="auxpass"/>
     <dep from="t13" to="t14" rfunc="prep"/>

@@ -53,7 +53,7 @@ Een cohort corona-Engels heeft ons Nederlands geënterd. Gaat het om een epidemi
     <wf sent="4" id="w38" length="1" offset="193">?</wf>
   </text>
   <terms>
-    <term id="t1" lemma="moeten" pos="VERB" type="open" morphofeat="WW|pv|tgw|ev__Number=Sing|Tense=Pres|VerbForm=Fin"><span><target id="w1"/></span></term><term id="t2" lemma="ons" pos="PRON" type="open" morphofeat="VNW|bez|det|stan|vol|1|mv|prenom|zonder|evon__Person=1|Poss=Yes|PronType=Prs"><span><target id="w2"/></span></term><term id="t3" lemma="nederlands" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|onz|stan__Gender=Neut|Number=Sing"><span><target id="w3"/></span></term><term id="t4" lemma="een" pos="DET" type="open" morphofeat="LID|onbep|stan|agr__Definite=Ind"><span><target id="w4"/></span></term><term id="t5" lemma="mondmasker" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w5"/></span></term><term id="t6" lemma="aan" pos="ADP" type="open" morphofeat="VZ|fin"><span><target id="w6"/></span></term><term id="t7" lemma="?" pos="SYM" type="open" morphofeat="LET"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w8"/></span></term><term id="t9" lemma="een" pos="DET" type="open" morphofeat="Art|onbep|zijdofonzijd|neut__Definite=Ind|Number=Sing|PronType=Art">
+    <term id="t1" lemma="Moeten" pos="AUX" type="open" morphofeat="WW|pv|tgw|ev" component_of="mw1"><span><target id="w1"/></span></term><term id="t2" lemma="ons" pos="PRON" type="open" morphofeat="VNW|bez|det|stan|vol|1|mv|prenom|zonder|evon"><span><target id="w2"/></span></term><term id="t3" lemma="Nederlands" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|onz|stan"><span><target id="w3"/></span></term><term id="t4" lemma="een" pos="DET" type="open" morphofeat="LID|onbep|stan|agr"><span><target id="w4"/></span></term><term id="t5" lemma="mondmasker" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan"><span><target id="w5"/></span></term><term id="t6" lemma="aan" pos="ADP" type="open" morphofeat="VZ|fin" component_of="mw1"><span><target id="w6"/></span></term><term id="t7" lemma="?" pos="PUNCT" type="open" morphofeat="LET"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w8"/></span></term><term id="t9" lemma="een" pos="DET" type="open" morphofeat="Art|onbep|zijdofonzijd|neut__Definite=Ind|Number=Sing|PronType=Art">
       <span>
         <target id="w9"/>
       </span>
@@ -205,7 +205,7 @@ Een cohort corona-Engels heeft ons Nederlands geënterd. Gaat het om een epidemi
     </term>
   </terms>
   <deps>
-    <dep from="t5" to="t1" rfunc="cop"/><dep from="t3" to="t2" rfunc="nmod:poss"/><dep from="t5" to="t3" rfunc="nsubj"/><dep from="t5" to="t4" rfunc="det"/><dep from="t5" to="t6" rfunc="case"/><dep from="t5" to="t7" rfunc="punct"/><dep from="t5" to="t8" rfunc="punct"/><dep from="t11" to="t9" rfunc="det"/>
+    <dep from="t3" to="t2" rfunc="nmod:poss"/><dep from="t1" to="t3" rfunc="obl"/><dep from="t5" to="t4" rfunc="det"/><dep from="t1" to="t5" rfunc="obj"/><dep from="t1" to="t6" rfunc="compound:prt"/><dep from="t1" to="t7" rfunc="punct"/><dep from="t1" to="t8" rfunc="punct"/><dep from="t11" to="t9" rfunc="det"/>
     <dep from="t17" to="t11" rfunc="nsubj"/>
     <dep from="t11" to="t10" rfunc="amod"/>
     <dep from="t13" to="t12" rfunc="nmod"/>

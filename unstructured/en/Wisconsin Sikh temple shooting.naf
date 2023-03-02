@@ -183,7 +183,7 @@ Page was an American white supremacist and Army veteran from Cudahy, Wisconsin. 
     <wf sent="9" id="w152" length="1" offset="787">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Wisconsin" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Sikh" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="temple" pos="NOUN" type="open" morphofeat="NN"><span><target id="w3"/></span></term><term id="t4" lemma="shooting" pos="NOUN" type="open" morphofeat="NN"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="+" pos="X" type="open" morphofeat="XX">
+    <term id="t1" lemma="Wisconsin" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Sikh" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="temple" pos="NOUN" type="open" morphofeat="NN"><span><target id="w3"/></span></term><term id="t4" lemma="shoot" pos="VERB" type="open" morphofeat="VBG"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="+" pos="X" type="open" morphofeat="XX">
       <span>
         <target id="w6"/>
       </span>
@@ -920,7 +920,7 @@ Page was an American white supremacist and Army veteran from Cudahy, Wisconsin. 
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t4" to="t2" rfunc="amod"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t4" to="t5" rfunc="punct"/><dep from="t10" to="t6" rfunc="cc"/>
+    <dep from="t3" to="t1" rfunc="compound"/><dep from="t4" to="t3" rfunc="nsubj"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t4" to="t5" rfunc="punct"/><dep from="t10" to="t6" rfunc="cc"/>
     <dep from="t10" to="t7" rfunc="cc"/>
     <dep from="t9" to="t8" rfunc="compound"/>
     <dep from="t10" to="t9" rfunc="compound"/>

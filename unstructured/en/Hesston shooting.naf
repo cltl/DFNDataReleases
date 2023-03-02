@@ -92,7 +92,7 @@ On February 25, 2016, three people were killed and fourteen others injured in a 
     <wf sent="5" id="w64" length="1" offset="333">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Hesston" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="shooting" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w3"/></span></term><term id="t4" lemma="+" pos="X" type="open" morphofeat="XX">
+    <term id="t1" lemma="Hesston" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="shoot" pos="VERB" type="open" morphofeat="VBG"><span><target id="w2"/></span></term><term id="t3" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w3"/></span></term><term id="t4" lemma="+" pos="X" type="open" morphofeat="XX">
       <span>
         <target id="w4"/>
       </span>
@@ -399,7 +399,7 @@ On February 25, 2016, three people were killed and fourteen others injured in a 
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t7" to="t5" rfunc="cc"/>
+    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t7" to="t5" rfunc="cc"/>
     <dep from="t5" to="t6" rfunc="npadvmod"/>
     <dep from="t7" to="t8" rfunc="punct"/>
     <dep from="t8" to="t9" rfunc=""/>

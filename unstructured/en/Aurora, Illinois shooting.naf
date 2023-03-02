@@ -71,7 +71,7 @@ On February 15, 2019, a mass shooting took place at Henry Pratt Company in Auror
     <wf sent="4" id="w45" length="1" offset="220">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Aurora" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="," pos="PUNCT" type="open" morphofeat=","><span><target id="w2"/></span></term><term id="t3" lemma="Illinois" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="shooting" pos="NOUN" type="open" morphofeat="NN"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="+" pos="X" type="open" morphofeat="XX">
+    <term id="t1" lemma="Aurora" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="," pos="PUNCT" type="open" morphofeat=","><span><target id="w2"/></span></term><term id="t3" lemma="Illinois" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="shoot" pos="VERB" type="open" morphofeat="VBG"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="+" pos="X" type="open" morphofeat="XX">
       <span>
         <target id="w6"/>
       </span>
@@ -273,7 +273,7 @@ On February 15, 2019, a mass shooting took place at Henry Pratt Company in Auror
     </term>
   </terms>
   <deps>
-    <dep from="t4" to="t1" rfunc="npadvmod"/><dep from="t4" to="t2" rfunc="punct"/><dep from="t4" to="t3" rfunc="nsubj"/><dep from="t4" to="t5" rfunc="punct"/><dep from="t11" to="t6" rfunc="cc"/>
+    <dep from="t4" to="t1" rfunc="nsubj"/><dep from="t4" to="t2" rfunc="punct"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t4" to="t5" rfunc="punct"/><dep from="t11" to="t6" rfunc="cc"/>
     <dep from="t8" to="t7" rfunc="cc"/>
     <dep from="t11" to="t8" rfunc="npadvmod"/>
     <dep from="t8" to="t9" rfunc="punct"/>

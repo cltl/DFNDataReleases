@@ -64,7 +64,7 @@ Starting in 1996, Alexa Internet has been donating their crawl data to the Inter
     <wf sent="3" id="w39" length="1" offset="208">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Vancouver" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="riot" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w2"/></span></term><term id="t3" lemma="timeline" pos="NOUN" type="open" morphofeat="NN"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="start" pos="VERB" type="open" morphofeat="VBG">
+    <term id="t1" lemma="Vancouver" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="riot" pos="VERB" type="open" morphofeat="VBZ"><span><target id="w2"/></span></term><term id="t3" lemma="timeline" pos="NOUN" type="open" morphofeat="NN"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="start" pos="VERB" type="open" morphofeat="VBG">
       <span>
         <target id="w5"/>
       </span>
@@ -241,7 +241,7 @@ Starting in 1996, Alexa Internet has been donating their crawl data to the Inter
     </term>
   </terms>
   <deps>
-    <dep from="t3" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t13" to="t5" rfunc="advcl"/>
+    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t2" to="t3" rfunc="dobj"/><dep from="t2" to="t4" rfunc="punct"/><dep from="t13" to="t5" rfunc="advcl"/>
     <dep from="t5" to="t6" rfunc="prep"/>
     <dep from="t6" to="t7" rfunc="pobj"/>
     <dep from="t13" to="t8" rfunc="punct"/>

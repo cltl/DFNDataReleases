@@ -909,7 +909,7 @@ Walking on his stumps, he heard the sound of movement inside the toilet, a small
     <wf sent="48" id="w851" length="1" offset="4102">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Pistorius" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="deny" pos="VERB" type="open" morphofeat="VBZ"><span><target id="w2"/></span></term><term id="t3" lemma="Murdering" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Girlfriend" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="PRETORIA" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t1" lemma="Pistorius" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Denies" pos="PROPN" type="open" morphofeat="NNPS"><span><target id="w2"/></span></term><term id="t3" lemma="Murdering" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Girlfriend" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="PRETORIA" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w6"/>
       </span>
@@ -5141,7 +5141,7 @@ Walking on his stumps, he heard the sound of movement inside the toilet, a small
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t2" to="t4" rfunc="dobj"/><dep from="t2" to="t5" rfunc="punct"/><dep from="t6" to="t7" rfunc="punct"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t4" to="t2" rfunc="compound"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t4" to="t5" rfunc="punct"/><dep from="t6" to="t7" rfunc="punct"/>
     <dep from="t9" to="t8" rfunc="compound"/>
     <dep from="t10" to="t9" rfunc="nsubj"/>
     <dep from="t6" to="t10" rfunc="relcl"/>

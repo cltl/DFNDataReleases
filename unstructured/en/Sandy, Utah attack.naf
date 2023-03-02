@@ -171,7 +171,7 @@ On June 6, 2017, in Sandy, Utah, Jeremy Patterson rammed his truck into a vehicl
     <wf sent="7" id="w145" length="1" offset="777">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Sandy" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="," pos="PUNCT" type="open" morphofeat=","><span><target id="w2"/></span></term><term id="t3" lemma="Utah" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="attack" pos="NOUN" type="open" morphofeat="NN"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="+" pos="X" type="open" morphofeat="XX">
+    <term id="t1" lemma="sandy" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w1"/></span></term><term id="t2" lemma="," pos="PUNCT" type="open" morphofeat=","><span><target id="w2"/></span></term><term id="t3" lemma="Utah" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="attack" pos="NOUN" type="open" morphofeat="NN"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="+" pos="X" type="open" morphofeat="XX">
       <span>
         <target id="w6"/>
       </span>
@@ -873,7 +873,7 @@ On June 6, 2017, in Sandy, Utah, Jeremy Patterson rammed his truck into a vehicl
     </term>
   </terms>
   <deps>
-    <dep from="t4" to="t1" rfunc="nmod"/><dep from="t4" to="t2" rfunc="punct"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t4" to="t5" rfunc="punct"/><dep from="t11" to="t7" rfunc="cc"/>
+    <dep from="t4" to="t1" rfunc="amod"/><dep from="t1" to="t2" rfunc="punct"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t4" to="t5" rfunc="punct"/><dep from="t11" to="t7" rfunc="cc"/>
     <dep from="t11" to="t8" rfunc="npadvmod"/>
     <dep from="t8" to="t9" rfunc="punct"/>
     <dep from="t11" to="t10" rfunc="compound"/>

@@ -104,7 +104,7 @@ Aleksandr Chodakovski liet weten dat hij pas op het moment van de ramp had gehoo
     <wf sent="8" id="w86" length="4" offset="512">klik</wf>
   </text>
   <terms>
-    <term id="t1" lemma="rebellenleider" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w1"/></span></term><term id="t2" lemma="erkennen" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w2"/></span></term><term id="t3" lemma="bezitten" pos="VERB" type="open" morphofeat="WW|pv|tgw|ev__Number=Sing|Tense=Pres|VerbForm=Fin"><span><target id="w3"/></span></term><term id="t4" lemma="boek-rakett" pos="NOUN" type="open" morphofeat="N|soort|mv|basis__Number=Plur"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w5"/></span></term><term id="t6" lemma="aleksandr" pos="NOUN" type="open" morphofeat="N_N|eigen|ev|neut_eigen|ev|neut___">
+    <term id="t1" lemma="rebellenleider" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|zonder"><span><target id="w1"/></span></term><term id="t2" lemma="erkent" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|onz|stan"><span><target id="w2"/></span></term><term id="t3" lemma="bezitten" pos="VERB" type="open" morphofeat="WW|pv|tgw|ev"><span><target id="w3"/></span></term><term id="t4" lemma="Boek-raketten" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|genus|stan"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w5"/></span></term><term id="t6" lemma="aleksandr" pos="NOUN" type="open" morphofeat="N_N|eigen|ev|neut_eigen|ev|neut___">
       <span>
         <target id="w6"/>
       </span>
@@ -511,7 +511,7 @@ Aleksandr Chodakovski liet weten dat hij pas op het moment van de ramp had gehoo
     </term>
   </terms>
   <deps>
-    <dep from="t3" to="t1" rfunc="nsubj"/><dep from="t1" to="t2" rfunc="flat"/><dep from="t3" to="t4" rfunc="obj"/><dep from="t3" to="t5" rfunc="punct"/><dep from="t8" to="t6" rfunc="nsubj"/>
+    <dep from="t2" to="t1" rfunc="amod"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t3" to="t4" rfunc="obj"/><dep from="t3" to="t5" rfunc="punct"/><dep from="t8" to="t6" rfunc="nsubj"/>
     <dep from="t6" to="t7" rfunc="flat"/>
     <dep from="t8" to="t9" rfunc="xcomp"/>
     <dep from="t20" to="t10" rfunc="mark"/>

@@ -1001,7 +1001,7 @@ COVID-19 Response Level Reduced to Level 1 AMBER 26 July 2021 Government, Press 
     <wf sent="40" id="w984" length="1" offset="5584">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="COVID-19" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Response" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Level" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="reduce" pos="VERB" type="open" morphofeat="VBN"><span><target id="w4"/></span></term><term id="t5" lemma="to" pos="ADP" type="open" morphofeat="IN"><span><target id="w5"/></span></term><term id="t6" lemma="level" pos="NOUN" type="open" morphofeat="NN"><span><target id="w6"/></span></term><term id="t7" lemma="1" pos="NUM" type="open" morphofeat="CD"><span><target id="w7"/></span></term><term id="t8" lemma="amber" pos="NOUN" type="open" morphofeat="NN"><span><target id="w8"/></span></term><term id="t9" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w9"/></span></term><term id="t10" lemma="COVID-19" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t1" lemma="COVID-19" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Response" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Level" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="reduce" pos="VERB" type="open" morphofeat="VBD"><span><target id="w4"/></span></term><term id="t5" lemma="to" pos="PART" type="open" morphofeat="TO"><span><target id="w5"/></span></term><term id="t6" lemma="level" pos="VERB" type="open" morphofeat="VB"><span><target id="w6"/></span></term><term id="t7" lemma="1" pos="NUM" type="open" morphofeat="CD"><span><target id="w7"/></span></term><term id="t8" lemma="amber" pos="NOUN" type="open" morphofeat="NN"><span><target id="w8"/></span></term><term id="t9" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w9"/></span></term><term id="t10" lemma="COVID-19" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w10"/>
       </span>
@@ -5878,7 +5878,7 @@ COVID-19 Response Level Reduced to Level 1 AMBER 26 July 2021 Government, Press 
     </term>
   </terms>
   <deps>
-    <dep from="t3" to="t1" rfunc="punct"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t3" to="t4" rfunc="acl"/><dep from="t4" to="t5" rfunc="prep"/><dep from="t8" to="t6" rfunc="nmod"/><dep from="t5" to="t8" rfunc="pobj"/><dep from="t8" to="t7" rfunc="nummod"/><dep from="t3" to="t9" rfunc="punct"/><dep from="t12" to="t11" rfunc="compound"/>
+    <dep from="t3" to="t1" rfunc="compound"/><dep from="t4" to="t3" rfunc="nsubj"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t6" to="t5" rfunc="aux"/><dep from="t4" to="t6" rfunc="xcomp"/><dep from="t8" to="t7" rfunc="nummod"/><dep from="t6" to="t8" rfunc="dobj"/><dep from="t4" to="t9" rfunc="punct"/><dep from="t12" to="t11" rfunc="compound"/>
     <dep from="t13" to="t12" rfunc="nsubj"/>
     <dep from="t13" to="t14" rfunc="prep"/>
     <dep from="t14" to="t15" rfunc="pobj"/>

@@ -149,7 +149,7 @@ Crawl of outlinks from wikipedia.org started March, 2016. These files are curren
     <wf sent="13" id="w126" length="1" offset="630">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="1984" pos="NUM" type="open" morphofeat="CD"><span><target id="w1"/></span></term><term id="t2" lemma="anti" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w2"/></span></term><term id="t3" lemma="-" pos="PUNCT" type="open" morphofeat="HYPH"><span><target id="w3"/></span></term><term id="t4" lemma="Sikh" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="Genocide" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="crawl" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t1" lemma="1984" pos="NUM" type="open" morphofeat="CD"><span><target id="w1"/></span></term><term id="t2" lemma="Anti" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="-" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Sikh" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="Genocide" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="crawl" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w7"/>
       </span>
@@ -751,7 +751,7 @@ Crawl of outlinks from wikipedia.org started March, 2016. These files are curren
     </term>
   </terms>
   <deps>
-    <dep from="t5" to="t1" rfunc="nummod"/><dep from="t3" to="t2" rfunc="dep"/><dep from="t4" to="t3" rfunc="dep"/><dep from="t5" to="t4" rfunc="amod"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t12" to="t7" rfunc="nsubj"/>
+    <dep from="t5" to="t1" rfunc="nummod"/><dep from="t5" to="t2" rfunc="compound"/><dep from="t5" to="t3" rfunc="compound"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t12" to="t7" rfunc="nsubj"/>
     <dep from="t7" to="t8" rfunc="prep"/>
     <dep from="t8" to="t9" rfunc="pobj"/>
     <dep from="t9" to="t10" rfunc="prep"/>

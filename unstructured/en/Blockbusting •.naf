@@ -520,7 +520,7 @@ Although blockbusting emerged at the beginning of the 20th century, the practice
     <wf sent="21" id="w483" length="1" offset="2938">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="blockbuste" pos="VERB" type="open" morphofeat="VBG"><span><target id="w1"/></span></term><term id="t2" lemma="•." pos="NUM" type="open" morphofeat="CD"><span><target id="w2"/></span></term><term id="t3" lemma="blockbusting" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t1" lemma="blockbuste" pos="VERB" type="open" morphofeat="VBG"><span><target id="w1"/></span></term><term id="t2" lemma="•." pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="blockbusting" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w3"/>
       </span>
@@ -2927,7 +2927,7 @@ Although blockbusting emerged at the beginning of the 20th century, the practice
     </term>
   </terms>
   <deps>
-    <dep from="t1" to="t2" rfunc="advmod"/><dep from="t4" to="t3" rfunc="nsubj"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t4" to="t3" rfunc="nsubj"/>
     <dep from="t4" to="t5" rfunc="prep"/>
     <dep from="t7" to="t6" rfunc="det"/>
     <dep from="t5" to="t7" rfunc="pobj"/>

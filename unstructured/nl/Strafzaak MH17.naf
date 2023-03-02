@@ -169,7 +169,7 @@ Op woensdag 5 juli 2017 werd bekendgemaakt dat de verdachten van het veroorzaken
     <wf sent="10" id="w149" length="1" offset="843">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="strafzaak" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w1"/></span></term><term id="t2" lemma="mh17" pos="DET" type="open" morphofeat="SPEC|symb"><span><target id="w2"/></span></term><term id="t3" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w3"/></span></term><term id="t4" lemma="op" pos="ADP" type="open" morphofeat="Prep|voor__AdpType=Prep">
+    <term id="t1" lemma="strafzaak" pos="ADJ" type="open" morphofeat="N|eigen|ev|basis|onz|stan"><span><target id="w1"/></span></term><term id="t2" lemma="MH17" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan"><span><target id="w2"/></span></term><term id="t3" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w3"/></span></term><term id="t4" lemma="op" pos="ADP" type="open" morphofeat="Prep|voor__AdpType=Prep">
       <span>
         <target id="w4"/>
       </span>
@@ -901,7 +901,7 @@ Op woensdag 5 juli 2017 werd bekendgemaakt dat de verdachten van het veroorzaken
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t5" to="t4" rfunc="case"/>
+    <dep from="t1" to="t2" rfunc="parataxis"/><dep from="t1" to="t3" rfunc="punct"/><dep from="t5" to="t4" rfunc="case"/>
     <dep from="t10" to="t5" rfunc="advmod"/>
     <dep from="t5" to="t6" rfunc="nummod"/>
     <dep from="t5" to="t7" rfunc="flat"/>

@@ -514,7 +514,7 @@ Voor het eerst is in Nederland iemand overleden door een infectie met het nieuwe
     <wf sent="33" id="w499" length="1" offset="2788">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="46" pos="NUM" type="open" morphofeat="TW|hoofd|prenom|stan"><span><target id="w1"/></span></term><term id="t2" lemma="nieuw" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan__Degree=Pos"><span><target id="w2"/></span></term><term id="t3" lemma="coronabesmetting" pos="NOUN" type="open" morphofeat="N|soort|mv|basis__Number=Plur"><span><target id="w3"/></span></term><term id="t4" lemma="," pos="SYM" type="open" morphofeat="LET"><span><target id="w4"/></span></term><term id="t5" lemma="hoogbejaard" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan__Degree=Pos"><span><target id="w5"/></span></term><term id="t6" lemma="patiënt" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w6"/></span></term><term id="t7" lemma="overlijden" pos="VERB" type="open" morphofeat="WW|vd|vrij|zonder__VerbForm=Part"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w8"/></span></term><term id="t9" lemma="voor" pos="ADP" type="open" morphofeat="Prep_Art_Adj__Degree=Cmp|Gender=Neut">
+    <term id="t1" lemma="46" pos="NUM" type="open" morphofeat="TW|hoofd|prenom|stan"><span><target id="w1"/></span></term><term id="t2" lemma="nieuw" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan"><span><target id="w2"/></span></term><term id="t3" lemma="coronabesmetting" pos="NOUN" type="open" morphofeat="N|soort|mv|basis"><span><target id="w3"/></span></term><term id="t4" lemma="," pos="PUNCT" type="open" morphofeat="LET"><span><target id="w4"/></span></term><term id="t5" lemma="hoogbejaran" pos="VERB" type="open" morphofeat="WW|pv|verl|ev"><span><target id="w5"/></span></term><term id="t6" lemma="patiënt" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan"><span><target id="w6"/></span></term><term id="t7" lemma="overlijden" pos="VERB" type="open" morphofeat="WW|vd|vrij|zonder"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w8"/></span></term><term id="t9" lemma="voor" pos="ADP" type="open" morphofeat="Prep_Art_Adj__Degree=Cmp|Gender=Neut">
       <span>
         <target id="w9"/>
       </span>
@@ -2971,7 +2971,7 @@ Voor het eerst is in Nederland iemand overleden door een infectie met het nieuwe
     </term>
   </terms>
   <deps>
-    <dep from="t3" to="t1" rfunc="nummod"/><dep from="t7" to="t3" rfunc="nsubj"/><dep from="t3" to="t2" rfunc="amod"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t6" to="t5" rfunc="amod"/><dep from="t7" to="t6" rfunc="obj"/><dep from="t7" to="t8" rfunc="punct"/><dep from="t16" to="t9" rfunc="advmod"/>
+    <dep from="t3" to="t1" rfunc="nummod"/><dep from="t5" to="t3" rfunc="nsubj"/><dep from="t3" to="t2" rfunc="amod"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t7" to="t6" rfunc="obj"/><dep from="t5" to="t7" rfunc="xcomp"/><dep from="t5" to="t8" rfunc="punct"/><dep from="t16" to="t9" rfunc="advmod"/>
     <dep from="t9" to="t10" rfunc="compound"/>
     <dep from="t9" to="t11" rfunc="compound"/>
     <dep from="t16" to="t12" rfunc="aux"/>

@@ -620,7 +620,7 @@ Like this: Like Loading... Related</raw>
     <wf sent="32" id="w577" length="7" offset="2914">Related</wf>
   </text>
   <terms>
-    <term id="t1" lemma="the" pos="DET" type="open" morphofeat="DT"><span><target id="w1"/></span></term><term id="t2" lemma="1985" pos="NUM" type="open" morphofeat="CD"><span><target id="w2"/></span></term><term id="t3" lemma="Barrie" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Tornado" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="Revisited" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="around" pos="ADP" type="open" morphofeat="IN">
+    <term id="t1" lemma="the" pos="DET" type="open" morphofeat="DT"><span><target id="w1"/></span></term><term id="t2" lemma="1985" pos="NUM" type="open" morphofeat="CD"><span><target id="w2"/></span></term><term id="t3" lemma="Barrie" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Tornado" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="revisit" pos="VERB" type="open" morphofeat="VBN"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="around" pos="ADP" type="open" morphofeat="IN">
       <span>
         <target id="w7"/>
       </span>
@@ -3477,7 +3477,7 @@ Like this: Like Loading... Related</raw>
     </term>
   </terms>
   <deps>
-    <dep from="t5" to="t1" rfunc="det"/><dep from="t5" to="t2" rfunc="nummod"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t18" to="t7" rfunc="prep"/>
+    <dep from="t2" to="t1" rfunc="det"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t5" to="t4" rfunc="nsubj"/><dep from="t2" to="t5" rfunc="acl"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t18" to="t7" rfunc="prep"/>
     <dep from="t9" to="t8" rfunc="det"/>
     <dep from="t7" to="t9" rfunc="pobj"/>
     <dep from="t9" to="t10" rfunc="prep"/>

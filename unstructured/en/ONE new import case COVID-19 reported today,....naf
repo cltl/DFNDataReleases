@@ -401,7 +401,7 @@
     <wf sent="30" id="w384" length="4" offset="2018">2021</wf>
   </text>
   <terms>
-    <term id="t1" lemma="one" pos="NUM" type="open" morphofeat="CD"><span><target id="w1"/></span></term><term id="t2" lemma="new" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w2"/></span></term><term id="t3" lemma="import" pos="NOUN" type="open" morphofeat="NN"><span><target id="w3"/></span></term><term id="t4" lemma="case" pos="NOUN" type="open" morphofeat="NN"><span><target id="w4"/></span></term><term id="t5" lemma="COVID-19" pos="PUNCT" type="open" morphofeat=","><span><target id="w5"/></span></term><term id="t6" lemma="report" pos="VERB" type="open" morphofeat="VBD"><span><target id="w6"/></span></term><term id="t7" lemma="today" pos="NOUN" type="open" morphofeat="NN"><span><target id="w7"/></span></term><term id="t8" lemma="," pos="PUNCT" type="open" morphofeat=","><span><target id="w8"/></span></term><term id="t9" lemma="...." pos="PUNCT" type="open" morphofeat="."><span><target id="w9"/></span></term><term id="t10" lemma="​" pos="NOUN" type="open" morphofeat="NNS">
+    <term id="t1" lemma="one" pos="NUM" type="open" morphofeat="CD"><span><target id="w1"/></span></term><term id="t2" lemma="new" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w2"/></span></term><term id="t3" lemma="import" pos="NOUN" type="open" morphofeat="NN"><span><target id="w3"/></span></term><term id="t4" lemma="case" pos="NOUN" type="open" morphofeat="NN"><span><target id="w4"/></span></term><term id="t5" lemma="covid-19" pos="NOUN" type="open" morphofeat="NN"><span><target id="w5"/></span></term><term id="t6" lemma="report" pos="VERB" type="open" morphofeat="VBD"><span><target id="w6"/></span></term><term id="t7" lemma="today" pos="NOUN" type="open" morphofeat="NN"><span><target id="w7"/></span></term><term id="t8" lemma="," pos="PUNCT" type="open" morphofeat=","><span><target id="w8"/></span></term><term id="t9" lemma="...." pos="PUNCT" type="open" morphofeat="."><span><target id="w9"/></span></term><term id="t10" lemma="​" pos="NOUN" type="open" morphofeat="NNS">
       <span>
         <target id="w10"/>
       </span>
@@ -2278,7 +2278,7 @@
     </term>
   </terms>
   <deps>
-    <dep from="t4" to="t1" rfunc="nummod"/><dep from="t6" to="t4" rfunc="nsubj"/><dep from="t4" to="t2" rfunc="amod"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t4" to="t5" rfunc="punct"/><dep from="t6" to="t7" rfunc="npadvmod"/><dep from="t6" to="t8" rfunc="punct"/><dep from="t6" to="t9" rfunc="punct"/><dep from="t11" to="t10" rfunc="aux"/>
+    <dep from="t4" to="t1" rfunc="nummod"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t6" to="t5" rfunc="nsubj"/><dep from="t4" to="t2" rfunc="amod"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t6" to="t7" rfunc="npadvmod"/><dep from="t6" to="t8" rfunc="punct"/><dep from="t6" to="t9" rfunc="punct"/><dep from="t11" to="t10" rfunc="aux"/>
     <dep from="t13" to="t12" rfunc="compound"/>
     <dep from="t11" to="t13" rfunc="prep"/>
     <dep from="t16" to="t14" rfunc="det"/>

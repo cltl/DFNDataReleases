@@ -442,7 +442,7 @@ Dear madam/sir, In the Republic of Serbia, the first case of COVID-19 was report
     <wf sent="8" id="w423" length="1" offset="2177">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="HOMEPAGE" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="(" pos="PUNCT" type="open" morphofeat="-LRB-"><span><target id="w2"/></span></term><term id="t3" lemma="english" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma=")" pos="PUNCT" type="open" morphofeat="-RRB-"><span><target id="w4"/></span></term><term id="t5" lemma="-" pos="PUNCT" type="open" morphofeat=":"><span><target id="w5"/></span></term><term id="t6" lemma="COVID-19" pos="PUNCT" type="open" morphofeat=","><span><target id="w6"/></span></term><term id="t7" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w7"/></span></term><term id="t8" lemma="dear" pos="ADJ" type="open" morphofeat="JJ">
+    <term id="t1" lemma="HOMEPAGE" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="(" pos="PUNCT" type="open" morphofeat="-LRB-"><span><target id="w2"/></span></term><term id="t3" lemma="english" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma=")" pos="PUNCT" type="open" morphofeat="-RRB-"><span><target id="w4"/></span></term><term id="t5" lemma="-" pos="PUNCT" type="open" morphofeat=":"><span><target id="w5"/></span></term><term id="t6" lemma="COVID-19" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w6"/></span></term><term id="t7" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w7"/></span></term><term id="t8" lemma="dear" pos="ADJ" type="open" morphofeat="JJ">
       <span>
         <target id="w8"/>
       </span>
@@ -2524,7 +2524,7 @@ Dear madam/sir, In the Republic of Serbia, the first case of COVID-19 was report
     </term>
   </terms>
   <deps>
-    <dep from="t3" to="t2" rfunc="punct"/><dep from="t1" to="t3" rfunc="appos"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t6" to="t5" rfunc="punct"/><dep from="t1" to="t6" rfunc="appos"/><dep from="t1" to="t7" rfunc="punct"/><dep from="t11" to="t8" rfunc="amod"/>
+    <dep from="t6" to="t1" rfunc="nmod"/><dep from="t1" to="t2" rfunc="punct"/><dep from="t1" to="t3" rfunc="npadvmod"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t6" to="t5" rfunc="punct"/><dep from="t6" to="t7" rfunc="punct"/><dep from="t11" to="t8" rfunc="amod"/>
     <dep from="t25" to="t11" rfunc="npadvmod"/>
     <dep from="t11" to="t9" rfunc="nmod"/>
     <dep from="t11" to="t10" rfunc="punct"/>

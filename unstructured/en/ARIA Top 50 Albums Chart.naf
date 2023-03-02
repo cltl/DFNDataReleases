@@ -56,7 +56,7 @@ Play video I'm a Stupid Moron With an Ugly Face and a Big Butt and My Butt Smell
     <wf sent="4" id="w36" length="8" offset="145">Colossus</wf>
   </text>
   <terms>
-    <term id="t1" lemma="ARIA" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Top" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="50" pos="NUM" type="open" morphofeat="CD"><span><target id="w3"/></span></term><term id="t4" lemma="Albums" pos="PROPN" type="open" morphofeat="NNPS"><span><target id="w4"/></span></term><term id="t5" lemma="Chart" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="play" pos="VERB" type="open" morphofeat="VB">
+    <term id="t1" lemma="ARIA" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Top" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="50" pos="NUM" type="open" morphofeat="CD"><span><target id="w3"/></span></term><term id="t4" lemma="Albums" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="Chart" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="play" pos="VERB" type="open" morphofeat="VB">
       <span>
         <target id="w7"/>
       </span>
@@ -208,7 +208,7 @@ Play video I'm a Stupid Moron With an Ugly Face and a Big Butt and My Butt Smell
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t5" to="t3" rfunc="nummod"/><dep from="t2" to="t5" rfunc="dobj"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t2" to="t6" rfunc="punct"/><dep from="t7" to="t8" rfunc="dobj"/>
+    <dep from="t5" to="t1" rfunc="amod"/><dep from="t5" to="t2" rfunc="nmod"/><dep from="t5" to="t3" rfunc="nummod"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t7" to="t8" rfunc="dobj"/>
     <dep from="t10" to="t9" rfunc="nsubj"/>
     <dep from="t13" to="t11" rfunc="det"/>
     <dep from="t10" to="t13" rfunc="attr"/>

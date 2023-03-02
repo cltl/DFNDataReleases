@@ -265,7 +265,7 @@ The following is live streaming coverage of the day’s events: http://wp.me/p5M
     <wf sent="16" id="w236" length="23" offset="1225">http://wp.me/p5Mgcn-kuf</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Obama" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="order" pos="VERB" type="open" morphofeat="VBZ"><span><target id="w2"/></span></term><term id="t3" lemma="flag" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w3"/></span></term><term id="t4" lemma="at" pos="ADP" type="open" morphofeat="IN"><span><target id="w4"/></span></term><term id="t5" lemma="half" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w5"/></span></term><term id="t6" lemma="-" pos="PUNCT" type="open" morphofeat="HYPH"><span><target id="w6"/></span></term><term id="t7" lemma="staff" pos="NOUN" type="open" morphofeat="NN"><span><target id="w7"/></span></term><term id="t8" lemma="after" pos="ADP" type="open" morphofeat="IN"><span><target id="w8"/></span></term><term id="t9" lemma="shoot" pos="VERB" type="open" morphofeat="VBG"><span><target id="w9"/></span></term><term id="t10" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w10"/></span></term><term id="t11" lemma="worker" pos="NOUN" type="open" morphofeat="NNS">
+    <term id="t1" lemma="obama" pos="NOUN" type="open" morphofeat="NN"><span><target id="w1"/></span></term><term id="t2" lemma="order" pos="VERB" type="open" morphofeat="VBZ"><span><target id="w2"/></span></term><term id="t3" lemma="flag" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w3"/></span></term><term id="t4" lemma="at" pos="ADP" type="open" morphofeat="IN"><span><target id="w4"/></span></term><term id="t5" lemma="half" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w5"/></span></term><term id="t6" lemma="-" pos="PUNCT" type="open" morphofeat="HYPH"><span><target id="w6"/></span></term><term id="t7" lemma="staff" pos="NOUN" type="open" morphofeat="NN"><span><target id="w7"/></span></term><term id="t8" lemma="after" pos="ADP" type="open" morphofeat="IN"><span><target id="w8"/></span></term><term id="t9" lemma="shoot" pos="VERB" type="open" morphofeat="VBG"><span><target id="w9"/></span></term><term id="t10" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w10"/></span></term><term id="t11" lemma="worker" pos="NOUN" type="open" morphofeat="NNS">
       <span>
         <target id="w11"/>
       </span>
@@ -1397,7 +1397,7 @@ The following is live streaming coverage of the day’s events: http://wp.me/p5M
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t3" to="t4" rfunc="prep"/><dep from="t7" to="t5" rfunc="amod"/><dep from="t4" to="t7" rfunc="pobj"/><dep from="t7" to="t6" rfunc="punct"/><dep from="t3" to="t8" rfunc="prep"/><dep from="t8" to="t9" rfunc="pcomp"/><dep from="t3" to="t10" rfunc="punct"/><dep from="t12" to="t11" rfunc="nsubj"/>
+    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t2" to="t3" rfunc="dobj"/><dep from="t2" to="t4" rfunc="prep"/><dep from="t7" to="t5" rfunc="amod"/><dep from="t4" to="t7" rfunc="pobj"/><dep from="t7" to="t6" rfunc="punct"/><dep from="t2" to="t8" rfunc="prep"/><dep from="t8" to="t9" rfunc="pcomp"/><dep from="t2" to="t10" rfunc="punct"/><dep from="t12" to="t11" rfunc="nsubj"/>
     <dep from="t15" to="t13" rfunc="det"/>
     <dep from="t12" to="t15" rfunc="dobj"/>
     <dep from="t15" to="t14" rfunc="amod"/>

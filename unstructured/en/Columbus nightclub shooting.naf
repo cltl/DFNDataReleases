@@ -268,7 +268,7 @@ Gale was enlisted in the United States Marine Corps from February 2002 until he 
     <wf sent="10" id="w237" length="1" offset="1233">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Columbus" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="nightclub" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="shooting" pos="NOUN" type="open" morphofeat="NN"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="+" pos="X" type="open" morphofeat="XX">
+    <term id="t1" lemma="columbus" pos="NOUN" type="open" morphofeat="NN"><span><target id="w1"/></span></term><term id="t2" lemma="nightclub" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="shoot" pos="VERB" type="open" morphofeat="VBG"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="+" pos="X" type="open" morphofeat="XX">
       <span>
         <target id="w5"/>
       </span>
@@ -1435,7 +1435,7 @@ Gale was enlisted in the United States Marine Corps from February 2002 until he 
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t5" to="t6" rfunc="punct"/>
+    <dep from="t3" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="compound"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t5" to="t6" rfunc="punct"/>
     <dep from="t8" to="t7" rfunc="compound"/>
     <dep from="t5" to="t8" rfunc="conj"/>
     <dep from="t8" to="t9" rfunc="advmod"/>

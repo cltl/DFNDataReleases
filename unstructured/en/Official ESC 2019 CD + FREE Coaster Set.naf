@@ -81,7 +81,7 @@ ATTENTION ONLINE SHOPPERS! Exclusively for you, all online CD orders come with a
     <wf sent="6" id="w64" length="1" offset="299">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="official" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w1"/></span></term><term id="t2" lemma="ESC" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="2019" pos="NUM" type="open" morphofeat="CD"><span><target id="w3"/></span></term><term id="t4" lemma="cd" pos="NOUN" type="open" morphofeat="NN"><span><target id="w4"/></span></term><term id="t5" lemma="+" pos="SYM" type="open" morphofeat="SYM"><span><target id="w5"/></span></term><term id="t6" lemma="free" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w6"/></span></term><term id="t7" lemma="coaster" pos="NOUN" type="open" morphofeat="NN"><span><target id="w7"/></span></term><term id="t8" lemma="Set" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w8"/></span></term><term id="t9" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w9"/></span></term><term id="t10" lemma="ATTENTION" pos="PROPN" type="open" morphofeat="NNP">
+    <term id="t1" lemma="official" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w1"/></span></term><term id="t2" lemma="ESC" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="2019" pos="NUM" type="open" morphofeat="CD"><span><target id="w3"/></span></term><term id="t4" lemma="CD" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="+" pos="CCONJ" type="open" morphofeat="CC"><span><target id="w5"/></span></term><term id="t6" lemma="free" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w6"/></span></term><term id="t7" lemma="Coaster" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w7"/></span></term><term id="t8" lemma="Set" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w8"/></span></term><term id="t9" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w9"/></span></term><term id="t10" lemma="ATTENTION" pos="PROPN" type="open" morphofeat="NNP">
       <span>
         <target id="w10"/>
       </span>
@@ -358,7 +358,7 @@ ATTENTION ONLINE SHOPPERS! Exclusively for you, all online CD orders come with a
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="amod"/><dep from="t4" to="t2" rfunc="nmod"/><dep from="t2" to="t3" rfunc="nummod"/><dep from="t4" to="t5" rfunc="cc"/><dep from="t8" to="t6" rfunc="amod"/><dep from="t4" to="t8" rfunc="conj"/><dep from="t8" to="t7" rfunc="compound"/><dep from="t4" to="t9" rfunc="punct"/><dep from="t12" to="t10" rfunc="compound"/>
+    <dep from="t4" to="t1" rfunc="amod"/><dep from="t6" to="t4" rfunc="npadvmod"/><dep from="t8" to="t6" rfunc="amod"/><dep from="t4" to="t2" rfunc="nmod"/><dep from="t2" to="t3" rfunc="nummod"/><dep from="t4" to="t5" rfunc="nummod"/><dep from="t8" to="t7" rfunc="compound"/><dep from="t8" to="t9" rfunc="punct"/><dep from="t12" to="t10" rfunc="compound"/>
     <dep from="t12" to="t11" rfunc="compound"/>
     <dep from="t12" to="t13" rfunc="punct"/>
     <dep from="t15" to="t14" rfunc="advmod"/>

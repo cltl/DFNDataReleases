@@ -202,7 +202,7 @@ On December 31, 2017, a shooting occurred in Highlands Ranch, Colorado, where fi
     <wf sent="10" id="w177" length="1" offset="932">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Copper" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Canyon" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Apartment" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Homes" pos="PROPN" type="open" morphofeat="NNPS"><span><target id="w4"/></span></term><term id="t5" lemma="shoot" pos="VERB" type="open" morphofeat="VBG"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="+" pos="X" type="open" morphofeat="XX">
+    <term id="t1" lemma="Copper" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Canyon" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Apartment" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Homes" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="shooting" pos="NOUN" type="open" morphofeat="NN"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="+" pos="X" type="open" morphofeat="XX">
       <span>
         <target id="w7"/>
       </span>
@@ -1059,7 +1059,7 @@ On December 31, 2017, a shooting occurred in Highlands Ranch, Colorado, where fi
     </term>
   </terms>
   <deps>
-    <dep from="t4" to="t1" rfunc="compound"/><dep from="t5" to="t4" rfunc="nsubj"/><dep from="t4" to="t2" rfunc="compound"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t13" to="t7" rfunc="cc"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t4" to="t2" rfunc="compound"/><dep from="t5" to="t4" rfunc="nsubj"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t13" to="t7" rfunc="cc"/>
     <dep from="t13" to="t8" rfunc="cc"/>
     <dep from="t10" to="t9" rfunc="compound"/>
     <dep from="t11" to="t10" rfunc="compound"/>

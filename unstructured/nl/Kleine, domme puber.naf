@@ -1147,7 +1147,7 @@ update – 22 augustus 2016 – Gurben na 4 jaar alsnog aangehouden in Antwerpen
     <wf sent="95" id="w1129" length="1" offset="5833">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="klein" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan__Degree=Pos"><span><target id="w1"/></span></term><term id="t2" lemma="," pos="SYM" type="open" morphofeat="LET"><span><target id="w2"/></span></term><term id="t3" lemma="dom" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan__Degree=Pos"><span><target id="w3"/></span></term><term id="t4" lemma="puber" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w5"/></span></term><term id="t6" lemma="updaen" pos="VERB" type="open" morphofeat="V|trans|ovt|1of2of3|ev__Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin">
+    <term id="t1" lemma="klein" pos="ADJ" type="open" morphofeat="ADJ|vrij|basis|zonder"><span><target id="w1"/></span></term><term id="t2" lemma="," pos="PUNCT" type="open" morphofeat="LET"><span><target id="w2"/></span></term><term id="t3" lemma="dom" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan"><span><target id="w3"/></span></term><term id="t4" lemma="puber" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|onz|stan"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w5"/></span></term><term id="t6" lemma="updaen" pos="VERB" type="open" morphofeat="V|trans|ovt|1of2of3|ev__Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin">
       <span>
         <target id="w6"/>
       </span>
@@ -6769,7 +6769,7 @@ update – 22 augustus 2016 – Gurben na 4 jaar alsnog aangehouden in Antwerpen
     </term>
   </terms>
   <deps>
-    <dep from="t3" to="t1" rfunc="parataxis"/><dep from="t1" to="t2" rfunc="punct"/><dep from="t3" to="t4" rfunc="obj"/><dep from="t3" to="t5" rfunc="punct"/><dep from="t7" to="t6" rfunc="obl"/>
+    <dep from="t3" to="t2" rfunc="punct"/><dep from="t4" to="t3" rfunc="amod"/><dep from="t1" to="t4" rfunc="nmod"/><dep from="t1" to="t5" rfunc="punct"/><dep from="t7" to="t6" rfunc="obl"/>
     <dep from="t17" to="t7" rfunc="advmod"/>
     <dep from="t23" to="t17" rfunc="xcomp"/>
     <dep from="t7" to="t8" rfunc="nummod"/>

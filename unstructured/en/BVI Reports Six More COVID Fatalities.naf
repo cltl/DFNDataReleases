@@ -458,7 +458,7 @@ The Ministry of Health and Social Development is confirming six more COVID relat
     <wf sent="24" id="w439" length="1" offset="2282">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="BVI" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="report" pos="VERB" type="open" morphofeat="VBZ"><span><target id="w2"/></span></term><term id="t3" lemma="six" pos="NUM" type="open" morphofeat="CD"><span><target id="w3"/></span></term><term id="t4" lemma="More" pos="ADJ" type="open" morphofeat="JJR"><span><target id="w4"/></span></term><term id="t5" lemma="COVID" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="Fatalities" pos="PROPN" type="open" morphofeat="NNPS"><span><target id="w6"/></span></term><term id="t7" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w7"/></span></term><term id="t8" lemma="the" pos="DET" type="open" morphofeat="DT">
+    <term id="t1" lemma="BVI" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="Reports" pos="PROPN" type="open" morphofeat="NNPS"><span><target id="w2"/></span></term><term id="t3" lemma="six" pos="NUM" type="open" morphofeat="CD"><span><target id="w3"/></span></term><term id="t4" lemma="More" pos="ADJ" type="open" morphofeat="JJR"><span><target id="w4"/></span></term><term id="t5" lemma="covid" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w5"/></span></term><term id="t6" lemma="fatality" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w6"/></span></term><term id="t7" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w7"/></span></term><term id="t8" lemma="the" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w8"/>
       </span>
@@ -2620,7 +2620,7 @@ The Ministry of Health and Social Development is confirming six more COVID relat
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t6" to="t3" rfunc="nummod"/><dep from="t2" to="t6" rfunc="dobj"/><dep from="t3" to="t4" rfunc="amod"/><dep from="t6" to="t5" rfunc="compound"/><dep from="t2" to="t7" rfunc="punct"/><dep from="t9" to="t8" rfunc="det"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t6" to="t2" rfunc="nmod"/><dep from="t5" to="t3" rfunc="nummod"/><dep from="t6" to="t5" rfunc="compound"/><dep from="t3" to="t4" rfunc="amod"/><dep from="t6" to="t7" rfunc="punct"/><dep from="t9" to="t8" rfunc="det"/>
     <dep from="t16" to="t9" rfunc="nsubj"/>
     <dep from="t9" to="t10" rfunc="prep"/>
     <dep from="t10" to="t11" rfunc="pobj"/>

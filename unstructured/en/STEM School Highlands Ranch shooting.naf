@@ -90,7 +90,7 @@ On May 7, 2019, a school shooting occurred at STEM School Highlands Ranch, a cha
     <wf sent="4" id="w62" length="1" offset="317">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="STEM" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="School" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Highlands" pos="PROPN" type="open" morphofeat="NNPS"><span><target id="w3"/></span></term><term id="t4" lemma="Ranch" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="shooting" pos="NOUN" type="open" morphofeat="NN"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="+" pos="X" type="open" morphofeat="XX">
+    <term id="t1" lemma="STEM" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="School" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="highland" pos="VERB" type="open" morphofeat="VBZ"><span><target id="w3"/></span></term><term id="t4" lemma="Ranch" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="shooting" pos="NOUN" type="open" morphofeat="NN"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="+" pos="X" type="open" morphofeat="XX">
       <span>
         <target id="w7"/>
       </span>
@@ -372,7 +372,7 @@ On May 7, 2019, a school shooting occurred at STEM School Highlands Ranch, a cha
     </term>
   </terms>
   <deps>
-    <dep from="t5" to="t1" rfunc="compound"/><dep from="t4" to="t2" rfunc="compound"/><dep from="t5" to="t4" rfunc="nsubj"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t13" to="t7" rfunc="cc"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t3" to="t5" rfunc="dobj"/><dep from="t3" to="t6" rfunc="punct"/><dep from="t13" to="t7" rfunc="cc"/>
     <dep from="t13" to="t8" rfunc="cc"/>
     <dep from="t12" to="t9" rfunc="compound"/>
     <dep from="t13" to="t12" rfunc="nsubj"/>

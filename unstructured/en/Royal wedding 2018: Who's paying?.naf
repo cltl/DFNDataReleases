@@ -1,0 +1,280 @@
+<NAF xml:lang="en" version="v3.1">
+  <nafHeader>
+    <fileDesc creationtime="2018-05-17T22:38:58UTC" title="Royal wedding 2018: Who's paying?"/>
+    <public uri="https://www.bbc.com/news/business-44154438"/>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2021-11-29T16:38:57UTC" endTimestamp="2021-11-29T16:38:57UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2021-11-29T16:38:57UTC" endTimestamp="2021-11-29T16:38:57UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp beginTimestamp="2021-11-29T16:38:57UTC" endTimestamp="2021-11-29T16:38:57UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2021-11-29T16:38:57UTC" endTimestamp="2021-11-29T16:38:57UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="multiwords">
+      <lp beginTimestamp="2021-11-29T16:38:57UTC" endTimestamp="2021-11-29T16:38:57UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp beginTimestamp="2018-05-17T22:38:58UTC" endTimestamp="2018-05-17T22:38:58UTC" name="Wikipedia hyperlinks" version="Wikipedia dump from 2019-07-20"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-96639aedd24442433365d4d9fca877931fe222e4" timestamp="2021-12-01T13:21:36CET" beginTimestamp="2021-12-01T12:08:35UTC" endTimestamp="2021-12-01T12:21:26UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>Royal wedding 2018: Who's paying?.
+So what do we know about the expected cost of Prince Harry and Meghan Markle's wedding, and how much will the taxpayer be paying towards it?</raw>
+  <text>
+    <wf sent="1" id="w1" length="5" offset="0">Royal</wf><wf sent="1" id="w2" length="7" offset="6">wedding</wf><wf sent="1" id="w3" length="4" offset="14">2018</wf><wf sent="1" id="w4" length="1" offset="18">:</wf><wf sent="2" id="w5" length="3" offset="20">Who</wf><wf sent="2" id="w6" length="2" offset="23">'s</wf><wf sent="2" id="w7" length="6" offset="26">paying</wf><wf sent="2" id="w8" length="1" offset="32">?</wf><wf sent="2" id="w9" length="1" offset="33">.</wf><wf sent="3" id="w10" length="2" offset="35">So</wf>
+    <wf sent="3" id="w11" length="4" offset="38">what</wf>
+    <wf sent="3" id="w12" length="2" offset="43">do</wf>
+    <wf sent="3" id="w13" length="2" offset="46">we</wf>
+    <wf sent="3" id="w14" length="4" offset="49">know</wf>
+    <wf sent="3" id="w15" length="5" offset="54">about</wf>
+    <wf sent="3" id="w16" length="3" offset="60">the</wf>
+    <wf sent="3" id="w17" length="8" offset="64">expected</wf>
+    <wf sent="3" id="w18" length="4" offset="73">cost</wf>
+    <wf sent="3" id="w19" length="2" offset="78">of</wf>
+    <wf sent="3" id="w20" length="6" offset="81">Prince</wf>
+    <wf sent="3" id="w21" length="5" offset="88">Harry</wf>
+    <wf sent="3" id="w22" length="3" offset="94">and</wf>
+    <wf sent="3" id="w23" length="6" offset="98">Meghan</wf>
+    <wf sent="3" id="w24" length="6" offset="105">Markle</wf>
+    <wf sent="3" id="w25" length="2" offset="111">'s</wf>
+    <wf sent="3" id="w26" length="7" offset="114">wedding</wf>
+    <wf sent="3" id="w27" length="1" offset="121">,</wf>
+    <wf sent="3" id="w28" length="3" offset="123">and</wf>
+    <wf sent="3" id="w29" length="3" offset="127">how</wf>
+    <wf sent="3" id="w30" length="4" offset="131">much</wf>
+    <wf sent="3" id="w31" length="4" offset="136">will</wf>
+    <wf sent="3" id="w32" length="3" offset="141">the</wf>
+    <wf sent="3" id="w33" length="8" offset="145">taxpayer</wf>
+    <wf sent="3" id="w34" length="2" offset="154">be</wf>
+    <wf sent="3" id="w35" length="6" offset="157">paying</wf>
+    <wf sent="3" id="w36" length="7" offset="164">towards</wf>
+    <wf sent="3" id="w37" length="2" offset="172">it</wf>
+    <wf sent="3" id="w38" length="1" offset="174">?</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="royal" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w1"/></span></term><term id="t2" lemma="wedding" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="2018" pos="NUM" type="open" morphofeat="CD"><span><target id="w3"/></span></term><term id="t4" lemma=":" pos="PUNCT" type="open" morphofeat=":"><span><target id="w4"/></span></term><term id="t5" lemma="who" pos="PRON" type="open" morphofeat="WP"><span><target id="w5"/></span></term><term id="t6" lemma="be" pos="AUX" type="open" morphofeat="VBZ"><span><target id="w6"/></span></term><term id="t7" lemma="pay" pos="VERB" type="open" morphofeat="VBG"><span><target id="w7"/></span></term><term id="t8" lemma="?" pos="PUNCT" type="open" morphofeat="."><span><target id="w8"/></span></term><term id="t9" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w9"/></span></term><term id="t10" lemma="so" pos="ADV" type="open" morphofeat="RB">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="what" pos="PRON" type="open" morphofeat="WP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="do" pos="VERB" type="open" morphofeat="VBP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="know" pos="VERB" type="open" morphofeat="VB">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="about" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="expect" pos="VERB" type="open" morphofeat="VBN">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="cost" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="of" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="Prince" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="Harry" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="Meghan" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="Markle" pos="PROPN" type="open" morphofeat="NNP">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="'s" pos="PART" type="open" morphofeat="POS">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" lemma="wedding" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term id="t27" lemma="," pos="PUNCT" type="open" morphofeat=",">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term id="t28" lemma="and" pos="CCONJ" type="open" morphofeat="CC">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term id="t29" lemma="how" pos="ADV" type="open" morphofeat="WRB">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term id="t30" lemma="much" pos="ADJ" type="open" morphofeat="JJ">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term id="t31" lemma="will" pos="VERB" type="open" morphofeat="MD">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term id="t32" lemma="the" pos="DET" type="open" morphofeat="DT">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term id="t33" lemma="taxpayer" pos="NOUN" type="open" morphofeat="NN">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term id="t34" lemma="be" pos="VERB" type="open" morphofeat="VB">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term id="t35" lemma="pay" pos="VERB" type="open" morphofeat="VBG">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term id="t36" lemma="towards" pos="ADP" type="open" morphofeat="IN">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term id="t37" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term id="t38" lemma="?" pos="PUNCT" type="open" morphofeat=".">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t2" to="t1" rfunc="amod"/><dep from="t2" to="t3" rfunc="nummod"/><dep from="t2" to="t4" rfunc="punct"/><dep from="t7" to="t5" rfunc="nsubj"/><dep from="t7" to="t6" rfunc="aux"/><dep from="t7" to="t8" rfunc="punct"/><dep from="t7" to="t9" rfunc="punct"/><dep from="t14" to="t10" rfunc="advmod"/>
+    <dep from="t14" to="t11" rfunc="dobj"/>
+    <dep from="t14" to="t12" rfunc="aux"/>
+    <dep from="t14" to="t13" rfunc="nsubj"/>
+    <dep from="t14" to="t15" rfunc="prep"/>
+    <dep from="t18" to="t16" rfunc="det"/>
+    <dep from="t15" to="t18" rfunc="pobj"/>
+    <dep from="t18" to="t17" rfunc="amod"/>
+    <dep from="t18" to="t19" rfunc="prep"/>
+    <dep from="t21" to="t20" rfunc="compound"/>
+    <dep from="t19" to="t21" rfunc="pobj"/>
+    <dep from="t21" to="t22" rfunc="cc"/>
+    <dep from="t24" to="t23" rfunc="compound"/>
+    <dep from="t26" to="t24" rfunc="poss"/>
+    <dep from="t21" to="t26" rfunc="conj"/>
+    <dep from="t24" to="t25" rfunc="case"/>
+    <dep from="t14" to="t27" rfunc="punct"/>
+    <dep from="t14" to="t28" rfunc="cc"/>
+    <dep from="t30" to="t29" rfunc="advmod"/>
+    <dep from="t35" to="t30" rfunc="dobj"/>
+    <dep from="t14" to="t35" rfunc="conj"/>
+    <dep from="t35" to="t31" rfunc="aux"/>
+    <dep from="t33" to="t32" rfunc="det"/>
+    <dep from="t35" to="t33" rfunc="nsubj"/>
+    <dep from="t35" to="t34" rfunc="aux"/>
+    <dep from="t35" to="t36" rfunc="prep"/>
+    <dep from="t36" to="t37" rfunc="pobj"/>
+    <dep from="t35" to="t38" rfunc="punct"/>
+  </deps>
+  <entities/>
+  <srl>
+    <predicate id="pr1" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-awareness" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-12-01T12:21:26UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t14"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-expectation" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-12-01T12:21:26UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t17"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-expensiveness" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-12-01T12:21:26UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t18"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-forming_relationships" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-12-01T12:21:26UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t26"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" status="system">
+      <externalReferences>
+        <externalRef reference="http://premon.fbk.eu/resource/fn17-commerce_pay" resource="http://premon.fbk.eu/resource" source="open-sesame" reftype="evoke" timestamp="2021-12-01T12:21:26UTC"/>
+      </externalReferences>
+      <span>
+        <target id="t35"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

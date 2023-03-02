@@ -143,7 +143,7 @@ A suspect, identified as Derrick Dearman, who was the estranged boyfriend of the
     <wf sent="7" id="w114" length="1" offset="602">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="2016" pos="NUM" type="open" morphofeat="CD"><span><target id="w1"/></span></term><term id="t2" lemma="Citronelle" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="homicide" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="+" pos="CCONJ" type="open" morphofeat="CC">
+    <term id="t1" lemma="2016" pos="NUM" type="open" morphofeat="CD"><span><target id="w1"/></span></term><term id="t2" lemma="Citronelle" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="homicide" pos="VERB" type="open" morphofeat="VBZ"><span><target id="w3"/></span></term><term id="t4" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w4"/></span></term><term id="t5" lemma="+" pos="CCONJ" type="open" morphofeat="CC">
       <span>
         <target id="w5"/>
       </span>
@@ -695,7 +695,7 @@ A suspect, identified as Derrick Dearman, who was the estranged boyfriend of the
     </term>
   </terms>
   <deps>
-    <dep from="t3" to="t1" rfunc="nummod"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t8" to="t5" rfunc="punct"/>
+    <dep from="t3" to="t1" rfunc="meta"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t3" to="t4" rfunc="punct"/><dep from="t8" to="t5" rfunc="punct"/>
     <dep from="t8" to="t6" rfunc="det"/>
     <dep from="t6" to="t7" rfunc="punct"/>
     <dep from="t8" to="t9" rfunc="punct"/>

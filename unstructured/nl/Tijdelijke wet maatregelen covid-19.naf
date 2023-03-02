@@ -468,7 +468,7 @@ Zo is het, dat Wij, de Afdeling advisering van de Raad van State gehoord, en met
     <wf sent="35" id="w450" length="1" offset="2859">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="tijdelijk" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan__Degree=Pos"><span><target id="w1"/></span></term><term id="t2" lemma="wet" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w2"/></span></term><term id="t3" lemma="maatregel" pos="NOUN" type="open" morphofeat="N|soort|mv|basis__Number=Plur"><span><target id="w3"/></span></term><term id="t4" lemma="covid-19" pos="NUM" type="open" morphofeat="TW|hoofd|vrij"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w5"/></span></term><term id="t6" lemma="zo" pos="ADV" type="open" morphofeat="Adv|gew|aanw__PronType=Dem">
+    <term id="t1" lemma="Tijdelijk" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan"><span><target id="w1"/></span></term><term id="t2" lemma="wet" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan"><span><target id="w2"/></span></term><term id="t3" lemma="maatregel" pos="NOUN" type="open" morphofeat="N|soort|mv|basis"><span><target id="w3"/></span></term><term id="t4" lemma="covid-19" pos="PROPN" type="open" morphofeat="SPEC|symb"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w5"/></span></term><term id="t6" lemma="zo" pos="ADV" type="open" morphofeat="Adv|gew|aanw__PronType=Dem">
       <span>
         <target id="w6"/>
       </span>
@@ -2695,7 +2695,7 @@ Zo is het, dat Wij, de Afdeling advisering van de Raad van State gehoord, en met
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="amod"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t3" to="t4" rfunc="obj"/><dep from="t3" to="t5" rfunc="punct"/><dep from="t7" to="t6" rfunc="advmod"/>
+    <dep from="t2" to="t1" rfunc="amod"/><dep from="t2" to="t3" rfunc="nmod"/><dep from="t3" to="t4" rfunc="appos"/><dep from="t2" to="t5" rfunc="punct"/><dep from="t7" to="t6" rfunc="advmod"/>
     <dep from="t21" to="t7" rfunc="aux"/>
     <dep from="t7" to="t8" rfunc="nsubj"/>
     <dep from="t7" to="t9" rfunc="punct"/>

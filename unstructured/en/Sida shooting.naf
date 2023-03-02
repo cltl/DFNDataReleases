@@ -91,7 +91,7 @@ The Sida shooting was a mass murder that occurred at an observation post of the 
     <wf sent="3" id="w63" length="1" offset="326">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="sida" pos="NOUN" type="open" morphofeat="NN"><span><target id="w1"/></span></term><term id="t2" lemma="shooting" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w3"/></span></term><term id="t4" lemma="+" pos="X" type="open" morphofeat="XX">
+    <term id="t1" lemma="Sida" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="shooting" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w3"/></span></term><term id="t4" lemma="+" pos="X" type="open" morphofeat="XX">
       <span>
         <target id="w4"/>
       </span>
@@ -393,7 +393,7 @@ The Sida shooting was a mass murder that occurred at an observation post of the 
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t7" to="t5" rfunc="cc"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t7" to="t5" rfunc="cc"/>
     <dep from="t4" to="t7" rfunc="intj"/>
     <dep from="t7" to="t6" rfunc="nsubj"/>
     <dep from="t7" to="t8" rfunc="punct"/>

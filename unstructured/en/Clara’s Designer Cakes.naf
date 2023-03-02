@@ -1133,7 +1133,7 @@ Clara</raw>
     <wf sent="70" id="w1041" length="5" offset="4642">Clara</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Clara" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="’s" pos="PART" type="open" morphofeat="POS"><span><target id="w2"/></span></term><term id="t3" lemma="Designer" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Cakes" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
+    <term id="t1" lemma="Clara" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="’s" pos="PART" type="open" morphofeat="POS"><span><target id="w2"/></span></term><term id="t3" lemma="Designer" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="cake" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="-PRON-" pos="PRON" type="open" morphofeat="PRP">
       <span>
         <target id="w6"/>
       </span>
@@ -6315,7 +6315,7 @@ Clara</raw>
     </term>
   </terms>
   <deps>
-    <dep from="t1" to="t2" rfunc="punct"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t1" to="t4" rfunc="appos"/><dep from="t1" to="t5" rfunc="punct"/><dep from="t8" to="t6" rfunc="nsubj"/>
+    <dep from="t4" to="t1" rfunc="poss"/><dep from="t1" to="t2" rfunc="case"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t4" to="t5" rfunc="punct"/><dep from="t8" to="t6" rfunc="nsubj"/>
     <dep from="t8" to="t7" rfunc="aux"/>
     <dep from="t8" to="t9" rfunc="prep"/>
     <dep from="t9" to="t10" rfunc="pobj"/>

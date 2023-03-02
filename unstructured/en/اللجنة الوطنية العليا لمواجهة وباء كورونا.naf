@@ -71,7 +71,7 @@ Tweet with a location You can add location information to your Tweets, such as y
     <wf sent="4" id="w52" length="4" offset="272">more</wf>
   </text>
   <terms>
-    <term id="t1" lemma="اللجنة" pos="NOUN" type="open" morphofeat="NN"><span><target id="w1"/></span></term><term id="t2" lemma="الوطنية" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w2"/></span></term><term id="t3" lemma="العليا" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="لمواجهة" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="وباء" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="كورونا" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w6"/></span></term><term id="t7" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w7"/></span></term><term id="t8" lemma="tweet" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t1" lemma="اللجنة" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="الوطنية" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="العليا" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="لمواجهة" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="وباء" pos="NOUN" type="open" morphofeat="NN"><span><target id="w5"/></span></term><term id="t6" lemma="كورونا" pos="NOUN" type="open" morphofeat="NN"><span><target id="w6"/></span></term><term id="t7" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w7"/></span></term><term id="t8" lemma="tweet" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w8"/>
       </span>
@@ -298,7 +298,7 @@ Tweet with a location You can add location information to your Tweets, such as y
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t6" to="t2" rfunc="compound"/><dep from="t6" to="t3" rfunc="nmod"/><dep from="t6" to="t4" rfunc="amod"/><dep from="t6" to="t5" rfunc="amod"/><dep from="t6" to="t7" rfunc="punct"/><dep from="t14" to="t8" rfunc="npadvmod"/>
+    <dep from="t2" to="t1" rfunc="nsubj"/><dep from="t6" to="t3" rfunc="compound"/><dep from="t2" to="t6" rfunc="dobj"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t6" to="t5" rfunc="compound"/><dep from="t2" to="t7" rfunc="punct"/><dep from="t14" to="t8" rfunc="npadvmod"/>
     <dep from="t8" to="t9" rfunc="prep"/>
     <dep from="t11" to="t10" rfunc="det"/>
     <dep from="t9" to="t11" rfunc="pobj"/>

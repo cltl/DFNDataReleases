@@ -69,7 +69,7 @@ The Internet Archive discovers and captures web pages through many different web
     <wf sent="4" id="w49" length="7" offset="279">Machine</wf>
   </text>
   <terms>
-    <term id="t1" lemma="National" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="COVID-19" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Clinical" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Evidence" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="Taskforce" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="the" pos="DET" type="open" morphofeat="DT">
+    <term id="t1" lemma="national" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w1"/></span></term><term id="t2" lemma="COVID-19" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w2"/></span></term><term id="t3" lemma="Clinical" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="Evidence" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="Taskforce" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w5"/></span></term><term id="t6" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w6"/></span></term><term id="t7" lemma="the" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w7"/>
       </span>
@@ -286,7 +286,7 @@ The Internet Archive discovers and captures web pages through many different web
     </term>
   </terms>
   <deps>
-    <dep from="t1" to="t2" rfunc="punct"/><dep from="t5" to="t3" rfunc="compound"/><dep from="t1" to="t5" rfunc="npadvmod"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t1" to="t6" rfunc="punct"/><dep from="t10" to="t7" rfunc="det"/>
+    <dep from="t5" to="t1" rfunc="amod"/><dep from="t1" to="t2" rfunc="dep"/><dep from="t4" to="t3" rfunc="compound"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t10" to="t7" rfunc="det"/>
     <dep from="t13" to="t10" rfunc="nsubj"/>
     <dep from="t9" to="t8" rfunc="compound"/>
     <dep from="t10" to="t9" rfunc="amod"/>

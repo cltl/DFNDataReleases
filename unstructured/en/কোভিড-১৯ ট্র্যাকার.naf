@@ -69,7 +69,7 @@ The Internet Archive discovers and captures web pages through many different web
     <wf sent="4" id="w48" length="7" offset="252">Machine</wf>
   </text>
   <terms>
-    <term id="t1" lemma="কোভিড" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="-" pos="PUNCT" type="open" morphofeat="HYPH"><span><target id="w2"/></span></term><term id="t3" lemma="১৯" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w3"/></span></term><term id="t4" lemma="ট্র্যাকার" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="the" pos="DET" type="open" morphofeat="DT">
+    <term id="t1" lemma="কোভিড" pos="NOUN" type="open" morphofeat="NN"><span><target id="w1"/></span></term><term id="t2" lemma="-" pos="PUNCT" type="open" morphofeat="HYPH"><span><target id="w2"/></span></term><term id="t3" lemma="১৯" pos="NUM" type="open" morphofeat="CD"><span><target id="w3"/></span></term><term id="t4" lemma="ট্র্যাকার" pos="NOUN" type="open" morphofeat="NN"><span><target id="w4"/></span></term><term id="t5" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w5"/></span></term><term id="t6" lemma="the" pos="DET" type="open" morphofeat="DT">
       <span>
         <target id="w6"/>
       </span>
@@ -286,7 +286,7 @@ The Internet Archive discovers and captures web pages through many different web
     </term>
   </terms>
   <deps>
-    <dep from="t4" to="t1" rfunc="nmod"/><dep from="t5" to="t4" rfunc="dep"/><dep from="t1" to="t2" rfunc="punct"/><dep from="t1" to="t3" rfunc="advmod"/><dep from="t9" to="t6" rfunc="det"/>
+    <dep from="t4" to="t1" rfunc="nmod"/><dep from="t1" to="t2" rfunc="punct"/><dep from="t1" to="t3" rfunc="nummod"/><dep from="t4" to="t5" rfunc="punct"/><dep from="t9" to="t6" rfunc="det"/>
     <dep from="t12" to="t9" rfunc="nsubj"/>
     <dep from="t8" to="t7" rfunc="compound"/>
     <dep from="t9" to="t8" rfunc="amod"/>

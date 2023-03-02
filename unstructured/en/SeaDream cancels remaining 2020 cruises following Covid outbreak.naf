@@ -549,7 +549,7 @@
     <wf sent="27" id="w532" length="1" offset="2810">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="SeaDream" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="cancel" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w2"/></span></term><term id="t3" lemma="remain" pos="VERB" type="open" morphofeat="VBG"><span><target id="w3"/></span></term><term id="t4" lemma="2020" pos="NUM" type="open" morphofeat="CD"><span><target id="w4"/></span></term><term id="t5" lemma="cruise" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w5"/></span></term><term id="t6" lemma="follow" pos="VERB" type="open" morphofeat="VBG"><span><target id="w6"/></span></term><term id="t7" lemma="covid" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w7"/></span></term><term id="t8" lemma="outbreak" pos="NOUN" type="open" morphofeat="NN"><span><target id="w8"/></span></term><term id="t9" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w9"/></span></term><term id="t10" lemma="(" pos="PUNCT" type="open" morphofeat="-LRB-">
+    <term id="t1" lemma="seadream" pos="ADJ" type="open" morphofeat="JJ"><span><target id="w1"/></span></term><term id="t2" lemma="cancel" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w2"/></span></term><term id="t3" lemma="remain" pos="VERB" type="open" morphofeat="VBG"><span><target id="w3"/></span></term><term id="t4" lemma="2020" pos="NUM" type="open" morphofeat="CD"><span><target id="w4"/></span></term><term id="t5" lemma="cruise" pos="NOUN" type="open" morphofeat="NNS"><span><target id="w5"/></span></term><term id="t6" lemma="follow" pos="VERB" type="open" morphofeat="VBG"><span><target id="w6"/></span></term><term id="t7" lemma="Covid" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w7"/></span></term><term id="t8" lemma="outbreak" pos="NOUN" type="open" morphofeat="NN"><span><target id="w8"/></span></term><term id="t9" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w9"/></span></term><term id="t10" lemma="(" pos="PUNCT" type="open" morphofeat="-LRB-">
       <span>
         <target id="w10"/>
       </span>
@@ -3166,7 +3166,7 @@
     </term>
   </terms>
   <deps>
-    <dep from="t2" to="t1" rfunc="compound"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t5" to="t4" rfunc="nummod"/><dep from="t3" to="t5" rfunc="dobj"/><dep from="t3" to="t6" rfunc="prep"/><dep from="t8" to="t7" rfunc="amod"/><dep from="t6" to="t8" rfunc="pobj"/><dep from="t3" to="t9" rfunc="punct"/><dep from="t11" to="t10" rfunc="punct"/>
+    <dep from="t2" to="t1" rfunc="amod"/><dep from="t3" to="t2" rfunc="nsubj"/><dep from="t5" to="t4" rfunc="nummod"/><dep from="t3" to="t5" rfunc="dobj"/><dep from="t5" to="t6" rfunc="acl"/><dep from="t8" to="t7" rfunc="compound"/><dep from="t6" to="t8" rfunc="pobj"/><dep from="t3" to="t9" rfunc="punct"/><dep from="t11" to="t10" rfunc="punct"/>
     <dep from="t11" to="t12" rfunc="punct"/>
     <dep from="t16" to="t14" rfunc="compound"/>
     <dep from="t18" to="t16" rfunc="nsubj"/>

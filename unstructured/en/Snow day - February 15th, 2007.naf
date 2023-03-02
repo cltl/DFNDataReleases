@@ -994,7 +994,7 @@ Whether or not the college is closed today, Kranz won’t have to worry about co
     <wf sent="57" id="w921" length="1" offset="4563">”</wf>
   </text>
   <terms>
-    <term id="t1" lemma="Snow" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w1"/></span></term><term id="t2" lemma="day" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="-" pos="PUNCT" type="open" morphofeat="HYPH"><span><target id="w3"/></span></term><term id="t4" lemma="February" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="15th" pos="NOUN" type="open" morphofeat="NN"><span><target id="w5"/></span></term><term id="t6" lemma="," pos="PUNCT" type="open" morphofeat=","><span><target id="w6"/></span></term><term id="t7" lemma="2007" pos="NUM" type="open" morphofeat="CD"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w8"/></span></term><term id="t9" lemma="snow" pos="NOUN" type="open" morphofeat="NN">
+    <term id="t1" lemma="snow" pos="NOUN" type="open" morphofeat="NN"><span><target id="w1"/></span></term><term id="t2" lemma="day" pos="NOUN" type="open" morphofeat="NN"><span><target id="w2"/></span></term><term id="t3" lemma="-" pos="PUNCT" type="open" morphofeat=":"><span><target id="w3"/></span></term><term id="t4" lemma="February" pos="PROPN" type="open" morphofeat="NNP"><span><target id="w4"/></span></term><term id="t5" lemma="15th" pos="NOUN" type="open" morphofeat="NN"><span><target id="w5"/></span></term><term id="t6" lemma="," pos="PUNCT" type="open" morphofeat=","><span><target id="w6"/></span></term><term id="t7" lemma="2007" pos="NUM" type="open" morphofeat="CD"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="PUNCT" type="open" morphofeat="."><span><target id="w8"/></span></term><term id="t9" lemma="snow" pos="NOUN" type="open" morphofeat="NN">
       <span>
         <target id="w9"/>
       </span>
@@ -5561,7 +5561,7 @@ Whether or not the college is closed today, Kranz won’t have to worry about co
     </term>
   </terms>
   <deps>
-    <dep from="t1" to="t2" rfunc="npadvmod"/><dep from="t4" to="t3" rfunc="punct"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t1" to="t5" rfunc="npadvmod"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t5" to="t7" rfunc="npadvmod"/><dep from="t1" to="t8" rfunc="punct"/><dep from="t10" to="t9" rfunc="compound"/>
+    <dep from="t2" to="t1" rfunc="compound"/><dep from="t2" to="t3" rfunc="punct"/><dep from="t5" to="t4" rfunc="compound"/><dep from="t2" to="t5" rfunc="npadvmod"/><dep from="t5" to="t6" rfunc="punct"/><dep from="t5" to="t7" rfunc="npadvmod"/><dep from="t2" to="t8" rfunc="punct"/><dep from="t10" to="t9" rfunc="compound"/>
     <dep from="t16" to="t10" rfunc="npadvmod"/>
     <dep from="t23" to="t16" rfunc="ccomp"/>
     <dep from="t10" to="t11" rfunc=""/>

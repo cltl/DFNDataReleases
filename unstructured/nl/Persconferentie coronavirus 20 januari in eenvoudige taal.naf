@@ -558,7 +558,7 @@ Persconferentie coronavirus 20 januari in eenvoudige taal Let op, dit is een oud
     <wf sent="62" id="w543" length="1" offset="2746">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="persconferentie" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w1"/></span></term><term id="t2" lemma="coronavirus" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|onz|stan__Gender=Neut|Number=Sing"><span><target id="w2"/></span></term><term id="t3" lemma="20" pos="NUM" type="open" morphofeat="TW|hoofd|vrij"><span><target id="w3"/></span></term><term id="t4" lemma="januari" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w4"/></span></term><term id="t5" lemma="in" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w5"/></span></term><term id="t6" lemma="eenvoudig" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan__Degree=Pos"><span><target id="w6"/></span></term><term id="t7" lemma="taal" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan__Gender=Com|Number=Sing"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w8"/></span></term><term id="t9" lemma="persconferentie" pos="NOUN" type="open" morphofeat="N|soort|ev|neut__Number=Sing" component_of="mw1">
+    <term id="t1" lemma="persconferentie" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan"><span><target id="w1"/></span></term><term id="t2" lemma="coronavirus" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|onz|stan"><span><target id="w2"/></span></term><term id="t3" lemma="20" pos="NUM" type="open" morphofeat="TW|hoofd|vrij"><span><target id="w3"/></span></term><term id="t4" lemma="januari" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|zijd|stan"><span><target id="w4"/></span></term><term id="t5" lemma="in" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w5"/></span></term><term id="t6" lemma="eenvoudig" pos="ADJ" type="open" morphofeat="ADJ|prenom|basis|met-e|stan"><span><target id="w6"/></span></term><term id="t7" lemma="taal" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|zijd|stan"><span><target id="w7"/></span></term><term id="t8" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w8"/></span></term><term id="t9" lemma="persconferentie" pos="NOUN" type="open" morphofeat="N|soort|ev|neut__Number=Sing" component_of="mw1">
       <span>
         <target id="w9"/>
       </span>
@@ -3235,7 +3235,7 @@ Persconferentie coronavirus 20 januari in eenvoudige taal Let op, dit is een oud
     </term>
   </terms>
   <deps>
-    <dep from="t1" to="t2" rfunc="flat"/><dep from="t1" to="t3" rfunc="appos"/><dep from="t3" to="t4" rfunc="flat"/><dep from="t7" to="t5" rfunc="case"/><dep from="t1" to="t7" rfunc="nmod"/><dep from="t7" to="t6" rfunc="amod"/><dep from="t1" to="t8" rfunc="punct"/><dep from="t9" to="t10" rfunc="flat"/>
+    <dep from="t2" to="t1" rfunc="nmod"/><dep from="t2" to="t3" rfunc="appos"/><dep from="t3" to="t4" rfunc="flat"/><dep from="t7" to="t5" rfunc="case"/><dep from="t2" to="t7" rfunc="nmod"/><dep from="t7" to="t6" rfunc="amod"/><dep from="t2" to="t8" rfunc="punct"/><dep from="t9" to="t10" rfunc="flat"/>
     <dep from="t10" to="t11" rfunc="nummod"/>
     <dep from="t10" to="t12" rfunc="flat"/>
     <dep from="t15" to="t13" rfunc="case"/>

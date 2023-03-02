@@ -64,7 +64,7 @@ Heeft u vragen over het coronavirus? U kunt terecht bij het publieksinformatienu
     <wf sent="4" id="w44" length="1" offset="231">.</wf>
   </text>
   <terms>
-    <term id="t1" lemma="coronavirus" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|onz|stan__Gender=Neut|Number=Sing"><span><target id="w1"/></span></term><term id="t2" lemma="covid-19" pos="PROPN" type="open" morphofeat="SPEC|deeleigen"><span><target id="w2"/></span></term><term id="t3" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w3"/></span></term><term id="t4" lemma="hebben" pos="VERB" type="open" morphofeat="V|hulp|ott|2|ev__Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin">
+    <term id="t1" lemma="Coronavirus" pos="NOUN" type="open" morphofeat="SPEC|vreemd"><span><target id="w1"/></span></term><term id="t2" lemma="COVID-19" pos="SYM" type="open" morphofeat="SPEC|vreemd"><span><target id="w2"/></span></term><term id="t3" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w3"/></span></term><term id="t4" lemma="hebben" pos="VERB" type="open" morphofeat="V|hulp|ott|2|ev__Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin">
       <span>
         <target id="w4"/>
       </span>
@@ -271,7 +271,7 @@ Heeft u vragen over het coronavirus? U kunt terecht bij het publieksinformatienu
     </term>
   </terms>
   <deps>
-    <dep from="t1" to="t2" rfunc="flat"/><dep from="t1" to="t3" rfunc="punct"/><dep from="t6" to="t4" rfunc="aux"/>
+    <dep from="t1" to="t2" rfunc="fixed"/><dep from="t1" to="t3" rfunc="punct"/><dep from="t6" to="t4" rfunc="aux"/>
     <dep from="t6" to="t5" rfunc="nsubj"/>
     <dep from="t9" to="t7" rfunc="case"/>
     <dep from="t6" to="t9" rfunc="obj"/>

@@ -327,7 +327,7 @@ Bezoek aan verpleeghuizen niet langer mogelijk vanwege coronavirus Verpleeghuize
     <wf sent="18" id="w313" length="1" offset="1805">’</wf>
   </text>
   <terms>
-    <term id="t1" lemma="bezoek" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|onz|stan__Gender=Neut|Number=Sing"><span><target id="w1"/></span></term><term id="t2" lemma="aan" pos="ADP" type="open" morphofeat="VZ|fin"><span><target id="w2"/></span></term><term id="t3" lemma="verpleeghuis" pos="NOUN" type="open" morphofeat="N|soort|mv|basis__Number=Plur"><span><target id="w3"/></span></term><term id="t4" lemma="niet" pos="ADV" type="open" morphofeat="BW"><span><target id="w4"/></span></term><term id="t5" lemma="lang" pos="ADJ" type="open" morphofeat="ADJ|vrij|comp|zonder__Degree=Cmp"><span><target id="w5"/></span></term><term id="t6" lemma="mogelijk" pos="ADJ" type="open" morphofeat="ADJ|vrij|basis|zonder__Degree=Pos"><span><target id="w6"/></span></term><term id="t7" lemma="vanwege" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w7"/></span></term><term id="t8" lemma="coronavirus" pos="PROPN" type="open" morphofeat="N|eigen|ev|basis|onz|stan__Gender=Neut|Number=Sing"><span><target id="w8"/></span></term><term id="t9" lemma="." pos="SYM" type="open" morphofeat="LET"><span><target id="w9"/></span></term><term id="t10" lemma="bezoek" pos="NOUN" type="open" morphofeat="N|soort|ev|neut__Number=Sing">
+    <term id="t1" lemma="bezoek" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|onz|stan"><span><target id="w1"/></span></term><term id="t2" lemma="aan" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w2"/></span></term><term id="t3" lemma="verpleeghuizen" pos="NOUN" type="open" morphofeat="N|soort|mv|basis"><span><target id="w3"/></span></term><term id="t4" lemma="niet" pos="ADV" type="open" morphofeat="BW"><span><target id="w4"/></span></term><term id="t5" lemma="lang" pos="ADJ" type="open" morphofeat="ADJ|vrij|comp|zonder"><span><target id="w5"/></span></term><term id="t6" lemma="mogelijk" pos="ADJ" type="open" morphofeat="ADJ|vrij|basis|zonder"><span><target id="w6"/></span></term><term id="t7" lemma="vanwege" pos="ADP" type="open" morphofeat="VZ|init"><span><target id="w7"/></span></term><term id="t8" lemma="coronavirus" pos="NOUN" type="open" morphofeat="N|soort|ev|basis|onz|stan"><span><target id="w8"/></span></term><term id="t9" lemma="." pos="PUNCT" type="open" morphofeat="LET"><span><target id="w9"/></span></term><term id="t10" lemma="bezoek" pos="NOUN" type="open" morphofeat="N|soort|ev|neut__Number=Sing">
       <span>
         <target id="w10"/>
       </span>
@@ -1849,7 +1849,7 @@ Bezoek aan verpleeghuizen niet langer mogelijk vanwege coronavirus Verpleeghuize
     </term>
   </terms>
   <deps>
-    <dep from="t6" to="t1" rfunc="nsubj"/><dep from="t3" to="t2" rfunc="case"/><dep from="t1" to="t3" rfunc="nmod"/><dep from="t5" to="t4" rfunc="advmod"/><dep from="t1" to="t5" rfunc="amod"/><dep from="t8" to="t7" rfunc="case"/><dep from="t6" to="t8" rfunc="obl"/><dep from="t6" to="t9" rfunc="punct"/><dep from="t15" to="t10" rfunc="nsubj"/>
+    <dep from="t6" to="t1" rfunc="nsubj"/><dep from="t1" to="t2" rfunc="flat"/><dep from="t1" to="t3" rfunc="flat"/><dep from="t6" to="t4" rfunc="advmod"/><dep from="t4" to="t5" rfunc="advmod"/><dep from="t8" to="t7" rfunc="case"/><dep from="t6" to="t8" rfunc="obl"/><dep from="t6" to="t9" rfunc="punct"/><dep from="t15" to="t10" rfunc="nsubj"/>
     <dep from="t28" to="t15" rfunc="obl"/>
     <dep from="t12" to="t11" rfunc="case"/>
     <dep from="t10" to="t12" rfunc="nmod"/>
